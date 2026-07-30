@@ -1,12 +1,22 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Arma scripts_tmp/husky_passport.html a partir del template + los 3 datasets
-(historico consolidado, ciudades operadas, snapshot de pico en vivo). Se corre
-cada vez que hay que republicar la pagina con datos frescos."""
+"""Arma la pagina PASSPORT a partir del template + los datasets (historico
+consolidado, ciudades operadas, snapshot de pico en vivo, track record).
+
+Escribe DOS salidas identicas:
+  - scripts_tmp/husky_passport.html  (flujo viejo: republicar via tool Artifact)
+  - dist/index.html                  (flujo nuevo: deploy a Cloudflare Pages
+                                      desde GitHub Actions — ver
+                                      .github/workflows/passport-web.yml)
+
+Se corre desde cualquier maquina: la raiz del repo se deduce de la ubicacion de
+este archivo (antes estaba hardcodeada la ruta de Windows de la laptop, lo que
+rompia la corrida en el runner Linux de Actions).
+"""
 import json
 from pathlib import Path
 
-ROOT = Path(r"C:\Users\Usuario\Documents\weatherbot")
+ROOT = Path(__file__).resolve().parents[1]
 
 tpl = (ROOT / "scripts_tmp/passport_template.html").read_text(encoding="utf-8")
 consolidated = (ROOT / "data/husky/consolidated_full.json").read_text(encoding="utf-8").replace("</script", "<\\/script")
@@ -37,4 +47,10 @@ out = (tpl
 
 out_path = ROOT / "scripts_tmp/husky_passport.html"
 out_path.write_text(out, encoding="utf-8")
-print(f"generado: {out_path} ({out_path.stat().st_size/1024:.0f} KB) — vivo: {'si' if live_path.exists() else 'NO (sin snapshot)'}")
+
+dist_dir = ROOT / "dist"
+dist_dir.mkdir(exist_ok=True)
+(dist_dir / "index.html").write_text(out, encoding="utf-8")
+
+print(f"generado: {out_path} y dist/index.html ({out_path.stat().st_size/1024:.0f} KB) — "
+      f"vivo: {'si' if live_path.exists() else 'NO (sin snapshot)'}")

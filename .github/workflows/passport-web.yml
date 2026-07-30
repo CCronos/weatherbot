@@ -1,0 +1,101 @@
+# PASSPORT web automatica — corre el snapshot en vivo, califica predicciones,
+# manda el digest de Telegram (2 veces al dia), reconstruye la pagina y la
+# publica en Cloudflare Pages. Todo sin depender de la laptop.
+#
+# Secrets requeridos (Settings > Secrets and variables > Actions):
+#   CONFIG_JSON            contenido completo del config.json local (nunca commiteado)
+#   HUSKY_DATA_TOKEN       PAT fine-grained, solo lectura, repo CCronos/weatherbot-husky-data
+#   CLOUDFLARE_API_TOKEN   token de Cloudflare con permiso "Cloudflare Pages: Edit"
+#   CLOUDFLARE_ACCOUNT_ID  el Account ID del dashboard de Cloudflare
+#
+# El repo privado weatherbot-husky-data contiene el contenido de data/husky/
+# (datos del servicio pago — nunca van al repo publico).
+
+name: passport-web
+
+on:
+  schedule:
+    # cada 4 horas (UTC). Chile en invierno es UTC-4: 12 UTC = 08:00, 20 UTC = 16:00.
+    - cron: "0 0,4,8,12,16,20 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: passport-web
+  cancel-in-progress: false
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout repo principal
+        uses: actions/checkout@v4
+
+      - name: Checkout datos privados (data/husky)
+        uses: actions/checkout@v4
+        with:
+          repository: CCronos/weatherbot-husky-data
+          token: ${{ secrets.HUSKY_DATA_TOKEN }}
+          path: data/husky
+
+      - name: Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependencias
+        run: pip install requests
+
+      - name: Crear config.json desde el secret
+        shell: bash
+        env:
+          CONFIG_JSON: ${{ secrets.CONFIG_JSON }}
+        run: |
+          printf '%s' "$CONFIG_JSON" > config.json
+          python -c "import json; json.load(open('config.json')); print('config.json valido')"
+
+      - name: Snapshot en vivo (51 estaciones)
+        run: python husky_live_snapshot.py
+
+      - name: Calificar predicciones ya resueltas
+        run: python husky_check_resolutions.py
+
+      - name: Digest de Telegram (solo 12:00 y 20:00 UTC)
+        if: github.event_name == 'schedule'
+        shell: bash
+        run: |
+          H=$(date -u +%H)
+          if [ "$H" = "12" ] || [ "$H" = "20" ]; then
+            python husky_daily_digest.py
+          else
+            echo "fuera de horario de digest ($H UTC), se salta"
+          fi
+
+      - name: Construir la pagina
+        run: python scripts_tmp/build_passport.py
+
+      - name: Commit del snapshot + track record actualizados
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/live_peak_snapshot.json data/live_predictions_log.json
+          if git diff --cached --quiet; then
+            echo "sin cambios que commitear"
+          else
+            git commit -m "Actions: snapshot + track record $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Deploy a Cloudflare Pages
+        shell: bash
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          npx --yes wrangler@3 pages project create weatherbot-passport --production-branch=main 2>/dev/null || true
+          npx --yes wrangler@3 pages deploy dist --project-name=weatherbot-passport --branch=main
