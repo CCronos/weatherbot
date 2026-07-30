@@ -1,0 +1,17 @@
+{
+  "ciudad": "Jeddah",
+  "fecha": "2026-07-31",
+  "bucket": 43,
+  "token_yes": "49424547442956741427904551448753150246739626609983173820884500907901243592941",
+  "modo": "ordenes limite GTC descansando en el book (sin loop local, laptop puede dormir)",
+  "sin_salida_automatica": true,
+  "ordenes": [
+    {"precio": 0.03, "shares": 100, "order_id": "0x5d6126c2b989f2..."},
+    {"precio": 0.02, "shares": 125, "order_id": "0xa66a57d27be1dd..."},
+    {"precio": 0.02, "shares": 125, "order_id": "0x48cae1cbb42293..."},
+    {"precio": 0.01, "shares": 215, "order_id": "0x86935390af22db..."},
+    {"precio": 0.01, "shares": 215, "order_id": "0x37465862ddc0b5..."}
+  ],
+  "presupuesto_total": 12.30,
+  "nota": "Pedido explicito del usuario 2026-07-31 ('tengo fe'): todo el saldo al bucket 43C. Tesis: ola de calor en curso (30-jul max real 42.0 vs norma historica ~40), ECMWF 43.6. Ordenes chicas a 1-3c por libro vacio. Sin stop-loss ni TP, corre a resolucion."
+}
