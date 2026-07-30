@@ -76,9 +76,6 @@ jobs:
             echo "fuera de horario de digest ($H UTC), se salta"
           fi
 
-      - name: Construir la pagina
-        run: python scripts_tmp/build_passport.py
-
       - name: Commit del snapshot + track record actualizados
         shell: bash
         run: |
@@ -92,6 +89,12 @@ jobs:
             git pull --rebase origin main
             git push origin main
           fi
+
+      # El build va DESPUES del commit: genera dist/ y scripts_tmp/husky_passport.html
+      # (ambos gitignoreados — el HTML lleva el dataset privado completo embebido y no
+      # puede vivir en el repo publico), y un arbol sucio rompia el pull --rebase.
+      - name: Construir la pagina
+        run: python scripts_tmp/build_passport.py
 
       - name: Deploy a Cloudflare Pages
         shell: bash
