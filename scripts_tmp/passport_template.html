@@ -437,6 +437,24 @@
   table.live .wind-flag.boost { color: var(--good); }
   table.live .wind-flag.kill { color: var(--bad); }
 
+  .picks-sub { font-size: 11.5px; color: var(--muted); margin: 4px 0 12px; }
+  .pick-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+  .pick-card {
+    border: 1px solid var(--line-soft); border-left: 3px solid var(--accent);
+    border-radius: 4px; padding: 10px 12px; cursor: pointer; background: var(--panel-2);
+  }
+  .pick-card:hover { background: var(--accent-soft); }
+  .pick-card.moderado { border-left-color: var(--warn); }
+  .pick-card .pc-city { font-weight: 700; font-size: 13px; }
+  .pick-card .pc-date { font-size: 10.5px; color: var(--muted); margin-left: 6px; }
+  .pick-card .pc-line { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 12.5px; margin-top: 5px; }
+  .pick-card .pc-ev { font-weight: 700; color: var(--good); }
+  .pick-card .pc-meta { font-size: 10.5px; color: var(--muted); margin-top: 4px; }
+  .pick-card .pc-tier { font-size: 10px; padding: 1px 6px; border-radius: 2px; background: var(--accent-soft); color: var(--accent); margin-left: 6px; }
+  .pick-card.moderado .pc-tier { background: var(--warn-soft); color: var(--warn); }
+  .pick-card .pc-spread { font-size: 10.5px; color: var(--warn); margin-top: 4px; }
+  .picks-empty { font-size: 12px; color: var(--muted); padding: 6px 0; }
+
   .mismatch-alert {
     margin-top: 14px;
     padding: 10px 12px;
@@ -541,6 +559,15 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <div class="panel" style="margin-bottom:18px;">
+    <div class="live-head">
+      <h2 style="margin:0;">Mejores picks del día</h2>
+      <span class="live-updated" id="picks-updated">—</span>
+    </div>
+    <div class="picks-sub">Solo tiers <b>escalable</b> (precio ≥$0.20) y <b>moderado</b> ($0.10–0.20), ordenados por confianza y EV — los "EV gigantes" de buckets baratos (tier cautela) se excluyen a propósito: no son ejecutables en tamaño real. Click en un pick abre el detalle de la ciudad.</div>
+    <div class="pick-cards" id="top-picks"></div>
   </div>
 
   <div class="panel" style="margin-bottom:18px;">
@@ -846,6 +873,54 @@
         "</tr>";
     }).join("");
   }
+  // "Mejores picks del dia" (pedido 2026-07-30): la misma seleccion que hace el
+  // digest de Telegram, pero visible en la web — solo escalable/moderado, ordenado
+  // por (tier, EV desc). El tier cautela se excluye SIEMPRE de este panel: es la
+  // trampa del bucket barato (EV inflado no ejecutable) documentada en CLAUDE.md.
+  var ORDEN_CONF = { escalable: 0, moderado: 1 };
+  function renderTopPicks() {
+    var el = document.getElementById("top-picks");
+    var upd = document.getElementById("picks-updated");
+    if (!LIVE || !LIVE.cities) { el.innerHTML = '<div class="picks-empty">sin snapshot en vivo</div>'; return; }
+    var picks = LIVE.cities.filter(function (c) {
+      return c.mejor_bucket && ORDEN_CONF[c.mejor_bucket.confianza] !== undefined;
+    });
+    picks.sort(function (a, b) {
+      var d = ORDEN_CONF[a.mejor_bucket.confianza] - ORDEN_CONF[b.mejor_bucket.confianza];
+      return d !== 0 ? d : b.mejor_bucket.ev - a.mejor_bucket.ev;
+    });
+    picks = picks.slice(0, 6);
+    if (!picks.length) {
+      el.innerHTML = '<div class="picks-empty">Ningún pick con EV real en tiers escalable/moderado ahora mismo — eso también es información: no operar es una posición.</div>';
+    } else {
+      el.innerHTML = picks.map(function (c) {
+        var mb = c.mejor_bucket;
+        var spread = c.spread_modelo_vs_empirico;
+        var spreadNota = (spread != null && spread >= 3)
+          ? '<div class="pc-spread">⚠ modelo y empírico difieren ±' + spread.toFixed(1) + '° — menos confiable</div>' : "";
+        return '<div class="pick-card ' + mb.confianza + '" data-station="' + c.station + '" title="Ver detalle de ' + c.name + '">' +
+          '<span class="pc-city">' + c.name + '</span><span class="pc-date">' + c.fecha_mercado + '</span>' +
+          '<span class="pc-tier">' + (CONF_LABEL[mb.confianza] || mb.confianza) + '</span>' +
+          '<div class="pc-line">' + mb.bucket + ' @ $' + mb.price.toFixed(3) +
+          ' · <span class="pc-ev">EV ' + (mb.ev >= 0 ? "+" : "") + (mb.ev * 100).toFixed(0) + '%</span>' +
+          ' · Kelly ' + (mb.kelly * 100).toFixed(1) + '%</div>' +
+          '<div class="pc-meta">vol $' + mb.volume.toLocaleString() + ' · pico final ' + (c.peak_final != null ? c.peak_final.toFixed(1) + '°' + c.unit : 's/d') + '</div>' +
+          spreadNota +
+          '</div>';
+      }).join("");
+    }
+    if (LIVE.generated_at) {
+      var mins = Math.round((Date.now() - new Date(LIVE.generated_at).getTime()) / 60000);
+      upd.textContent = "actualizado hace " + (mins < 1 ? "instantes" : mins + " min") + " — se refresca solo cada hora";
+    }
+  }
+  document.getElementById("top-picks").addEventListener("click", function (e) {
+    var card = e.target.closest(".pick-card[data-station]");
+    if (!card) return;
+    selectStation(card.getAttribute("data-station"));
+    document.getElementById("live-detail-panel").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
   // Clic en una fila de "Pico en vivo" abre esa ciudad en el panel de arriba, con
   // TODO junto: historico + en vivo + mercado (pedido 2026-07-29, antes habia que
   // mirar dos lugares distintos de la pagina para entender una sola ciudad).
@@ -882,7 +957,19 @@
     var f = (filter || "").toLowerCase();
     var items = STATIONS.filter(function (s) {
       return !f || s.code.toLowerCase().indexOf(f) >= 0 || s.name.toLowerCase().indexOf(f) >= 0;
-    }).slice(0, 40);
+    });
+    // Orden (pedido 2026-07-30): sin filtro, lista alfabetica por nombre; con filtro,
+    // primero las ciudades cuyo nombre/codigo EMPIEZA con lo tecleado, despues el
+    // resto de coincidencias — alfabetico dentro de cada grupo.
+    items.sort(function (a, b) {
+      if (f) {
+        var pa = (a.name.toLowerCase().indexOf(f) === 0 || a.code.toLowerCase().indexOf(f) === 0) ? 0 : 1;
+        var pb = (b.name.toLowerCase().indexOf(f) === 0 || b.code.toLowerCase().indexOf(f) === 0) ? 0 : 1;
+        if (pa !== pb) return pa - pb;
+      }
+      return a.name.localeCompare(b.name);
+    });
+    items = items.slice(0, 40);
     listEl.innerHTML = items.map(function (s) {
       var tracked = TRACKED[s.code];
       var badge = tracked ? "●" : "";
@@ -1266,6 +1353,7 @@
 
   // default: Ankara if present, else first station
   renderLive();
+  renderTopPicks();
   renderTrackRecord();
   selectStation(byCode["LTAC"] ? "LTAC" : STATIONS[0].code);
   window.addEventListener("resize", function () { if (state.code) drawChart(byCode[state.code], state.seasonOverride || seasonFor(byCode[state.code].country, new Date().getMonth()+1), state.hour); });
