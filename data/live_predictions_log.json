@@ -11,12 +11,16 @@
       "empirico_peak": 20.1,
       "peak_final": 23.1,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 27.0,
+      "winning_bucket": "Will the highest temperature in Ankara be 27°C on July 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": -3.9,
+      "resolved_at": "2026-07-30T21:49:31.377873+00:00",
+      "winning_range": [
+        27.0,
+        27.0
+      ]
     },
     {
       "slug": "helsinki",
@@ -654,12 +658,16 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Tel Aviv be 34°C on July 30?",
+      "pick_won": false,
+      "forecast_error": 0.1,
+      "resolved_at": "2026-07-30T21:49:31.854348+00:00",
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "toronto",
@@ -788,10 +796,14 @@
       },
       "resolved": false,
       "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
+      "winning_bucket": "Will the highest temperature in Istanbul be 26°C on July 30?",
+      "pick_won": false,
       "forecast_error": null,
-      "resolved_at": null
+      "resolved_at": null,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -985,12 +997,16 @@
           20.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in Moscow be 21°C on July 30?",
+      "pick_won": false,
+      "forecast_error": 0.1,
+      "resolved_at": "2026-07-30T21:49:32.418283+00:00",
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "cape-town",
@@ -2335,6 +2351,161 @@
         "range": [
           34.0,
           34.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "ankara",
+      "name": "Ankara",
+      "station": "LTAC",
+      "unit": "C",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-30T21:42:28.090054+00:00",
+      "model_peak": 26.7,
+      "empirico_peak": 25.5,
+      "peak_final": 26.1,
+      "mejor_bucket": {
+        "bucket": "26C",
+        "price": 0.185,
+        "prob": 0.273,
+        "ev": 0.474,
+        "kelly": 0.0269,
+        "volume": 1116.0,
+        "confianza": "moderado",
+        "market_id": "3198354",
+        "range": [
+          26.0,
+          26.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "tel-aviv",
+      "name": "Tel Aviv",
+      "station": "LLBG",
+      "unit": "C",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-30T21:44:44.909718+00:00",
+      "model_peak": 36.6,
+      "empirico_peak": 32.4,
+      "peak_final": 34.5,
+      "mejor_bucket": {
+        "bucket": "35C",
+        "price": 0.165,
+        "prob": 0.258,
+        "ev": 0.562,
+        "kelly": 0.0278,
+        "volume": 3536.0,
+        "confianza": "moderado",
+        "market_id": "3198389",
+        "range": [
+          35.0,
+          35.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "helsinki",
+      "name": "Helsinki",
+      "station": "EFHK",
+      "unit": "C",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-30T21:46:49.399729+00:00",
+      "model_peak": 23.6,
+      "empirico_peak": 20.6,
+      "peak_final": 22.1,
+      "mejor_bucket": {
+        "bucket": "23C",
+        "price": 0.065,
+        "prob": 0.226,
+        "ev": 2.478,
+        "kelly": 0.0431,
+        "volume": 727.0,
+        "confianza": "cautela",
+        "market_id": "3196717",
+        "range": [
+          23.0,
+          23.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "istanbul",
+      "name": "Istanbul",
+      "station": "LTFM",
+      "unit": "C",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-30T21:46:50.688675+00:00",
+      "model_peak": 26.0,
+      "empirico_peak": 26.0,
+      "peak_final": 26.0,
+      "mejor_bucket": {
+        "bucket": "25C",
+        "price": 0.11,
+        "prob": 0.216,
+        "ev": 0.966,
+        "kelly": 0.0298,
+        "volume": 1510.0,
+        "confianza": "moderado",
+        "market_id": "3198441",
+        "range": [
+          25.0,
+          25.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "moscow",
+      "name": "Moscow",
+      "station": "UUWW",
+      "unit": "C",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-30T21:47:12.925428+00:00",
+      "model_peak": 24.5,
+      "empirico_peak": 22.9,
+      "peak_final": 23.7,
+      "mejor_bucket": {
+        "bucket": "24C",
+        "price": 0.225,
+        "prob": 0.314,
+        "ev": 0.394,
+        "kelly": 0.0286,
+        "volume": 630.0,
+        "confianza": "escalable",
+        "market_id": "3198431",
+        "range": [
+          24.0,
+          24.0
         ]
       },
       "resolved": false,
