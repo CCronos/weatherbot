@@ -47,7 +47,9 @@ jobs:
           python-version: "3.12"
 
       - name: Dependencias
-        run: pip install requests
+        # matplotlib no se usa en estos scripts, pero bot_v2.py lo importa a nivel
+        # de modulo y husky_live_snapshot/check_resolutions/daily_digest importan bot_v2
+        run: pip install requests matplotlib
 
       - name: Crear config.json desde el secret
         shell: bash
