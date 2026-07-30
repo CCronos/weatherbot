@@ -31,10 +31,15 @@ sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 SNAPSHOT_FILE = Path("data/live_peak_snapshot.json")
 MIN_EV_DIGEST = 0.10
-SPREAD_ALERTA = 3.0  # grados de diferencia modelo vs empirico a partir de los cuales
+SPREAD_ALERTA = 2.0  # grados de diferencia modelo vs empirico a partir de los cuales
                       # se marca como poco confiable (encontrado 2026-07-29: Sao Paulo
                       # tenia +501% EV con modelo=30.0 vs empirico=19.2, ±10.8 de spread,
-                      # y el digest lo mostraba igual que una senal solida sin avisar)
+                      # y el digest lo mostraba igual que una senal solida sin avisar).
+                      # Bajado de 3.0 a 2.0 el 2026-07-30 tras el caso Wellington:
+                      # modelo 13.3 vs empirico 15.7 (±2.4) pasaba sin marca, y esa
+                      # discrepancia era exactamente la razon para NO operar el pick.
+                      # Mantener sincronizado con el mismo umbral en
+                      # scripts_tmp/passport_template.html (tres lugares).
 ORDEN_CONFIANZA = {"escalable": 0, "moderado": 1, "cautela": 2}
 CONFIANZA_LABEL = {"escalable": "✅ escalable", "moderado": "🟡 moderado", "cautela": "🔶 cautela (precio bajo)"}
 

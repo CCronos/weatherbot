@@ -747,6 +747,10 @@
   // audit de 1,680 trades). Encontrado 2026-07-30 en auditoria: la tabla principal — lo
   // primero que se ve — no mostraba ninguna advertencia para picks "moderado"/"cautela".
   var CONF_LABEL = { escalable: "✅ escalable", moderado: "🟡 moderado", cautela: "🔶 cautela (precio bajo)" };
+  // Umbral de desacuerdo modelo-vs-empirico (grados) a partir del cual un pick se marca
+  // como poco confiable. Mantener sincronizado con SPREAD_ALERTA en husky_daily_digest.py.
+  // 2.0 desde 2026-07-30 (caso Wellington: ±2.4 pasaba sin marca con el umbral viejo de 3.0).
+  var SPREAD_ALERTA = 2.0;
 
   function renderTrackRecord() {
     var records = (TRACK_RECORD && TRACK_RECORD.records) || [];
@@ -827,8 +831,8 @@
     updateLiveAge();
 
     body.innerHTML = LIVE.cities.map(function (c) {
-      var peakClass = c.peak_final == null ? "" : (c.spread_modelo_vs_empirico != null && c.spread_modelo_vs_empirico >= 3 ? "warn" : "good");
-      var spreadFlag = c.spread_modelo_vs_empirico != null && c.spread_modelo_vs_empirico >= 3
+      var peakClass = c.peak_final == null ? "" : (c.spread_modelo_vs_empirico != null && c.spread_modelo_vs_empirico >= SPREAD_ALERTA ? "warn" : "good");
+      var spreadFlag = c.spread_modelo_vs_empirico != null && c.spread_modelo_vs_empirico >= SPREAD_ALERTA
         ? '<span class="spread-flag high">±' + c.spread_modelo_vs_empirico.toFixed(1) + "</span>" : "";
       var windFlag = "";
       if (c.viento_nota) {
@@ -885,8 +889,18 @@
     var picks = LIVE.cities.filter(function (c) {
       return c.mejor_bucket && ORDEN_CONF[c.mejor_bucket.confianza] !== undefined;
     });
+    // Dentro de cada tier, los picks con alerta de spread (estimadores en desacuerdo)
+    // van al FINAL aunque su EV sea mayor — un desacuerdo de 2°+ entre modelo y curva
+    // historica es razon para no operar, no un detalle (decision 2026-07-30, caso
+    // Wellington: EV +15% pero modelo 13.3 vs empirico 15.7).
+    function spreadPenal(c) {
+      var s = c.spread_modelo_vs_empirico;
+      return (s != null && s >= SPREAD_ALERTA) ? 1 : 0;
+    }
     picks.sort(function (a, b) {
       var d = ORDEN_CONF[a.mejor_bucket.confianza] - ORDEN_CONF[b.mejor_bucket.confianza];
+      if (d !== 0) return d;
+      d = spreadPenal(a) - spreadPenal(b);
       return d !== 0 ? d : b.mejor_bucket.ev - a.mejor_bucket.ev;
     });
     picks = picks.slice(0, 6);
@@ -896,7 +910,7 @@
       el.innerHTML = picks.map(function (c) {
         var mb = c.mejor_bucket;
         var spread = c.spread_modelo_vs_empirico;
-        var spreadNota = (spread != null && spread >= 3)
+        var spreadNota = (spread != null && spread >= SPREAD_ALERTA)
           ? '<div class="pc-spread">⚠ modelo y empírico difieren ±' + spread.toFixed(1) + '° — menos confiable</div>' : "";
         return '<div class="pick-card ' + mb.confianza + '" data-station="' + c.station + '" title="Ver detalle de ' + c.name + '">' +
           '<span class="pc-city">' + c.name + '</span><span class="pc-date">' + c.fecha_mercado + '</span>' +
@@ -1293,7 +1307,7 @@
     document.getElementById("ld-pico").textContent = c.peak_final != null ? c.peak_final.toFixed(1) + "°" + c.unit : "s/d";
     const spread = c.spread_modelo_vs_empirico;
     document.getElementById("ld-spread").textContent = spread != null
-      ? (spread >= 3 ? "⚠ modelo y empírico difieren ±" + spread.toFixed(1) + "° — baja confianza" : "modelo y empírico de acuerdo (±" + spread.toFixed(1) + "°)")
+      ? (spread >= SPREAD_ALERTA ? "⚠ modelo y empírico difieren ±" + spread.toFixed(1) + "° — baja confianza" : "modelo y empírico de acuerdo (±" + spread.toFixed(1) + "°)")
       : "";
 
     const notaEl = document.getElementById("ld-viento-nota");
