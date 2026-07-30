@@ -1,0 +1,330 @@
+{
+  "city": "tel-aviv",
+  "city_name": "Tel Aviv",
+  "date": "2026-07-19",
+  "unit": "C",
+  "station": "LLBG",
+  "event_end_date": "2026-07-19T12:00:00Z",
+  "hours_at_discovery": 54.9,
+  "status": "resolved",
+  "position": {
+    "market_id": "2956562",
+    "question": "Will the highest temperature in Tel Aviv be 38°C on July 19?",
+    "bucket_low": 38.0,
+    "bucket_high": 38.0,
+    "entry_price": 0.014,
+    "bid_at_entry": 0.01,
+    "spread": 0.004,
+    "shares": 1428.57,
+    "cost": 20.0,
+    "p": 0.3137,
+    "ev": 21.4071,
+    "kelly": 0.0763,
+    "forecast_temp": 37.7,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-17T17:56:34.468152+00:00",
+    "status": "closed",
+    "pnl": -5.71,
+    "exit_price": 0.01,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-17T18:07:06.591017+00:00"
+  },
+  "actual_temp": 34.0,
+  "resolved_outcome": "loss",
+  "pnl": -5.71,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-17T05:08:17.946932+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.9,
+      "ecmwf": 37.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 37.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T06:09:48.461009+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.8,
+      "ecmwf": 37.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 37.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T07:11:27.319336+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.8,
+      "ecmwf": 37.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 37.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T08:12:51.300175+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.8,
+      "ecmwf": 37.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 37.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T09:14:09.096958+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.8,
+      "ecmwf": 37.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 37.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T10:15:33.816196+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.7,
+      "ecmwf": 37.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 37.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T11:16:54.036715+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.7,
+      "ecmwf": 37.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 37.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T12:18:23.034978+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.7,
+      "ecmwf": 37.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 37.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T13:19:51.383030+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.7,
+      "ecmwf": 37.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 37.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T14:21:35.487921+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.6,
+      "ecmwf": 37.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 37.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T17:56:34.468152+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.1,
+      "ecmwf": 37.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 37.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-17T05:08:17.946932+00:00",
+      "top_bucket": "34.0-34.0C",
+      "top_price": 0.495
+    },
+    {
+      "ts": "2026-07-17T06:09:48.461009+00:00",
+      "top_bucket": "35.0-35.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-07-17T07:11:27.319336+00:00",
+      "top_bucket": "35.0-35.0C",
+      "top_price": 0.515
+    },
+    {
+      "ts": "2026-07-17T08:12:51.300175+00:00",
+      "top_bucket": "35.0-35.0C",
+      "top_price": 0.575
+    },
+    {
+      "ts": "2026-07-17T09:14:09.096958+00:00",
+      "top_bucket": "35.0-35.0C",
+      "top_price": 0.6
+    },
+    {
+      "ts": "2026-07-17T10:15:33.816196+00:00",
+      "top_bucket": "35.0-35.0C",
+      "top_price": 0.605
+    },
+    {
+      "ts": "2026-07-17T11:16:54.036715+00:00",
+      "top_bucket": "35.0-35.0C",
+      "top_price": 0.59
+    },
+    {
+      "ts": "2026-07-17T12:18:23.034978+00:00",
+      "top_bucket": "35.0-35.0C",
+      "top_price": 0.605
+    },
+    {
+      "ts": "2026-07-17T13:19:51.383030+00:00",
+      "top_bucket": "35.0-35.0C",
+      "top_price": 0.605
+    },
+    {
+      "ts": "2026-07-17T14:21:35.487921+00:00",
+      "top_bucket": "35.0-35.0C",
+      "top_price": 0.625
+    },
+    {
+      "ts": "2026-07-17T17:56:34.468152+00:00",
+      "top_bucket": "35.0-35.0C",
+      "top_price": 0.485
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Tel Aviv be 32°C or below on July 19?",
+      "market_id": "2956556",
+      "range": [
+        -999.0,
+        32.0
+      ],
+      "price": 0.0135,
+      "volume": 2278.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 33°C on July 19?",
+      "market_id": "2956557",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.054,
+      "volume": 1647.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 34°C on July 19?",
+      "market_id": "2956558",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "price": 0.21,
+      "volume": 6338.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 35°C on July 19?",
+      "market_id": "2956559",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "price": 0.485,
+      "volume": 17700.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 36°C on July 19?",
+      "market_id": "2956560",
+      "range": [
+        36.0,
+        36.0
+      ],
+      "price": 0.22,
+      "volume": 3683.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 37°C on July 19?",
+      "market_id": "2956561",
+      "range": [
+        37.0,
+        37.0
+      ],
+      "price": 0.0415,
+      "volume": 940.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 38°C on July 19?",
+      "market_id": "2956562",
+      "range": [
+        38.0,
+        38.0
+      ],
+      "price": 0.012,
+      "volume": 929.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 39°C on July 19?",
+      "market_id": "2956563",
+      "range": [
+        39.0,
+        39.0
+      ],
+      "price": 0.0105,
+      "volume": 1850.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 40°C on July 19?",
+      "market_id": "2956564",
+      "range": [
+        40.0,
+        40.0
+      ],
+      "price": 0.0005,
+      "volume": 588.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 41°C on July 19?",
+      "market_id": "2956565",
+      "range": [
+        41.0,
+        41.0
+      ],
+      "price": 0.0005,
+      "volume": 489.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 42°C or higher on July 19?",
+      "market_id": "2956566",
+      "range": [
+        42.0,
+        999.0
+      ],
+      "price": 0.0025,
+      "volume": 882.0
+    }
+  ],
+  "created_at": "2026-07-17T05:08:20.731262+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

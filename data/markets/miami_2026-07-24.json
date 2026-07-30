@@ -1,0 +1,586 @@
+{
+  "city": "miami",
+  "city_name": "Miami",
+  "date": "2026-07-24",
+  "unit": "F",
+  "station": "KMIA",
+  "event_end_date": "2026-07-24T12:00:00Z",
+  "hours_at_discovery": 34.3,
+  "status": "resolved",
+  "position": {
+    "market_id": "3048570",
+    "question": "Will the highest temperature in Miami be between 88-89°F on July 24?",
+    "bucket_low": 88.0,
+    "bucket_high": 89.0,
+    "entry_price": 0.11,
+    "bid_at_entry": 0.08,
+    "spread": 0.03,
+    "shares": 181.82,
+    "cost": 20.0,
+    "p": 0.1915,
+    "ev": 0.7409,
+    "kelly": 0.0279,
+    "forecast_temp": 89,
+    "forecast_src": "hrrr",
+    "sigma": 2.0,
+    "opened_at": "2026-07-24T08:14:08.039440+00:00",
+    "status": "closed",
+    "pnl": -5.45,
+    "exit_price": 0.08,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-24T08:25:28.290575+00:00"
+  },
+  "actual_temp": 92.0,
+  "resolved_outcome": "loss",
+  "pnl": -5.45,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-23T01:40:04.931153+00:00",
+      "horizon": "D+2",
+      "hours_left": 34.3,
+      "ecmwf": 87,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T02:42:02.278018+00:00",
+      "horizon": "D+2",
+      "hours_left": 33.3,
+      "ecmwf": 87,
+      "hrrr": 87,
+      "metar": null,
+      "best": 87,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T03:43:49.239831+00:00",
+      "horizon": "D+2",
+      "hours_left": 32.3,
+      "ecmwf": 87,
+      "hrrr": 87,
+      "metar": null,
+      "best": 87,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T04:45:32.455852+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.2,
+      "ecmwf": 87,
+      "hrrr": 87,
+      "metar": null,
+      "best": 87,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T05:47:09.381615+00:00",
+      "horizon": "D+1",
+      "hours_left": 30.2,
+      "ecmwf": 87,
+      "hrrr": 87,
+      "metar": null,
+      "best": 87,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T06:48:57.041653+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.2,
+      "ecmwf": 87,
+      "hrrr": 87,
+      "metar": null,
+      "best": 87,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T07:50:39.905522+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.2,
+      "ecmwf": 87,
+      "hrrr": 87,
+      "metar": null,
+      "best": 87,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T08:52:12.427949+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.1,
+      "ecmwf": 87,
+      "hrrr": 87,
+      "metar": null,
+      "best": 87,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T09:53:40.876006+00:00",
+      "horizon": "D+1",
+      "hours_left": 26.1,
+      "ecmwf": 87,
+      "hrrr": 87,
+      "metar": null,
+      "best": 87,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T10:55:28.763958+00:00",
+      "horizon": "D+1",
+      "hours_left": 25.1,
+      "ecmwf": 87,
+      "hrrr": 87,
+      "metar": null,
+      "best": 87,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T16:13:43.296023+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.8,
+      "ecmwf": 88,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T17:15:55.531525+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.7,
+      "ecmwf": 88,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T18:18:29.421945+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.7,
+      "ecmwf": 88,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T19:20:36.593734+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.7,
+      "ecmwf": 88,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T20:22:24.763933+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.6,
+      "ecmwf": 90,
+      "hrrr": 89,
+      "metar": null,
+      "best": 89,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T21:24:50.693393+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.6,
+      "ecmwf": 90,
+      "hrrr": 89,
+      "metar": null,
+      "best": 89,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T21:53:28.483359+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.1,
+      "ecmwf": 90,
+      "hrrr": 89,
+      "metar": null,
+      "best": 89,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T22:55:47.312346+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.1,
+      "ecmwf": 90,
+      "hrrr": 89,
+      "metar": null,
+      "best": 89,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T23:57:32.017267+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.0,
+      "ecmwf": 90,
+      "hrrr": 89,
+      "metar": null,
+      "best": 89,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T00:59:48.181184+00:00",
+      "horizon": "D+1",
+      "hours_left": 11.0,
+      "ecmwf": 90,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T02:04:08.790298+00:00",
+      "horizon": "D+1",
+      "hours_left": 9.9,
+      "ecmwf": 90,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T03:06:08.190309+00:00",
+      "horizon": "D+1",
+      "hours_left": 8.9,
+      "ecmwf": 90,
+      "hrrr": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T04:07:38.694287+00:00",
+      "horizon": "D+0",
+      "hours_left": 7.9,
+      "ecmwf": 90,
+      "hrrr": 90,
+      "metar": 86,
+      "best": 90,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T05:09:20.905777+00:00",
+      "horizon": "D+0",
+      "hours_left": 6.8,
+      "ecmwf": 90,
+      "hrrr": 89,
+      "metar": 85,
+      "best": 89,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T06:11:06.082825+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.8,
+      "ecmwf": 90,
+      "hrrr": 91,
+      "metar": 83,
+      "best": 91,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T07:12:36.109943+00:00",
+      "horizon": "D+0",
+      "hours_left": 4.8,
+      "ecmwf": 90,
+      "hrrr": 90,
+      "metar": 83,
+      "best": 90,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T08:14:08.039440+00:00",
+      "horizon": "D+0",
+      "hours_left": 3.8,
+      "ecmwf": 90,
+      "hrrr": 89,
+      "metar": 83,
+      "best": 89,
+      "best_source": "hrrr",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-23T01:40:04.931153+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.42
+    },
+    {
+      "ts": "2026-07-23T02:42:02.278018+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-07-23T03:43:49.239831+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-07-23T04:45:32.455852+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.46
+    },
+    {
+      "ts": "2026-07-23T05:47:09.381615+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.44
+    },
+    {
+      "ts": "2026-07-23T06:48:57.041653+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.44
+    },
+    {
+      "ts": "2026-07-23T07:50:39.905522+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.44
+    },
+    {
+      "ts": "2026-07-23T08:52:12.427949+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-07-23T09:53:40.876006+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.525
+    },
+    {
+      "ts": "2026-07-23T10:55:28.763958+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.525
+    },
+    {
+      "ts": "2026-07-23T16:13:43.296023+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-07-23T17:15:55.531525+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-07-23T18:18:29.421945+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-07-23T19:20:36.593734+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-07-23T20:22:24.763933+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-07-23T21:24:50.693393+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-07-23T21:53:28.483359+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-07-23T22:55:47.312346+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-07-23T23:57:32.017267+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-07-24T00:59:48.181184+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.485
+    },
+    {
+      "ts": "2026-07-24T02:04:08.790298+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-07-24T03:06:08.190309+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-07-24T04:07:38.694287+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.445
+    },
+    {
+      "ts": "2026-07-24T05:09:20.905777+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.48
+    },
+    {
+      "ts": "2026-07-24T06:11:06.082825+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.495
+    },
+    {
+      "ts": "2026-07-24T07:12:36.109943+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-07-24T08:14:08.039440+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.475
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Miami be 79°F or below on July 24?",
+      "market_id": "3048565",
+      "range": [
+        -999.0,
+        79.0
+      ],
+      "price": 0.0005,
+      "volume": 245.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 80-81°F on July 24?",
+      "market_id": "3048566",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "price": 0.0005,
+      "volume": 947.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 82-83°F on July 24?",
+      "market_id": "3048567",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "price": 0.0005,
+      "volume": 800.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 84-85°F on July 24?",
+      "market_id": "3048568",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "price": 0.002,
+      "volume": 942.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 86-87°F on July 24?",
+      "market_id": "3048569",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "price": 0.007,
+      "volume": 1191.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 88-89°F on July 24?",
+      "market_id": "3048570",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "price": 0.09,
+      "volume": 7889.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 90-91°F on July 24?",
+      "market_id": "3048571",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "price": 0.475,
+      "volume": 6747.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 92-93°F on July 24?",
+      "market_id": "3048572",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "price": 0.435,
+      "volume": 5515.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 94-95°F on July 24?",
+      "market_id": "3048573",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "price": 0.008,
+      "volume": 1981.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 96-97°F on July 24?",
+      "market_id": "3048574",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "price": 0.0055,
+      "volume": 1395.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be 98°F or higher on July 24?",
+      "market_id": "3048575",
+      "range": [
+        98.0,
+        999.0
+      ],
+      "price": 0.004,
+      "volume": 1635.0
+    }
+  ],
+  "created_at": "2026-07-23T01:40:08.873450+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

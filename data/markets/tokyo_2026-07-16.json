@@ -1,0 +1,169 @@
+{
+  "city": "tokyo",
+  "city_name": "Tokyo",
+  "date": "2026-07-16",
+  "unit": "C",
+  "station": "RJTT",
+  "event_end_date": "2026-07-16T12:00:00Z",
+  "hours_at_discovery": 12.4,
+  "status": "resolved",
+  "position": {
+    "market_id": "2917045",
+    "question": "Will the highest temperature in Tokyo be 30°C on July 16?",
+    "bucket_low": 30.0,
+    "bucket_high": 30.0,
+    "entry_price": 0.01,
+    "bid_at_entry": 0.003,
+    "spread": 0.007,
+    "shares": 2000.0,
+    "cost": 20.0,
+    "p": 0.2977,
+    "ev": 28.77,
+    "kelly": 0.0733,
+    "forecast_temp": 30.5,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-15T23:37:27.175099+00:00",
+    "status": "closed",
+    "pnl": -6.0,
+    "exit_price": 0.007,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-15T23:48:41.937641+00:00"
+  },
+  "actual_temp": 33.0,
+  "resolved_outcome": "loss",
+  "pnl": -6.0,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-15T23:37:27.175099+00:00",
+      "horizon": "D+0",
+      "hours_left": 12.4,
+      "ecmwf": 30.5,
+      "hrrr": null,
+      "metar": 28.0,
+      "best": 30.5,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-15T23:37:27.175099+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.405
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Tokyo be 28°C or below on July 16?",
+      "market_id": "2917043",
+      "range": [
+        -999.0,
+        28.0
+      ],
+      "price": 0.0005,
+      "volume": 3122.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 29°C on July 16?",
+      "market_id": "2917044",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.0015,
+      "volume": 2912.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 30°C on July 16?",
+      "market_id": "2917045",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.0065,
+      "volume": 4761.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 31°C on July 16?",
+      "market_id": "2917046",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "price": 0.0285,
+      "volume": 2826.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 32°C on July 16?",
+      "market_id": "2917047",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "price": 0.155,
+      "volume": 2362.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 33°C on July 16?",
+      "market_id": "2917048",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.405,
+      "volume": 3042.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 34°C on July 16?",
+      "market_id": "2917049",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "price": 0.295,
+      "volume": 2365.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 35°C on July 16?",
+      "market_id": "2917050",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "price": 0.12,
+      "volume": 6025.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 36°C on July 16?",
+      "market_id": "2917051",
+      "range": [
+        36.0,
+        36.0
+      ],
+      "price": 0.0085,
+      "volume": 6215.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 37°C on July 16?",
+      "market_id": "2917052",
+      "range": [
+        37.0,
+        37.0
+      ],
+      "price": 0.0055,
+      "volume": 2853.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 38°C or higher on July 16?",
+      "market_id": "2917053",
+      "range": [
+        38.0,
+        999.0
+      ],
+      "price": 0.0015,
+      "volume": 2285.0
+    }
+  ],
+  "created_at": "2026-07-15T23:37:33.418451+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

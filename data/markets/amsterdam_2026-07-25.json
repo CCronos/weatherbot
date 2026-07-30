@@ -1,0 +1,234 @@
+{
+  "city": "amsterdam",
+  "city_name": "Amsterdam",
+  "date": "2026-07-25",
+  "unit": "C",
+  "station": "EHAM",
+  "event_end_date": "2026-07-25T12:00:00Z",
+  "hours_at_discovery": 20.7,
+  "status": "resolved",
+  "position": {
+    "market_id": "3050412",
+    "question": "Will the highest temperature in Amsterdam be 23°C on July 25?",
+    "bucket_low": 23.0,
+    "bucket_high": 23.0,
+    "entry_price": 0.22,
+    "bid_at_entry": 0.2,
+    "spread": 0.02,
+    "shares": 909.09,
+    "cost": 200.0,
+    "p": 0.3189,
+    "ev": 0.4495,
+    "kelly": 0.0345,
+    "forecast_temp": 23.2,
+    "forecast_src": "regional",
+    "sigma": 1.2,
+    "opened_at": "2026-07-24T23:53:43.586744+00:00",
+    "status": "closed",
+    "pnl": -81.82,
+    "exit_price": 0.13,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-25T02:36:04.090423+00:00"
+  },
+  "actual_temp": 25.0,
+  "resolved_outcome": "loss",
+  "pnl": -81.82,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-24T15:16:32.320009+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.7,
+      "ecmwf": 23.2,
+      "regional": 22.9,
+      "metar": null,
+      "best": 22.9,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:20:45.821595+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.7,
+      "ecmwf": 23.2,
+      "regional": 22.9,
+      "metar": null,
+      "best": 22.9,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T16:37:57.496513+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.4,
+      "ecmwf": 23.2,
+      "regional": 22.7,
+      "metar": null,
+      "best": 22.7,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T20:41:09.233263+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.3,
+      "ecmwf": 23.5,
+      "regional": 23.1,
+      "metar": null,
+      "best": 23.1,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T23:53:43.586744+00:00",
+      "horizon": "D+0",
+      "hours_left": 12.1,
+      "ecmwf": 23.5,
+      "regional": 23.2,
+      "metar": 16.0,
+      "best": 23.2,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-24T15:16:32.320009+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.395
+    },
+    {
+      "ts": "2026-07-24T15:20:45.821595+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.395
+    },
+    {
+      "ts": "2026-07-24T16:37:57.496513+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-07-24T20:41:09.233263+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-07-24T23:53:43.586744+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.425
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Amsterdam be 20°C or below on July 25?",
+      "market_id": "3050409",
+      "range": [
+        -999.0,
+        20.0
+      ],
+      "price": 0.0005,
+      "volume": 534.0
+    },
+    {
+      "question": "Will the highest temperature in Amsterdam be 21°C on July 25?",
+      "market_id": "3050410",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "price": 0.004,
+      "volume": 889.0
+    },
+    {
+      "question": "Will the highest temperature in Amsterdam be 22°C on July 25?",
+      "market_id": "3050411",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "price": 0.03,
+      "volume": 1444.0
+    },
+    {
+      "question": "Will the highest temperature in Amsterdam be 23°C on July 25?",
+      "market_id": "3050412",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "price": 0.21,
+      "volume": 3505.0
+    },
+    {
+      "question": "Will the highest temperature in Amsterdam be 24°C on July 25?",
+      "market_id": "3050413",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "price": 0.425,
+      "volume": 2772.0
+    },
+    {
+      "question": "Will the highest temperature in Amsterdam be 25°C on July 25?",
+      "market_id": "3050414",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "price": 0.285,
+      "volume": 3277.0
+    },
+    {
+      "question": "Will the highest temperature in Amsterdam be 26°C on July 25?",
+      "market_id": "3050415",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "price": 0.085,
+      "volume": 2260.0
+    },
+    {
+      "question": "Will the highest temperature in Amsterdam be 27°C on July 25?",
+      "market_id": "3050416",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.016,
+      "volume": 3242.0
+    },
+    {
+      "question": "Will the highest temperature in Amsterdam be 28°C on July 25?",
+      "market_id": "3050417",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.0025,
+      "volume": 538.0
+    },
+    {
+      "question": "Will the highest temperature in Amsterdam be 29°C on July 25?",
+      "market_id": "3050418",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.0005,
+      "volume": 377.0
+    },
+    {
+      "question": "Will the highest temperature in Amsterdam be 30°C or higher on July 25?",
+      "market_id": "3050419",
+      "range": [
+        30.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 195.0
+    }
+  ],
+  "created_at": "2026-07-24T15:16:41.468588+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

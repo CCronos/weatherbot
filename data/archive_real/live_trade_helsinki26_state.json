@@ -1,0 +1,42 @@
+{
+  "niveles": [
+    {
+      "price": 0.006,
+      "usd_total": 2.5,
+      "usd_deployed": 0.0,
+      "shares_filled": 0.0,
+      "cost_filled": 0.0,
+      "order_id": null,
+      "order_status": "done"
+    },
+    {
+      "price": 0.007,
+      "usd_total": 2.5,
+      "usd_deployed": 0.0,
+      "shares_filled": 0.0,
+      "cost_filled": 0.0,
+      "order_id": null,
+      "order_status": "done"
+    }
+  ],
+  "cycles": 51,
+  "posiciones": {
+    "main": {
+      "bought_shares": 0.0,
+      "bought_cost": 0.0,
+      "shares": 0.0,
+      "total_cost": 0.0,
+      "avg_price": 0.0,
+      "tp1_done": false,
+      "tp2_done": false,
+      "closed": false,
+      "tp1_target": null,
+      "tp1_sold": 0.0,
+      "tp2_target": null,
+      "tp2_sold": 0.0,
+      "stop_triggered": false,
+      "realized_pnl": 0.0
+    }
+  },
+  "cancelled_no_fill": true
+}

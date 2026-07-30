@@ -1,0 +1,228 @@
+{
+  "city": "houston",
+  "city_name": "Houston",
+  "date": "2026-07-25",
+  "unit": "F",
+  "station": "KHOU",
+  "event_end_date": "2026-07-25T12:00:00Z",
+  "hours_at_discovery": 20.7,
+  "status": "closed",
+  "position": null,
+  "actual_temp": 92.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-24T15:15:57.584372+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.7,
+      "ecmwf": 91,
+      "regional": 96,
+      "metar": null,
+      "best": 96,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:20:12.600101+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.7,
+      "ecmwf": 91,
+      "regional": 96,
+      "metar": null,
+      "best": 96,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T16:37:26.706231+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.4,
+      "ecmwf": 91,
+      "regional": 96,
+      "metar": null,
+      "best": 96,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T20:40:36.796704+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.3,
+      "ecmwf": 91,
+      "regional": 95,
+      "metar": null,
+      "best": 95,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T23:53:00.684507+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.1,
+      "ecmwf": 91,
+      "regional": 95,
+      "metar": null,
+      "best": 95,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-25T18:19:32.420447+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 90,
+      "regional": 96,
+      "metar": 90,
+      "best": 96,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-24T15:15:57.584372+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-07-24T15:20:12.600101+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-07-24T16:37:26.706231+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-07-24T20:40:36.796704+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-07-24T23:53:00.684507+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-07-25T18:19:32.420447+00:00",
+      "top_bucket": "94.0-95.0F",
+      "top_price": 0.43
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Houston be 83°F or below on July 25?",
+      "market_id": "3074197",
+      "range": [
+        -999.0,
+        83.0
+      ],
+      "price": 0.0005,
+      "volume": 267.0
+    },
+    {
+      "question": "Will the highest temperature in Houston be between 84-85°F on July 25?",
+      "market_id": "3074198",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "price": 0.0005,
+      "volume": 225.0
+    },
+    {
+      "question": "Will the highest temperature in Houston be between 86-87°F on July 25?",
+      "market_id": "3074199",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "price": 0.0005,
+      "volume": 343.0
+    },
+    {
+      "question": "Will the highest temperature in Houston be between 88-89°F on July 25?",
+      "market_id": "3074200",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "price": 0.0005,
+      "volume": 408.0
+    },
+    {
+      "question": "Will the highest temperature in Houston be between 90-91°F on July 25?",
+      "market_id": "3074201",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "price": 0.06,
+      "volume": 1574.0
+    },
+    {
+      "question": "Will the highest temperature in Houston be between 92-93°F on July 25?",
+      "market_id": "3074202",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "price": 0.41,
+      "volume": 9228.0
+    },
+    {
+      "question": "Will the highest temperature in Houston be between 94-95°F on July 25?",
+      "market_id": "3074203",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "price": 0.43,
+      "volume": 1942.0
+    },
+    {
+      "question": "Will the highest temperature in Houston be between 96-97°F on July 25?",
+      "market_id": "3074204",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "price": 0.035,
+      "volume": 1642.0
+    },
+    {
+      "question": "Will the highest temperature in Houston be between 98-99°F on July 25?",
+      "market_id": "3074205",
+      "range": [
+        98.0,
+        99.0
+      ],
+      "price": 0.009,
+      "volume": 563.0
+    },
+    {
+      "question": "Will the highest temperature in Houston be between 100-101°F on July 25?",
+      "market_id": "3074206",
+      "range": [
+        100.0,
+        101.0
+      ],
+      "price": 0.0005,
+      "volume": 515.0
+    },
+    {
+      "question": "Will the highest temperature in Houston be 102°F or higher on July 25?",
+      "market_id": "3074207",
+      "range": [
+        102.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 390.0
+    }
+  ],
+  "created_at": "2026-07-24T15:16:04.506230+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

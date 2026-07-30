@@ -1,0 +1,148 @@
+{
+  "city": "sao-paulo",
+  "city_name": "Sao Paulo",
+  "date": "2026-07-26",
+  "unit": "C",
+  "station": "SBGR",
+  "event_end_date": "2026-07-26T12:00:00Z",
+  "hours_at_discovery": 17.6,
+  "status": "open",
+  "position": null,
+  "actual_temp": 25.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-25T18:21:37.525083+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.6,
+      "ecmwf": 23.6,
+      "regional": null,
+      "metar": null,
+      "best": 23.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-25T18:21:37.525083+00:00",
+      "top_bucket": "26.0-999.0C",
+      "top_price": 0.4
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Sao Paulo be 16°C or below on July 26?",
+      "market_id": "3094746",
+      "range": [
+        -999.0,
+        16.0
+      ],
+      "price": 0.0005,
+      "volume": 115.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 17°C on July 26?",
+      "market_id": "3094747",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "price": 0.0005,
+      "volume": 1218.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 18°C on July 26?",
+      "market_id": "3094748",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "price": 0.0005,
+      "volume": 325.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 19°C on July 26?",
+      "market_id": "3094749",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "price": 0.0005,
+      "volume": 360.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 20°C on July 26?",
+      "market_id": "3094750",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "price": 0.0005,
+      "volume": 656.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 21°C on July 26?",
+      "market_id": "3094751",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "price": 0.0015,
+      "volume": 769.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 22°C on July 26?",
+      "market_id": "3094752",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "price": 0.02,
+      "volume": 1031.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 23°C on July 26?",
+      "market_id": "3094753",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "price": 0.14,
+      "volume": 1883.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 24°C on July 26?",
+      "market_id": "3094754",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "price": 0.195,
+      "volume": 1365.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 25°C on July 26?",
+      "market_id": "3094755",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "price": 0.295,
+      "volume": 1399.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 26°C or higher on July 26?",
+      "market_id": "3094756",
+      "range": [
+        26.0,
+        999.0
+      ],
+      "price": 0.4,
+      "volume": 3157.0
+    }
+  ],
+  "created_at": "2026-07-25T18:21:40.097915+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

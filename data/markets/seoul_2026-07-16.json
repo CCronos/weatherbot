@@ -1,0 +1,169 @@
+{
+  "city": "seoul",
+  "city_name": "Seoul",
+  "date": "2026-07-16",
+  "unit": "C",
+  "station": "RKSI",
+  "event_end_date": "2026-07-16T12:00:00Z",
+  "hours_at_discovery": 12.4,
+  "status": "resolved",
+  "position": {
+    "market_id": "2916994",
+    "question": "Will the highest temperature in Seoul be 27°C on July 16?",
+    "bucket_low": 27.0,
+    "bucket_high": 27.0,
+    "entry_price": 0.028,
+    "bid_at_entry": 0.012,
+    "spread": 0.016,
+    "shares": 714.29,
+    "cost": 20.0,
+    "p": 0.3189,
+    "ev": 10.3893,
+    "kelly": 0.0762,
+    "forecast_temp": 26.8,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-15T23:37:23.430688+00:00",
+    "status": "closed",
+    "pnl": -14.29,
+    "exit_price": 0.008,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-15T23:48:40.189845+00:00"
+  },
+  "actual_temp": 28.0,
+  "resolved_outcome": "loss",
+  "pnl": -14.29,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-15T23:37:23.430688+00:00",
+      "horizon": "D+0",
+      "hours_left": 12.4,
+      "ecmwf": 26.8,
+      "hrrr": null,
+      "metar": 26.0,
+      "best": 26.8,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-15T23:37:23.430688+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.385
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seoul be 21°C or below on July 16?",
+      "market_id": "2916988",
+      "range": [
+        -999.0,
+        21.0
+      ],
+      "price": 0.0005,
+      "volume": 486.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 22°C on July 16?",
+      "market_id": "2916989",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "price": 0.0005,
+      "volume": 536.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 23°C on July 16?",
+      "market_id": "2916990",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "price": 0.0005,
+      "volume": 491.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 24°C on July 16?",
+      "market_id": "2916991",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "price": 0.0005,
+      "volume": 333.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 25°C on July 16?",
+      "market_id": "2916992",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "price": 0.0005,
+      "volume": 2819.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 26°C on July 16?",
+      "market_id": "2916993",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "price": 0.0065,
+      "volume": 3684.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 27°C on July 16?",
+      "market_id": "2916994",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.02,
+      "volume": 5285.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 28°C on July 16?",
+      "market_id": "2916995",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.13,
+      "volume": 4610.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 29°C on July 16?",
+      "market_id": "2916996",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.385,
+      "volume": 3357.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 30°C on July 16?",
+      "market_id": "2916997",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.355,
+      "volume": 3927.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 31°C or higher on July 16?",
+      "market_id": "2916998",
+      "range": [
+        31.0,
+        999.0
+      ],
+      "price": 0.12,
+      "volume": 4512.0
+    }
+  ],
+  "created_at": "2026-07-15T23:37:25.197873+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

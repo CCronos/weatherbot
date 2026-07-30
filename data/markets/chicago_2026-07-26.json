@@ -1,0 +1,148 @@
+{
+  "city": "chicago",
+  "city_name": "Chicago",
+  "date": "2026-07-26",
+  "unit": "F",
+  "station": "KORD",
+  "event_end_date": "2026-07-26T12:00:00Z",
+  "hours_at_discovery": 17.7,
+  "status": "open",
+  "position": null,
+  "actual_temp": 91.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-25T18:18:58.499327+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.7,
+      "ecmwf": 94,
+      "regional": 95,
+      "metar": null,
+      "best": 95,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-25T18:18:58.499327+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.29
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Chicago be 85°F or below on July 26?",
+      "market_id": "3094834",
+      "range": [
+        -999.0,
+        85.0
+      ],
+      "price": 0.0345,
+      "volume": 2562.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 86-87°F on July 26?",
+      "market_id": "3094835",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "price": 0.19,
+      "volume": 3970.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 88-89°F on July 26?",
+      "market_id": "3094836",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "price": 0.175,
+      "volume": 2955.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 90-91°F on July 26?",
+      "market_id": "3094837",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "price": 0.29,
+      "volume": 2387.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 92-93°F on July 26?",
+      "market_id": "3094838",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "price": 0.215,
+      "volume": 2524.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 94-95°F on July 26?",
+      "market_id": "3094839",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "price": 0.11,
+      "volume": 2356.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 96-97°F on July 26?",
+      "market_id": "3094840",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "price": 0.045,
+      "volume": 1593.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 98-99°F on July 26?",
+      "market_id": "3094841",
+      "range": [
+        98.0,
+        99.0
+      ],
+      "price": 0.003,
+      "volume": 1367.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 100-101°F on July 26?",
+      "market_id": "3094842",
+      "range": [
+        100.0,
+        101.0
+      ],
+      "price": 0.002,
+      "volume": 883.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 102-103°F on July 26?",
+      "market_id": "3094843",
+      "range": [
+        102.0,
+        103.0
+      ],
+      "price": 0.0005,
+      "volume": 389.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be 104°F or higher on July 26?",
+      "market_id": "3094844",
+      "range": [
+        104.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 385.0
+    }
+  ],
+  "created_at": "2026-07-25T18:19:06.769172+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

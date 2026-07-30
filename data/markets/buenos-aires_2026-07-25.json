@@ -1,0 +1,468 @@
+{
+  "city": "buenos-aires",
+  "city_name": "Buenos Aires",
+  "date": "2026-07-25",
+  "unit": "C",
+  "station": "SAEZ",
+  "event_end_date": "2026-07-25T12:00:00Z",
+  "hours_at_discovery": 33.9,
+  "status": "closed",
+  "position": null,
+  "actual_temp": 18.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-24T02:05:15.395784+00:00",
+      "horizon": "D+2",
+      "hours_left": 33.9,
+      "ecmwf": 16.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T03:07:04.688770+00:00",
+      "horizon": "D+1",
+      "hours_left": 32.9,
+      "ecmwf": 16.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T04:08:36.311998+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.9,
+      "ecmwf": 16.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T05:10:17.401817+00:00",
+      "horizon": "D+1",
+      "hours_left": 30.8,
+      "ecmwf": 16.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T06:12:02.617309+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.8,
+      "ecmwf": 16.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T07:13:32.812294+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.8,
+      "ecmwf": 16.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T08:15:02.289013+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.7,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T09:16:42.993955+00:00",
+      "horizon": "D+1",
+      "hours_left": 26.7,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T10:18:06.224813+00:00",
+      "horizon": "D+1",
+      "hours_left": 25.7,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T11:19:48.166682+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.7,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T12:21:38.662500+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.6,
+      "ecmwf": 16.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T13:23:21.533500+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.6,
+      "ecmwf": 16.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:25:04.504228+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.6,
+      "ecmwf": 16.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:54:42.655914+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.1,
+      "ecmwf": 16.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:56:42.279584+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.1,
+      "ecmwf": 16.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 16.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:17:45.327245+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.7,
+      "ecmwf": 16.7,
+      "regional": null,
+      "metar": null,
+      "best": 16.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:21:42.842038+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.6,
+      "ecmwf": 16.7,
+      "regional": null,
+      "metar": null,
+      "best": 16.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T16:38:54.794734+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.4,
+      "ecmwf": 16.7,
+      "regional": null,
+      "metar": null,
+      "best": 16.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T20:42:10.860115+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.3,
+      "ecmwf": 16.1,
+      "regional": null,
+      "metar": null,
+      "best": 16.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T23:54:42.200199+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.1,
+      "ecmwf": 16.1,
+      "regional": null,
+      "metar": null,
+      "best": 16.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-25T18:21:40.701111+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 16.1,
+      "regional": null,
+      "metar": 18.0,
+      "best": 16.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-24T02:05:15.395784+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-07-24T03:07:04.688770+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-07-24T04:08:36.311998+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-07-24T05:10:17.401817+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-24T06:12:02.617309+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-24T07:13:32.812294+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.3
+    },
+    {
+      "ts": "2026-07-24T08:15:02.289013+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-24T09:16:42.993955+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-24T10:18:06.224813+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-24T11:19:48.166682+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-24T12:21:38.662500+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-07-24T13:23:21.533500+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-07-24T14:25:04.504228+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.41
+    },
+    {
+      "ts": "2026-07-24T14:54:42.655914+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.41
+    },
+    {
+      "ts": "2026-07-24T14:56:42.279584+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.41
+    },
+    {
+      "ts": "2026-07-24T15:17:45.327245+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.41
+    },
+    {
+      "ts": "2026-07-24T15:21:42.842038+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.41
+    },
+    {
+      "ts": "2026-07-24T16:38:54.794734+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.42
+    },
+    {
+      "ts": "2026-07-24T20:42:10.860115+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-07-24T23:54:42.200199+00:00",
+      "top_bucket": "17.0-17.0C",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-07-25T18:21:40.701111+00:00",
+      "top_bucket": "18.0-18.0C",
+      "top_price": 0.89
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Buenos Aires be 12°C or below on July 25?",
+      "market_id": "3074087",
+      "range": [
+        -999.0,
+        12.0
+      ],
+      "price": 0.0005,
+      "volume": 1298.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 13°C on July 25?",
+      "market_id": "3074088",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "price": 0.0005,
+      "volume": 776.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 14°C on July 25?",
+      "market_id": "3074089",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "price": 0.0005,
+      "volume": 1681.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 15°C on July 25?",
+      "market_id": "3074090",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "price": 0.0005,
+      "volume": 5393.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 16°C on July 25?",
+      "market_id": "3074091",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "price": 0.0005,
+      "volume": 4112.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 17°C on July 25?",
+      "market_id": "3074092",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "price": 0.0005,
+      "volume": 13117.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 18°C on July 25?",
+      "market_id": "3074093",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "price": 0.89,
+      "volume": 5000.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 19°C on July 25?",
+      "market_id": "3074094",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "price": 0.0695,
+      "volume": 3523.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 20°C on July 25?",
+      "market_id": "3074095",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "price": 0.0165,
+      "volume": 3452.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 21°C on July 25?",
+      "market_id": "3074096",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "price": 0.0055,
+      "volume": 3386.0
+    },
+    {
+      "question": "Will the highest temperature in Buenos Aires be 22°C or higher on July 25?",
+      "market_id": "3074097",
+      "range": [
+        22.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 1909.0
+    }
+  ],
+  "created_at": "2026-07-24T02:05:18.281339+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

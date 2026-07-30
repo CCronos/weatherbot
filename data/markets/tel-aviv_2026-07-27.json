@@ -1,0 +1,148 @@
+{
+  "city": "tel-aviv",
+  "city_name": "Tel Aviv",
+  "date": "2026-07-27",
+  "unit": "C",
+  "station": "LLBG",
+  "event_end_date": "2026-07-27T12:00:00Z",
+  "hours_at_discovery": 41.6,
+  "status": "open",
+  "position": null,
+  "actual_temp": 32.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-25T18:21:29.678938+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.6,
+      "ecmwf": 33.5,
+      "regional": null,
+      "metar": null,
+      "best": 33.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-25T18:21:29.678938+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.555
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Tel Aviv be 28°C or below on July 27?",
+      "market_id": "3096501",
+      "range": [
+        -999.0,
+        28.0
+      ],
+      "price": 0.002,
+      "volume": 95.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 29°C on July 27?",
+      "market_id": "3096502",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.0055,
+      "volume": 282.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 30°C on July 27?",
+      "market_id": "3096503",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.015,
+      "volume": 116.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 31°C on July 27?",
+      "market_id": "3096504",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "price": 0.12,
+      "volume": 647.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 32°C on July 27?",
+      "market_id": "3096505",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "price": 0.555,
+      "volume": 414.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 33°C on July 27?",
+      "market_id": "3096506",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.305,
+      "volume": 277.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 34°C on July 27?",
+      "market_id": "3096507",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "price": 0.035,
+      "volume": 181.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 35°C on July 27?",
+      "market_id": "3096508",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "price": 0.0095,
+      "volume": 42.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 36°C on July 27?",
+      "market_id": "3096509",
+      "range": [
+        36.0,
+        36.0
+      ],
+      "price": 0.006,
+      "volume": 203.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 37°C on July 27?",
+      "market_id": "3096510",
+      "range": [
+        37.0,
+        37.0
+      ],
+      "price": 0.0035,
+      "volume": 122.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 38°C or higher on July 27?",
+      "market_id": "3096511",
+      "range": [
+        38.0,
+        999.0
+      ],
+      "price": 0.003,
+      "volume": 302.0
+    }
+  ],
+  "created_at": "2026-07-25T18:21:32.896906+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

@@ -1,0 +1,346 @@
+{
+  "city": "london",
+  "city_name": "London",
+  "date": "2026-07-21",
+  "unit": "C",
+  "station": "EGLC",
+  "event_end_date": "2026-07-21T12:00:00Z",
+  "hours_at_discovery": 55.1,
+  "status": "resolved",
+  "position": {
+    "market_id": "2980696",
+    "question": "Will the highest temperature in London be 27°C on July 21?",
+    "bucket_low": 27.0,
+    "bucket_high": 27.0,
+    "entry_price": 0.09,
+    "bid_at_entry": 0.08,
+    "spread": 0.01,
+    "shares": 222.22,
+    "cost": 20.0,
+    "p": 0.3066,
+    "ev": 2.4067,
+    "kelly": 0.0605,
+    "forecast_temp": 26.6,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-19T17:28:24.290672+00:00",
+    "status": "closed",
+    "pnl": -4.44,
+    "exit_price": 0.07,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-19T18:25:24.241980+00:00"
+  },
+  "actual_temp": 22.0,
+  "resolved_outcome": "loss",
+  "pnl": -4.44,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-19T04:51:53.342837+00:00",
+      "horizon": "D+2",
+      "hours_left": 55.1,
+      "ecmwf": 25.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 25.0,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T05:53:28.465105+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.1,
+      "ecmwf": 25.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 25.0,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T06:55:01.190653+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.1,
+      "ecmwf": 25.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 25.0,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T13:51:35.147712+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.1,
+      "ecmwf": 26.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 26.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T14:55:00.398765+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.1,
+      "ecmwf": 26.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 26.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T15:16:39.108693+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.7,
+      "ecmwf": 26.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 26.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T15:22:25.588983+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.6,
+      "ecmwf": 26.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 26.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T15:24:07.885386+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.6,
+      "ecmwf": 26.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 26.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T16:25:52.333038+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.6,
+      "ecmwf": 26.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 26.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T17:28:24.290672+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.5,
+      "ecmwf": 26.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 26.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T18:02:24.042220+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.0,
+      "ecmwf": 26.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 26.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T18:04:23.951510+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.9,
+      "ecmwf": 26.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 26.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-19T04:51:53.342837+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-19T05:53:28.465105+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-19T06:55:01.190653+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-19T13:51:35.147712+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-19T14:55:00.398765+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-19T15:16:39.108693+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-19T15:22:25.588983+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-19T15:24:07.885386+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-19T16:25:52.333038+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-19T17:28:24.290672+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-19T18:02:24.042220+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-19T18:04:23.951510+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.345
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in London be 19°C or below on July 21?",
+      "market_id": "2980688",
+      "range": [
+        -999.0,
+        19.0
+      ],
+      "price": 0.002,
+      "volume": 801.0
+    },
+    {
+      "question": "Will the highest temperature in London be 20°C on July 21?",
+      "market_id": "2980689",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "price": 0.0045,
+      "volume": 641.0
+    },
+    {
+      "question": "Will the highest temperature in London be 21°C on July 21?",
+      "market_id": "2980690",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "price": 0.0065,
+      "volume": 347.0
+    },
+    {
+      "question": "Will the highest temperature in London be 22°C on July 21?",
+      "market_id": "2980691",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "price": 0.0515,
+      "volume": 1791.0
+    },
+    {
+      "question": "Will the highest temperature in London be 23°C on July 21?",
+      "market_id": "2980692",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "price": 0.115,
+      "volume": 1650.0
+    },
+    {
+      "question": "Will the highest temperature in London be 24°C on July 21?",
+      "market_id": "2980693",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "price": 0.25,
+      "volume": 500.0
+    },
+    {
+      "question": "Will the highest temperature in London be 25°C on July 21?",
+      "market_id": "2980694",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "price": 0.345,
+      "volume": 429.0
+    },
+    {
+      "question": "Will the highest temperature in London be 26°C on July 21?",
+      "market_id": "2980695",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "price": 0.175,
+      "volume": 481.0
+    },
+    {
+      "question": "Will the highest temperature in London be 27°C on July 21?",
+      "market_id": "2980696",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.085,
+      "volume": 527.0
+    },
+    {
+      "question": "Will the highest temperature in London be 28°C on July 21?",
+      "market_id": "2980697",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.0145,
+      "volume": 346.0
+    },
+    {
+      "question": "Will the highest temperature in London be 29°C or higher on July 21?",
+      "market_id": "2980698",
+      "range": [
+        29.0,
+        999.0
+      ],
+      "price": 0.0065,
+      "volume": 405.0
+    }
+  ],
+  "created_at": "2026-07-19T04:51:58.263074+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

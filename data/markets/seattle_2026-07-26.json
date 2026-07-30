@@ -1,0 +1,148 @@
+{
+  "city": "seattle",
+  "city_name": "Seattle",
+  "date": "2026-07-26",
+  "unit": "F",
+  "station": "KSEA",
+  "event_end_date": "2026-07-26T12:00:00Z",
+  "hours_at_discovery": 17.7,
+  "status": "open",
+  "position": null,
+  "actual_temp": 72.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-25T18:19:20.938817+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.7,
+      "ecmwf": 67,
+      "regional": 71,
+      "metar": null,
+      "best": 71,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-25T18:19:20.938817+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.355
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seattle be 63°F or below on July 26?",
+      "market_id": "3094779",
+      "range": [
+        -999.0,
+        63.0
+      ],
+      "price": 0.0025,
+      "volume": 284.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 64-65°F on July 26?",
+      "market_id": "3094780",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "price": 0.013,
+      "volume": 493.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 66-67°F on July 26?",
+      "market_id": "3094781",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "price": 0.06,
+      "volume": 519.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 68-69°F on July 26?",
+      "market_id": "3094782",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "price": 0.175,
+      "volume": 282.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 70-71°F on July 26?",
+      "market_id": "3094783",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "price": 0.355,
+      "volume": 693.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 72-73°F on July 26?",
+      "market_id": "3094784",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "price": 0.29,
+      "volume": 2252.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 74-75°F on July 26?",
+      "market_id": "3094785",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "price": 0.09,
+      "volume": 1557.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 76-77°F on July 26?",
+      "market_id": "3094786",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "price": 0.03,
+      "volume": 1294.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 78-79°F on July 26?",
+      "market_id": "3094787",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "price": 0.004,
+      "volume": 1479.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 80-81°F on July 26?",
+      "market_id": "3094788",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "price": 0.002,
+      "volume": 411.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be 82°F or higher on July 26?",
+      "market_id": "3094789",
+      "range": [
+        82.0,
+        999.0
+      ],
+      "price": 0.002,
+      "volume": 433.0
+    }
+  ],
+  "created_at": "2026-07-25T18:19:25.367262+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

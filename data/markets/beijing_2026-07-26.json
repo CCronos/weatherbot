@@ -1,0 +1,436 @@
+{
+  "city": "beijing",
+  "city_name": "Beijing",
+  "date": "2026-07-26",
+  "unit": "C",
+  "station": "ZBAA",
+  "event_end_date": "2026-07-26T12:00:00Z",
+  "hours_at_discovery": 55.9,
+  "status": "open",
+  "position": null,
+  "actual_temp": 34.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-24T04:08:46.084624+00:00",
+      "horizon": "D+2",
+      "hours_left": 55.9,
+      "ecmwf": 30.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T05:10:30.429689+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.8,
+      "ecmwf": 30.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T06:12:12.447736+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.8,
+      "ecmwf": 30.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T07:13:42.793132+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.8,
+      "ecmwf": 30.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T08:15:11.578116+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.7,
+      "ecmwf": 32.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 32.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T09:16:53.096142+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.7,
+      "ecmwf": 32.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 32.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T10:18:20.043325+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.7,
+      "ecmwf": 32.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 32.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T11:20:02.315478+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.7,
+      "ecmwf": 32.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 32.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T12:21:49.138741+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.6,
+      "ecmwf": 32.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 32.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T13:23:30.349701+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.6,
+      "ecmwf": 32.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 32.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:25:17.280520+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.6,
+      "ecmwf": 32.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 32.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:54:52.038674+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.1,
+      "ecmwf": 32.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 32.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:56:51.168726+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.1,
+      "ecmwf": 32.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 32.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:17:23.964187+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.7,
+      "ecmwf": 32.4,
+      "regional": 31.2,
+      "metar": null,
+      "best": 31.2,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:21:21.410229+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.6,
+      "ecmwf": 32.4,
+      "regional": 31.2,
+      "metar": null,
+      "best": 31.2,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T16:38:31.526908+00:00",
+      "horizon": "D+1",
+      "hours_left": 43.4,
+      "ecmwf": 32.4,
+      "regional": 29.8,
+      "metar": null,
+      "best": 29.8,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T20:41:43.540654+00:00",
+      "horizon": "D+1",
+      "hours_left": 39.3,
+      "ecmwf": 32.1,
+      "regional": 29.8,
+      "metar": null,
+      "best": 29.8,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T23:54:14.920878+00:00",
+      "horizon": "D+1",
+      "hours_left": 36.1,
+      "ecmwf": 32.1,
+      "regional": 30.6,
+      "metar": null,
+      "best": 30.6,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-25T18:21:12.393568+00:00",
+      "horizon": "D+0",
+      "hours_left": 17.6,
+      "ecmwf": 32.6,
+      "regional": 31.9,
+      "metar": 26.0,
+      "best": 31.9,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-24T04:08:46.084624+00:00",
+      "top_bucket": "-999.0-26.0C",
+      "top_price": 0.5
+    },
+    {
+      "ts": "2026-07-24T05:10:30.429689+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.3
+    },
+    {
+      "ts": "2026-07-24T06:12:12.447736+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.3
+    },
+    {
+      "ts": "2026-07-24T07:13:42.793132+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-24T08:15:11.578116+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-07-24T09:16:53.096142+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.28
+    },
+    {
+      "ts": "2026-07-24T10:18:20.043325+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-24T11:20:02.315478+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.28
+    },
+    {
+      "ts": "2026-07-24T12:21:49.138741+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-07-24T13:23:30.349701+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-07-24T14:25:17.280520+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-07-24T14:54:52.038674+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-07-24T14:56:51.168726+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-07-24T15:17:23.964187+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-07-24T15:21:21.410229+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-07-24T16:38:31.526908+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-24T20:41:43.540654+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-24T23:54:14.920878+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.3
+    },
+    {
+      "ts": "2026-07-25T18:21:12.393568+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.385
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Beijing be 26°C or below on July 26?",
+      "market_id": "3076722",
+      "range": [
+        -999.0,
+        26.0
+      ],
+      "price": 0.0005,
+      "volume": 3118.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 27°C on July 26?",
+      "market_id": "3076723",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.0005,
+      "volume": 1530.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 28°C on July 26?",
+      "market_id": "3076724",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.0005,
+      "volume": 3692.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 29°C on July 26?",
+      "market_id": "3076725",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.0045,
+      "volume": 3206.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 30°C on July 26?",
+      "market_id": "3076726",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.03,
+      "volume": 1789.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 31°C on July 26?",
+      "market_id": "3076727",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "price": 0.095,
+      "volume": 1121.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 32°C on July 26?",
+      "market_id": "3076728",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "price": 0.29,
+      "volume": 1291.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 33°C on July 26?",
+      "market_id": "3076729",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.385,
+      "volume": 1577.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 34°C on July 26?",
+      "market_id": "3076730",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "price": 0.195,
+      "volume": 2550.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 35°C on July 26?",
+      "market_id": "3076731",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "price": 0.025,
+      "volume": 1643.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 36°C or higher on July 26?",
+      "market_id": "3076732",
+      "range": [
+        36.0,
+        999.0
+      ],
+      "price": 0.0085,
+      "volume": 775.0
+    }
+  ],
+  "created_at": "2026-07-24T04:08:49.750979+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

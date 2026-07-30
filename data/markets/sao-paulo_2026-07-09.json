@@ -1,0 +1,444 @@
+{
+  "city": "sao-paulo",
+  "city_name": "Sao Paulo",
+  "date": "2026-07-09",
+  "unit": "C",
+  "station": "SBGR",
+  "event_end_date": "2026-07-09T12:00:00Z",
+  "hours_at_discovery": 14.3,
+  "status": "closed",
+  "position": {
+    "market_id": "2840209",
+    "question": "Will the highest temperature in Sao Paulo be 22°C on July 9?",
+    "bucket_low": 22.0,
+    "bucket_high": 22.0,
+    "entry_price": 0.31,
+    "bid_at_entry": 0.3,
+    "spread": 0.01,
+    "shares": 64.52,
+    "cost": 20.0,
+    "p": 1.0,
+    "ev": 2.2258,
+    "kelly": 0.25,
+    "forecast_temp": 22.3,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-08T21:39:57.853104+00:00",
+    "status": "closed",
+    "pnl": 0.0,
+    "exit_price": 0.31,
+    "close_reason": "trailing_stop",
+    "closed_at": "2026-07-09T16:38:16.482996+00:00",
+    "stop_price": 0.31,
+    "trailing_activated": true
+  },
+  "actual_temp": 22.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-08T21:39:57.853104+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.3,
+      "ecmwf": 22.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:08:01.566694+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.9,
+      "ecmwf": 22.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:29:34.808579+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.5,
+      "ecmwf": 22.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:41:46.824102+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.3,
+      "ecmwf": 22.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:05:11.631651+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 22.3,
+      "hrrr": null,
+      "metar": 14.0,
+      "best": 22.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:07:06.352036+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 22.3,
+      "hrrr": null,
+      "metar": 14.0,
+      "best": 22.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:23:29.155323+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.6,
+      "ecmwf": 22.1,
+      "hrrr": null,
+      "metar": 14.0,
+      "best": 22.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T02:12:25.438771+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.8,
+      "ecmwf": 22.1,
+      "hrrr": null,
+      "metar": 14.0,
+      "best": 22.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T02:29:36.642315+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.5,
+      "ecmwf": 22.1,
+      "hrrr": null,
+      "metar": 14.0,
+      "best": 22.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T03:15:41.683952+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.7,
+      "ecmwf": 22.1,
+      "hrrr": null,
+      "metar": 13.0,
+      "best": 22.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T03:32:34.389756+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.5,
+      "ecmwf": 22.1,
+      "hrrr": null,
+      "metar": 13.0,
+      "best": 22.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T16:27:15.131648+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 22.9,
+      "hrrr": null,
+      "metar": 19.0,
+      "best": 22.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T16:29:30.741243+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 22.9,
+      "hrrr": null,
+      "metar": 19.0,
+      "best": 22.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T18:23:31.846332+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 22.9,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 22.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T18:23:33.251059+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 22.9,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 22.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T19:01:32.012746+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 22.9,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 22.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T20:04:09.125003+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 22.4,
+      "hrrr": null,
+      "metar": 21.0,
+      "best": 22.4,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-08T21:39:57.853104+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-07-08T22:08:01.566694+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-07-08T22:29:34.808579+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-07-08T22:41:46.824102+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-07-09T01:05:11.631651+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-07-09T01:07:06.352036+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-07-09T01:23:29.155323+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-07-09T02:12:25.438771+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-07-09T02:29:36.642315+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-07-09T03:15:41.683952+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-07-09T03:32:34.389756+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-07-09T16:27:15.131648+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.425
+    },
+    {
+      "ts": "2026-07-09T16:29:30.741243+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.47
+    },
+    {
+      "ts": "2026-07-09T18:23:31.846332+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.755
+    },
+    {
+      "ts": "2026-07-09T18:23:33.251059+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.755
+    },
+    {
+      "ts": "2026-07-09T19:01:32.012746+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.79
+    },
+    {
+      "ts": "2026-07-09T20:04:09.125003+00:00",
+      "top_bucket": "22.0-22.0C",
+      "top_price": 0.9855
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Sao Paulo be 16°C or below on July 9?",
+      "market_id": "2840203",
+      "range": [
+        -999.0,
+        16.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2602.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 17°C on July 9?",
+      "market_id": "2840204",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1802.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 18°C on July 9?",
+      "market_id": "2840205",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 7929.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 19°C on July 9?",
+      "market_id": "2840206",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 8220.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 20°C on July 9?",
+      "market_id": "2840207",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 6557.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 21°C on July 9?",
+      "market_id": "2840208",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 4077.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 22°C on July 9?",
+      "market_id": "2840209",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.9855,
+      "ask": 0.0145,
+      "price": 0.9855,
+      "spread": -0.971,
+      "volume": 6552.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 23°C on July 9?",
+      "market_id": "2840210",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 4395.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 24°C on July 9?",
+      "market_id": "2840211",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.002,
+      "ask": 0.998,
+      "price": 0.002,
+      "spread": 0.996,
+      "volume": 4760.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 25°C on July 9?",
+      "market_id": "2840212",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 1600.0
+    },
+    {
+      "question": "Will the highest temperature in Sao Paulo be 26°C or higher on July 9?",
+      "market_id": "2840213",
+      "range": [
+        26.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 893.0
+    }
+  ],
+  "created_at": "2026-07-08T21:40:00.742393+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

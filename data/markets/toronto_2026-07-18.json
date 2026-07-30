@@ -1,0 +1,330 @@
+{
+  "city": "toronto",
+  "city_name": "Toronto",
+  "date": "2026-07-18",
+  "unit": "C",
+  "station": "CYYZ",
+  "event_end_date": "2026-07-18T12:00:00Z",
+  "hours_at_discovery": 33.9,
+  "status": "resolved",
+  "position": {
+    "market_id": "2954163",
+    "question": "Will the highest temperature in Toronto be 27°C on July 18?",
+    "bucket_low": 27.0,
+    "bucket_high": 27.0,
+    "entry_price": 0.19,
+    "bid_at_entry": 0.16,
+    "spread": 0.03,
+    "shares": 105.26,
+    "cost": 20.0,
+    "p": 0.3189,
+    "ev": 0.6784,
+    "kelly": 0.0436,
+    "forecast_temp": 27.2,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-17T07:11:30.407688+00:00",
+    "status": "closed",
+    "pnl": -8.42,
+    "exit_price": 0.11,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-17T12:28:53.831766+00:00"
+  },
+  "actual_temp": 28.0,
+  "resolved_outcome": "loss",
+  "pnl": -8.42,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-17T02:03:50.646788+00:00",
+      "horizon": "D+2",
+      "hours_left": 33.9,
+      "ecmwf": 27.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 27.2,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T03:05:10.879211+00:00",
+      "horizon": "D+2",
+      "hours_left": 32.9,
+      "ecmwf": 27.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 27.2,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T04:07:01.565184+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.9,
+      "ecmwf": 27.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 27.2,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T05:08:21.099608+00:00",
+      "horizon": "D+1",
+      "hours_left": 30.9,
+      "ecmwf": 27.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 27.2,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T06:09:52.012394+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.8,
+      "ecmwf": 27.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 27.2,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T07:11:30.407688+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.8,
+      "ecmwf": 27.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 27.2,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T08:12:54.183345+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.8,
+      "ecmwf": 27.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 27.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T09:14:12.176367+00:00",
+      "horizon": "D+1",
+      "hours_left": 26.8,
+      "ecmwf": 27.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 27.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T10:15:37.011039+00:00",
+      "horizon": "D+1",
+      "hours_left": 25.7,
+      "ecmwf": 27.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 27.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T11:16:58.177461+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.7,
+      "ecmwf": 27.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 27.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T12:18:25.669329+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.7,
+      "ecmwf": 27.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 27.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-17T02:03:50.646788+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.27
+    },
+    {
+      "ts": "2026-07-17T03:05:10.879211+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-07-17T04:07:01.565184+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.32
+    },
+    {
+      "ts": "2026-07-17T05:08:21.099608+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-07-17T06:09:52.012394+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-07-17T07:11:30.407688+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-17T08:12:54.183345+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-17T09:14:12.176367+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-17T10:15:37.011039+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-17T11:16:58.177461+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-07-17T12:18:25.669329+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.33
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Toronto be 24°C or below on July 18?",
+      "market_id": "2954160",
+      "range": [
+        -999.0,
+        24.0
+      ],
+      "price": 0.0085,
+      "volume": 388.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 25°C on July 18?",
+      "market_id": "2954161",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "price": 0.0165,
+      "volume": 403.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 26°C on July 18?",
+      "market_id": "2954162",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "price": 0.045,
+      "volume": 662.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 27°C on July 18?",
+      "market_id": "2954163",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.165,
+      "volume": 556.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 28°C on July 18?",
+      "market_id": "2954164",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.33,
+      "volume": 4587.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 29°C on July 18?",
+      "market_id": "2954165",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.255,
+      "volume": 813.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 30°C on July 18?",
+      "market_id": "2954166",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.145,
+      "volume": 1284.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 31°C on July 18?",
+      "market_id": "2954167",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "price": 0.034,
+      "volume": 446.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 32°C on July 18?",
+      "market_id": "2954168",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "price": 0.006,
+      "volume": 220.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 33°C on July 18?",
+      "market_id": "2954169",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.0025,
+      "volume": 288.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 34°C or higher on July 18?",
+      "market_id": "2954170",
+      "range": [
+        34.0,
+        999.0
+      ],
+      "price": 0.0015,
+      "volume": 417.0
+    }
+  ],
+  "created_at": "2026-07-17T02:03:52.978293+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

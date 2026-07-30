@@ -1,0 +1,148 @@
+{
+  "city": "nyc",
+  "city_name": "New York City",
+  "date": "2026-07-26",
+  "unit": "F",
+  "station": "KLGA",
+  "event_end_date": "2026-07-26T12:00:00Z",
+  "hours_at_discovery": 17.7,
+  "status": "open",
+  "position": null,
+  "actual_temp": 82.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-25T18:18:49.394697+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.7,
+      "ecmwf": 86,
+      "regional": 84,
+      "metar": null,
+      "best": 84,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-25T18:18:49.394697+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.415
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in New York City be 77°F or below on July 26?",
+      "market_id": "3094790",
+      "range": [
+        -999.0,
+        77.0
+      ],
+      "price": 0.004,
+      "volume": 821.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 78-79°F on July 26?",
+      "market_id": "3094791",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "price": 0.025,
+      "volume": 366.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 80-81°F on July 26?",
+      "market_id": "3094792",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "price": 0.05,
+      "volume": 832.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 82-83°F on July 26?",
+      "market_id": "3094793",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "price": 0.355,
+      "volume": 3421.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 84-85°F on July 26?",
+      "market_id": "3094794",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "price": 0.415,
+      "volume": 1219.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 86-87°F on July 26?",
+      "market_id": "3094795",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "price": 0.175,
+      "volume": 489.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 88-89°F on July 26?",
+      "market_id": "3094796",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "price": 0.04,
+      "volume": 415.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 90-91°F on July 26?",
+      "market_id": "3094797",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "price": 0.0015,
+      "volume": 208.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 92-93°F on July 26?",
+      "market_id": "3094798",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "price": 0.0025,
+      "volume": 173.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 94-95°F on July 26?",
+      "market_id": "3094799",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "price": 0.002,
+      "volume": 227.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be 96°F or higher on July 26?",
+      "market_id": "3094800",
+      "range": [
+        96.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 295.0
+    }
+  ],
+  "created_at": "2026-07-25T18:18:54.796029+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

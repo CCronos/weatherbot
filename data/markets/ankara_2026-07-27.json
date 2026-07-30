@@ -1,0 +1,148 @@
+{
+  "city": "ankara",
+  "city_name": "Ankara",
+  "date": "2026-07-27",
+  "unit": "C",
+  "station": "LTAC",
+  "event_end_date": "2026-07-27T12:00:00Z",
+  "hours_at_discovery": 41.7,
+  "status": "open",
+  "position": null,
+  "actual_temp": 28.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-25T18:20:17.458440+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.7,
+      "ecmwf": 26.3,
+      "regional": 25.4,
+      "metar": null,
+      "best": 25.4,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-25T18:20:17.458440+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.375
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Ankara be 21°C or below on July 27?",
+      "market_id": "3096468",
+      "range": [
+        -999.0,
+        21.0
+      ],
+      "price": 0.0015,
+      "volume": 299.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 22°C on July 27?",
+      "market_id": "3096469",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "price": 0.002,
+      "volume": 283.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 23°C on July 27?",
+      "market_id": "3096470",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "price": 0.0025,
+      "volume": 306.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 24°C on July 27?",
+      "market_id": "3096471",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "price": 0.0055,
+      "volume": 477.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 25°C on July 27?",
+      "market_id": "3096472",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "price": 0.025,
+      "volume": 364.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 26°C on July 27?",
+      "market_id": "3096473",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "price": 0.145,
+      "volume": 959.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 27°C on July 27?",
+      "market_id": "3096474",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.285,
+      "volume": 7566.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 28°C on July 27?",
+      "market_id": "3096475",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.375,
+      "volume": 642.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 29°C on July 27?",
+      "market_id": "3096476",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.16,
+      "volume": 1090.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 30°C on July 27?",
+      "market_id": "3096477",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.02,
+      "volume": 367.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 31°C or higher on July 27?",
+      "market_id": "3096478",
+      "range": [
+        31.0,
+        999.0
+      ],
+      "price": 0.015,
+      "volume": 55.0
+    }
+  ],
+  "created_at": "2026-07-25T18:20:29.189713+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

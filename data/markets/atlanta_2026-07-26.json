@@ -1,0 +1,148 @@
+{
+  "city": "atlanta",
+  "city_name": "Atlanta",
+  "date": "2026-07-26",
+  "unit": "F",
+  "station": "KATL",
+  "event_end_date": "2026-07-26T12:00:00Z",
+  "hours_at_discovery": 17.7,
+  "status": "open",
+  "position": null,
+  "actual_temp": 91.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-25T18:19:26.603953+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.7,
+      "ecmwf": 87,
+      "regional": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-25T18:19:26.603953+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.405
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Atlanta be 79°F or below on July 26?",
+      "market_id": "3094812",
+      "range": [
+        -999.0,
+        79.0
+      ],
+      "price": 0.0005,
+      "volume": 195.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 80-81°F on July 26?",
+      "market_id": "3094813",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "price": 0.0005,
+      "volume": 344.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 82-83°F on July 26?",
+      "market_id": "3094814",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "price": 0.004,
+      "volume": 289.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 84-85°F on July 26?",
+      "market_id": "3094815",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "price": 0.015,
+      "volume": 565.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 86-87°F on July 26?",
+      "market_id": "3094816",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "price": 0.035,
+      "volume": 499.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 88-89°F on July 26?",
+      "market_id": "3094817",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "price": 0.21,
+      "volume": 682.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 90-91°F on July 26?",
+      "market_id": "3094818",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "price": 0.405,
+      "volume": 1485.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 92-93°F on July 26?",
+      "market_id": "3094819",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "price": 0.32,
+      "volume": 938.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 94-95°F on July 26?",
+      "market_id": "3094820",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "price": 0.035,
+      "volume": 307.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be between 96-97°F on July 26?",
+      "market_id": "3094821",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "price": 0.004,
+      "volume": 4667.0
+    },
+    {
+      "question": "Will the highest temperature in Atlanta be 98°F or higher on July 26?",
+      "market_id": "3094822",
+      "range": [
+        98.0,
+        999.0
+      ],
+      "price": 0.003,
+      "volume": 288.0
+    }
+  ],
+  "created_at": "2026-07-25T18:19:30.772657+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

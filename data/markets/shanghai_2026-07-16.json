@@ -1,0 +1,169 @@
+{
+  "city": "shanghai",
+  "city_name": "Shanghai",
+  "date": "2026-07-16",
+  "unit": "C",
+  "station": "ZSPD",
+  "event_end_date": "2026-07-16T12:00:00Z",
+  "hours_at_discovery": 12.4,
+  "status": "resolved",
+  "position": {
+    "market_id": "2917069",
+    "question": "Will the highest temperature in Shanghai be 36°C on July 16?",
+    "bucket_low": 36.0,
+    "bucket_high": 36.0,
+    "entry_price": 0.085,
+    "bid_at_entry": 0.06,
+    "spread": 0.025,
+    "shares": 235.29,
+    "cost": 20.0,
+    "p": 0.3189,
+    "ev": 2.7518,
+    "kelly": 0.066,
+    "forecast_temp": 36.2,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-15T23:37:36.558532+00:00",
+    "status": "closed",
+    "pnl": -5.88,
+    "exit_price": 0.06,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-15T23:48:40.371530+00:00"
+  },
+  "actual_temp": 38.0,
+  "resolved_outcome": "loss",
+  "pnl": -5.88,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-15T23:37:36.558532+00:00",
+      "horizon": "D+0",
+      "hours_left": 12.4,
+      "ecmwf": 36.2,
+      "hrrr": null,
+      "metar": 34.0,
+      "best": 36.2,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-15T23:37:36.558532+00:00",
+      "top_bucket": "38.0-38.0C",
+      "top_price": 0.515
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Shanghai be 32°C or below on July 16?",
+      "market_id": "2917065",
+      "range": [
+        -999.0,
+        32.0
+      ],
+      "price": 0.0005,
+      "volume": 2163.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 33°C on July 16?",
+      "market_id": "2917066",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.0005,
+      "volume": 1849.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 34°C on July 16?",
+      "market_id": "2917067",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "price": 0.0005,
+      "volume": 4187.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 35°C on July 16?",
+      "market_id": "2917068",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "price": 0.004,
+      "volume": 3566.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 36°C on July 16?",
+      "market_id": "2917069",
+      "range": [
+        36.0,
+        36.0
+      ],
+      "price": 0.0745,
+      "volume": 4822.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 37°C on July 16?",
+      "market_id": "2917070",
+      "range": [
+        37.0,
+        37.0
+      ],
+      "price": 0.215,
+      "volume": 9204.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 38°C on July 16?",
+      "market_id": "2917071",
+      "range": [
+        38.0,
+        38.0
+      ],
+      "price": 0.515,
+      "volume": 6035.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 39°C on July 16?",
+      "market_id": "2917072",
+      "range": [
+        39.0,
+        39.0
+      ],
+      "price": 0.203,
+      "volume": 5630.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 40°C on July 16?",
+      "market_id": "2917073",
+      "range": [
+        40.0,
+        40.0
+      ],
+      "price": 0.0205,
+      "volume": 3241.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 41°C on July 16?",
+      "market_id": "2917074",
+      "range": [
+        41.0,
+        41.0
+      ],
+      "price": 0.002,
+      "volume": 1331.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 42°C or higher on July 16?",
+      "market_id": "2917075",
+      "range": [
+        42.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 1747.0
+    }
+  ],
+  "created_at": "2026-07-15T23:37:38.373824+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

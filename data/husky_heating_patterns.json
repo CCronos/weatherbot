@@ -1,0 +1,1802 @@
+[
+ {
+  "code": "EHAM",
+  "name": "Amsterdam",
+  "typical_max": 14.91,
+  "heating_rate": 1.51,
+  "high_time": "14:00",
+  "h10": {
+   "samples": 2503,
+   "avg_remaining_heat_c": 2.56,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 4.0,
+   "chance_new_high_after_hour_pct": 89.8
+  },
+  "h12": {
+   "samples": 2504,
+   "avg_remaining_heat_c": 1.35,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 73.3
+  },
+  "h15": {
+   "samples": 2505,
+   "avg_remaining_heat_c": 0.39,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 29.2
+  },
+  "h18": {
+   "samples": 2502,
+   "avg_remaining_heat_c": 0.25,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 18.4
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "LTAC",
+  "name": "Ankara",
+  "typical_max": 18.28,
+  "heating_rate": 2.63,
+  "high_time": "15:00",
+  "h10": {
+   "samples": 2545,
+   "avg_remaining_heat_c": 4.98,
+   "p25_remaining_heat_c": 3.0,
+   "p75_remaining_heat_c": 6.0,
+   "chance_new_high_after_hour_pct": 95.6
+  },
+  "h12": {
+   "samples": 2567,
+   "avg_remaining_heat_c": 2.28,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 89.9
+  },
+  "h15": {
+   "samples": 2597,
+   "avg_remaining_heat_c": 0.43,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 33.6
+  },
+  "h18": {
+   "samples": 2565,
+   "avg_remaining_heat_c": 0.06,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 5.7
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "KATL",
+  "name": "Atlanta",
+  "typical_max": 23.72,
+  "heating_rate": 2.19,
+  "high_time": "15:00",
+  "h10": {
+   "samples": 16431,
+   "avg_remaining_heat_c": 5.32,
+   "p25_remaining_heat_c": 4.0,
+   "p75_remaining_heat_c": 7.0,
+   "chance_new_high_after_hour_pct": 97.9
+  },
+  "h12": {
+   "samples": 16315,
+   "avg_remaining_heat_c": 2.76,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 4.0,
+   "chance_new_high_after_hour_pct": 93.6
+  },
+  "h15": {
+   "samples": 16300,
+   "avg_remaining_heat_c": 0.72,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 54.3
+  },
+  "h18": {
+   "samples": 16209,
+   "avg_remaining_heat_c": 0.14,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 13.0
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "KAUS",
+  "name": "Austin",
+  "typical_max": 27.95,
+  "heating_rate": 2.69,
+  "high_time": "15:00",
+  "h10": {
+   "samples": 16282,
+   "avg_remaining_heat_c": 5.91,
+   "p25_remaining_heat_c": 5.0,
+   "p75_remaining_heat_c": 7.0,
+   "chance_new_high_after_hour_pct": 98.9
+  },
+  "h12": {
+   "samples": 16230,
+   "avg_remaining_heat_c": 3.07,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 4.0,
+   "chance_new_high_after_hour_pct": 96.4
+  },
+  "h15": {
+   "samples": 16219,
+   "avg_remaining_heat_c": 0.72,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 54.2
+  },
+  "h18": {
+   "samples": 16088,
+   "avg_remaining_heat_c": 0.17,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 13.4
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "ZBAA",
+  "name": "Beijing",
+  "typical_max": 19.51,
+  "heating_rate": 2.83,
+  "high_time": "14:00",
+  "h10": {
+   "samples": 2516,
+   "avg_remaining_heat_c": 4.08,
+   "p25_remaining_heat_c": 3.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 93.8
+  },
+  "h12": {
+   "samples": 2536,
+   "avg_remaining_heat_c": 1.92,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 86.8
+  },
+  "h15": {
+   "samples": 2552,
+   "avg_remaining_heat_c": 0.25,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 20.4
+  },
+  "h18": {
+   "samples": 2533,
+   "avg_remaining_heat_c": 0.24,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 13.5
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "SAEZ",
+  "name": "Buenos Aires",
+  "typical_max": 23.47,
+  "heating_rate": 2.67,
+  "high_time": "15:00",
+  "h10": {
+   "samples": 1380,
+   "avg_remaining_heat_c": 4.64,
+   "p25_remaining_heat_c": 3.0,
+   "p75_remaining_heat_c": 6.0,
+   "chance_new_high_after_hour_pct": 97.5
+  },
+  "h12": {
+   "samples": 1338,
+   "avg_remaining_heat_c": 2.09,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 89.2
+  },
+  "h15": {
+   "samples": 1325,
+   "avg_remaining_heat_c": 0.36,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 27.9
+  },
+  "h18": {
+   "samples": 1305,
+   "avg_remaining_heat_c": 0.06,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 5.1
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "RKPK",
+  "name": "Busan",
+  "typical_max": 19.34,
+  "heating_rate": 2.21,
+  "high_time": "14:00",
+  "h10": {
+   "samples": 1415,
+   "avg_remaining_heat_c": 3.3,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 91.7
+  },
+  "h12": {
+   "samples": 1451,
+   "avg_remaining_heat_c": 1.27,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 69.5
+  },
+  "h15": {
+   "samples": 1426,
+   "avg_remaining_heat_c": 0.18,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 14.6
+  },
+  "h18": {
+   "samples": 1455,
+   "avg_remaining_heat_c": 0.07,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 5.8
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "FACT",
+  "name": "Cape Town",
+  "typical_max": 22.29,
+  "heating_rate": 2.24,
+  "high_time": "13:00",
+  "h10": {
+   "samples": 2075,
+   "avg_remaining_heat_c": 3.41,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 96.6
+  },
+  "h12": {
+   "samples": 1662,
+   "avg_remaining_heat_c": 1.14,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 69.2
+  },
+  "h15": {
+   "samples": 1624,
+   "avg_remaining_heat_c": 0.16,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 13.7
+  },
+  "h18": {
+   "samples": 1899,
+   "avg_remaining_heat_c": 0.15,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 12.8
+  },
+  "n_days": 1234
+ },
+ {
+  "code": "ZUUU",
+  "name": "Chengdu",
+  "typical_max": 22.83,
+  "heating_rate": 1.86,
+  "high_time": "15:00",
+  "h10": {
+   "samples": 1255,
+   "avg_remaining_heat_c": 4.29,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 6.0,
+   "chance_new_high_after_hour_pct": 96.1
+  },
+  "h12": {
+   "samples": 1254,
+   "avg_remaining_heat_c": 2.19,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 87.5
+  },
+  "h15": {
+   "samples": 1255,
+   "avg_remaining_heat_c": 0.42,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 32.9
+  },
+  "h18": {
+   "samples": 1255,
+   "avg_remaining_heat_c": 0.03,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 2.5
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "KORD",
+  "name": "Chicago",
+  "typical_max": 16.17,
+  "heating_rate": 1.97,
+  "high_time": "14:00",
+  "h10": {
+   "samples": 16301,
+   "avg_remaining_heat_c": 3.42,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 91.8
+  },
+  "h12": {
+   "samples": 16345,
+   "avg_remaining_heat_c": 1.71,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 78.8
+  },
+  "h15": {
+   "samples": 16247,
+   "avg_remaining_heat_c": 0.5,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 36.9
+  },
+  "h18": {
+   "samples": 16264,
+   "avg_remaining_heat_c": 0.21,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 15.3
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "ZUCK",
+  "name": "Chongqing",
+  "typical_max": 22.65,
+  "heating_rate": 1.59,
+  "high_time": "15:00",
+  "h10": {
+   "samples": 1255,
+   "avg_remaining_heat_c": 3.57,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 92.4
+  },
+  "h12": {
+   "samples": 1254,
+   "avg_remaining_heat_c": 1.88,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 81.1
+  },
+  "h15": {
+   "samples": 1255,
+   "avg_remaining_heat_c": 0.33,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 27.0
+  },
+  "h18": {
+   "samples": 1255,
+   "avg_remaining_heat_c": 0.04,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 3.1
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "KDAL",
+  "name": "Dallas",
+  "typical_max": 26.05,
+  "heating_rate": 2.16,
+  "high_time": "15:00",
+  "h10": {
+   "samples": 16306,
+   "avg_remaining_heat_c": 5.5,
+   "p25_remaining_heat_c": 4.0,
+   "p75_remaining_heat_c": 7.0,
+   "chance_new_high_after_hour_pct": 97.4
+  },
+  "h12": {
+   "samples": 16275,
+   "avg_remaining_heat_c": 2.93,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 4.0,
+   "chance_new_high_after_hour_pct": 95.0
+  },
+  "h15": {
+   "samples": 16262,
+   "avg_remaining_heat_c": 0.68,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 52.6
+  },
+  "h18": {
+   "samples": 16261,
+   "avg_remaining_heat_c": 0.14,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 12.3
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "KBKF",
+  "name": "Denver",
+  "typical_max": 18.52,
+  "heating_rate": 3.29,
+  "high_time": "13:00",
+  "h10": {
+   "samples": 1322,
+   "avg_remaining_heat_c": 3.71,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 92.1
+  },
+  "h12": {
+   "samples": 1322,
+   "avg_remaining_heat_c": 1.44,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 69.0
+  },
+  "h15": {
+   "samples": 1460,
+   "avg_remaining_heat_c": 0.35,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 18.6
+  },
+  "h18": {
+   "samples": 1482,
+   "avg_remaining_heat_c": 0.2,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 12.1
+  },
+  "n_days": 1254
+ },
+ {
+  "code": "ZGGG",
+  "name": "Guangzhou",
+  "typical_max": 28.27,
+  "heating_rate": 1.79,
+  "high_time": "14:00",
+  "h10": {
+   "samples": 2572,
+   "avg_remaining_heat_c": 3.47,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 93.7
+  },
+  "h12": {
+   "samples": 2590,
+   "avg_remaining_heat_c": 1.7,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 81.6
+  },
+  "h15": {
+   "samples": 2631,
+   "avg_remaining_heat_c": 0.39,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 29.9
+  },
+  "h18": {
+   "samples": 2571,
+   "avg_remaining_heat_c": 0.07,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 5.9
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "EFHK",
+  "name": "Helsinki",
+  "typical_max": 9.88,
+  "heating_rate": 1.77,
+  "high_time": "14:00",
+  "h10": {
+   "samples": 2510,
+   "avg_remaining_heat_c": 2.55,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 4.0,
+   "chance_new_high_after_hour_pct": 83.7
+  },
+  "h12": {
+   "samples": 2510,
+   "avg_remaining_heat_c": 1.36,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 70.7
+  },
+  "h15": {
+   "samples": 2509,
+   "avg_remaining_heat_c": 0.5,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 34.3
+  },
+  "h18": {
+   "samples": 2509,
+   "avg_remaining_heat_c": 0.25,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 18.2
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "VHHH",
+  "name": "Hong Kong",
+  "typical_max": 27.48,
+  "heating_rate": 1.21,
+  "high_time": "13:00",
+  "h10": {
+   "samples": 2776,
+   "avg_remaining_heat_c": 2.07,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 91.1
+  },
+  "h12": {
+   "samples": 2793,
+   "avg_remaining_heat_c": 1.18,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 73.8
+  },
+  "h15": {
+   "samples": 2749,
+   "avg_remaining_heat_c": 0.38,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 31.5
+  },
+  "h18": {
+   "samples": 2680,
+   "avg_remaining_heat_c": 0.17,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 14.6
+  },
+  "n_days": 1280
+ },
+ {
+  "code": "KHOU",
+  "name": "Houston",
+  "typical_max": 27.76,
+  "heating_rate": 2.08,
+  "high_time": "14:00",
+  "h10": {
+   "samples": 16000,
+   "avg_remaining_heat_c": 3.94,
+   "p25_remaining_heat_c": 3.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 97.9
+  },
+  "h12": {
+   "samples": 15892,
+   "avg_remaining_heat_c": 1.98,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 89.7
+  },
+  "h15": {
+   "samples": 15869,
+   "avg_remaining_heat_c": 0.54,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 40.2
+  },
+  "h18": {
+   "samples": 15869,
+   "avg_remaining_heat_c": 0.13,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 10.7
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "LTMF",
+  "name": "Istanbul",
+  "typical_max": 18.25,
+  "heating_rate": 1.42,
+  "high_time": "12:00",
+  "h10": {
+   "samples": 2508,
+   "avg_remaining_heat_c": 1.95,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 86.9
+  },
+  "h12": {
+   "samples": 2509,
+   "avg_remaining_heat_c": 0.96,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 64.6
+  },
+  "h15": {
+   "samples": 2509,
+   "avg_remaining_heat_c": 0.29,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 23.9
+  },
+  "h18": {
+   "samples": 2507,
+   "avg_remaining_heat_c": 0.15,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 12.8
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "WIHH",
+  "name": "Jakarta",
+  "typical_max": 32.94,
+  "heating_rate": 2.05,
+  "high_time": "12:00",
+  "h10": {
+   "samples": 2279,
+   "avg_remaining_heat_c": 2.21,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 94.6
+  },
+  "h12": {
+   "samples": 2300,
+   "avg_remaining_heat_c": 0.84,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 57.0
+  },
+  "h15": {
+   "samples": 2224,
+   "avg_remaining_heat_c": 0.26,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 17.4
+  },
+  "h18": {
+   "samples": 2203,
+   "avg_remaining_heat_c": 0.14,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 10.3
+  },
+  "n_days": 1235
+ },
+ {
+  "code": "OEJN",
+  "name": "Jeddah",
+  "typical_max": 34.82,
+  "heating_rate": 2.34,
+  "high_time": "12:00",
+  "h10": {
+   "samples": 1266,
+   "avg_remaining_heat_c": 2.86,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 4.0,
+   "chance_new_high_after_hour_pct": 96.4
+  },
+  "h12": {
+   "samples": 1263,
+   "avg_remaining_heat_c": 0.73,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 50.7
+  },
+  "h15": {
+   "samples": 1260,
+   "avg_remaining_heat_c": 0.14,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 11.4
+  },
+  "h18": {
+   "samples": 1270,
+   "avg_remaining_heat_c": 0.04,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 2.8
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "OPKC",
+  "name": "Karachi",
+  "typical_max": 32.28,
+  "heating_rate": 2.52,
+  "high_time": "13:00",
+  "h10": {
+   "samples": 2501,
+   "avg_remaining_heat_c": 3.89,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 98.7
+  },
+  "h12": {
+   "samples": 2502,
+   "avg_remaining_heat_c": 1.24,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 76.6
+  },
+  "h15": {
+   "samples": 2483,
+   "avg_remaining_heat_c": 0.11,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 8.2
+  },
+  "h18": {
+   "samples": 2480,
+   "avg_remaining_heat_c": 0.04,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 1.5
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "WMKK",
+  "name": "Kuala Lumpur",
+  "typical_max": 32.35,
+  "heating_rate": 1.95,
+  "high_time": "13:00",
+  "h10": {
+   "samples": 2524,
+   "avg_remaining_heat_c": 3.33,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 4.0,
+   "chance_new_high_after_hour_pct": 98.7
+  },
+  "h12": {
+   "samples": 2547,
+   "avg_remaining_heat_c": 1.39,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 81.0
+  },
+  "h15": {
+   "samples": 2637,
+   "avg_remaining_heat_c": 0.39,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 28.8
+  },
+  "h18": {
+   "samples": 2590,
+   "avg_remaining_heat_c": 0.08,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 6.8
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "EGLC",
+  "name": "London",
+  "typical_max": 15.92,
+  "heating_rate": 1.42,
+  "high_time": "13:00",
+  "h10": {
+   "samples": 2508,
+   "avg_remaining_heat_c": 2.72,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 4.0,
+   "chance_new_high_after_hour_pct": 91.4
+  },
+  "h12": {
+   "samples": 2504,
+   "avg_remaining_heat_c": 1.35,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 72.9
+  },
+  "h15": {
+   "samples": 2507,
+   "avg_remaining_heat_c": 0.35,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 27.5
+  },
+  "h18": {
+   "samples": 2508,
+   "avg_remaining_heat_c": 0.12,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 9.5
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "KLAX",
+  "name": "Los Angeles",
+  "typical_max": 20.81,
+  "heating_rate": 1.84,
+  "high_time": "11:00",
+  "h10": {
+   "samples": 15593,
+   "avg_remaining_heat_c": 1.99,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 91.1
+  },
+  "h12": {
+   "samples": 15488,
+   "avg_remaining_heat_c": 0.83,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 61.7
+  },
+  "h15": {
+   "samples": 15574,
+   "avg_remaining_heat_c": 0.27,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 24.5
+  },
+  "h18": {
+   "samples": 15834,
+   "avg_remaining_heat_c": 0.25,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 20.6
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "VILK",
+  "name": "Lucknow",
+  "typical_max": 30.66,
+  "heating_rate": 2.42,
+  "high_time": "13:00",
+  "h10": {
+   "samples": 2278,
+   "avg_remaining_heat_c": 3.86,
+   "p25_remaining_heat_c": 3.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 97.9
+  },
+  "h12": {
+   "samples": 2269,
+   "avg_remaining_heat_c": 1.57,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 87.1
+  },
+  "h15": {
+   "samples": 2270,
+   "avg_remaining_heat_c": 0.18,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 15.2
+  },
+  "h18": {
+   "samples": 2271,
+   "avg_remaining_heat_c": 0.06,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 4.3
+  },
+  "n_days": 1239
+ },
+ {
+  "code": "LEMD",
+  "name": "Madrid",
+  "typical_max": 21.95,
+  "heating_rate": 2.53,
+  "high_time": "16:00",
+  "h10": {
+   "samples": 2558,
+   "avg_remaining_heat_c": 7.9,
+   "p25_remaining_heat_c": 5.0,
+   "p75_remaining_heat_c": 11.0,
+   "chance_new_high_after_hour_pct": 97.9
+  },
+  "h12": {
+   "samples": 2542,
+   "avg_remaining_heat_c": 4.44,
+   "p25_remaining_heat_c": 3.0,
+   "p75_remaining_heat_c": 6.0,
+   "chance_new_high_after_hour_pct": 98.1
+  },
+  "h15": {
+   "samples": 2540,
+   "avg_remaining_heat_c": 1.14,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 69.4
+  },
+  "h18": {
+   "samples": 2555,
+   "avg_remaining_heat_c": 0.17,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 13.7
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "RPLL",
+  "name": "Manila",
+  "typical_max": 32.38,
+  "heating_rate": 1.53,
+  "high_time": "13:00",
+  "h10": {
+   "samples": 1269,
+   "avg_remaining_heat_c": 2.07,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 91.7
+  },
+  "h12": {
+   "samples": 1272,
+   "avg_remaining_heat_c": 0.95,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 64.2
+  },
+  "h15": {
+   "samples": 1279,
+   "avg_remaining_heat_c": 0.21,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 16.1
+  },
+  "h18": {
+   "samples": 1290,
+   "avg_remaining_heat_c": 0.12,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 9.2
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "MMMX",
+  "name": "Mexico",
+  "typical_max": 25.01,
+  "heating_rate": 2.85,
+  "high_time": "14:00",
+  "h10": {
+   "samples": 1810,
+   "avg_remaining_heat_c": 5.18,
+   "p25_remaining_heat_c": 4.0,
+   "p75_remaining_heat_c": 6.0,
+   "chance_new_high_after_hour_pct": 99.4
+  },
+  "h12": {
+   "samples": 1608,
+   "avg_remaining_heat_c": 1.91,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 88.2
+  },
+  "h15": {
+   "samples": 1786,
+   "avg_remaining_heat_c": 0.22,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 15.6
+  },
+  "h18": {
+   "samples": 2236,
+   "avg_remaining_heat_c": 0.15,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 10.2
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "KMIA",
+  "name": "Miami",
+  "typical_max": 29.46,
+  "heating_rate": 1.77,
+  "high_time": "12:00",
+  "h10": {
+   "samples": 16016,
+   "avg_remaining_heat_c": 2.46,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 95.8
+  },
+  "h12": {
+   "samples": 16028,
+   "avg_remaining_heat_c": 1.25,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 75.9
+  },
+  "h15": {
+   "samples": 15887,
+   "avg_remaining_heat_c": 0.56,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 39.1
+  },
+  "h18": {
+   "samples": 15984,
+   "avg_remaining_heat_c": 0.24,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 19.4
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "LIMC",
+  "name": "Milan",
+  "typical_max": 18.98,
+  "heating_rate": 2.32,
+  "high_time": "14:00",
+  "h10": {
+   "samples": 2506,
+   "avg_remaining_heat_c": 3.77,
+   "p25_remaining_heat_c": 3.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 96.6
+  },
+  "h12": {
+   "samples": 2504,
+   "avg_remaining_heat_c": 1.79,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 85.4
+  },
+  "h15": {
+   "samples": 2501,
+   "avg_remaining_heat_c": 0.38,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 30.8
+  },
+  "h18": {
+   "samples": 2504,
+   "avg_remaining_heat_c": 0.13,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 9.8
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "UUWW",
+  "name": "Moscow",
+  "typical_max": 10.38,
+  "heating_rate": 1.72,
+  "high_time": "14:00",
+  "h10": {
+   "samples": 2889,
+   "avg_remaining_heat_c": 2.66,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 4.0,
+   "chance_new_high_after_hour_pct": 85.2
+  },
+  "h12": {
+   "samples": 2859,
+   "avg_remaining_heat_c": 1.44,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 73.2
+  },
+  "h15": {
+   "samples": 2905,
+   "avg_remaining_heat_c": 0.5,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 34.2
+  },
+  "h18": {
+   "samples": 2846,
+   "avg_remaining_heat_c": 0.2,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 15.1
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "EDDM",
+  "name": "Munich",
+  "typical_max": 14.92,
+  "heating_rate": 2.1,
+  "high_time": "14:00",
+  "h10": {
+   "samples": 2509,
+   "avg_remaining_heat_c": 3.56,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 92.3
+  },
+  "h12": {
+   "samples": 2509,
+   "avg_remaining_heat_c": 1.75,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 78.7
+  },
+  "h15": {
+   "samples": 2508,
+   "avg_remaining_heat_c": 0.41,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 31.2
+  },
+  "h18": {
+   "samples": 2510,
+   "avg_remaining_heat_c": 0.17,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 12.0
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "KLGA",
+  "name": "New York",
+  "typical_max": 17.35,
+  "heating_rate": 1.53,
+  "high_time": "14:00",
+  "h10": {
+   "samples": 16013,
+   "avg_remaining_heat_c": 3.53,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 93.7
+  },
+  "h12": {
+   "samples": 16020,
+   "avg_remaining_heat_c": 1.99,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 87.0
+  },
+  "h15": {
+   "samples": 15944,
+   "avg_remaining_heat_c": 0.63,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 44.4
+  },
+  "h18": {
+   "samples": 15944,
+   "avg_remaining_heat_c": 0.34,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 25.9
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "MPMG",
+  "name": "Panama",
+  "typical_max": 31.43,
+  "heating_rate": 1.76,
+  "high_time": "12:00",
+  "h10": {
+   "samples": 1283,
+   "avg_remaining_heat_c": 2.19,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 91.8
+  },
+  "h12": {
+   "samples": 1351,
+   "avg_remaining_heat_c": 0.79,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 55.7
+  },
+  "h15": {
+   "samples": 1374,
+   "avg_remaining_heat_c": 0.31,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 21.6
+  },
+  "h18": {
+   "samples": 1278,
+   "avg_remaining_heat_c": 0.05,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 4.8
+  },
+  "n_days": 1252
+ },
+ {
+  "code": "LFPB",
+  "name": "Paris",
+  "typical_max": 17.11,
+  "heating_rate": 1.78,
+  "high_time": "14:00",
+  "h10": {
+   "samples": 2493,
+   "avg_remaining_heat_c": 4.43,
+   "p25_remaining_heat_c": 3.0,
+   "p75_remaining_heat_c": 6.0,
+   "chance_new_high_after_hour_pct": 96.2
+  },
+  "h12": {
+   "samples": 2503,
+   "avg_remaining_heat_c": 2.4,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 89.3
+  },
+  "h15": {
+   "samples": 2496,
+   "avg_remaining_heat_c": 0.67,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 46.0
+  },
+  "h18": {
+   "samples": 2501,
+   "avg_remaining_heat_c": 0.17,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 13.2
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "ZSQD",
+  "name": "Qingdao",
+  "typical_max": 19.18,
+  "heating_rate": 2.4,
+  "high_time": "13:00",
+  "h10": {
+   "samples": 1256,
+   "avg_remaining_heat_c": 3.0,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 4.0,
+   "chance_new_high_after_hour_pct": 91.8
+  },
+  "h12": {
+   "samples": 1255,
+   "avg_remaining_heat_c": 1.07,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 67.5
+  },
+  "h15": {
+   "samples": 1256,
+   "avg_remaining_heat_c": 0.08,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 6.1
+  },
+  "h18": {
+   "samples": 1256,
+   "avg_remaining_heat_c": 0.06,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 4.9
+  },
+  "n_days": 1258
+ },
+ {
+  "code": "KSFO",
+  "name": "San Francisco",
+  "typical_max": 19.05,
+  "heating_rate": 1.67,
+  "high_time": "13:00",
+  "h10": {
+   "samples": 15898,
+   "avg_remaining_heat_c": 3.6,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 98.3
+  },
+  "h12": {
+   "samples": 15593,
+   "avg_remaining_heat_c": 1.95,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 84.8
+  },
+  "h15": {
+   "samples": 15701,
+   "avg_remaining_heat_c": 0.39,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 30.9
+  },
+  "h18": {
+   "samples": 16086,
+   "avg_remaining_heat_c": 0.17,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 13.8
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "KSEA",
+  "name": "Seattle",
+  "typical_max": 15.94,
+  "heating_rate": 1.62,
+  "high_time": "15:00",
+  "h10": {
+   "samples": 15578,
+   "avg_remaining_heat_c": 4.29,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 6.0,
+   "chance_new_high_after_hour_pct": 97.0
+  },
+  "h12": {
+   "samples": 15512,
+   "avg_remaining_heat_c": 2.44,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 4.0,
+   "chance_new_high_after_hour_pct": 88.1
+  },
+  "h15": {
+   "samples": 15489,
+   "avg_remaining_heat_c": 0.69,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 50.0
+  },
+  "h18": {
+   "samples": 15650,
+   "avg_remaining_heat_c": 0.28,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 22.5
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "RKSI",
+  "name": "Seoul",
+  "typical_max": 16.78,
+  "heating_rate": 1.72,
+  "high_time": "13:00",
+  "h10": {
+   "samples": 2508,
+   "avg_remaining_heat_c": 2.73,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 4.0,
+   "chance_new_high_after_hour_pct": 91.1
+  },
+  "h12": {
+   "samples": 2509,
+   "avg_remaining_heat_c": 1.2,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 71.2
+  },
+  "h15": {
+   "samples": 2509,
+   "avg_remaining_heat_c": 0.23,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 19.5
+  },
+  "h18": {
+   "samples": 2509,
+   "avg_remaining_heat_c": 0.16,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 13.1
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "ZSPD",
+  "name": "Shanghai",
+  "typical_max": 21.57,
+  "heating_rate": 1.75,
+  "high_time": "12:00",
+  "h10": {
+   "samples": 2552,
+   "avg_remaining_heat_c": 1.79,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 83.5
+  },
+  "h12": {
+   "samples": 2560,
+   "avg_remaining_heat_c": 0.71,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 53.0
+  },
+  "h15": {
+   "samples": 2553,
+   "avg_remaining_heat_c": 0.13,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 10.5
+  },
+  "h18": {
+   "samples": 2545,
+   "avg_remaining_heat_c": 0.12,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 10.6
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "ZGSZ",
+  "name": "Shenzhen",
+  "typical_max": 27.0,
+  "heating_rate": 1.3,
+  "high_time": "13:00",
+  "h10": {
+   "samples": 1255,
+   "avg_remaining_heat_c": 2.11,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 87.8
+  },
+  "h12": {
+   "samples": 1254,
+   "avg_remaining_heat_c": 1.02,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 67.2
+  },
+  "h15": {
+   "samples": 1255,
+   "avg_remaining_heat_c": 0.21,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 17.5
+  },
+  "h18": {
+   "samples": 1255,
+   "avg_remaining_heat_c": 0.12,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 9.9
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "WSSS",
+  "name": "Singapore",
+  "typical_max": 31.38,
+  "heating_rate": 1.44,
+  "high_time": "13:00",
+  "h10": {
+   "samples": 2569,
+   "avg_remaining_heat_c": 2.35,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 94.4
+  },
+  "h12": {
+   "samples": 2610,
+   "avg_remaining_heat_c": 1.16,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 74.1
+  },
+  "h15": {
+   "samples": 2648,
+   "avg_remaining_heat_c": 0.46,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 33.7
+  },
+  "h18": {
+   "samples": 2568,
+   "avg_remaining_heat_c": 0.13,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 10.7
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "SBGR",
+  "name": "São Paulo",
+  "typical_max": 26.77,
+  "heating_rate": 2.38,
+  "high_time": "14:00",
+  "h10": {
+   "samples": 1307,
+   "avg_remaining_heat_c": 4.57,
+   "p25_remaining_heat_c": 3.0,
+   "p75_remaining_heat_c": 6.0,
+   "chance_new_high_after_hour_pct": 96.6
+  },
+  "h12": {
+   "samples": 1288,
+   "avg_remaining_heat_c": 1.84,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 82.7
+  },
+  "h15": {
+   "samples": 1377,
+   "avg_remaining_heat_c": 0.18,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 13.4
+  },
+  "h18": {
+   "samples": 1353,
+   "avg_remaining_heat_c": 0.07,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 5.0
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "RCSS",
+  "name": "Taipei",
+  "typical_max": 27.57,
+  "heating_rate": 1.83,
+  "high_time": "11:00",
+  "h10": {
+   "samples": 2586,
+   "avg_remaining_heat_c": 1.68,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 81.0
+  },
+  "h12": {
+   "samples": 2707,
+   "avg_remaining_heat_c": 0.68,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 44.4
+  },
+  "h15": {
+   "samples": 2859,
+   "avg_remaining_heat_c": 0.34,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 21.4
+  },
+  "h18": {
+   "samples": 2491,
+   "avg_remaining_heat_c": 0.2,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 16.9
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "LLBG",
+  "name": "Tel Aviv",
+  "typical_max": 26.41,
+  "heating_rate": 2.28,
+  "high_time": "11:00",
+  "h10": {
+   "samples": 2503,
+   "avg_remaining_heat_c": 1.96,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 91.8
+  },
+  "h12": {
+   "samples": 2504,
+   "avg_remaining_heat_c": 0.63,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 47.3
+  },
+  "h15": {
+   "samples": 2497,
+   "avg_remaining_heat_c": 0.1,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 9.5
+  },
+  "h18": {
+   "samples": 2502,
+   "avg_remaining_heat_c": 0.07,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 4.8
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "RJTT",
+  "name": "Tokyo",
+  "typical_max": 20.88,
+  "heating_rate": 1.46,
+  "high_time": "13:00",
+  "h10": {
+   "samples": 2660,
+   "avg_remaining_heat_c": 2.29,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 89.6
+  },
+  "h12": {
+   "samples": 2645,
+   "avg_remaining_heat_c": 1.11,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 63.5
+  },
+  "h15": {
+   "samples": 2636,
+   "avg_remaining_heat_c": 0.25,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 17.9
+  },
+  "h18": {
+   "samples": 2659,
+   "avg_remaining_heat_c": 0.23,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 19.3
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "CYYZ",
+  "name": "Toronto",
+  "typical_max": 13.27,
+  "heating_rate": 1.83,
+  "high_time": "14:00",
+  "h10": {
+   "samples": 1498,
+   "avg_remaining_heat_c": 3.27,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 89.2
+  },
+  "h12": {
+   "samples": 1559,
+   "avg_remaining_heat_c": 1.75,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 76.5
+  },
+  "h15": {
+   "samples": 1607,
+   "avg_remaining_heat_c": 0.57,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 34.6
+  },
+  "h18": {
+   "samples": 1538,
+   "avg_remaining_heat_c": 0.22,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 15.6
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "EPWA",
+  "name": "Warsaw",
+  "typical_max": 14.44,
+  "heating_rate": 1.93,
+  "high_time": "13:00",
+  "h10": {
+   "samples": 2508,
+   "avg_remaining_heat_c": 3.1,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 4.0,
+   "chance_new_high_after_hour_pct": 88.8
+  },
+  "h12": {
+   "samples": 2508,
+   "avg_remaining_heat_c": 1.53,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 77.1
+  },
+  "h15": {
+   "samples": 2508,
+   "avg_remaining_heat_c": 0.39,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 30.2
+  },
+  "h18": {
+   "samples": 2509,
+   "avg_remaining_heat_c": 0.18,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 15.0
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "NZWN",
+  "name": "Wellington",
+  "typical_max": 17.3,
+  "heating_rate": 1.36,
+  "high_time": "12:00",
+  "h10": {
+   "samples": 2508,
+   "avg_remaining_heat_c": 2.03,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 3.0,
+   "chance_new_high_after_hour_pct": 90.9
+  },
+  "h12": {
+   "samples": 2506,
+   "avg_remaining_heat_c": 0.99,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 1.0,
+   "chance_new_high_after_hour_pct": 64.0
+  },
+  "h15": {
+   "samples": 2510,
+   "avg_remaining_heat_c": 0.32,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 25.0
+  },
+  "h18": {
+   "samples": 2510,
+   "avg_remaining_heat_c": 0.22,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 18.3
+  },
+  "n_days": 1257
+ },
+ {
+  "code": "ZHHH",
+  "name": "Wuhan",
+  "typical_max": 22.68,
+  "heating_rate": 1.88,
+  "high_time": "15:00",
+  "h10": {
+   "samples": 1255,
+   "avg_remaining_heat_c": 3.41,
+   "p25_remaining_heat_c": 2.0,
+   "p75_remaining_heat_c": 5.0,
+   "chance_new_high_after_hour_pct": 93.1
+  },
+  "h12": {
+   "samples": 1254,
+   "avg_remaining_heat_c": 1.64,
+   "p25_remaining_heat_c": 1.0,
+   "p75_remaining_heat_c": 2.0,
+   "chance_new_high_after_hour_pct": 81.4
+  },
+  "h15": {
+   "samples": 1255,
+   "avg_remaining_heat_c": 0.23,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 21.3
+  },
+  "h18": {
+   "samples": 1255,
+   "avg_remaining_heat_c": 0.05,
+   "p25_remaining_heat_c": 0.0,
+   "p75_remaining_heat_c": 0.0,
+   "chance_new_high_after_hour_pct": 4.6
+  },
+  "n_days": 1257
+ }
+]

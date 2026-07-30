@@ -1,0 +1,442 @@
+{
+  "city": "seoul",
+  "city_name": "Seoul",
+  "date": "2026-07-09",
+  "unit": "C",
+  "station": "RKSI",
+  "event_end_date": "2026-07-09T12:00:00Z",
+  "hours_at_discovery": 14.3,
+  "status": "closed",
+  "position": {
+    "market_id": "2825806",
+    "question": "Will the highest temperature in Seoul be 25°C on July 9?",
+    "bucket_low": 25.0,
+    "bucket_high": 25.0,
+    "entry_price": 0.31,
+    "bid_at_entry": 0.3,
+    "spread": 0.01,
+    "shares": 64.52,
+    "cost": 20.0,
+    "p": 1.0,
+    "ev": 2.2258,
+    "kelly": 0.25,
+    "forecast_temp": 24.8,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-09T01:23:00.477869+00:00",
+    "status": "closed",
+    "pnl": -7.1,
+    "exit_price": 0.2,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-09T01:48:36.907008+00:00"
+  },
+  "actual_temp": 27.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-08T21:39:20.451139+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.3,
+      "ecmwf": 24.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:07:41.181180+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.9,
+      "ecmwf": 24.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:29:13.244613+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.5,
+      "ecmwf": 24.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:41:27.140707+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.3,
+      "ecmwf": 24.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:04:48.175004+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 24.0,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": 24.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:06:45.419471+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 24.0,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": 24.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:23:00.477869+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.6,
+      "ecmwf": 24.8,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": 24.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T02:11:22.674810+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.8,
+      "ecmwf": 24.8,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": 24.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T02:27:55.089911+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.5,
+      "ecmwf": 24.8,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": 24.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T03:15:04.990065+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.7,
+      "ecmwf": 24.8,
+      "hrrr": null,
+      "metar": 23.0,
+      "best": 24.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T03:32:10.248218+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.5,
+      "ecmwf": 24.8,
+      "hrrr": null,
+      "metar": 23.0,
+      "best": 24.8,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T16:26:29.562535+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": 24.0,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-07-09T16:28:50.127244+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": 24.0,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-07-09T18:23:06.320827+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-07-09T18:23:10.403086+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-07-09T19:01:01.078794+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-07-09T20:03:45.682695+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": null,
+      "best_source": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-08T21:39:20.451139+00:00",
+      "top_bucket": "26.0-26.0C",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-07-08T22:07:41.181180+00:00",
+      "top_bucket": "26.0-26.0C",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-07-08T22:29:13.244613+00:00",
+      "top_bucket": "26.0-26.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-07-08T22:41:27.140707+00:00",
+      "top_bucket": "26.0-26.0C",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-07-09T01:04:48.175004+00:00",
+      "top_bucket": "26.0-26.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-07-09T01:06:45.419471+00:00",
+      "top_bucket": "26.0-26.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-07-09T01:23:00.477869+00:00",
+      "top_bucket": "26.0-26.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-07-09T02:11:22.674810+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.46
+    },
+    {
+      "ts": "2026-07-09T02:27:55.089911+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.525
+    },
+    {
+      "ts": "2026-07-09T03:15:04.990065+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.8
+    },
+    {
+      "ts": "2026-07-09T03:32:10.248218+00:00",
+      "top_bucket": "25.0-25.0C",
+      "top_price": 0.75
+    },
+    {
+      "ts": "2026-07-09T16:26:29.562535+00:00",
+      "top_bucket": "27.0-27.0C",
+      "top_price": 1.0
+    },
+    {
+      "ts": "2026-07-09T16:28:50.127244+00:00",
+      "top_bucket": "27.0-27.0C",
+      "top_price": 1.0
+    },
+    {
+      "ts": "2026-07-09T18:23:06.320827+00:00",
+      "top_bucket": "27.0-27.0C",
+      "top_price": 1.0
+    },
+    {
+      "ts": "2026-07-09T18:23:10.403086+00:00",
+      "top_bucket": "27.0-27.0C",
+      "top_price": 1.0
+    },
+    {
+      "ts": "2026-07-09T19:01:01.078794+00:00",
+      "top_bucket": "27.0-27.0C",
+      "top_price": 1.0
+    },
+    {
+      "ts": "2026-07-09T20:03:45.682695+00:00",
+      "top_bucket": "27.0-27.0C",
+      "top_price": 1.0
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seoul be 20°C or below on July 9?",
+      "market_id": "2825801",
+      "range": [
+        -999.0,
+        20.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 11813.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 21°C on July 9?",
+      "market_id": "2825802",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 8373.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 22°C on July 9?",
+      "market_id": "2825803",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 12017.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 23°C on July 9?",
+      "market_id": "2825804",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 12269.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 24°C on July 9?",
+      "market_id": "2825805",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 15294.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 25°C on July 9?",
+      "market_id": "2825806",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 50305.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 26°C on July 9?",
+      "market_id": "2825807",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 28520.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 27°C on July 9?",
+      "market_id": "2825808",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 1.0,
+      "ask": 0.0,
+      "price": 1.0,
+      "spread": -1.0,
+      "volume": 35697.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 28°C on July 9?",
+      "market_id": "2825809",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 40921.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 29°C on July 9?",
+      "market_id": "2825810",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 20264.0
+    },
+    {
+      "question": "Will the highest temperature in Seoul be 30°C or higher on July 9?",
+      "market_id": "2825811",
+      "range": [
+        30.0,
+        999.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 23385.0
+    }
+  ],
+  "created_at": "2026-07-08T21:39:23.703277+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

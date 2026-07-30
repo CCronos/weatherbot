@@ -1,0 +1,146 @@
+[
+  {
+    "market_id": "2968961",
+    "question": "Will the highest temperature in Helsinki be 17\u00b0C on July 20?",
+    "target_date": "2026-07-20",
+    "bucket": 17,
+    "entry_price": 0.04,
+    "forecasts": {
+      "icon_eu": 19.3,
+      "ukmo": 20.3,
+      "ecmwf": 20.3
+    },
+    "probs": {
+      "icon_eu": 0.056991872640212715,
+      "ukmo": 0.009044343844175351,
+      "ecmwf": 0.009044343844175351
+    },
+    "ev": 0.42479681600531793,
+    "cost": 20.0,
+    "shares": 500.0,
+    "status": "resolved",
+    "entered_at": "2026-07-18 07:10:47",
+    "resolved_outcome": "loss",
+    "pnl": -20.0
+  },
+  {
+    "market_id": "2980998",
+    "question": "Will the highest temperature in Helsinki be 13\u00b0C on July 21?",
+    "target_date": "2026-07-21",
+    "bucket": 13,
+    "entry_price": 0.04,
+    "forecasts": {
+      "icon_eu": 14.6,
+      "ukmo": 15.6,
+      "ecmwf": 15.5
+    },
+    "probs": {
+      "icon_eu": 0.13959951230096834,
+      "ukmo": 0.03516662026158213,
+      "ecmwf": 0.041580686947038537
+    },
+    "ev": 2.4899878075242086,
+    "cost": 20.0,
+    "shares": 500.0,
+    "status": "resolved",
+    "entered_at": "2026-07-19 07:09:38",
+    "resolved_outcome": "loss",
+    "pnl": -20.0
+  },
+  {
+    "market_id": "2996781",
+    "question": "Will the highest temperature in Helsinki be 19\u00b0C on July 22?",
+    "target_date": "2026-07-22",
+    "bucket": 19,
+    "entry_price": 0.04,
+    "forecasts": {
+      "icon_eu": 15.1,
+      "ukmo": 17.4,
+      "ecmwf": 17.3
+    },
+    "probs": {
+      "icon_eu": 0.0021803997417307874,
+      "ukmo": 0.13959951230096812,
+      "ecmwf": 0.12527874634663982
+    },
+    "ev": 2.4899878075242032,
+    "cost": 20.0,
+    "shares": 500.0,
+    "status": "resolved",
+    "entered_at": "2026-07-20 07:17:45",
+    "resolved_outcome": "win",
+    "pnl": 480.0
+  },
+  {
+    "market_id": "2996775",
+    "question": "Will the highest temperature in Helsinki be 13\u00b0C on July 22?",
+    "target_date": "2026-07-22",
+    "bucket": 13,
+    "entry_price": 0.035,
+    "forecasts": {
+      "icon_eu": 15.1,
+      "ukmo": 17.4,
+      "ecmwf": 17.3
+    },
+    "probs": {
+      "icon_eu": 0.07608107971563216,
+      "ukmo": 0.0005548279063004591,
+      "ecmwf": 0.0007393135426368436
+    },
+    "ev": 1.1737451347323473,
+    "cost": 20.0,
+    "shares": 571.43,
+    "status": "resolved",
+    "entered_at": "2026-07-20 07:18:10",
+    "resolved_outcome": "loss",
+    "pnl": -20.0
+  },
+  {
+    "market_id": "3010682",
+    "question": "Will the highest temperature in Helsinki be 22\u00b0C on July 23?",
+    "target_date": "2026-07-23",
+    "bucket": 22,
+    "entry_price": 0.04,
+    "forecasts": {
+      "icon_eu": 18.3,
+      "ukmo": 20.4,
+      "ecmwf": 18.2
+    },
+    "probs": {
+      "icon_eu": 0.003597751488554124,
+      "ukmo": 0.13959951230096812,
+      "ecmwf": 0.002810144610403964
+    },
+    "ev": 2.4899878075242032,
+    "cost": 20.0,
+    "shares": 500.0,
+    "status": "resolved",
+    "entered_at": "2026-07-21 07:06:19",
+    "resolved_outcome": "loss",
+    "pnl": -20.0
+  },
+  {
+    "market_id": "3010676",
+    "question": "Will the highest temperature in Helsinki be 16\u00b0C on July 23?",
+    "target_date": "2026-07-23",
+    "bucket": 16,
+    "entry_price": 0.04,
+    "forecasts": {
+      "icon_eu": 18.3,
+      "ukmo": 20.4,
+      "ecmwf": 18.2
+    },
+    "probs": {
+      "icon_eu": 0.056991872640212715,
+      "ukmo": 0.0005548279063004591,
+      "ecmwf": 0.06606573088977269
+    },
+    "ev": 0.6516432722443173,
+    "cost": 20.0,
+    "shares": 500.0,
+    "status": "resolved",
+    "entered_at": "2026-07-21 07:06:44",
+    "resolved_outcome": "loss",
+    "pnl": -20.0
+  }
+]

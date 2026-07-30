@@ -1,0 +1,748 @@
+{
+  "city": "lucknow",
+  "city_name": "Lucknow",
+  "date": "2026-07-20",
+  "unit": "C",
+  "station": "VILK",
+  "event_end_date": "2026-07-20T12:00:00Z",
+  "hours_at_discovery": 54.3,
+  "status": "resolved",
+  "position": {
+    "market_id": "2969787",
+    "question": "Will the highest temperature in Lucknow be 28°C on July 20?",
+    "bucket_low": 28.0,
+    "bucket_high": 28.0,
+    "entry_price": 0.21,
+    "bid_at_entry": 0.18,
+    "spread": 0.03,
+    "shares": 95.24,
+    "cost": 20.0,
+    "p": 0.2977,
+    "ev": 0.4176,
+    "kelly": 0.0319,
+    "forecast_temp": 28.5,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-19T20:09:11.962971+00:00",
+    "status": "closed",
+    "pnl": 12.86,
+    "exit_price": 0.345,
+    "close_reason": "take_profit",
+    "closed_at": "2026-07-20T00:09:31.310335+00:00",
+    "stop_price": 0.21,
+    "trailing_activated": true
+  },
+  "actual_temp": 27.0,
+  "resolved_outcome": "win",
+  "pnl": 12.86,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-18T05:39:31.940708+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.3,
+      "ecmwf": 30.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T06:41:05.206414+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.3,
+      "ecmwf": 30.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T07:42:41.810131+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 30.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T08:44:19.664948+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.3,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T09:45:50.921985+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.2,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T12:22:42.706682+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.6,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T13:24:35.035469+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.6,
+      "ecmwf": 30.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T14:26:11.283756+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.6,
+      "ecmwf": 30.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T15:27:39.034256+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.5,
+      "ecmwf": 30.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T16:29:17.079959+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.5,
+      "ecmwf": 30.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T17:30:48.790749+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.5,
+      "ecmwf": 30.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T18:32:27.975065+00:00",
+      "horizon": "D+1",
+      "hours_left": 41.5,
+      "ecmwf": 30.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T19:34:32.077209+00:00",
+      "horizon": "D+1",
+      "hours_left": 40.4,
+      "ecmwf": 30.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T20:36:20.762326+00:00",
+      "horizon": "D+1",
+      "hours_left": 39.4,
+      "ecmwf": 29.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T23:44:30.274284+00:00",
+      "horizon": "D+1",
+      "hours_left": 36.3,
+      "ecmwf": 29.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T00:46:10.624063+00:00",
+      "horizon": "D+1",
+      "hours_left": 35.2,
+      "ecmwf": 29.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T01:47:35.973657+00:00",
+      "horizon": "D+1",
+      "hours_left": 34.2,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T02:49:06.766441+00:00",
+      "horizon": "D+1",
+      "hours_left": 33.2,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T03:50:43.421037+00:00",
+      "horizon": "D+1",
+      "hours_left": 32.2,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T04:52:26.709502+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.1,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T05:53:57.182673+00:00",
+      "horizon": "D+1",
+      "hours_left": 30.1,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T06:55:35.077056+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.1,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T13:52:22.472730+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.1,
+      "ecmwf": 30.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T14:55:31.976412+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.1,
+      "ecmwf": 30.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T15:17:11.738143+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.7,
+      "ecmwf": 30.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T15:22:51.891116+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.6,
+      "ecmwf": 30.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T15:24:32.933064+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.6,
+      "ecmwf": 30.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T16:26:14.403510+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.6,
+      "ecmwf": 30.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T17:29:44.664732+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.5,
+      "ecmwf": 30.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T18:02:51.488794+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.0,
+      "ecmwf": 30.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T18:04:46.631579+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.9,
+      "ecmwf": 30.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T19:06:54.051384+00:00",
+      "horizon": "D+0",
+      "hours_left": 16.9,
+      "ecmwf": 30.3,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 30.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T20:09:11.962971+00:00",
+      "horizon": "D+0",
+      "hours_left": 15.8,
+      "ecmwf": 28.5,
+      "hrrr": null,
+      "metar": 26.0,
+      "best": 28.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T21:11:08.727690+00:00",
+      "horizon": "D+0",
+      "hours_left": 14.8,
+      "ecmwf": 28.5,
+      "hrrr": null,
+      "metar": 26.0,
+      "best": 28.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T22:13:24.935968+00:00",
+      "horizon": "D+0",
+      "hours_left": 13.8,
+      "ecmwf": 28.5,
+      "hrrr": null,
+      "metar": 26.0,
+      "best": 28.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T23:15:24.010825+00:00",
+      "horizon": "D+0",
+      "hours_left": 12.7,
+      "ecmwf": 28.5,
+      "hrrr": null,
+      "metar": 26.0,
+      "best": 28.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T00:09:31.310335+00:00",
+      "horizon": "D+0",
+      "hours_left": 11.8,
+      "ecmwf": 28.5,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": 28.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-18T05:39:31.940708+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.27
+    },
+    {
+      "ts": "2026-07-18T06:41:05.206414+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.28
+    },
+    {
+      "ts": "2026-07-18T07:42:41.810131+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.33
+    },
+    {
+      "ts": "2026-07-18T08:44:19.664948+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-18T09:45:50.921985+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-07-18T12:22:42.706682+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-07-18T13:24:35.035469+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-07-18T14:26:11.283756+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-07-18T15:27:39.034256+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.34
+    },
+    {
+      "ts": "2026-07-18T16:29:17.079959+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-18T17:30:48.790749+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.32
+    },
+    {
+      "ts": "2026-07-18T18:32:27.975065+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-07-18T19:34:32.077209+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-18T20:36:20.762326+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-07-18T23:44:30.274284+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.29
+    },
+    {
+      "ts": "2026-07-19T00:46:10.624063+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.32
+    },
+    {
+      "ts": "2026-07-19T01:47:35.973657+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-19T02:49:06.766441+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-07-19T03:50:43.421037+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-07-19T04:52:26.709502+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-07-19T05:53:57.182673+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-19T06:55:35.077056+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.32
+    },
+    {
+      "ts": "2026-07-19T13:52:22.472730+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-19T14:55:31.976412+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-19T15:17:11.738143+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-19T15:22:51.891116+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-19T15:24:32.933064+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-19T16:26:14.403510+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-19T17:29:44.664732+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-19T18:02:51.488794+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-19T18:04:46.631579+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-19T19:06:54.051384+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-19T20:09:11.962971+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-19T21:11:08.727690+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-19T22:13:24.935968+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-19T23:15:24.010825+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-20T00:09:31.310335+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.345
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Lucknow be 23°C or below on July 20?",
+      "market_id": "2969782",
+      "range": [
+        -999.0,
+        23.0
+      ],
+      "price": 0.0005,
+      "volume": 326.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 24°C on July 20?",
+      "market_id": "2969783",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "price": 0.0005,
+      "volume": 397.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 25°C on July 20?",
+      "market_id": "2969784",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "price": 0.0005,
+      "volume": 229.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 26°C on July 20?",
+      "market_id": "2969785",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "price": 0.0005,
+      "volume": 918.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 27°C on July 20?",
+      "market_id": "2969786",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.0895,
+      "volume": 683.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 28°C on July 20?",
+      "market_id": "2969787",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.345,
+      "volume": 1896.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 29°C on July 20?",
+      "market_id": "2969788",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.325,
+      "volume": 1624.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 30°C on July 20?",
+      "market_id": "2969789",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.19,
+      "volume": 2435.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 31°C on July 20?",
+      "market_id": "2969790",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "price": 0.1,
+      "volume": 3028.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 32°C on July 20?",
+      "market_id": "2969791",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "price": 0.0165,
+      "volume": 1964.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 33°C or higher on July 20?",
+      "market_id": "2969792",
+      "range": [
+        33.0,
+        999.0
+      ],
+      "price": 0.012,
+      "volume": 1822.0
+    }
+  ],
+  "created_at": "2026-07-18T05:39:34.532968+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

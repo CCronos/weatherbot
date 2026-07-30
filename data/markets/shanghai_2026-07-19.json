@@ -1,0 +1,282 @@
+{
+  "city": "shanghai",
+  "city_name": "Shanghai",
+  "date": "2026-07-19",
+  "unit": "C",
+  "station": "ZSPD",
+  "event_end_date": "2026-07-19T12:00:00Z",
+  "hours_at_discovery": 54.9,
+  "status": "resolved",
+  "position": {
+    "market_id": "2955584",
+    "question": "Will the highest temperature in Shanghai be 31°C on July 19?",
+    "bucket_low": 31.0,
+    "bucket_high": 31.0,
+    "entry_price": 0.26,
+    "bid_at_entry": 0.23,
+    "spread": 0.03,
+    "shares": 76.92,
+    "cost": 20.0,
+    "p": 0.3137,
+    "ev": 0.2065,
+    "kelly": 0.0227,
+    "forecast_temp": 31.3,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-17T08:12:40.779270+00:00",
+    "status": "closed",
+    "pnl": -6.92,
+    "exit_price": 0.17,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-17T12:48:56.645095+00:00"
+  },
+  "actual_temp": 33.0,
+  "resolved_outcome": "loss",
+  "pnl": -6.92,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-17T05:08:07.615613+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.9,
+      "ecmwf": 29.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T06:09:38.240889+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.8,
+      "ecmwf": 29.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T07:11:10.591475+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.8,
+      "ecmwf": 29.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T08:12:40.779270+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.8,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T09:14:00.648035+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.8,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T10:15:24.814465+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.7,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T11:16:44.668712+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.7,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T12:18:14.918190+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.7,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-17T05:08:07.615613+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-07-17T06:09:38.240889+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-17T07:11:10.591475+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-17T08:12:40.779270+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-17T09:14:00.648035+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-17T10:15:24.814465+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-17T11:16:44.668712+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-17T12:18:14.918190+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.32
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Shanghai be 26°C or below on July 19?",
+      "market_id": "2955579",
+      "range": [
+        -999.0,
+        26.0
+      ],
+      "price": 0.0015,
+      "volume": 299.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 27°C on July 19?",
+      "market_id": "2955580",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.0015,
+      "volume": 107.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 28°C on July 19?",
+      "market_id": "2955581",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.008,
+      "volume": 955.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 29°C on July 19?",
+      "market_id": "2955582",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.0195,
+      "volume": 496.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 30°C on July 19?",
+      "market_id": "2955583",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.105,
+      "volume": 257.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 31°C on July 19?",
+      "market_id": "2955584",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "price": 0.24,
+      "volume": 626.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 32°C on July 19?",
+      "market_id": "2955585",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "price": 0.32,
+      "volume": 406.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 33°C on July 19?",
+      "market_id": "2955586",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.245,
+      "volume": 336.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 34°C on July 19?",
+      "market_id": "2955587",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "price": 0.125,
+      "volume": 664.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 35°C on July 19?",
+      "market_id": "2955588",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "price": 0.0115,
+      "volume": 385.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 36°C or higher on July 19?",
+      "market_id": "2955589",
+      "range": [
+        36.0,
+        999.0
+      ],
+      "price": 0.004,
+      "volume": 140.0
+    }
+  ],
+  "created_at": "2026-07-17T05:08:10.317502+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

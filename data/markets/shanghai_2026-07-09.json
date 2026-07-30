@@ -1,0 +1,420 @@
+{
+  "city": "shanghai",
+  "city_name": "Shanghai",
+  "date": "2026-07-09",
+  "unit": "C",
+  "station": "ZSPD",
+  "event_end_date": "2026-07-09T12:00:00Z",
+  "hours_at_discovery": 14.3,
+  "status": "closed",
+  "position": null,
+  "actual_temp": 29.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-08T21:39:30.175682+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.3,
+      "ecmwf": 28.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:07:47.238934+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.9,
+      "ecmwf": 28.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:29:18.708348+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.5,
+      "ecmwf": 28.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:41:32.156163+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.3,
+      "ecmwf": 28.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:04:53.493399+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 28.2,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 28.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:06:50.984227+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 28.2,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 28.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:23:10.079899+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.6,
+      "ecmwf": 29.0,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 29.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T02:11:34.122392+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.8,
+      "ecmwf": 29.0,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 29.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T02:28:14.897393+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.5,
+      "ecmwf": 29.0,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 29.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T03:15:22.495881+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.7,
+      "ecmwf": 29.0,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 29.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T03:32:15.818806+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.5,
+      "ecmwf": 29.0,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 29.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T16:26:39.047603+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-07-09T16:29:03.366776+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-07-09T18:23:12.261681+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-07-09T18:23:16.930728+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-07-09T19:01:07.297977+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-07-09T20:03:51.912684+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": 26.0,
+      "best": null,
+      "best_source": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-08T21:39:30.175682+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.33
+    },
+    {
+      "ts": "2026-07-08T22:07:47.238934+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-07-08T22:29:18.708348+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-07-08T22:41:32.156163+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-09T01:04:53.493399+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.493
+    },
+    {
+      "ts": "2026-07-09T01:06:50.984227+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.493
+    },
+    {
+      "ts": "2026-07-09T01:23:10.079899+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.5895
+    },
+    {
+      "ts": "2026-07-09T02:11:34.122392+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-07-09T02:28:14.897393+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-07-09T03:15:22.495881+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.4545
+    },
+    {
+      "ts": "2026-07-09T03:32:15.818806+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.4945
+    },
+    {
+      "ts": "2026-07-09T16:26:39.047603+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-07-09T16:29:03.366776+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-07-09T18:23:12.261681+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 1.0
+    },
+    {
+      "ts": "2026-07-09T18:23:16.930728+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 1.0
+    },
+    {
+      "ts": "2026-07-09T19:01:07.297977+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 1.0
+    },
+    {
+      "ts": "2026-07-09T20:03:51.912684+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 1.0
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Shanghai be 26°C or below on July 9?",
+      "market_id": "2825878",
+      "range": [
+        -999.0,
+        26.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 11901.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 27°C on July 9?",
+      "market_id": "2825879",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 2151.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 28°C on July 9?",
+      "market_id": "2825880",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 11633.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 29°C on July 9?",
+      "market_id": "2825881",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 1.0,
+      "ask": 0.0,
+      "price": 1.0,
+      "spread": -1.0,
+      "volume": 50785.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 30°C on July 9?",
+      "market_id": "2825882",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 37411.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 31°C on July 9?",
+      "market_id": "2825883",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 28719.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 32°C on July 9?",
+      "market_id": "2825884",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 24697.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 33°C on July 9?",
+      "market_id": "2825885",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 28274.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 34°C on July 9?",
+      "market_id": "2825886",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 17815.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 35°C on July 9?",
+      "market_id": "2825887",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 11700.0
+    },
+    {
+      "question": "Will the highest temperature in Shanghai be 36°C or higher on July 9?",
+      "market_id": "2825888",
+      "range": [
+        36.0,
+        999.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 11014.0
+    }
+  ],
+  "created_at": "2026-07-08T21:39:33.094027+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

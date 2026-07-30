@@ -1,0 +1,169 @@
+{
+  "city": "singapore",
+  "city_name": "Singapore",
+  "date": "2026-07-16",
+  "unit": "C",
+  "station": "WSSS",
+  "event_end_date": "2026-07-16T12:00:00Z",
+  "hours_at_discovery": 12.4,
+  "status": "resolved",
+  "position": {
+    "market_id": "2917079",
+    "question": "Will the highest temperature in Singapore be 29°C on July 16?",
+    "bucket_low": 29.0,
+    "bucket_high": 29.0,
+    "entry_price": 0.004,
+    "bid_at_entry": 0.003,
+    "spread": 0.001,
+    "shares": 5000.0,
+    "cost": 20.0,
+    "p": 0.3066,
+    "ev": 75.65,
+    "kelly": 0.076,
+    "forecast_temp": 29.4,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-15T23:37:40.337419+00:00",
+    "status": "closed",
+    "pnl": -5.0,
+    "exit_price": 0.003,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-15T23:48:40.774345+00:00"
+  },
+  "actual_temp": 32.0,
+  "resolved_outcome": "loss",
+  "pnl": -5.0,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-15T23:37:40.337419+00:00",
+      "horizon": "D+0",
+      "hours_left": 12.4,
+      "ecmwf": 29.4,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 29.4,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-15T23:37:40.337419+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.615
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Singapore be 26°C or below on July 16?",
+      "market_id": "2917076",
+      "range": [
+        -999.0,
+        26.0
+      ],
+      "price": 0.0005,
+      "volume": 4725.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 27°C on July 16?",
+      "market_id": "2917077",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.0005,
+      "volume": 245.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 28°C on July 16?",
+      "market_id": "2917078",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.0005,
+      "volume": 3358.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 29°C on July 16?",
+      "market_id": "2917079",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.0035,
+      "volume": 2564.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 30°C on July 16?",
+      "market_id": "2917080",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.067,
+      "volume": 2315.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 31°C on July 16?",
+      "market_id": "2917081",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "price": 0.255,
+      "volume": 1707.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 32°C on July 16?",
+      "market_id": "2917082",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "price": 0.615,
+      "volume": 2180.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 33°C on July 16?",
+      "market_id": "2917083",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.09,
+      "volume": 2416.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 34°C on July 16?",
+      "market_id": "2917084",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "price": 0.01,
+      "volume": 2349.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 35°C on July 16?",
+      "market_id": "2917085",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "price": 0.0035,
+      "volume": 848.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 36°C or higher on July 16?",
+      "market_id": "2917086",
+      "range": [
+        36.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 1744.0
+    }
+  ],
+  "created_at": "2026-07-15T23:37:42.245435+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

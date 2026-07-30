@@ -1,0 +1,169 @@
+{
+  "city": "chicago",
+  "city_name": "Chicago",
+  "date": "2026-07-16",
+  "unit": "F",
+  "station": "KORD",
+  "event_end_date": "2026-07-16T12:00:00Z",
+  "hours_at_discovery": 12.4,
+  "status": "resolved",
+  "position": {
+    "market_id": "2929482",
+    "question": "Will the highest temperature in Chicago be between 94-95°F on July 16?",
+    "bucket_low": 94.0,
+    "bucket_high": 95.0,
+    "entry_price": 0.08,
+    "bid_at_entry": 0.05,
+    "spread": 0.03,
+    "shares": 250.0,
+    "cost": 20.0,
+    "p": 0.1915,
+    "ev": 1.3938,
+    "kelly": 0.0279,
+    "forecast_temp": 94,
+    "forecast_src": "hrrr",
+    "sigma": 2.0,
+    "opened_at": "2026-07-15T23:36:45.644523+00:00",
+    "status": "closed",
+    "pnl": -5.0,
+    "exit_price": 0.06,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-15T23:48:38.692827+00:00"
+  },
+  "actual_temp": 90.0,
+  "resolved_outcome": "loss",
+  "pnl": -5.0,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-15T23:36:45.644523+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.4,
+      "ecmwf": 96,
+      "hrrr": 94,
+      "metar": null,
+      "best": 94,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-15T23:36:45.644523+00:00",
+      "top_bucket": "-999.0-89.0F",
+      "top_price": 0.415
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Chicago be 89°F or below on July 16?",
+      "market_id": "2929479",
+      "range": [
+        -999.0,
+        89.0
+      ],
+      "price": 0.415,
+      "volume": 9874.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 90-91°F on July 16?",
+      "market_id": "2929480",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "price": 0.3,
+      "volume": 4390.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 92-93°F on July 16?",
+      "market_id": "2929481",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "price": 0.205,
+      "volume": 5575.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 94-95°F on July 16?",
+      "market_id": "2929482",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "price": 0.09,
+      "volume": 3592.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 96-97°F on July 16?",
+      "market_id": "2929483",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "price": 0.012,
+      "volume": 4548.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 98-99°F on July 16?",
+      "market_id": "2929484",
+      "range": [
+        98.0,
+        99.0
+      ],
+      "price": 0.0035,
+      "volume": 3460.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 100-101°F on July 16?",
+      "market_id": "2929485",
+      "range": [
+        100.0,
+        101.0
+      ],
+      "price": 0.0015,
+      "volume": 2382.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 102-103°F on July 16?",
+      "market_id": "2929486",
+      "range": [
+        102.0,
+        103.0
+      ],
+      "price": 0.0005,
+      "volume": 756.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 104-105°F on July 16?",
+      "market_id": "2929487",
+      "range": [
+        104.0,
+        105.0
+      ],
+      "price": 0.0005,
+      "volume": 325.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 106-107°F on July 16?",
+      "market_id": "2929488",
+      "range": [
+        106.0,
+        107.0
+      ],
+      "price": 0.0005,
+      "volume": 265.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be 108°F or higher on July 16?",
+      "market_id": "2929489",
+      "range": [
+        108.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 313.0
+    }
+  ],
+  "created_at": "2026-07-15T23:36:48.930800+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

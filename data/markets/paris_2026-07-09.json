@@ -1,0 +1,427 @@
+{
+  "city": "paris",
+  "city_name": "Paris",
+  "date": "2026-07-09",
+  "unit": "C",
+  "station": "LFPG",
+  "event_end_date": "2026-07-09T12:00:00Z",
+  "hours_at_discovery": 14.3,
+  "status": "closed",
+  "position": {
+    "market_id": "2825791",
+    "question": "Will the highest temperature in Paris be 32°C on July 9?",
+    "bucket_low": 32.0,
+    "bucket_high": 32.0,
+    "entry_price": 0.111,
+    "bid_at_entry": 0.089,
+    "spread": 0.022,
+    "shares": 180.18,
+    "cost": 20.0,
+    "p": 1.0,
+    "ev": 8.009,
+    "kelly": 0.25,
+    "forecast_temp": 31.5,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-08T21:39:08.946495+00:00",
+    "status": "closed",
+    "pnl": -8.74,
+    "exit_price": 0.0625,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-09T01:04:33.303901+00:00"
+  },
+  "actual_temp": 32.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-08T21:39:08.946495+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.3,
+      "ecmwf": 31.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:07:32.068890+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.9,
+      "ecmwf": 31.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:29:02.713114+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.5,
+      "ecmwf": 31.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:41:19.733915+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.3,
+      "ecmwf": 31.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:04:33.303901+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 31.5,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 31.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:06:36.601973+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 31.5,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 31.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:22:49.878374+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.6,
+      "ecmwf": 31.4,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 31.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T02:11:02.383596+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.8,
+      "ecmwf": 31.4,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 31.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T02:27:38.235254+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.5,
+      "ecmwf": 31.4,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 31.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T03:14:54.617716+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.8,
+      "ecmwf": 31.4,
+      "hrrr": null,
+      "metar": 21.0,
+      "best": 31.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T03:32:01.273471+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.5,
+      "ecmwf": 31.4,
+      "hrrr": null,
+      "metar": 21.0,
+      "best": 31.4,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T16:28:29.241913+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": 32.0,
+      "best": 31.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T18:22:52.268560+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": 31.0,
+      "best": 31.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T18:23:00.435075+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": 31.0,
+      "best": 31.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T19:00:42.480515+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T20:03:29.691803+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 31.6,
+      "hrrr": null,
+      "metar": 28.0,
+      "best": 31.6,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-08T21:39:08.946495+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-07-08T22:07:32.068890+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.45
+    },
+    {
+      "ts": "2026-07-08T22:29:02.713114+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-07-08T22:41:19.733915+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-07-09T01:04:33.303901+00:00",
+      "top_bucket": "34.0-34.0C",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-07-09T01:06:36.601973+00:00",
+      "top_bucket": "34.0-34.0C",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-07-09T01:22:49.878374+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.42
+    },
+    {
+      "ts": "2026-07-09T02:11:02.383596+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-07-09T02:27:38.235254+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-07-09T03:14:54.617716+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-07-09T03:32:01.273471+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-07-09T16:28:29.241913+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.925
+    },
+    {
+      "ts": "2026-07-09T18:22:52.268560+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.995
+    },
+    {
+      "ts": "2026-07-09T18:23:00.435075+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.995
+    },
+    {
+      "ts": "2026-07-09T19:00:42.480515+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.9965
+    },
+    {
+      "ts": "2026-07-09T20:03:29.691803+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.9995
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Paris be 31°C or below on July 9?",
+      "market_id": "2825790",
+      "range": [
+        -999.0,
+        31.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 19513.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 32°C on July 9?",
+      "market_id": "2825791",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 22878.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 33°C on July 9?",
+      "market_id": "2825792",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "bid": 0.9995,
+      "ask": 0.0005,
+      "price": 0.9995,
+      "spread": -0.999,
+      "volume": 26454.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 34°C on July 9?",
+      "market_id": "2825793",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 16053.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 35°C on July 9?",
+      "market_id": "2825794",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 15788.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 36°C on July 9?",
+      "market_id": "2825795",
+      "range": [
+        36.0,
+        36.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 12017.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 37°C on July 9?",
+      "market_id": "2825796",
+      "range": [
+        37.0,
+        37.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 5338.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 38°C on July 9?",
+      "market_id": "2825797",
+      "range": [
+        38.0,
+        38.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2609.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 39°C on July 9?",
+      "market_id": "2825798",
+      "range": [
+        39.0,
+        39.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2151.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 40°C on July 9?",
+      "market_id": "2825799",
+      "range": [
+        40.0,
+        40.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1926.0
+    },
+    {
+      "question": "Will the highest temperature in Paris be 41°C or higher on July 9?",
+      "market_id": "2825800",
+      "range": [
+        41.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2139.0
+    }
+  ],
+  "created_at": "2026-07-08T21:39:11.129923+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

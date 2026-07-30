@@ -1,0 +1,148 @@
+{
+  "city": "toronto",
+  "city_name": "Toronto",
+  "date": "2026-07-26",
+  "unit": "C",
+  "station": "CYYZ",
+  "event_end_date": "2026-07-26T12:00:00Z",
+  "hours_at_discovery": 17.6,
+  "status": "open",
+  "position": null,
+  "actual_temp": 27.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-25T18:21:33.234908+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.6,
+      "ecmwf": 30.1,
+      "regional": 31.0,
+      "metar": null,
+      "best": 31.0,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-25T18:21:33.234908+00:00",
+      "top_bucket": "28.0-28.0C",
+      "top_price": 0.285
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Toronto be 25°C or below on July 26?",
+      "market_id": "3094768",
+      "range": [
+        -999.0,
+        25.0
+      ],
+      "price": 0.045,
+      "volume": 991.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 26°C on July 26?",
+      "market_id": "3094769",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "price": 0.09,
+      "volume": 1325.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 27°C on July 26?",
+      "market_id": "3094770",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.255,
+      "volume": 871.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 28°C on July 26?",
+      "market_id": "3094771",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.285,
+      "volume": 2191.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 29°C on July 26?",
+      "market_id": "3094772",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.195,
+      "volume": 2142.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 30°C on July 26?",
+      "market_id": "3094773",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.105,
+      "volume": 1034.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 31°C on July 26?",
+      "market_id": "3094774",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "price": 0.013,
+      "volume": 916.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 32°C on July 26?",
+      "market_id": "3094775",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "price": 0.004,
+      "volume": 796.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 33°C on July 26?",
+      "market_id": "3094776",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.0005,
+      "volume": 404.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 34°C on July 26?",
+      "market_id": "3094777",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "price": 0.002,
+      "volume": 534.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 35°C or higher on July 26?",
+      "market_id": "3094778",
+      "range": [
+        35.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 342.0
+    }
+  ],
+  "created_at": "2026-07-25T18:21:36.858136+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

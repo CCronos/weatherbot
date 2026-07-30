@@ -1,0 +1,148 @@
+{
+  "city": "munich",
+  "city_name": "Munich",
+  "date": "2026-07-27",
+  "unit": "C",
+  "station": "EDDM",
+  "event_end_date": "2026-07-27T12:00:00Z",
+  "hours_at_discovery": 41.7,
+  "status": "open",
+  "position": null,
+  "actual_temp": 25.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-25T18:20:12.327518+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.7,
+      "ecmwf": 24.5,
+      "regional": null,
+      "metar": null,
+      "best": 24.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-25T18:20:12.327518+00:00",
+      "top_bucket": "26.0-26.0C",
+      "top_price": 0.305
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Munich be 21°C or below on July 27?",
+      "market_id": "3096490",
+      "range": [
+        -999.0,
+        21.0
+      ],
+      "price": 0.0035,
+      "volume": 174.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 22°C on July 27?",
+      "market_id": "3096491",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "price": 0.01,
+      "volume": 121.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 23°C on July 27?",
+      "market_id": "3096492",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "price": 0.05,
+      "volume": 202.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 24°C on July 27?",
+      "market_id": "3096493",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "price": 0.205,
+      "volume": 1389.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 25°C on July 27?",
+      "market_id": "3096494",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "price": 0.29,
+      "volume": 452.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 26°C on July 27?",
+      "market_id": "3096495",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "price": 0.305,
+      "volume": 382.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 27°C on July 27?",
+      "market_id": "3096496",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.135,
+      "volume": 312.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 28°C on July 27?",
+      "market_id": "3096497",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.04,
+      "volume": 236.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 29°C on July 27?",
+      "market_id": "3096498",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.008,
+      "volume": 277.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 30°C on July 27?",
+      "market_id": "3096499",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.0015,
+      "volume": 20.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 31°C or higher on July 27?",
+      "market_id": "3096500",
+      "range": [
+        31.0,
+        999.0
+      ],
+      "price": 0.0015,
+      "volume": 260.0
+    }
+  ],
+  "created_at": "2026-07-25T18:20:16.778159+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

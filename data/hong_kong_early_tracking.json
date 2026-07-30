@@ -1,0 +1,72 @@
+[
+  {
+    "market_id": "2969176",
+    "question": "Will the lowest temperature in Hong Kong be 31\u00b0C on July 20?",
+    "target_date": "2026-07-20",
+    "bucket": 31,
+    "entry_price": 0.11,
+    "forecasts": {
+      "jma_gsm": 29.8,
+      "icon_global": 28.9,
+      "ecmwf": 29.0
+    },
+    "probs": {
+      "jma_gsm": 0.20154426005488857,
+      "icon_global": 0.07608107971563194,
+      "ecmwf": 0.08703934847696904
+    },
+    "ev": 0.8322205459535327,
+    "cost": 20.0,
+    "shares": 181.82,
+    "status": "resolved",
+    "entered_at": "2026-07-18 12:35:21",
+    "resolved_outcome": "loss",
+    "pnl": -20.0
+  },
+  {
+    "market_id": "2969175",
+    "question": "Will the lowest temperature in Hong Kong be 30\u00b0C on July 20?",
+    "target_date": "2026-07-20",
+    "bucket": 30,
+    "entry_price": 0.13,
+    "forecasts": {
+      "jma_gsm": 29.8,
+      "icon_global": 28.9,
+      "ecmwf": 29.0
+    },
+    "probs": {
+      "jma_gsm": 0.318871862083218,
+      "icon_global": 0.2173263190001189,
+      "ecmwf": 0.23281134584383434
+    },
+    "ev": 1.4528604775632152,
+    "cost": 20.0,
+    "shares": 153.85,
+    "status": "resolved",
+    "entered_at": "2026-07-18 12:35:26",
+    "resolved_outcome": "loss",
+    "pnl": -20.0
+  },
+  {
+    "market_id": "3050694",
+    "question": "Will the lowest temperature in Hong Kong be 32\u00b0C or higher on July 25?",
+    "target_date": "2026-07-25",
+    "bucket": 32,
+    "entry_price": 0.0055,
+    "forecasts": {
+      "jma_gsm": 33.5,
+      "icon_global": 33.2,
+      "ecmwf": 33.0
+    },
+    "probs": {
+      "jma_gsm": 0.15453802869082833,
+      "icon_global": 0.2015442600548879,
+      "ecmwf": 0.2328113458438344
+    },
+    "ev": 41.329335607969895,
+    "cost": 20.0,
+    "shares": 3636.36,
+    "status": "pending",
+    "entered_at": "2026-07-23 12:34:48"
+  }
+]

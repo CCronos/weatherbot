@@ -1,0 +1,234 @@
+{
+  "city": "chicago",
+  "city_name": "Chicago",
+  "date": "2026-07-20",
+  "unit": "F",
+  "station": "KORD",
+  "event_end_date": "2026-07-20T12:00:00Z",
+  "hours_at_discovery": 34.2,
+  "status": "resolved",
+  "position": {
+    "market_id": "2979224",
+    "question": "Will the highest temperature in Chicago be between 90-91°F on July 20?",
+    "bucket_low": 90.0,
+    "bucket_high": 91.0,
+    "entry_price": 0.05,
+    "bid_at_entry": 0.03,
+    "spread": 0.02,
+    "shares": 400.0,
+    "cost": 20.0,
+    "p": 0.1915,
+    "ev": 2.83,
+    "kelly": 0.0394,
+    "forecast_temp": 91,
+    "forecast_src": "hrrr",
+    "sigma": 2.0,
+    "opened_at": "2026-07-19T05:53:06.930702+00:00",
+    "status": "closed",
+    "pnl": -8.0,
+    "exit_price": 0.03,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-19T06:04:25.266356+00:00"
+  },
+  "actual_temp": 82.0,
+  "resolved_outcome": "loss",
+  "pnl": -8.0,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-19T01:46:54.262486+00:00",
+      "horizon": "D+2",
+      "hours_left": 34.2,
+      "ecmwf": 89,
+      "hrrr": 84,
+      "metar": null,
+      "best": 84,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T02:48:16.332420+00:00",
+      "horizon": "D+2",
+      "hours_left": 33.2,
+      "ecmwf": 89,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T03:49:52.827036+00:00",
+      "horizon": "D+2",
+      "hours_left": 32.2,
+      "ecmwf": 89,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T04:51:31.480537+00:00",
+      "horizon": "D+2",
+      "hours_left": 31.1,
+      "ecmwf": 89,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T05:53:06.930702+00:00",
+      "horizon": "D+1",
+      "hours_left": 30.1,
+      "ecmwf": 89,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-19T01:46:54.262486+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.27
+    },
+    {
+      "ts": "2026-07-19T02:48:16.332420+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.3
+    },
+    {
+      "ts": "2026-07-19T03:49:52.827036+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-19T04:51:31.480537+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-19T05:53:06.930702+00:00",
+      "top_bucket": "86.0-87.0F",
+      "top_price": 0.365
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Chicago be 79°F or below on July 20?",
+      "market_id": "2979218",
+      "range": [
+        -999.0,
+        79.0
+      ],
+      "price": 0.016,
+      "volume": 334.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 80-81°F on July 20?",
+      "market_id": "2979219",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "price": 0.07,
+      "volume": 1004.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 82-83°F on July 20?",
+      "market_id": "2979220",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "price": 0.185,
+      "volume": 1284.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 84-85°F on July 20?",
+      "market_id": "2979221",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "price": 0.295,
+      "volume": 537.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 86-87°F on July 20?",
+      "market_id": "2979222",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "price": 0.365,
+      "volume": 2177.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 88-89°F on July 20?",
+      "market_id": "2979223",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "price": 0.115,
+      "volume": 469.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 90-91°F on July 20?",
+      "market_id": "2979224",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "price": 0.04,
+      "volume": 534.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 92-93°F on July 20?",
+      "market_id": "2979225",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "price": 0.004,
+      "volume": 290.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 94-95°F on July 20?",
+      "market_id": "2979226",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "price": 0.0015,
+      "volume": 382.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 96-97°F on July 20?",
+      "market_id": "2979227",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "price": 0.0025,
+      "volume": 2746.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be 98°F or higher on July 20?",
+      "market_id": "2979228",
+      "range": [
+        98.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 316.0
+    }
+  ],
+  "created_at": "2026-07-19T01:46:57.919013+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

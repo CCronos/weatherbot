@@ -1,0 +1,452 @@
+{
+  "city": "ankara",
+  "city_name": "Ankara",
+  "date": "2026-07-26",
+  "unit": "C",
+  "station": "LTAC",
+  "event_end_date": "2026-07-26T12:00:00Z",
+  "hours_at_discovery": 55.9,
+  "status": "open",
+  "position": null,
+  "actual_temp": 24.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-24T04:08:07.393085+00:00",
+      "horizon": "D+2",
+      "hours_left": 55.9,
+      "ecmwf": 22.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.0,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T05:09:48.985743+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.8,
+      "ecmwf": 22.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.0,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T06:11:31.013228+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.8,
+      "ecmwf": 22.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.0,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T07:13:02.344952+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.8,
+      "ecmwf": 22.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 22.0,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T08:14:35.379816+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.8,
+      "ecmwf": 24.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T09:16:08.274862+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.7,
+      "ecmwf": 24.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T10:17:38.749741+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.7,
+      "ecmwf": 24.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T11:19:14.242550+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.7,
+      "ecmwf": 24.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T12:21:03.703055+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.6,
+      "ecmwf": 24.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 24.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T13:22:53.106600+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.6,
+      "ecmwf": 23.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 23.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:24:34.143792+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.6,
+      "ecmwf": 23.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 23.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:53:05.185501+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.1,
+      "ecmwf": 23.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 23.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:54:09.665745+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.1,
+      "ecmwf": 23.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 23.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:55:56.716619+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.1,
+      "ecmwf": 23.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 23.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:16:24.220837+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.7,
+      "ecmwf": 23.6,
+      "regional": 22.5,
+      "metar": null,
+      "best": 22.5,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:20:38.063103+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.7,
+      "ecmwf": 23.6,
+      "regional": 22.5,
+      "metar": null,
+      "best": 22.5,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T16:37:49.628225+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.4,
+      "ecmwf": 23.6,
+      "regional": 23.2,
+      "metar": null,
+      "best": 23.2,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T20:41:01.359802+00:00",
+      "horizon": "D+2",
+      "hours_left": 39.3,
+      "ecmwf": 22.7,
+      "regional": 23.2,
+      "metar": null,
+      "best": 23.2,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T23:53:32.097578+00:00",
+      "horizon": "D+1",
+      "hours_left": 36.1,
+      "ecmwf": 22.7,
+      "regional": 23.1,
+      "metar": null,
+      "best": 23.1,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-25T18:20:17.458440+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.7,
+      "ecmwf": 23.4,
+      "regional": 22.7,
+      "metar": null,
+      "best": 22.7,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-24T04:08:07.393085+00:00",
+      "top_bucket": "20.0-20.0C",
+      "top_price": 0.205
+    },
+    {
+      "ts": "2026-07-24T05:09:48.985743+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-07-24T06:11:31.013228+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-07-24T07:13:02.344952+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.34
+    },
+    {
+      "ts": "2026-07-24T08:14:35.379816+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-24T09:16:08.274862+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-07-24T10:17:38.749741+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.42
+    },
+    {
+      "ts": "2026-07-24T11:19:14.242550+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-07-24T12:21:03.703055+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-07-24T13:22:53.106600+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.39
+    },
+    {
+      "ts": "2026-07-24T14:24:34.143792+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.38
+    },
+    {
+      "ts": "2026-07-24T14:53:05.185501+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-07-24T14:54:09.665745+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-07-24T14:55:56.716619+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-07-24T15:16:24.220837+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-07-24T15:20:38.063103+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-07-24T16:37:49.628225+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-07-24T20:41:01.359802+00:00",
+      "top_bucket": "24.0-24.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-07-24T23:53:32.097578+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-07-25T18:20:17.458440+00:00",
+      "top_bucket": "23.0-23.0C",
+      "top_price": 0.455
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Ankara be 17°C or below on July 26?",
+      "market_id": "3076579",
+      "range": [
+        -999.0,
+        17.0
+      ],
+      "price": 0.002,
+      "volume": 412.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 18°C on July 26?",
+      "market_id": "3076580",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "price": 0.0015,
+      "volume": 446.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 19°C on July 26?",
+      "market_id": "3076581",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "price": 0.0025,
+      "volume": 513.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 20°C on July 26?",
+      "market_id": "3076582",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "price": 0.0055,
+      "volume": 706.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 21°C on July 26?",
+      "market_id": "3076583",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "price": 0.015,
+      "volume": 883.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 22°C on July 26?",
+      "market_id": "3076584",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "price": 0.155,
+      "volume": 1507.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 23°C on July 26?",
+      "market_id": "3076585",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "price": 0.455,
+      "volume": 1311.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 24°C on July 26?",
+      "market_id": "3076586",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "price": 0.34,
+      "volume": 2493.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 25°C on July 26?",
+      "market_id": "3076587",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "price": 0.07,
+      "volume": 3431.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 26°C on July 26?",
+      "market_id": "3076588",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "price": 0.008,
+      "volume": 1650.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 27°C or higher on July 26?",
+      "market_id": "3076589",
+      "range": [
+        27.0,
+        999.0
+      ],
+      "price": 0.0015,
+      "volume": 532.0
+    }
+  ],
+  "created_at": "2026-07-24T04:08:10.253734+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

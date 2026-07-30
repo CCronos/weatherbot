@@ -1,0 +1,184 @@
+{
+  "city": "dallas",
+  "city_name": "Dallas",
+  "date": "2026-07-16",
+  "unit": "F",
+  "station": "KDAL",
+  "event_end_date": "2026-07-16T12:00:00Z",
+  "hours_at_discovery": 12.4,
+  "status": "resolved",
+  "position": {
+    "market_id": "2929454",
+    "question": "Will the highest temperature in Dallas be between 92-93°F on July 16?",
+    "bucket_low": 92.0,
+    "bucket_high": 93.0,
+    "entry_price": 0.122,
+    "bid_at_entry": 0.101,
+    "spread": 0.021,
+    "shares": 163.93,
+    "cost": 20.0,
+    "p": 0.1915,
+    "ev": 0.5697,
+    "kelly": 0.0225,
+    "forecast_temp": 92,
+    "forecast_src": "hrrr",
+    "sigma": 2.0,
+    "opened_at": "2026-07-15T23:36:54.345925+00:00",
+    "status": "closed",
+    "pnl": -4.92,
+    "exit_price": 0.092,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-16T01:30:14.877146+00:00"
+  },
+  "actual_temp": 89.0,
+  "resolved_outcome": "loss",
+  "pnl": -4.92,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-15T23:36:54.345925+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.4,
+      "ecmwf": 87,
+      "hrrr": 92,
+      "metar": null,
+      "best": 92,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-16T00:39:06.042940+00:00",
+      "horizon": "D+1",
+      "hours_left": 11.3,
+      "ecmwf": 87,
+      "hrrr": 92,
+      "metar": null,
+      "best": 92,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-15T23:36:54.345925+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-16T00:39:06.042940+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.295
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Dallas be 77°F or below on July 16?",
+      "market_id": "2929446",
+      "range": [
+        -999.0,
+        77.0
+      ],
+      "price": 0.0015,
+      "volume": 4726.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 78-79°F on July 16?",
+      "market_id": "2929447",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "price": 0.0055,
+      "volume": 2305.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 80-81°F on July 16?",
+      "market_id": "2929448",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "price": 0.007,
+      "volume": 378.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 82-83°F on July 16?",
+      "market_id": "2929449",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "price": 0.0195,
+      "volume": 1340.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 84-85°F on July 16?",
+      "market_id": "2929450",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "price": 0.105,
+      "volume": 3280.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 86-87°F on July 16?",
+      "market_id": "2929451",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "price": 0.245,
+      "volume": 6416.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 88-89°F on July 16?",
+      "market_id": "2929452",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "price": 0.295,
+      "volume": 1922.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 90-91°F on July 16?",
+      "market_id": "2929453",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "price": 0.235,
+      "volume": 4855.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 92-93°F on July 16?",
+      "market_id": "2929454",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "price": 0.1095,
+      "volume": 3262.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 94-95°F on July 16?",
+      "market_id": "2929455",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "price": 0.0195,
+      "volume": 3260.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be 96°F or higher on July 16?",
+      "market_id": "2929456",
+      "range": [
+        96.0,
+        999.0
+      ],
+      "price": 0.0065,
+      "volume": 5128.0
+    }
+  ],
+  "created_at": "2026-07-15T23:36:57.538183+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

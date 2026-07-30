@@ -1,0 +1,228 @@
+{
+  "city": "los-angeles",
+  "city_name": "Los Angeles",
+  "date": "2026-07-25",
+  "unit": "F",
+  "station": "KLAX",
+  "event_end_date": "2026-07-25T12:00:00Z",
+  "hours_at_discovery": 20.7,
+  "status": "closed",
+  "position": null,
+  "actual_temp": 78.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-24T15:16:04.977375+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.7,
+      "ecmwf": 94,
+      "regional": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:20:16.243484+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.7,
+      "ecmwf": 94,
+      "regional": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T16:37:30.573995+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.4,
+      "ecmwf": 94,
+      "regional": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T20:40:40.751508+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.3,
+      "ecmwf": 94,
+      "regional": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T23:53:04.080441+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.1,
+      "ecmwf": 94,
+      "regional": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-25T18:19:41.054412+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 93,
+      "regional": 80,
+      "metar": 76,
+      "best": 80,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-24T15:16:04.977375+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-24T15:20:16.243484+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-24T16:37:30.573995+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.32
+    },
+    {
+      "ts": "2026-07-24T20:40:40.751508+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-07-24T23:53:04.080441+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.43
+    },
+    {
+      "ts": "2026-07-25T18:19:41.054412+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.655
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Los Angeles be 71°F or below on July 25?",
+      "market_id": "3074208",
+      "range": [
+        -999.0,
+        71.0
+      ],
+      "price": 0.0005,
+      "volume": 383.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 72-73°F on July 25?",
+      "market_id": "3074209",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "price": 0.0005,
+      "volume": 809.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 74-75°F on July 25?",
+      "market_id": "3074210",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "price": 0.0005,
+      "volume": 1219.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 76-77°F on July 25?",
+      "market_id": "3074211",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "price": 0.06,
+      "volume": 11996.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 78-79°F on July 25?",
+      "market_id": "3074212",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "price": 0.655,
+      "volume": 11409.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 80-81°F on July 25?",
+      "market_id": "3074213",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "price": 0.205,
+      "volume": 18319.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 82-83°F on July 25?",
+      "market_id": "3074214",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "price": 0.015,
+      "volume": 6555.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 84-85°F on July 25?",
+      "market_id": "3074215",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "price": 0.009,
+      "volume": 5151.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 86-87°F on July 25?",
+      "market_id": "3074216",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "price": 0.001,
+      "volume": 2968.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be between 88-89°F on July 25?",
+      "market_id": "3074217",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "price": 0.0005,
+      "volume": 3285.0
+    },
+    {
+      "question": "Will the highest temperature in Los Angeles be 90°F or higher on July 25?",
+      "market_id": "3074218",
+      "range": [
+        90.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 2359.0
+    }
+  ],
+  "created_at": "2026-07-24T15:16:08.126213+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

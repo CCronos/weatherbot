@@ -1,0 +1,330 @@
+{
+  "city": "beijing",
+  "city_name": "Beijing",
+  "date": "2026-07-20",
+  "unit": "C",
+  "station": "ZBAA",
+  "event_end_date": "2026-07-20T12:00:00Z",
+  "hours_at_discovery": 17.9,
+  "status": "resolved",
+  "position": {
+    "market_id": "2968881",
+    "question": "Will the highest temperature in Beijing be 31°C on July 20?",
+    "bucket_low": 31.0,
+    "bucket_high": 31.0,
+    "entry_price": 0.24,
+    "bid_at_entry": 0.219,
+    "spread": 0.021,
+    "shares": 83.33,
+    "cost": 20.0,
+    "p": 0.3137,
+    "ev": 0.3071,
+    "kelly": 0.0273,
+    "forecast_temp": 31.3,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-19T18:05:07.433998+00:00",
+    "status": "closed",
+    "pnl": -7.5,
+    "exit_price": 0.15,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-20T02:45:16.455485+00:00"
+  },
+  "actual_temp": 30.0,
+  "resolved_outcome": "loss",
+  "pnl": -7.5,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-19T18:03:12.283794+00:00",
+      "horizon": "D+0",
+      "hours_left": 17.9,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T18:05:07.433998+00:00",
+      "horizon": "D+0",
+      "hours_left": 17.9,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 31.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T19:07:20.116572+00:00",
+      "horizon": "D+0",
+      "hours_left": 16.9,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": 31.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T20:09:33.231761+00:00",
+      "horizon": "D+0",
+      "hours_left": 15.8,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 30.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T21:11:30.863796+00:00",
+      "horizon": "D+0",
+      "hours_left": 14.8,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 30.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T22:13:48.995501+00:00",
+      "horizon": "D+0",
+      "hours_left": 13.8,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 30.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T23:15:43.392310+00:00",
+      "horizon": "D+0",
+      "hours_left": 12.7,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": 23.0,
+      "best": 30.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T00:09:54.781235+00:00",
+      "horizon": "D+0",
+      "hours_left": 11.8,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": 24.0,
+      "best": 30.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T00:11:29.950988+00:00",
+      "horizon": "D+0",
+      "hours_left": 11.8,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": 24.0,
+      "best": 30.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T01:13:14.155308+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.8,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T02:14:53.350428+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.8,
+      "ecmwf": 30.4,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 30.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-19T18:03:12.283794+00:00",
+      "top_bucket": "32.0-999.0C",
+      "top_price": 0.4505
+    },
+    {
+      "ts": "2026-07-19T18:05:07.433998+00:00",
+      "top_bucket": "32.0-999.0C",
+      "top_price": 0.444
+    },
+    {
+      "ts": "2026-07-19T19:07:20.116572+00:00",
+      "top_bucket": "32.0-999.0C",
+      "top_price": 0.4095
+    },
+    {
+      "ts": "2026-07-19T20:09:33.231761+00:00",
+      "top_bucket": "32.0-999.0C",
+      "top_price": 0.3635
+    },
+    {
+      "ts": "2026-07-19T21:11:30.863796+00:00",
+      "top_bucket": "32.0-999.0C",
+      "top_price": 0.3535
+    },
+    {
+      "ts": "2026-07-19T22:13:48.995501+00:00",
+      "top_bucket": "32.0-999.0C",
+      "top_price": 0.3495
+    },
+    {
+      "ts": "2026-07-19T23:15:43.392310+00:00",
+      "top_bucket": "32.0-999.0C",
+      "top_price": 0.3535
+    },
+    {
+      "ts": "2026-07-20T00:09:54.781235+00:00",
+      "top_bucket": "32.0-999.0C",
+      "top_price": 0.362
+    },
+    {
+      "ts": "2026-07-20T00:11:29.950988+00:00",
+      "top_bucket": "32.0-999.0C",
+      "top_price": 0.362
+    },
+    {
+      "ts": "2026-07-20T01:13:14.155308+00:00",
+      "top_bucket": "32.0-999.0C",
+      "top_price": 0.434
+    },
+    {
+      "ts": "2026-07-20T02:14:53.350428+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.31
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Beijing be 22°C or below on July 20?",
+      "market_id": "2968872",
+      "range": [
+        -999.0,
+        22.0
+      ],
+      "price": 0.0005,
+      "volume": 311.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 23°C on July 20?",
+      "market_id": "2968873",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "price": 0.0005,
+      "volume": 327.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 24°C on July 20?",
+      "market_id": "2968874",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "price": 0.0005,
+      "volume": 3664.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 25°C on July 20?",
+      "market_id": "2968875",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "price": 0.0005,
+      "volume": 5841.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 26°C on July 20?",
+      "market_id": "2968876",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "price": 0.0005,
+      "volume": 15838.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 27°C on July 20?",
+      "market_id": "2968877",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.0005,
+      "volume": 18421.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 28°C on July 20?",
+      "market_id": "2968878",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.0695,
+      "volume": 13972.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 29°C on July 20?",
+      "market_id": "2968879",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.31,
+      "volume": 8390.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 30°C on July 20?",
+      "market_id": "2968880",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.285,
+      "volume": 4352.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 31°C on July 20?",
+      "market_id": "2968881",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "price": 0.2215,
+      "volume": 3362.0
+    },
+    {
+      "question": "Will the highest temperature in Beijing be 32°C or higher on July 20?",
+      "market_id": "2968882",
+      "range": [
+        32.0,
+        999.0
+      ],
+      "price": 0.1205,
+      "volume": 6906.0
+    }
+  ],
+  "created_at": "2026-07-19T18:03:22.195933+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

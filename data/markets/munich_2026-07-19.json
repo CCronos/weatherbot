@@ -1,0 +1,378 @@
+{
+  "city": "munich",
+  "city_name": "Munich",
+  "date": "2026-07-19",
+  "unit": "C",
+  "station": "EDDM",
+  "event_end_date": "2026-07-19T12:00:00Z",
+  "hours_at_discovery": 54.9,
+  "status": "resolved",
+  "position": {
+    "market_id": "2956545",
+    "question": "Will the highest temperature in Munich be 19°C or below on July 19?",
+    "bucket_low": -999.0,
+    "bucket_high": 19.0,
+    "entry_price": 0.08,
+    "bid_at_entry": 0.05,
+    "spread": 0.03,
+    "shares": 250.0,
+    "cost": 20.0,
+    "p": 0.5,
+    "ev": 5.25,
+    "kelly": 0.1163,
+    "forecast_temp": 19.0,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-17T20:24:04.507286+00:00",
+    "status": "closed",
+    "pnl": -7.5,
+    "exit_price": 0.05,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-17T20:35:07.223317+00:00"
+  },
+  "actual_temp": 23.0,
+  "resolved_outcome": "loss",
+  "pnl": -7.5,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-17T05:07:54.806411+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.9,
+      "ecmwf": 19.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T06:09:23.850421+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.8,
+      "ecmwf": 19.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T07:10:54.730570+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.8,
+      "ecmwf": 19.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T08:12:25.840839+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.8,
+      "ecmwf": 19.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.0,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T09:13:48.766788+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.8,
+      "ecmwf": 19.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.0,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T10:15:11.784564+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.7,
+      "ecmwf": 19.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.0,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T11:16:32.473682+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.7,
+      "ecmwf": 19.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.0,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T12:18:02.645006+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.7,
+      "ecmwf": 19.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.0,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T13:19:31.431469+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.7,
+      "ecmwf": 19.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T14:21:13.672220+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.6,
+      "ecmwf": 19.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T17:56:09.200705+00:00",
+      "horizon": "D+2",
+      "hours_left": 42.1,
+      "ecmwf": 19.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T18:40:36.999958+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.3,
+      "ecmwf": 19.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T19:22:32.088792+00:00",
+      "horizon": "D+2",
+      "hours_left": 40.6,
+      "ecmwf": 19.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T20:24:04.507286+00:00",
+      "horizon": "D+2",
+      "hours_left": 39.6,
+      "ecmwf": 19.0,
+      "hrrr": null,
+      "metar": null,
+      "best": 19.0,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-17T05:07:54.806411+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.495
+    },
+    {
+      "ts": "2026-07-17T06:09:23.850421+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-07-17T07:10:54.730570+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.33
+    },
+    {
+      "ts": "2026-07-17T08:12:25.840839+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-07-17T09:13:48.766788+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-07-17T10:15:11.784564+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-07-17T11:16:32.473682+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-17T12:18:02.645006+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.34
+    },
+    {
+      "ts": "2026-07-17T13:19:31.431469+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-17T14:21:13.672220+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.34
+    },
+    {
+      "ts": "2026-07-17T17:56:09.200705+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-07-17T18:40:36.999958+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-17T19:22:32.088792+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-07-17T20:24:04.507286+00:00",
+      "top_bucket": "21.0-21.0C",
+      "top_price": 0.32
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Munich be 19°C or below on July 19?",
+      "market_id": "2956545",
+      "range": [
+        -999.0,
+        19.0
+      ],
+      "price": 0.065,
+      "volume": 554.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 20°C on July 19?",
+      "market_id": "2956546",
+      "range": [
+        20.0,
+        20.0
+      ],
+      "price": 0.22,
+      "volume": 216.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 21°C on July 19?",
+      "market_id": "2956547",
+      "range": [
+        21.0,
+        21.0
+      ],
+      "price": 0.32,
+      "volume": 1420.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 22°C on July 19?",
+      "market_id": "2956548",
+      "range": [
+        22.0,
+        22.0
+      ],
+      "price": 0.255,
+      "volume": 194.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 23°C on July 19?",
+      "market_id": "2956549",
+      "range": [
+        23.0,
+        23.0
+      ],
+      "price": 0.0955,
+      "volume": 1080.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 24°C on July 19?",
+      "market_id": "2956550",
+      "range": [
+        24.0,
+        24.0
+      ],
+      "price": 0.0145,
+      "volume": 215.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 25°C on July 19?",
+      "market_id": "2956551",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "price": 0.0065,
+      "volume": 134.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 26°C on July 19?",
+      "market_id": "2956552",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "price": 0.002,
+      "volume": 494.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 27°C on July 19?",
+      "market_id": "2956553",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.002,
+      "volume": 270.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 28°C on July 19?",
+      "market_id": "2956554",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.0015,
+      "volume": 280.0
+    },
+    {
+      "question": "Will the highest temperature in Munich be 29°C or higher on July 19?",
+      "market_id": "2956555",
+      "range": [
+        29.0,
+        999.0
+      ],
+      "price": 0.002,
+      "volume": 185.0
+    }
+  ],
+  "created_at": "2026-07-17T05:07:57.370244+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

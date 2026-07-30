@@ -1,0 +1,444 @@
+{
+  "city": "lucknow",
+  "city_name": "Lucknow",
+  "date": "2026-07-09",
+  "unit": "C",
+  "station": "VILK",
+  "event_end_date": "2026-07-09T12:00:00Z",
+  "hours_at_discovery": 14.3,
+  "status": "resolved",
+  "position": {
+    "market_id": "2827475",
+    "question": "Will the highest temperature in Lucknow be 31°C on July 9?",
+    "bucket_low": 31.0,
+    "bucket_high": 31.0,
+    "entry_price": 0.35,
+    "bid_at_entry": 0.34,
+    "spread": 0.01,
+    "shares": 57.14,
+    "cost": 20.0,
+    "p": 1.0,
+    "ev": 1.8571,
+    "kelly": 0.25,
+    "forecast_temp": 31.3,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-08T21:39:37.063668+00:00",
+    "status": "closed",
+    "pnl": 37.14,
+    "exit_price": 1.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-07-09T20:02:23.884265+00:00",
+    "stop_price": 0.35,
+    "trailing_activated": true
+  },
+  "actual_temp": 31.0,
+  "resolved_outcome": "win",
+  "pnl": 37.14,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-08T21:39:37.063668+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.3,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:07:52.967151+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.9,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:29:26.309675+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.5,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:41:37.641505+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.3,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:05:00.419326+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": 28.0,
+      "best": 31.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:06:57.341095+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": 28.0,
+      "best": 31.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:23:18.481924+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.6,
+      "ecmwf": 30.7,
+      "hrrr": null,
+      "metar": 28.0,
+      "best": 30.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T02:11:56.214482+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.8,
+      "ecmwf": 30.7,
+      "hrrr": null,
+      "metar": 28.0,
+      "best": 30.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T02:28:31.376775+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.5,
+      "ecmwf": 30.7,
+      "hrrr": null,
+      "metar": 28.0,
+      "best": 30.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T03:15:29.225784+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.7,
+      "ecmwf": 30.7,
+      "hrrr": null,
+      "metar": 29.0,
+      "best": 30.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T03:32:22.324119+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.5,
+      "ecmwf": 30.7,
+      "hrrr": null,
+      "metar": 29.0,
+      "best": 30.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T16:26:47.383182+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 31.1,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 31.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T16:29:10.843740+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 31.1,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 31.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T18:23:19.773609+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 31.1,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 31.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T18:23:24.845218+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 31.1,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 31.1,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T19:01:13.492641+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": null,
+      "best": null,
+      "best_source": null
+    },
+    {
+      "ts": "2026-07-09T20:03:58.230292+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": null,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": null,
+      "best_source": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-08T21:39:37.063668+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-08T22:07:52.967151+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-07-08T22:29:26.309675+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-07-08T22:41:37.641505+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-09T01:05:00.419326+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-07-09T01:06:57.341095+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-07-09T01:23:18.481924+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-07-09T02:11:56.214482+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-09T02:28:31.376775+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-09T03:15:29.225784+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-09T03:32:22.324119+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-07-09T16:26:47.383182+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.998
+    },
+    {
+      "ts": "2026-07-09T16:29:10.843740+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.998
+    },
+    {
+      "ts": "2026-07-09T18:23:19.773609+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.9985
+    },
+    {
+      "ts": "2026-07-09T18:23:24.845218+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.9985
+    },
+    {
+      "ts": "2026-07-09T19:01:13.492641+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 1.0
+    },
+    {
+      "ts": "2026-07-09T20:03:58.230292+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 1.0
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Lucknow be 26°C or below on July 9?",
+      "market_id": "2827470",
+      "range": [
+        -999.0,
+        26.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 7659.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 27°C on July 9?",
+      "market_id": "2827471",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 1930.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 28°C on July 9?",
+      "market_id": "2827472",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 2502.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 29°C on July 9?",
+      "market_id": "2827473",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 3892.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 30°C on July 9?",
+      "market_id": "2827474",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 7524.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 31°C on July 9?",
+      "market_id": "2827475",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 1.0,
+      "ask": 0.0,
+      "price": 1.0,
+      "spread": -1.0,
+      "volume": 8476.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 32°C on July 9?",
+      "market_id": "2827476",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 7552.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 33°C on July 9?",
+      "market_id": "2827477",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 9437.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 34°C on July 9?",
+      "market_id": "2827478",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 7016.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 35°C on July 9?",
+      "market_id": "2827479",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 6431.0
+    },
+    {
+      "question": "Will the highest temperature in Lucknow be 36°C or higher on July 9?",
+      "market_id": "2827480",
+      "range": [
+        36.0,
+        999.0
+      ],
+      "bid": 0.0,
+      "ask": 1.0,
+      "price": 0.0,
+      "spread": 1.0,
+      "volume": 5603.0
+    }
+  ],
+  "created_at": "2026-07-08T21:39:39.800179+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

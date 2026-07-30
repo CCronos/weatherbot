@@ -1,0 +1,698 @@
+{
+  "city": "chengdu",
+  "city_name": "Chengdu",
+  "date": "2026-07-23",
+  "unit": "C",
+  "station": "ZUUU",
+  "event_end_date": "2026-07-23T12:00:00Z",
+  "hours_at_discovery": 55.0,
+  "status": "resolved",
+  "position": {
+    "market_id": "3010616",
+    "question": "Will the highest temperature in Chengdu be 41°C on July 23?",
+    "bucket_low": 41.0,
+    "bucket_high": 41.0,
+    "entry_price": 0.15,
+    "bid_at_entry": 0.14,
+    "spread": 0.01,
+    "shares": 133.33,
+    "cost": 20.0,
+    "p": 0.3137,
+    "ev": 1.0913,
+    "kelly": 0.0493,
+    "forecast_temp": 40.7,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-22T16:25:30.825921+00:00",
+    "status": "closed",
+    "pnl": -6.0,
+    "exit_price": 0.105,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-22T18:29:28.293452+00:00"
+  },
+  "actual_temp": 37.0,
+  "resolved_outcome": "loss",
+  "pnl": -6.0,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-21T04:58:30.423618+00:00",
+      "horizon": "D+2",
+      "hours_left": 55.0,
+      "ecmwf": 40.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T06:00:23.072068+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.0,
+      "ecmwf": 40.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T07:02:03.495376+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.0,
+      "ecmwf": 40.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T08:03:38.849113+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.9,
+      "ecmwf": 40.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T09:05:04.714870+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.9,
+      "ecmwf": 40.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T10:06:37.533448+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.9,
+      "ecmwf": 40.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T11:07:54.241147+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.9,
+      "ecmwf": 40.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T12:09:26.489920+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.8,
+      "ecmwf": 40.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T13:11:29.491184+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.8,
+      "ecmwf": 40.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T14:13:19.200168+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.8,
+      "ecmwf": 40.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T15:15:08.589261+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.7,
+      "ecmwf": 40.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T16:16:37.457150+00:00",
+      "horizon": "D+1",
+      "hours_left": 43.7,
+      "ecmwf": 40.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T17:18:15.227165+00:00",
+      "horizon": "D+1",
+      "hours_left": 42.7,
+      "ecmwf": 40.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T18:19:51.658748+00:00",
+      "horizon": "D+1",
+      "hours_left": 41.7,
+      "ecmwf": 40.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T19:21:19.595425+00:00",
+      "horizon": "D+1",
+      "hours_left": 40.6,
+      "ecmwf": 40.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T20:22:54.532691+00:00",
+      "horizon": "D+1",
+      "hours_left": 39.6,
+      "ecmwf": 40.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T21:24:32.665201+00:00",
+      "horizon": "D+1",
+      "hours_left": 38.6,
+      "ecmwf": 40.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T22:26:18.704889+00:00",
+      "horizon": "D+1",
+      "hours_left": 37.6,
+      "ecmwf": 40.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T23:28:27.201153+00:00",
+      "horizon": "D+1",
+      "hours_left": 36.5,
+      "ecmwf": 40.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T00:30:17.922822+00:00",
+      "horizon": "D+1",
+      "hours_left": 35.5,
+      "ecmwf": 40.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T01:31:59.842973+00:00",
+      "horizon": "D+1",
+      "hours_left": 34.5,
+      "ecmwf": 40.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T02:34:44.677882+00:00",
+      "horizon": "D+1",
+      "hours_left": 33.4,
+      "ecmwf": 40.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T02:39:11.729221+00:00",
+      "horizon": "D+1",
+      "hours_left": 33.3,
+      "ecmwf": 40.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T03:41:05.437052+00:00",
+      "horizon": "D+1",
+      "hours_left": 32.3,
+      "ecmwf": 40.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T04:42:51.818067+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.3,
+      "ecmwf": 40.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T05:44:30.367310+00:00",
+      "horizon": "D+1",
+      "hours_left": 30.3,
+      "ecmwf": 40.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T06:46:01.877144+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.2,
+      "ecmwf": 40.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T12:18:02.267262+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.7,
+      "ecmwf": 40.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T13:20:16.632785+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.7,
+      "ecmwf": 40.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T14:22:02.492628+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.6,
+      "ecmwf": 40.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T15:23:34.451639+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.6,
+      "ecmwf": 40.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 40.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T16:25:30.825921+00:00",
+      "horizon": "D+0",
+      "hours_left": 19.6,
+      "ecmwf": 40.7,
+      "hrrr": null,
+      "metar": 30.0,
+      "best": 40.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T17:27:37.514142+00:00",
+      "horizon": "D+0",
+      "hours_left": 18.5,
+      "ecmwf": 40.7,
+      "hrrr": null,
+      "metar": 28.0,
+      "best": 40.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T18:29:28.293452+00:00",
+      "horizon": "D+0",
+      "hours_left": 17.5,
+      "ecmwf": 40.7,
+      "hrrr": null,
+      "metar": 29.0,
+      "best": 40.7,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-21T04:58:30.423618+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.245
+    },
+    {
+      "ts": "2026-07-21T06:00:23.072068+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.255
+    },
+    {
+      "ts": "2026-07-21T07:02:03.495376+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.25
+    },
+    {
+      "ts": "2026-07-21T08:03:38.849113+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.275
+    },
+    {
+      "ts": "2026-07-21T09:05:04.714870+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.255
+    },
+    {
+      "ts": "2026-07-21T10:06:37.533448+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.26
+    },
+    {
+      "ts": "2026-07-21T11:07:54.241147+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-07-21T12:09:26.489920+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-07-21T13:11:29.491184+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-07-21T14:13:19.200168+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-07-21T15:15:08.589261+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.27
+    },
+    {
+      "ts": "2026-07-21T16:16:37.457150+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.275
+    },
+    {
+      "ts": "2026-07-21T17:18:15.227165+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.275
+    },
+    {
+      "ts": "2026-07-21T18:19:51.658748+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.275
+    },
+    {
+      "ts": "2026-07-21T19:21:19.595425+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.275
+    },
+    {
+      "ts": "2026-07-21T20:22:54.532691+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.275
+    },
+    {
+      "ts": "2026-07-21T21:24:32.665201+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.275
+    },
+    {
+      "ts": "2026-07-21T22:26:18.704889+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.275
+    },
+    {
+      "ts": "2026-07-21T23:28:27.201153+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.275
+    },
+    {
+      "ts": "2026-07-22T00:30:17.922822+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.275
+    },
+    {
+      "ts": "2026-07-22T01:31:59.842973+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-22T02:34:44.677882+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-22T02:39:11.729221+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-22T03:41:05.437052+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-22T04:42:51.818067+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-22T05:44:30.367310+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-22T06:46:01.877144+00:00",
+      "top_bucket": "40.0-40.0C",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-22T12:18:02.267262+00:00",
+      "top_bucket": "39.0-39.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-22T13:20:16.632785+00:00",
+      "top_bucket": "39.0-39.0C",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-07-22T14:22:02.492628+00:00",
+      "top_bucket": "39.0-39.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-07-22T15:23:34.451639+00:00",
+      "top_bucket": "39.0-39.0C",
+      "top_price": 0.36
+    },
+    {
+      "ts": "2026-07-22T16:25:30.825921+00:00",
+      "top_bucket": "39.0-39.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-22T17:27:37.514142+00:00",
+      "top_bucket": "39.0-39.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-22T18:29:28.293452+00:00",
+      "top_bucket": "39.0-39.0C",
+      "top_price": 0.345
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Chengdu be 34°C or below on July 23?",
+      "market_id": "3010609",
+      "range": [
+        -999.0,
+        34.0
+      ],
+      "price": 0.0025,
+      "volume": 4178.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 35°C on July 23?",
+      "market_id": "3010610",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "price": 0.0055,
+      "volume": 1207.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 36°C on July 23?",
+      "market_id": "3010611",
+      "range": [
+        36.0,
+        36.0
+      ],
+      "price": 0.0135,
+      "volume": 2414.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 37°C on July 23?",
+      "market_id": "3010612",
+      "range": [
+        37.0,
+        37.0
+      ],
+      "price": 0.06,
+      "volume": 3768.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 38°C on July 23?",
+      "market_id": "3010613",
+      "range": [
+        38.0,
+        38.0
+      ],
+      "price": 0.175,
+      "volume": 3518.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 39°C on July 23?",
+      "market_id": "3010614",
+      "range": [
+        39.0,
+        39.0
+      ],
+      "price": 0.345,
+      "volume": 3538.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 40°C on July 23?",
+      "market_id": "3010615",
+      "range": [
+        40.0,
+        40.0
+      ],
+      "price": 0.315,
+      "volume": 4251.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 41°C on July 23?",
+      "market_id": "3010616",
+      "range": [
+        41.0,
+        41.0
+      ],
+      "price": 0.105,
+      "volume": 5997.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 42°C on July 23?",
+      "market_id": "3010617",
+      "range": [
+        42.0,
+        42.0
+      ],
+      "price": 0.0165,
+      "volume": 5537.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 43°C on July 23?",
+      "market_id": "3010618",
+      "range": [
+        43.0,
+        43.0
+      ],
+      "price": 0.002,
+      "volume": 502.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 44°C or higher on July 23?",
+      "market_id": "3010619",
+      "range": [
+        44.0,
+        999.0
+      ],
+      "price": 0.001,
+      "volume": 485.0
+    }
+  ],
+  "created_at": "2026-07-21T04:58:33.562407+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

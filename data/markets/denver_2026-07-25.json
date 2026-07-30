@@ -1,0 +1,228 @@
+{
+  "city": "denver",
+  "city_name": "Denver",
+  "date": "2026-07-25",
+  "unit": "F",
+  "station": "KBKF",
+  "event_end_date": "2026-07-25T12:00:00Z",
+  "hours_at_discovery": 20.7,
+  "status": "closed",
+  "position": null,
+  "actual_temp": 101.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-24T15:16:08.674315+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.7,
+      "ecmwf": 98,
+      "regional": 99,
+      "metar": null,
+      "best": 99,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:20:19.966821+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.7,
+      "ecmwf": 98,
+      "regional": 99,
+      "metar": null,
+      "best": 99,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T16:37:34.492720+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.4,
+      "ecmwf": 98,
+      "regional": 99,
+      "metar": null,
+      "best": 99,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T20:40:44.845313+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.3,
+      "ecmwf": 101,
+      "regional": 100,
+      "metar": null,
+      "best": 100,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T23:53:07.565582+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.1,
+      "ecmwf": 101,
+      "regional": 100,
+      "metar": null,
+      "best": 100,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-25T18:19:48.982210+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 98,
+      "regional": 100,
+      "metar": 95,
+      "best": 100,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-24T15:16:08.674315+00:00",
+      "top_bucket": "98.0-99.0F",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-07-24T15:20:19.966821+00:00",
+      "top_bucket": "98.0-99.0F",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-07-24T16:37:34.492720+00:00",
+      "top_bucket": "98.0-99.0F",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-07-24T20:40:44.845313+00:00",
+      "top_bucket": "98.0-99.0F",
+      "top_price": 0.45
+    },
+    {
+      "ts": "2026-07-24T23:53:07.565582+00:00",
+      "top_bucket": "98.0-99.0F",
+      "top_price": 0.445
+    },
+    {
+      "ts": "2026-07-25T18:19:48.982210+00:00",
+      "top_bucket": "100.0-101.0F",
+      "top_price": 0.65
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Denver be 89°F or below on July 25?",
+      "market_id": "3074186",
+      "range": [
+        -999.0,
+        89.0
+      ],
+      "price": 0.0005,
+      "volume": 2392.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 90-91°F on July 25?",
+      "market_id": "3074187",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "price": 0.0005,
+      "volume": 513.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 92-93°F on July 25?",
+      "market_id": "3074188",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "price": 0.0005,
+      "volume": 844.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 94-95°F on July 25?",
+      "market_id": "3074189",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "price": 0.005,
+      "volume": 1281.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 96-97°F on July 25?",
+      "market_id": "3074190",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "price": 0.01,
+      "volume": 2604.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 98-99°F on July 25?",
+      "market_id": "3074191",
+      "range": [
+        98.0,
+        99.0
+      ],
+      "price": 0.29,
+      "volume": 3150.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 100-101°F on July 25?",
+      "market_id": "3074192",
+      "range": [
+        100.0,
+        101.0
+      ],
+      "price": 0.65,
+      "volume": 7196.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 102-103°F on July 25?",
+      "market_id": "3074193",
+      "range": [
+        102.0,
+        103.0
+      ],
+      "price": 0.035,
+      "volume": 1598.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 104-105°F on July 25?",
+      "market_id": "3074194",
+      "range": [
+        104.0,
+        105.0
+      ],
+      "price": 0.0005,
+      "volume": 731.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 106-107°F on July 25?",
+      "market_id": "3074195",
+      "range": [
+        106.0,
+        107.0
+      ],
+      "price": 0.0005,
+      "volume": 467.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be 108°F or higher on July 25?",
+      "market_id": "3074196",
+      "range": [
+        108.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 528.0
+    }
+  ],
+  "created_at": "2026-07-24T15:16:12.108508+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

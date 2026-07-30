@@ -1,0 +1,186 @@
+{
+  "city": "toronto",
+  "city_name": "Toronto",
+  "date": "2026-07-16",
+  "unit": "C",
+  "station": "CYYZ",
+  "event_end_date": "2026-07-16T12:00:00Z",
+  "hours_at_discovery": 12.4,
+  "status": "resolved",
+  "position": {
+    "market_id": "2929417",
+    "question": "Will the highest temperature in Toronto be 31°C on July 16?",
+    "bucket_low": 31.0,
+    "bucket_high": 31.0,
+    "entry_price": 0.12,
+    "bid_at_entry": 0.1,
+    "spread": 0.02,
+    "shares": 166.67,
+    "cost": 20.0,
+    "p": 0.3137,
+    "ev": 1.6142,
+    "kelly": 0.055,
+    "forecast_temp": 30.7,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-15T23:37:54.573669+00:00",
+    "status": "closed",
+    "pnl": -5.0,
+    "exit_price": 0.09,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-16T01:00:09.520248+00:00",
+    "stop_price": 0.12,
+    "trailing_activated": true
+  },
+  "actual_temp": 30.0,
+  "resolved_outcome": "loss",
+  "pnl": -5.0,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-15T23:37:54.573669+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.4,
+      "ecmwf": 30.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.7,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-16T00:39:47.764821+00:00",
+      "horizon": "D+1",
+      "hours_left": 11.3,
+      "ecmwf": 30.7,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.7,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-15T23:37:54.573669+00:00",
+      "top_bucket": "-999.0-27.0C",
+      "top_price": 0.2475
+    },
+    {
+      "ts": "2026-07-16T00:39:47.764821+00:00",
+      "top_bucket": "-999.0-27.0C",
+      "top_price": 0.2515
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Toronto be 27°C or below on July 16?",
+      "market_id": "2929413",
+      "range": [
+        -999.0,
+        27.0
+      ],
+      "price": 0.2515,
+      "volume": 14661.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 28°C on July 16?",
+      "market_id": "2929414",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.1685,
+      "volume": 2912.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 29°C on July 16?",
+      "market_id": "2929415",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.2,
+      "volume": 2230.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 30°C on July 16?",
+      "market_id": "2929416",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.245,
+      "volume": 3264.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 31°C on July 16?",
+      "market_id": "2929417",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "price": 0.145,
+      "volume": 9971.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 32°C on July 16?",
+      "market_id": "2929418",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "price": 0.0455,
+      "volume": 2420.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 33°C on July 16?",
+      "market_id": "2929419",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.0055,
+      "volume": 2201.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 34°C on July 16?",
+      "market_id": "2929420",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "price": 0.0035,
+      "volume": 1230.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 35°C on July 16?",
+      "market_id": "2929421",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "price": 0.003,
+      "volume": 1189.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 36°C on July 16?",
+      "market_id": "2929422",
+      "range": [
+        36.0,
+        36.0
+      ],
+      "price": 0.0005,
+      "volume": 664.0
+    },
+    {
+      "question": "Will the highest temperature in Toronto be 37°C or higher on July 16?",
+      "market_id": "2929423",
+      "range": [
+        37.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 550.0
+    }
+  ],
+  "created_at": "2026-07-15T23:37:56.595753+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

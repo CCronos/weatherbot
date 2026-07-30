@@ -1,0 +1,250 @@
+{
+  "city": "taipei",
+  "city_name": "Taipei",
+  "date": "2026-07-26",
+  "unit": "C",
+  "station": "RCSS",
+  "event_end_date": "2026-07-26T12:00:00Z",
+  "hours_at_discovery": 44.7,
+  "status": "resolved",
+  "position": {
+    "market_id": "3076704",
+    "question": "Will the highest temperature in Taipei be 33°C on July 26?",
+    "bucket_low": 33.0,
+    "bucket_high": 33.0,
+    "entry_price": 0.02,
+    "bid_at_entry": 0.012,
+    "spread": 0.008,
+    "shares": 10000.0,
+    "cost": 200.0,
+    "p": 0.3189,
+    "ev": 14.945,
+    "kelly": 0.0769,
+    "forecast_temp": 32.8,
+    "forecast_src": "regional",
+    "sigma": 1.2,
+    "opened_at": "2026-07-25T18:20:56.508355+00:00",
+    "status": "closed",
+    "pnl": -80.0,
+    "exit_price": 0.012,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-25T18:32:11.388427+00:00"
+  },
+  "actual_temp": 37.0,
+  "resolved_outcome": "loss",
+  "pnl": -80.0,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-24T15:16:58.155936+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.7,
+      "ecmwf": 35.3,
+      "regional": 32.5,
+      "metar": null,
+      "best": 32.5,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:21:01.417676+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.6,
+      "ecmwf": 35.3,
+      "regional": 32.5,
+      "metar": null,
+      "best": 32.5,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T16:38:16.496658+00:00",
+      "horizon": "D+1",
+      "hours_left": 43.4,
+      "ecmwf": 35.3,
+      "regional": 32.9,
+      "metar": null,
+      "best": 32.9,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T20:41:24.335630+00:00",
+      "horizon": "D+1",
+      "hours_left": 39.3,
+      "ecmwf": 34.6,
+      "regional": 32.9,
+      "metar": null,
+      "best": 32.9,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T23:54:01.342583+00:00",
+      "horizon": "D+1",
+      "hours_left": 36.1,
+      "ecmwf": 34.6,
+      "regional": 32.9,
+      "metar": null,
+      "best": 32.9,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-25T18:20:56.508355+00:00",
+      "horizon": "D+0",
+      "hours_left": 17.7,
+      "ecmwf": 34.7,
+      "regional": 32.8,
+      "metar": 29.0,
+      "best": 32.8,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-24T15:16:58.155936+00:00",
+      "top_bucket": "35.0-35.0C",
+      "top_price": 0.33
+    },
+    {
+      "ts": "2026-07-24T15:21:01.417676+00:00",
+      "top_bucket": "35.0-35.0C",
+      "top_price": 0.33
+    },
+    {
+      "ts": "2026-07-24T16:38:16.496658+00:00",
+      "top_bucket": "35.0-35.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-24T20:41:24.335630+00:00",
+      "top_bucket": "36.0-36.0C",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-07-24T23:54:01.342583+00:00",
+      "top_bucket": "36.0-36.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-25T18:20:56.508355+00:00",
+      "top_bucket": "36.0-36.0C",
+      "top_price": 0.455
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Taipei be 29°C or below on July 26?",
+      "market_id": "3076700",
+      "range": [
+        -999.0,
+        29.0
+      ],
+      "price": 0.0005,
+      "volume": 2276.0
+    },
+    {
+      "question": "Will the highest temperature in Taipei be 30°C on July 26?",
+      "market_id": "3076701",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.0025,
+      "volume": 4091.0
+    },
+    {
+      "question": "Will the highest temperature in Taipei be 31°C on July 26?",
+      "market_id": "3076702",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "price": 0.0005,
+      "volume": 1210.0
+    },
+    {
+      "question": "Will the highest temperature in Taipei be 32°C on July 26?",
+      "market_id": "3076703",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "price": 0.0015,
+      "volume": 539.0
+    },
+    {
+      "question": "Will the highest temperature in Taipei be 33°C on July 26?",
+      "market_id": "3076704",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.016,
+      "volume": 2014.0
+    },
+    {
+      "question": "Will the highest temperature in Taipei be 34°C on July 26?",
+      "market_id": "3076705",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "price": 0.065,
+      "volume": 1170.0
+    },
+    {
+      "question": "Will the highest temperature in Taipei be 35°C on July 26?",
+      "market_id": "3076706",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "price": 0.305,
+      "volume": 2342.0
+    },
+    {
+      "question": "Will the highest temperature in Taipei be 36°C on July 26?",
+      "market_id": "3076707",
+      "range": [
+        36.0,
+        36.0
+      ],
+      "price": 0.455,
+      "volume": 1950.0
+    },
+    {
+      "question": "Will the highest temperature in Taipei be 37°C on July 26?",
+      "market_id": "3076708",
+      "range": [
+        37.0,
+        37.0
+      ],
+      "price": 0.175,
+      "volume": 2611.0
+    },
+    {
+      "question": "Will the highest temperature in Taipei be 38°C on July 26?",
+      "market_id": "3076709",
+      "range": [
+        38.0,
+        38.0
+      ],
+      "price": 0.025,
+      "volume": 3742.0
+    },
+    {
+      "question": "Will the highest temperature in Taipei be 39°C or higher on July 26?",
+      "market_id": "3076710",
+      "range": [
+        39.0,
+        999.0
+      ],
+      "price": 0.0155,
+      "volume": 5994.0
+    }
+  ],
+  "created_at": "2026-07-24T15:17:04.267976+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

@@ -1,0 +1,169 @@
+{
+  "city": "chengdu",
+  "city_name": "Chengdu",
+  "date": "2026-07-16",
+  "unit": "C",
+  "station": "ZUUU",
+  "event_end_date": "2026-07-16T12:00:00Z",
+  "hours_at_discovery": 12.4,
+  "status": "resolved",
+  "position": {
+    "market_id": "2917168",
+    "question": "Will the highest temperature in Chengdu be 36°C on July 16?",
+    "bucket_low": 36.0,
+    "bucket_high": 36.0,
+    "entry_price": 0.15,
+    "bid_at_entry": 0.13,
+    "spread": 0.02,
+    "shares": 133.33,
+    "cost": 20.0,
+    "p": 0.3137,
+    "ev": 1.0913,
+    "kelly": 0.0505,
+    "forecast_temp": 36.3,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-15T23:38:10.934950+00:00",
+    "status": "closed",
+    "pnl": -5.33,
+    "exit_price": 0.11,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-16T00:18:51.683833+00:00"
+  },
+  "actual_temp": 38.0,
+  "resolved_outcome": "loss",
+  "pnl": -5.33,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-15T23:38:10.934950+00:00",
+      "horizon": "D+0",
+      "hours_left": 12.4,
+      "ecmwf": 36.3,
+      "hrrr": null,
+      "metar": 29.0,
+      "best": 36.3,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-15T23:38:10.934950+00:00",
+      "top_bucket": "38.0-38.0C",
+      "top_price": 0.335
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Chengdu be 32°C or below on July 16?",
+      "market_id": "2917164",
+      "range": [
+        -999.0,
+        32.0
+      ],
+      "price": 0.0035,
+      "volume": 2992.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 33°C on July 16?",
+      "market_id": "2917165",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.0025,
+      "volume": 2598.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 34°C on July 16?",
+      "market_id": "2917166",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "price": 0.011,
+      "volume": 1547.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 35°C on July 16?",
+      "market_id": "2917167",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "price": 0.0545,
+      "volume": 1896.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 36°C on July 16?",
+      "market_id": "2917168",
+      "range": [
+        36.0,
+        36.0
+      ],
+      "price": 0.14,
+      "volume": 3185.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 37°C on July 16?",
+      "market_id": "2917169",
+      "range": [
+        37.0,
+        37.0
+      ],
+      "price": 0.32,
+      "volume": 2130.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 38°C on July 16?",
+      "market_id": "2917170",
+      "range": [
+        38.0,
+        38.0
+      ],
+      "price": 0.335,
+      "volume": 2933.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 39°C on July 16?",
+      "market_id": "2917171",
+      "range": [
+        39.0,
+        39.0
+      ],
+      "price": 0.155,
+      "volume": 4202.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 40°C on July 16?",
+      "market_id": "2917172",
+      "range": [
+        40.0,
+        40.0
+      ],
+      "price": 0.0345,
+      "volume": 3086.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 41°C on July 16?",
+      "market_id": "2917173",
+      "range": [
+        41.0,
+        41.0
+      ],
+      "price": 0.0045,
+      "volume": 1313.0
+    },
+    {
+      "question": "Will the highest temperature in Chengdu be 42°C or higher on July 16?",
+      "market_id": "2917174",
+      "range": [
+        42.0,
+        999.0
+      ],
+      "price": 0.0015,
+      "volume": 2516.0
+    }
+  ],
+  "created_at": "2026-07-15T23:38:14.020385+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

@@ -1,0 +1,484 @@
+{
+  "city": "seattle",
+  "city_name": "Seattle",
+  "date": "2026-07-25",
+  "unit": "F",
+  "station": "KSEA",
+  "event_end_date": "2026-07-25T12:00:00Z",
+  "hours_at_discovery": 33.9,
+  "status": "closed",
+  "position": null,
+  "actual_temp": 72.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-24T02:04:18.465945+00:00",
+      "horizon": "D+2",
+      "hours_left": 33.9,
+      "ecmwf": 72,
+      "hrrr": 75,
+      "metar": null,
+      "best": 75,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T03:06:19.121994+00:00",
+      "horizon": "D+2",
+      "hours_left": 32.9,
+      "ecmwf": 72,
+      "hrrr": 75,
+      "metar": null,
+      "best": 75,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T04:07:50.632994+00:00",
+      "horizon": "D+2",
+      "hours_left": 31.9,
+      "ecmwf": 72,
+      "hrrr": 75,
+      "metar": null,
+      "best": 75,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T05:09:32.533009+00:00",
+      "horizon": "D+2",
+      "hours_left": 30.8,
+      "ecmwf": 72,
+      "hrrr": 75,
+      "metar": null,
+      "best": 75,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T06:11:14.984241+00:00",
+      "horizon": "D+2",
+      "hours_left": 29.8,
+      "ecmwf": 72,
+      "hrrr": 73,
+      "metar": null,
+      "best": 73,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T07:12:44.119959+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.8,
+      "ecmwf": 72,
+      "hrrr": 73,
+      "metar": null,
+      "best": 73,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T08:14:16.715336+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.8,
+      "ecmwf": 71,
+      "hrrr": 70,
+      "metar": null,
+      "best": 70,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T09:15:50.168108+00:00",
+      "horizon": "D+1",
+      "hours_left": 26.7,
+      "ecmwf": 71,
+      "hrrr": 70,
+      "metar": null,
+      "best": 70,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T10:17:22.269989+00:00",
+      "horizon": "D+1",
+      "hours_left": 25.7,
+      "ecmwf": 71,
+      "hrrr": 70,
+      "metar": null,
+      "best": 70,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T11:18:56.878512+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.7,
+      "ecmwf": 71,
+      "hrrr": 70,
+      "metar": null,
+      "best": 70,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T12:20:43.838492+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.7,
+      "ecmwf": 71,
+      "hrrr": 70,
+      "metar": null,
+      "best": 70,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T13:22:22.789239+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.6,
+      "ecmwf": 72,
+      "hrrr": 70,
+      "metar": null,
+      "best": 70,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:24:15.546133+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.6,
+      "ecmwf": 72,
+      "hrrr": 68,
+      "metar": null,
+      "best": 68,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:52:41.980037+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.1,
+      "ecmwf": 72,
+      "hrrr": 68,
+      "metar": null,
+      "best": 68,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:53:49.069219+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.1,
+      "ecmwf": 72,
+      "hrrr": 68,
+      "metar": null,
+      "best": 68,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:55:38.905941+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.1,
+      "ecmwf": 72,
+      "hrrr": 68,
+      "metar": null,
+      "best": 68,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:15:50.720826+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.7,
+      "ecmwf": 72,
+      "regional": 68,
+      "metar": null,
+      "best": 68,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:20:04.830994+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.7,
+      "ecmwf": 72,
+      "regional": 68,
+      "metar": null,
+      "best": 68,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T16:37:18.872507+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.4,
+      "ecmwf": 72,
+      "regional": 68,
+      "metar": null,
+      "best": 68,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T20:40:28.944536+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.3,
+      "ecmwf": 71,
+      "regional": 69,
+      "metar": null,
+      "best": 69,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T23:52:53.227871+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.1,
+      "ecmwf": 71,
+      "regional": 69,
+      "metar": null,
+      "best": 69,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-25T18:19:20.938817+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 72,
+      "regional": 71,
+      "metar": 65,
+      "best": 71,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-24T02:04:18.465945+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.28
+    },
+    {
+      "ts": "2026-07-24T03:06:19.121994+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-07-24T04:07:50.632994+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-07-24T05:09:32.533009+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.32
+    },
+    {
+      "ts": "2026-07-24T06:11:14.984241+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.275
+    },
+    {
+      "ts": "2026-07-24T07:12:44.119959+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-07-24T08:14:16.715336+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.245
+    },
+    {
+      "ts": "2026-07-24T09:15:50.168108+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.245
+    },
+    {
+      "ts": "2026-07-24T10:17:22.269989+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.245
+    },
+    {
+      "ts": "2026-07-24T11:18:56.878512+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.245
+    },
+    {
+      "ts": "2026-07-24T12:20:43.838492+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.255
+    },
+    {
+      "ts": "2026-07-24T13:22:22.789239+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.275
+    },
+    {
+      "ts": "2026-07-24T14:24:15.546133+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-24T14:52:41.980037+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-24T14:53:49.069219+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-24T14:55:38.905941+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-24T15:15:50.720826+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-24T15:20:04.830994+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-24T16:37:18.872507+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-24T20:40:28.944536+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-24T23:52:53.227871+00:00",
+      "top_bucket": "68.0-69.0F",
+      "top_price": 0.285
+    },
+    {
+      "ts": "2026-07-25T18:19:20.938817+00:00",
+      "top_bucket": "70.0-71.0F",
+      "top_price": 0.505
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seattle be 63°F or below on July 25?",
+      "market_id": "3074109",
+      "range": [
+        -999.0,
+        63.0
+      ],
+      "price": 0.0005,
+      "volume": 1356.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 64-65°F on July 25?",
+      "market_id": "3074110",
+      "range": [
+        64.0,
+        65.0
+      ],
+      "price": 0.01,
+      "volume": 978.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 66-67°F on July 25?",
+      "market_id": "3074111",
+      "range": [
+        66.0,
+        67.0
+      ],
+      "price": 0.04,
+      "volume": 2195.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 68-69°F on July 25?",
+      "market_id": "3074112",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "price": 0.22,
+      "volume": 1977.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 70-71°F on July 25?",
+      "market_id": "3074113",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "price": 0.505,
+      "volume": 2307.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 72-73°F on July 25?",
+      "market_id": "3074114",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "price": 0.195,
+      "volume": 1147.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 74-75°F on July 25?",
+      "market_id": "3074115",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "price": 0.075,
+      "volume": 1059.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 76-77°F on July 25?",
+      "market_id": "3074116",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "price": 0.008,
+      "volume": 1240.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 78-79°F on July 25?",
+      "market_id": "3074117",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "price": 0.0005,
+      "volume": 1311.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 80-81°F on July 25?",
+      "market_id": "3074118",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "price": 0.0005,
+      "volume": 2567.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be 82°F or higher on July 25?",
+      "market_id": "3074119",
+      "range": [
+        82.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 7288.0
+    }
+  ],
+  "created_at": "2026-07-24T02:04:22.501574+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

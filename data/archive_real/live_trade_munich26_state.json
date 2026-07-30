@@ -1,0 +1,116 @@
+{
+  "niveles": [
+    {
+      "bucket": 29,
+      "price": 0.17,
+      "usd_total": 10.59,
+      "usd_deployed": 0.0,
+      "shares_filled": 0.0,
+      "cost_filled": 0.0,
+      "order_id": null,
+      "order_status": "done"
+    },
+    {
+      "bucket": 30,
+      "price": 0.041,
+      "usd_total": 3.3333,
+      "usd_deployed": 3.3333,
+      "shares_filled": 81.3,
+      "cost_filled": 3.3333,
+      "order_id": null,
+      "order_status": "done"
+    },
+    {
+      "bucket": 30,
+      "price": 0.042,
+      "usd_total": 3.3333,
+      "usd_deployed": 3.33312,
+      "shares_filled": 79.36,
+      "cost_filled": 3.33312,
+      "order_id": null,
+      "order_status": "done"
+    },
+    {
+      "bucket": 30,
+      "price": 0.043,
+      "usd_total": 3.3334,
+      "usd_deployed": 3.33336,
+      "shares_filled": 77.52,
+      "cost_filled": 3.33336,
+      "order_id": null,
+      "order_status": "done"
+    },
+    {
+      "bucket": 31,
+      "price": 0.00434,
+      "usd_total": 2.6261,
+      "usd_deployed": 2.6261,
+      "shares_filled": 604.5462,
+      "cost_filled": 2.6261,
+      "order_id": null,
+      "order_status": "done",
+      "note": "reconstruido desde el historial real de trades (29 fills de goteo antes de cancelar las órdenes restantes) — no estaba en el archivo de estado"
+    }
+  ],
+  "cycles": 300,
+  "posiciones": {
+    "29": {
+      "bought_shares": 0.0,
+      "bought_cost": 0.0,
+      "shares": 0.0,
+      "total_cost": 0.0,
+      "avg_price": 0.0,
+      "tp1_done": false,
+      "tp2_done": false,
+      "closed": true,
+      "tp1_target": null,
+      "tp1_sold": 0.0,
+      "tp2_target": null,
+      "tp2_sold": 0.0,
+      "stop_triggered": false,
+      "realized_pnl": 0.0,
+      "final_pnl": 0.0,
+      "close_reason": "mercado resuelto 2026-07-26 — bucket perdio (outcomePrices YES=0)"
+    },
+    "30": {
+      "bought_shares": 238.18,
+      "bought_cost": 9.99978,
+      "shares": 0.0,
+      "total_cost": 0.0,
+      "avg_price": 0.041984,
+      "tp1_done": false,
+      "tp2_done": false,
+      "closed": true,
+      "tp1_target": null,
+      "tp1_sold": 0.0,
+      "tp2_target": null,
+      "tp2_sold": 0.0,
+      "stop_triggered": true,
+      "realized_pnl": -1.803246,
+      "final_pnl": -8.64414,
+      "close_reason": "mercado resuelto 2026-07-26 — bucket perdio (outcomePrices YES=0)"
+    },
+    "31": {
+      "bought_shares": 604.5462,
+      "bought_cost": 2.6261,
+      "shares": 0.0,
+      "total_cost": 0.0,
+      "avg_price": 0.004344,
+      "tp1_done": false,
+      "tp2_done": false,
+      "closed": true,
+      "tp1_target": null,
+      "tp1_sold": 0.0,
+      "tp2_target": null,
+      "tp2_sold": 0.0,
+      "stop_triggered": true,
+      "realized_pnl": 0.0,
+      "final_pnl": -2.6261,
+      "close_reason": "mercado resuelto 2026-07-26 — bucket perdio (outcomePrices YES=0)"
+    }
+  },
+  "closed": true,
+  "resolved_at": "2026-07-26",
+  "final_pnl_total": -11.27024,
+  "nota_cierre": "Cerrado por resolucion oficial del evento, verificado 2026-07-28: los 3 buckets (29/30/31C) resolvieron NO. El proceso habia muerto a mitad del stop-loss troceado; las shares remanentes valian $0 al resolver, no habia nada que rescatar."
+}

@@ -1,0 +1,148 @@
+{
+  "city": "dallas",
+  "city_name": "Dallas",
+  "date": "2026-07-26",
+  "unit": "F",
+  "station": "KDAL",
+  "event_end_date": "2026-07-26T12:00:00Z",
+  "hours_at_discovery": 17.7,
+  "status": "open",
+  "position": null,
+  "actual_temp": 98.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-25T18:19:14.358950+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.7,
+      "ecmwf": 102,
+      "regional": 101,
+      "metar": null,
+      "best": 101,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-25T18:19:14.358950+00:00",
+      "top_bucket": "100.0-101.0F",
+      "top_price": 0.415
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Dallas be 95°F or below on July 26?",
+      "market_id": "3094801",
+      "range": [
+        -999.0,
+        95.0
+      ],
+      "price": 0.002,
+      "volume": 1285.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 96-97°F on July 26?",
+      "market_id": "3094802",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "price": 0.085,
+      "volume": 1078.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 98-99°F on July 26?",
+      "market_id": "3094803",
+      "range": [
+        98.0,
+        99.0
+      ],
+      "price": 0.32,
+      "volume": 3873.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 100-101°F on July 26?",
+      "market_id": "3094804",
+      "range": [
+        100.0,
+        101.0
+      ],
+      "price": 0.415,
+      "volume": 2797.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 102-103°F on July 26?",
+      "market_id": "3094805",
+      "range": [
+        102.0,
+        103.0
+      ],
+      "price": 0.155,
+      "volume": 1683.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 104-105°F on July 26?",
+      "market_id": "3094806",
+      "range": [
+        104.0,
+        105.0
+      ],
+      "price": 0.035,
+      "volume": 917.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 106-107°F on July 26?",
+      "market_id": "3094807",
+      "range": [
+        106.0,
+        107.0
+      ],
+      "price": 0.015,
+      "volume": 288.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 108-109°F on July 26?",
+      "market_id": "3094808",
+      "range": [
+        108.0,
+        109.0
+      ],
+      "price": 0.0015,
+      "volume": 317.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 110-111°F on July 26?",
+      "market_id": "3094809",
+      "range": [
+        110.0,
+        111.0
+      ],
+      "price": 0.0015,
+      "volume": 375.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be between 112-113°F on July 26?",
+      "market_id": "3094810",
+      "range": [
+        112.0,
+        113.0
+      ],
+      "price": 0.0005,
+      "volume": 355.0
+    },
+    {
+      "question": "Will the highest temperature in Dallas be 114°F or higher on July 26?",
+      "market_id": "3094811",
+      "range": [
+        114.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 410.0
+    }
+  ],
+  "created_at": "2026-07-25T18:19:19.338222+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

@@ -1,0 +1,148 @@
+{
+  "city": "miami",
+  "city_name": "Miami",
+  "date": "2026-07-26",
+  "unit": "F",
+  "station": "KMIA",
+  "event_end_date": "2026-07-26T12:00:00Z",
+  "hours_at_discovery": 17.7,
+  "status": "open",
+  "position": null,
+  "actual_temp": 94.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-25T18:19:08.550342+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.7,
+      "ecmwf": 87,
+      "regional": 90,
+      "metar": null,
+      "best": 90,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-25T18:19:08.550342+00:00",
+      "top_bucket": "92.0-93.0F",
+      "top_price": 0.405
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Miami be 79°F or below on July 26?",
+      "market_id": "3094823",
+      "range": [
+        -999.0,
+        79.0
+      ],
+      "price": 0.0005,
+      "volume": 235.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 80-81°F on July 26?",
+      "market_id": "3094824",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "price": 0.0005,
+      "volume": 135.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 82-83°F on July 26?",
+      "market_id": "3094825",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "price": 0.0045,
+      "volume": 671.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 84-85°F on July 26?",
+      "market_id": "3094826",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "price": 0.005,
+      "volume": 804.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 86-87°F on July 26?",
+      "market_id": "3094827",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "price": 0.02,
+      "volume": 363.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 88-89°F on July 26?",
+      "market_id": "3094828",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "price": 0.08,
+      "volume": 1247.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 90-91°F on July 26?",
+      "market_id": "3094829",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "price": 0.385,
+      "volume": 1750.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 92-93°F on July 26?",
+      "market_id": "3094830",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "price": 0.405,
+      "volume": 3579.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 94-95°F on July 26?",
+      "market_id": "3094831",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "price": 0.075,
+      "volume": 1671.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be between 96-97°F on July 26?",
+      "market_id": "3094832",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "price": 0.025,
+      "volume": 736.0
+    },
+    {
+      "question": "Will the highest temperature in Miami be 98°F or higher on July 26?",
+      "market_id": "3094833",
+      "range": [
+        98.0,
+        999.0
+      ],
+      "price": 0.003,
+      "volume": 238.0
+    }
+  ],
+  "created_at": "2026-07-25T18:19:13.474873+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

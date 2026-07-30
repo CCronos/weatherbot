@@ -1,0 +1,282 @@
+{
+  "city": "singapore",
+  "city_name": "Singapore",
+  "date": "2026-07-20",
+  "unit": "C",
+  "station": "WSSS",
+  "event_end_date": "2026-07-20T12:00:00Z",
+  "hours_at_discovery": 55.4,
+  "status": "resolved",
+  "position": {
+    "market_id": "2968805",
+    "question": "Will the highest temperature in Singapore be 28°C on July 20?",
+    "bucket_low": 28.0,
+    "bucket_high": 28.0,
+    "entry_price": 0.013,
+    "bid_at_entry": 0.005,
+    "spread": 0.008,
+    "shares": 1538.46,
+    "cost": 20.0,
+    "p": 0.3066,
+    "ev": 22.5846,
+    "kelly": 0.0751,
+    "forecast_temp": 28.4,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-18T13:24:27.883155+00:00",
+    "status": "closed",
+    "pnl": -12.31,
+    "exit_price": 0.005,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-18T13:35:06.857306+00:00"
+  },
+  "actual_temp": 32.0,
+  "resolved_outcome": "loss",
+  "pnl": -12.31,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-18T04:37:58.078415+00:00",
+      "horizon": "D+2",
+      "hours_left": 55.4,
+      "ecmwf": 28.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T05:39:25.169247+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.3,
+      "ecmwf": 28.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T06:41:02.436701+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.3,
+      "ecmwf": 28.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T07:42:38.711404+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 28.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T08:44:17.019820+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.3,
+      "ecmwf": 28.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T09:45:48.201208+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.2,
+      "ecmwf": 28.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T12:22:40.381359+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.6,
+      "ecmwf": 28.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T13:24:27.883155+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.6,
+      "ecmwf": 28.4,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.4,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-18T04:37:58.078415+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.275
+    },
+    {
+      "ts": "2026-07-18T05:39:25.169247+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-18T06:41:02.436701+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-07-18T07:42:38.711404+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-07-18T08:44:17.019820+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.47
+    },
+    {
+      "ts": "2026-07-18T09:45:48.201208+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-07-18T12:22:40.381359+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-07-18T13:24:27.883155+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.455
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Singapore be 25°C or below on July 20?",
+      "market_id": "2968802",
+      "range": [
+        -999.0,
+        25.0
+      ],
+      "price": 0.0005,
+      "volume": 201.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 26°C on July 20?",
+      "market_id": "2968803",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "price": 0.0015,
+      "volume": 451.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 27°C on July 20?",
+      "market_id": "2968804",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.0025,
+      "volume": 157.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 28°C on July 20?",
+      "market_id": "2968805",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.009,
+      "volume": 667.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 29°C on July 20?",
+      "market_id": "2968806",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.016,
+      "volume": 131.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 30°C on July 20?",
+      "market_id": "2968807",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.06,
+      "volume": 35.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 31°C on July 20?",
+      "market_id": "2968808",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "price": 0.285,
+      "volume": 161.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 32°C on July 20?",
+      "market_id": "2968809",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "price": 0.455,
+      "volume": 270.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 33°C on July 20?",
+      "market_id": "2968810",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.185,
+      "volume": 328.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 34°C on July 20?",
+      "market_id": "2968811",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "price": 0.0295,
+      "volume": 34.0
+    },
+    {
+      "question": "Will the highest temperature in Singapore be 35°C or higher on July 20?",
+      "market_id": "2968812",
+      "range": [
+        35.0,
+        999.0
+      ],
+      "price": 0.007,
+      "volume": 41.0
+    }
+  ],
+  "created_at": "2026-07-18T04:38:00.233247+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

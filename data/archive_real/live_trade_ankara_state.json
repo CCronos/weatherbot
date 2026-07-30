@@ -1,0 +1,58 @@
+{
+  "phase": "closed",
+  "orders": [
+    {
+      "price": 0.06,
+      "usd": 4.85,
+      "order_id": "0x120c597bc098a5da91e4ee8906c64dd12c90f52349e565217f433e2ac4e57aa6",
+      "status": "cancelled",
+      "filled_shares": 0.0,
+      "filled_cost": 0.0
+    },
+    {
+      "price": 0.065,
+      "usd": 4.85,
+      "order_id": "0x21f46e29f4d58ef6d38ec4e5bfd97f764a7da1afef0063e7c813663b468529af",
+      "status": "cancelled",
+      "filled_shares": 0.0,
+      "filled_cost": 0.0
+    },
+    {
+      "price": 0.07,
+      "usd": 4.85,
+      "order_id": "0x2457c08f458ac79311cd713ba3256a86f2d2cc3ce73341aa36047d56f9857bed",
+      "status": "cancelled",
+      "filled_shares": 0.0,
+      "filled_cost": 0.0
+    },
+    {
+      "price": 0.08,
+      "usd": 4.85,
+      "order_id": "0xab5c9735c1bf6d470eff7b267106bc7a43abb397fcc5e5daabede7fa0e93a225",
+      "status": "filled",
+      "filled_shares": 60.62,
+      "filled_cost": 4.8496
+    },
+    {
+      "price": 0.109405,
+      "usd": 10.0,
+      "order_id": "0xba1f43c408d5cbf0d3819b4e5726d53fca0a8ee05dc88e24b4b2620168dc9307",
+      "status": "filled",
+      "filled_shares": 91.403507,
+      "filled_cost": 9.999999
+    }
+  ],
+  "position": {
+    "shares": 152.023507,
+    "total_cost": 14.849599,
+    "avg_price": 0.09768
+  },
+  "trailing": {
+    "active": true,
+    "peak_price": 0.585
+  },
+  "cycles": 28,
+  "closed": true,
+  "close_reason": "trailing stop (retrocedió 55.9% desde el pico $0.585)",
+  "final_pnl": -4.397618999999999
+}

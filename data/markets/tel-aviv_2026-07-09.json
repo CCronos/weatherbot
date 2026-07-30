@@ -1,0 +1,443 @@
+{
+  "city": "tel-aviv",
+  "city_name": "Tel Aviv",
+  "date": "2026-07-09",
+  "unit": "C",
+  "station": "LLBG",
+  "event_end_date": "2026-07-09T12:00:00Z",
+  "hours_at_discovery": 14.3,
+  "status": "resolved",
+  "position": {
+    "market_id": "2825849",
+    "question": "Will the highest temperature in Tel Aviv be 31°C on July 9?",
+    "bucket_low": 31.0,
+    "bucket_high": 31.0,
+    "entry_price": 0.44,
+    "bid_at_entry": 0.43,
+    "spread": 0.01,
+    "shares": 45.45,
+    "cost": 20.0,
+    "p": 1.0,
+    "ev": 1.2727,
+    "kelly": 0.25,
+    "forecast_temp": 31.3,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-09T03:15:32.267603+00:00",
+    "status": "closed",
+    "pnl": 25.45,
+    "exit_price": 1.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-07-15T23:36:41.855216+00:00",
+    "stop_price": 0.44,
+    "trailing_activated": true
+  },
+  "actual_temp": 31.0,
+  "resolved_outcome": "win",
+  "pnl": 25.45,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-08T21:39:41.562386+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.3,
+      "ecmwf": 31.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:07:55.989030+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.9,
+      "ecmwf": 31.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:29:29.475336+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.5,
+      "ecmwf": 31.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:41:40.738471+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.3,
+      "ecmwf": 31.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:05:03.109501+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 31.5,
+      "hrrr": null,
+      "metar": 24.0,
+      "best": 31.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:07:00.386201+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 31.5,
+      "hrrr": null,
+      "metar": 24.0,
+      "best": 31.5,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:23:22.472120+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.6,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": 24.0,
+      "best": 31.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T02:12:01.193102+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.8,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": 24.0,
+      "best": 31.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T02:29:15.271872+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.5,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": 24.0,
+      "best": 31.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T03:15:32.267603+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.7,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": 24.0,
+      "best": 31.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T03:32:28.145600+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.5,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": 24.0,
+      "best": 31.3,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T16:26:51.936102+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 32.0,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 32.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T16:29:18.804148+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 32.0,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 32.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T18:23:25.471764+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 32.0,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 32.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T18:23:27.557331+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 32.0,
+      "hrrr": null,
+      "metar": 27.0,
+      "best": 32.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T19:01:24.633334+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 32.0,
+      "hrrr": null,
+      "metar": 26.0,
+      "best": 32.0,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T20:04:02.920138+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 31.9,
+      "hrrr": null,
+      "metar": 26.0,
+      "best": 31.9,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-08T21:39:41.562386+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-07-08T22:07:55.989030+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-07-08T22:29:29.475336+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.495
+    },
+    {
+      "ts": "2026-07-08T22:41:40.738471+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.495
+    },
+    {
+      "ts": "2026-07-09T01:05:03.109501+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-07-09T01:07:00.386201+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-07-09T01:23:22.472120+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-07-09T02:12:01.193102+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-07-09T02:29:15.271872+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-07-09T03:15:32.267603+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-07-09T03:32:28.145600+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-07-09T16:26:51.936102+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-07-09T16:29:18.804148+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-07-09T18:23:25.471764+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-07-09T18:23:27.557331+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-07-09T19:01:24.633334+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-07-09T20:04:02.920138+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.9995
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Tel Aviv be 27°C or below on July 9?",
+      "market_id": "2825845",
+      "range": [
+        -999.0,
+        27.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2022.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 28°C on July 9?",
+      "market_id": "2825846",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1167.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 29°C on July 9?",
+      "market_id": "2825847",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2400.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 30°C on July 9?",
+      "market_id": "2825848",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 9084.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 31°C on July 9?",
+      "market_id": "2825849",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 0.9995,
+      "ask": 0.0005,
+      "price": 0.9995,
+      "spread": -0.999,
+      "volume": 6680.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 32°C on July 9?",
+      "market_id": "2825850",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 5419.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 33°C on July 9?",
+      "market_id": "2825851",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2942.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 34°C on July 9?",
+      "market_id": "2825852",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2627.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 35°C on July 9?",
+      "market_id": "2825853",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1948.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 36°C on July 9?",
+      "market_id": "2825854",
+      "range": [
+        36.0,
+        36.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1575.0
+    },
+    {
+      "question": "Will the highest temperature in Tel Aviv be 37°C or higher on July 9?",
+      "market_id": "2825855",
+      "range": [
+        37.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1780.0
+    }
+  ],
+  "created_at": "2026-07-08T21:39:51.978822+00:00"
+}

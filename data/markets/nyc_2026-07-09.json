@@ -1,0 +1,442 @@
+{
+  "city": "nyc",
+  "city_name": "New York City",
+  "date": "2026-07-09",
+  "unit": "F",
+  "station": "KLGA",
+  "event_end_date": "2026-07-09T12:00:00Z",
+  "hours_at_discovery": 14.4,
+  "status": "closed",
+  "position": {
+    "market_id": "2840252",
+    "question": "Will the highest temperature in New York City be between 84-85°F on July 9?",
+    "bucket_low": 84.0,
+    "bucket_high": 85.0,
+    "entry_price": 0.42,
+    "bid_at_entry": 0.41,
+    "spread": 0.01,
+    "shares": 47.62,
+    "cost": 20.0,
+    "p": 1.0,
+    "ev": 1.381,
+    "kelly": 0.25,
+    "forecast_temp": 84,
+    "forecast_src": "hrrr",
+    "sigma": 2.0,
+    "opened_at": "2026-07-08T21:38:40.696042+00:00",
+    "status": "closed",
+    "pnl": -6.19,
+    "exit_price": 0.29,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-09T16:48:50.364355+00:00"
+  },
+  "actual_temp": 87.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-08T21:38:40.696042+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.4,
+      "ecmwf": 81,
+      "hrrr": 84,
+      "metar": null,
+      "best": 84,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-08T22:06:29.057552+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.9,
+      "ecmwf": 81,
+      "hrrr": 84,
+      "metar": null,
+      "best": 84,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-08T22:28:34.499397+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.5,
+      "ecmwf": 81,
+      "hrrr": 84,
+      "metar": null,
+      "best": 84,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-08T22:40:51.367398+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.3,
+      "ecmwf": 81,
+      "hrrr": 84,
+      "metar": null,
+      "best": 84,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T01:04:06.029785+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 81,
+      "hrrr": 85,
+      "metar": 76,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T01:06:06.848183+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 81,
+      "hrrr": 85,
+      "metar": 76,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T01:22:22.786076+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.6,
+      "ecmwf": 81,
+      "hrrr": 85,
+      "metar": 76,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T02:08:53.906216+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.8,
+      "ecmwf": 81,
+      "hrrr": 85,
+      "metar": 78,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T02:25:50.501682+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.6,
+      "ecmwf": 81,
+      "hrrr": 85,
+      "metar": 78,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T03:14:15.206273+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.8,
+      "ecmwf": 81,
+      "hrrr": 87,
+      "metar": 77,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T03:31:22.186860+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.5,
+      "ecmwf": 81,
+      "hrrr": 87,
+      "metar": 77,
+      "best": 87,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T16:22:56.324449+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 82,
+      "hrrr": 85,
+      "metar": 85,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T16:26:55.745699+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 82,
+      "hrrr": 85,
+      "metar": 85,
+      "best": 85,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T18:21:05.399769+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 82,
+      "hrrr": 86,
+      "metar": 80,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T18:22:26.537902+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 82,
+      "hrrr": 86,
+      "metar": 80,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T19:00:10.454626+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 82,
+      "hrrr": 86,
+      "metar": 79,
+      "best": 86,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T20:02:23.964119+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 82,
+      "hrrr": 86,
+      "metar": 80,
+      "best": 86,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-08T21:38:40.696042+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-07-08T22:06:29.057552+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-07-08T22:28:34.499397+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-07-08T22:40:51.367398+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-07-09T01:04:06.029785+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.395
+    },
+    {
+      "ts": "2026-07-09T01:06:06.848183+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.395
+    },
+    {
+      "ts": "2026-07-09T01:22:22.786076+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.395
+    },
+    {
+      "ts": "2026-07-09T02:08:53.906216+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-07-09T02:25:50.501682+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.385
+    },
+    {
+      "ts": "2026-07-09T03:14:15.206273+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.395
+    },
+    {
+      "ts": "2026-07-09T03:31:22.186860+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.395
+    },
+    {
+      "ts": "2026-07-09T16:22:56.324449+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.495
+    },
+    {
+      "ts": "2026-07-09T16:26:55.745699+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.495
+    },
+    {
+      "ts": "2026-07-09T18:21:05.399769+00:00",
+      "top_bucket": "86.0-87.0F",
+      "top_price": 0.9955
+    },
+    {
+      "ts": "2026-07-09T18:22:26.537902+00:00",
+      "top_bucket": "86.0-87.0F",
+      "top_price": 0.9955
+    },
+    {
+      "ts": "2026-07-09T19:00:10.454626+00:00",
+      "top_bucket": "86.0-87.0F",
+      "top_price": 0.996
+    },
+    {
+      "ts": "2026-07-09T20:02:23.964119+00:00",
+      "top_bucket": "86.0-87.0F",
+      "top_price": 0.9945
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in New York City be 75°F or below on July 9?",
+      "market_id": "2840247",
+      "range": [
+        -999.0,
+        75.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 3179.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 76-77°F on July 9?",
+      "market_id": "2840248",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2370.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 78-79°F on July 9?",
+      "market_id": "2840249",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 6053.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 80-81°F on July 9?",
+      "market_id": "2840250",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 10009.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 82-83°F on July 9?",
+      "market_id": "2840251",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 24695.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 84-85°F on July 9?",
+      "market_id": "2840252",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 29663.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 86-87°F on July 9?",
+      "market_id": "2840253",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.9945,
+      "ask": 0.0055,
+      "price": 0.9945,
+      "spread": -0.989,
+      "volume": 17509.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 88-89°F on July 9?",
+      "market_id": "2840254",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.006,
+      "ask": 0.994,
+      "price": 0.006,
+      "spread": 0.988,
+      "volume": 19638.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 90-91°F on July 9?",
+      "market_id": "2840255",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 8294.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 92-93°F on July 9?",
+      "market_id": "2840256",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 6469.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be 94°F or higher on July 9?",
+      "market_id": "2840257",
+      "range": [
+        94.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 9962.0
+    }
+  ],
+  "created_at": "2026-07-08T21:38:44.791573+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

@@ -1,0 +1,570 @@
+{
+  "city": "chicago",
+  "city_name": "Chicago",
+  "date": "2026-07-23",
+  "unit": "F",
+  "station": "KORD",
+  "event_end_date": "2026-07-23T12:00:00Z",
+  "hours_at_discovery": 34.5,
+  "status": "resolved",
+  "position": {
+    "market_id": "3023964",
+    "question": "Will the highest temperature in Chicago be between 80-81°F on July 23?",
+    "bucket_low": 80.0,
+    "bucket_high": 81.0,
+    "entry_price": 0.04,
+    "bid_at_entry": 0.03,
+    "spread": 0.01,
+    "shares": 500.0,
+    "cost": 20.0,
+    "p": 0.1915,
+    "ev": 3.7875,
+    "kelly": 0.0405,
+    "forecast_temp": 80,
+    "forecast_src": "hrrr",
+    "sigma": 2.0,
+    "opened_at": "2026-07-23T06:48:51.258677+00:00",
+    "status": "closed",
+    "pnl": -5.0,
+    "exit_price": 0.03,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-23T07:00:21.107443+00:00"
+  },
+  "actual_temp": 77.0,
+  "resolved_outcome": "loss",
+  "pnl": -5.0,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-22T01:30:46.795234+00:00",
+      "horizon": "D+2",
+      "hours_left": 34.5,
+      "ecmwf": 79,
+      "hrrr": 81,
+      "metar": null,
+      "best": 81,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T02:32:54.876848+00:00",
+      "horizon": "D+2",
+      "hours_left": 33.4,
+      "ecmwf": 79,
+      "hrrr": 78,
+      "metar": null,
+      "best": 78,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T02:37:56.143610+00:00",
+      "horizon": "D+2",
+      "hours_left": 33.4,
+      "ecmwf": 79,
+      "hrrr": 78,
+      "metar": null,
+      "best": 78,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T03:39:51.075394+00:00",
+      "horizon": "D+2",
+      "hours_left": 32.3,
+      "ecmwf": 79,
+      "hrrr": 78,
+      "metar": null,
+      "best": 78,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T04:41:37.057717+00:00",
+      "horizon": "D+2",
+      "hours_left": 31.3,
+      "ecmwf": 79,
+      "hrrr": 78,
+      "metar": null,
+      "best": 78,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T05:43:26.392580+00:00",
+      "horizon": "D+1",
+      "hours_left": 30.3,
+      "ecmwf": 79,
+      "hrrr": 78,
+      "metar": null,
+      "best": 78,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T06:44:56.091003+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.3,
+      "ecmwf": 79,
+      "hrrr": 78,
+      "metar": null,
+      "best": 78,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T12:16:13.851286+00:00",
+      "horizon": "D+1",
+      "hours_left": 23.7,
+      "ecmwf": 79,
+      "hrrr": 81,
+      "metar": null,
+      "best": 81,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T13:18:54.949676+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.7,
+      "ecmwf": 78,
+      "hrrr": 81,
+      "metar": null,
+      "best": 81,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T14:20:42.897616+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.7,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T15:22:28.573184+00:00",
+      "horizon": "D+1",
+      "hours_left": 20.6,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T16:24:16.984909+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.6,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T17:26:21.341562+00:00",
+      "horizon": "D+1",
+      "hours_left": 18.6,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T18:28:24.613402+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.5,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T19:30:06.094547+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.5,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": null,
+      "best": 80,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T20:31:46.035688+00:00",
+      "horizon": "D+1",
+      "hours_left": 15.5,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T21:33:39.619879+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.4,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T22:35:24.232781+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.4,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-22T23:36:53.346868+00:00",
+      "horizon": "D+1",
+      "hours_left": 12.4,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T00:38:23.044110+00:00",
+      "horizon": "D+1",
+      "hours_left": 11.4,
+      "ecmwf": 77,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T01:39:57.703165+00:00",
+      "horizon": "D+1",
+      "hours_left": 10.3,
+      "ecmwf": 78,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T02:41:57.941710+00:00",
+      "horizon": "D+1",
+      "hours_left": 9.3,
+      "ecmwf": 78,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T03:43:44.833422+00:00",
+      "horizon": "D+1",
+      "hours_left": 8.3,
+      "ecmwf": 78,
+      "hrrr": 78,
+      "metar": null,
+      "best": 78,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T04:45:28.078909+00:00",
+      "horizon": "D+1",
+      "hours_left": 7.2,
+      "ecmwf": 78,
+      "hrrr": 79,
+      "metar": null,
+      "best": 79,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T05:47:05.473815+00:00",
+      "horizon": "D+0",
+      "hours_left": 6.2,
+      "ecmwf": 78,
+      "hrrr": 79,
+      "metar": 63,
+      "best": 79,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-23T06:48:51.258677+00:00",
+      "horizon": "D+0",
+      "hours_left": 5.2,
+      "ecmwf": 78,
+      "hrrr": 80,
+      "metar": 62,
+      "best": 80,
+      "best_source": "hrrr",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-22T01:30:46.795234+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-22T02:32:54.876848+00:00",
+      "top_bucket": "76.0-77.0F",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-07-22T02:37:56.143610+00:00",
+      "top_bucket": "76.0-77.0F",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-07-22T03:39:51.075394+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-07-22T04:41:37.057717+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.395
+    },
+    {
+      "ts": "2026-07-22T05:43:26.392580+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.395
+    },
+    {
+      "ts": "2026-07-22T06:44:56.091003+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.395
+    },
+    {
+      "ts": "2026-07-22T12:16:13.851286+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.42
+    },
+    {
+      "ts": "2026-07-22T13:18:54.949676+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-07-22T14:20:42.897616+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-07-22T15:22:28.573184+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.43
+    },
+    {
+      "ts": "2026-07-22T16:24:16.984909+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-07-22T17:26:21.341562+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.46
+    },
+    {
+      "ts": "2026-07-22T18:28:24.613402+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.44
+    },
+    {
+      "ts": "2026-07-22T19:30:06.094547+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.435
+    },
+    {
+      "ts": "2026-07-22T20:31:46.035688+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.44
+    },
+    {
+      "ts": "2026-07-22T21:33:39.619879+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.44
+    },
+    {
+      "ts": "2026-07-22T22:35:24.232781+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-07-22T23:36:53.346868+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-07-23T00:38:23.044110+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-07-23T01:39:57.703165+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-07-23T02:41:57.941710+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-07-23T03:43:44.833422+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-07-23T04:45:28.078909+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-07-23T05:47:05.473815+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-07-23T06:48:51.258677+00:00",
+      "top_bucket": "78.0-79.0F",
+      "top_price": 0.465
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Chicago be 67°F or below on July 23?",
+      "market_id": "3023957",
+      "range": [
+        -999.0,
+        67.0
+      ],
+      "price": 0.0005,
+      "volume": 2813.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 68-69°F on July 23?",
+      "market_id": "3023958",
+      "range": [
+        68.0,
+        69.0
+      ],
+      "price": 0.0005,
+      "volume": 505.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 70-71°F on July 23?",
+      "market_id": "3023959",
+      "range": [
+        70.0,
+        71.0
+      ],
+      "price": 0.0005,
+      "volume": 326.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 72-73°F on July 23?",
+      "market_id": "3023960",
+      "range": [
+        72.0,
+        73.0
+      ],
+      "price": 0.0045,
+      "volume": 990.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 74-75°F on July 23?",
+      "market_id": "3023961",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "price": 0.09,
+      "volume": 2034.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 76-77°F on July 23?",
+      "market_id": "3023962",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "price": 0.325,
+      "volume": 3303.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 78-79°F on July 23?",
+      "market_id": "3023963",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "price": 0.465,
+      "volume": 5703.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 80-81°F on July 23?",
+      "market_id": "3023964",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "price": 0.035,
+      "volume": 2208.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 82-83°F on July 23?",
+      "market_id": "3023965",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "price": 0.0125,
+      "volume": 1800.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be between 84-85°F on July 23?",
+      "market_id": "3023966",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "price": 0.003,
+      "volume": 960.0
+    },
+    {
+      "question": "Will the highest temperature in Chicago be 86°F or higher on July 23?",
+      "market_id": "3023967",
+      "range": [
+        86.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 345.0
+    }
+  ],
+  "created_at": "2026-07-22T01:30:51.827941+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

@@ -1,0 +1,250 @@
+{
+  "city": "nyc",
+  "city_name": "New York City",
+  "date": "2026-07-18",
+  "unit": "F",
+  "station": "KLGA",
+  "event_end_date": "2026-07-18T12:00:00Z",
+  "hours_at_discovery": 34.0,
+  "status": "resolved",
+  "position": {
+    "market_id": "2954187",
+    "question": "Will the highest temperature in New York City be between 86-87°F on July 18?",
+    "bucket_low": 86.0,
+    "bucket_high": 87.0,
+    "entry_price": 0.035,
+    "bid_at_entry": 0.011,
+    "spread": 0.024,
+    "shares": 571.43,
+    "cost": 20.0,
+    "p": 0.1915,
+    "ev": 4.4714,
+    "kelly": 0.0432,
+    "forecast_temp": 86,
+    "forecast_src": "hrrr",
+    "sigma": 2.0,
+    "opened_at": "2026-07-17T07:10:21.058909+00:00",
+    "status": "closed",
+    "pnl": -13.71,
+    "exit_price": 0.011,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-17T07:21:50.205467+00:00"
+  },
+  "actual_temp": 80.0,
+  "resolved_outcome": "loss",
+  "pnl": -13.71,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-17T02:02:50.929923+00:00",
+      "horizon": "D+2",
+      "hours_left": 34.0,
+      "ecmwf": 85,
+      "hrrr": 86,
+      "metar": null,
+      "best": 86,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T03:04:13.273807+00:00",
+      "horizon": "D+2",
+      "hours_left": 32.9,
+      "ecmwf": 85,
+      "hrrr": 86,
+      "metar": null,
+      "best": 86,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T04:05:42.645393+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.9,
+      "ecmwf": 85,
+      "hrrr": 86,
+      "metar": null,
+      "best": 86,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T05:07:23.802849+00:00",
+      "horizon": "D+1",
+      "hours_left": 30.9,
+      "ecmwf": 85,
+      "hrrr": 86,
+      "metar": null,
+      "best": 86,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T06:08:45.535305+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.9,
+      "ecmwf": 85,
+      "hrrr": 86,
+      "metar": null,
+      "best": 86,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-17T07:10:21.058909+00:00",
+      "horizon": "D+1",
+      "hours_left": 28.8,
+      "ecmwf": 85,
+      "hrrr": 86,
+      "metar": null,
+      "best": 86,
+      "best_source": "hrrr",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-17T02:02:50.929923+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.215
+    },
+    {
+      "ts": "2026-07-17T03:04:13.273807+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.28
+    },
+    {
+      "ts": "2026-07-17T04:05:42.645393+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.3
+    },
+    {
+      "ts": "2026-07-17T05:07:23.802849+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.415
+    },
+    {
+      "ts": "2026-07-17T06:08:45.535305+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-17T07:10:21.058909+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.345
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in New York City be 77°F or below on July 18?",
+      "market_id": "2954182",
+      "range": [
+        -999.0,
+        77.0
+      ],
+      "price": 0.165,
+      "volume": 721.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 78-79°F on July 18?",
+      "market_id": "2954183",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "price": 0.215,
+      "volume": 1184.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 80-81°F on July 18?",
+      "market_id": "2954184",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "price": 0.345,
+      "volume": 2790.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 82-83°F on July 18?",
+      "market_id": "2954185",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "price": 0.205,
+      "volume": 281.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 84-85°F on July 18?",
+      "market_id": "2954186",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "price": 0.085,
+      "volume": 643.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 86-87°F on July 18?",
+      "market_id": "2954187",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "price": 0.0225,
+      "volume": 586.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 88-89°F on July 18?",
+      "market_id": "2954188",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "price": 0.004,
+      "volume": 476.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 90-91°F on July 18?",
+      "market_id": "2954189",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "price": 0.0025,
+      "volume": 669.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 92-93°F on July 18?",
+      "market_id": "2954190",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "price": 0.002,
+      "volume": 225.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 94-95°F on July 18?",
+      "market_id": "2954191",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "price": 0.0025,
+      "volume": 239.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be 96°F or higher on July 18?",
+      "market_id": "2954192",
+      "range": [
+        96.0,
+        999.0
+      ],
+      "price": 0.0015,
+      "volume": 245.0
+    }
+  ],
+  "created_at": "2026-07-17T02:02:54.488486+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

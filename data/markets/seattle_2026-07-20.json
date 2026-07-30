@@ -1,0 +1,282 @@
+{
+  "city": "seattle",
+  "city_name": "Seattle",
+  "date": "2026-07-20",
+  "unit": "F",
+  "station": "KSEA",
+  "event_end_date": "2026-07-20T12:00:00Z",
+  "hours_at_discovery": 34.2,
+  "status": "resolved",
+  "position": {
+    "market_id": "2979170",
+    "question": "Will the highest temperature in Seattle be between 86-87°F on July 20?",
+    "bucket_low": 86.0,
+    "bucket_high": 87.0,
+    "entry_price": 0.15,
+    "bid_at_entry": 0.14,
+    "spread": 0.01,
+    "shares": 133.33,
+    "cost": 20.0,
+    "p": 0.1915,
+    "ev": 0.2767,
+    "kelly": 0.015,
+    "forecast_temp": 86,
+    "forecast_src": "hrrr",
+    "sigma": 2.0,
+    "opened_at": "2026-07-19T14:54:40.048016+00:00",
+    "status": "closed",
+    "pnl": -4.0,
+    "exit_price": 0.12,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-19T15:06:12.485240+00:00"
+  },
+  "actual_temp": 82.0,
+  "resolved_outcome": "loss",
+  "pnl": -4.0,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-19T01:47:06.201013+00:00",
+      "horizon": "D+2",
+      "hours_left": 34.2,
+      "ecmwf": 79,
+      "hrrr": 84,
+      "metar": null,
+      "best": 84,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T02:48:32.601794+00:00",
+      "horizon": "D+2",
+      "hours_left": 33.2,
+      "ecmwf": 79,
+      "hrrr": 86,
+      "metar": null,
+      "best": 86,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T03:50:05.283446+00:00",
+      "horizon": "D+2",
+      "hours_left": 32.2,
+      "ecmwf": 79,
+      "hrrr": 86,
+      "metar": null,
+      "best": 86,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T04:51:43.757080+00:00",
+      "horizon": "D+2",
+      "hours_left": 31.1,
+      "ecmwf": 79,
+      "hrrr": 86,
+      "metar": null,
+      "best": 86,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T05:53:20.022963+00:00",
+      "horizon": "D+2",
+      "hours_left": 30.1,
+      "ecmwf": 79,
+      "hrrr": 87,
+      "metar": null,
+      "best": 87,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T06:54:52.654758+00:00",
+      "horizon": "D+2",
+      "hours_left": 29.1,
+      "ecmwf": 79,
+      "hrrr": 87,
+      "metar": null,
+      "best": 87,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T13:51:26.912492+00:00",
+      "horizon": "D+1",
+      "hours_left": 22.1,
+      "ecmwf": 80,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-19T14:54:40.048016+00:00",
+      "horizon": "D+1",
+      "hours_left": 21.1,
+      "ecmwf": 80,
+      "hrrr": 86,
+      "metar": null,
+      "best": 86,
+      "best_source": "hrrr",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-19T01:47:06.201013+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.265
+    },
+    {
+      "ts": "2026-07-19T02:48:32.601794+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.295
+    },
+    {
+      "ts": "2026-07-19T03:50:05.283446+00:00",
+      "top_bucket": "82.0-83.0F",
+      "top_price": 0.275
+    },
+    {
+      "ts": "2026-07-19T04:51:43.757080+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-07-19T05:53:20.022963+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.34
+    },
+    {
+      "ts": "2026-07-19T06:54:52.654758+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-07-19T13:51:26.912492+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-07-19T14:54:40.048016+00:00",
+      "top_bucket": "84.0-85.0F",
+      "top_price": 0.37
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Seattle be 73°F or below on July 20?",
+      "market_id": "2979163",
+      "range": [
+        -999.0,
+        73.0
+      ],
+      "price": 0.0025,
+      "volume": 1505.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 74-75°F on July 20?",
+      "market_id": "2979164",
+      "range": [
+        74.0,
+        75.0
+      ],
+      "price": 0.004,
+      "volume": 2397.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 76-77°F on July 20?",
+      "market_id": "2979165",
+      "range": [
+        76.0,
+        77.0
+      ],
+      "price": 0.007,
+      "volume": 274.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 78-79°F on July 20?",
+      "market_id": "2979166",
+      "range": [
+        78.0,
+        79.0
+      ],
+      "price": 0.065,
+      "volume": 316.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 80-81°F on July 20?",
+      "market_id": "2979167",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "price": 0.125,
+      "volume": 369.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 82-83°F on July 20?",
+      "market_id": "2979168",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "price": 0.27,
+      "volume": 439.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 84-85°F on July 20?",
+      "market_id": "2979169",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "price": 0.37,
+      "volume": 607.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 86-87°F on July 20?",
+      "market_id": "2979170",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "price": 0.14,
+      "volume": 883.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 88-89°F on July 20?",
+      "market_id": "2979171",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "price": 0.029,
+      "volume": 314.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be between 90-91°F on July 20?",
+      "market_id": "2979172",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "price": 0.006,
+      "volume": 59.0
+    },
+    {
+      "question": "Will the highest temperature in Seattle be 92°F or higher on July 20?",
+      "market_id": "2979173",
+      "range": [
+        92.0,
+        999.0
+      ],
+      "price": 0.0015,
+      "volume": 65.0
+    }
+  ],
+  "created_at": "2026-07-19T01:47:10.005118+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

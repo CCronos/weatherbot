@@ -1,0 +1,250 @@
+{
+  "city": "kuala-lumpur",
+  "city_name": "Kuala Lumpur",
+  "date": "2026-07-26",
+  "unit": "C",
+  "station": "WMKK",
+  "event_end_date": "2026-07-26T12:00:00Z",
+  "hours_at_discovery": 44.7,
+  "status": "open",
+  "position": {
+    "market_id": "3076825",
+    "question": "Will the highest temperature in Kuala Lumpur be 30°C on July 26?",
+    "bucket_low": 30.0,
+    "bucket_high": 30.0,
+    "entry_price": 0.09,
+    "bid_at_entry": 0.08,
+    "spread": 0.01,
+    "shares": 2222.22,
+    "cost": 200.0,
+    "p": 0.322,
+    "ev": 2.5778,
+    "kelly": 0.0648,
+    "forecast_temp": 30.1,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-25T18:21:22.098808+00:00",
+    "status": "open",
+    "pnl": null,
+    "exit_price": null,
+    "close_reason": null,
+    "closed_at": null
+  },
+  "actual_temp": 33.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-24T15:17:30.084991+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.7,
+      "ecmwf": 29.9,
+      "regional": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:21:28.851223+00:00",
+      "horizon": "D+2",
+      "hours_left": 44.6,
+      "ecmwf": 29.9,
+      "regional": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T16:38:38.105759+00:00",
+      "horizon": "D+1",
+      "hours_left": 43.4,
+      "ecmwf": 29.9,
+      "regional": null,
+      "metar": null,
+      "best": 29.9,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T20:41:51.664848+00:00",
+      "horizon": "D+1",
+      "hours_left": 39.3,
+      "ecmwf": 30.9,
+      "regional": null,
+      "metar": null,
+      "best": 30.9,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T23:54:23.305005+00:00",
+      "horizon": "D+1",
+      "hours_left": 36.1,
+      "ecmwf": 30.9,
+      "regional": null,
+      "metar": null,
+      "best": 30.9,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-25T18:21:22.098808+00:00",
+      "horizon": "D+0",
+      "hours_left": 17.6,
+      "ecmwf": 30.1,
+      "regional": null,
+      "metar": 26.0,
+      "best": 30.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-24T15:17:30.084991+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-24T15:21:28.851223+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-24T16:38:38.105759+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-24T20:41:51.664848+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-07-24T23:54:23.305005+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.39
+    },
+    {
+      "ts": "2026-07-25T18:21:22.098808+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.435
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Kuala Lumpur be 26°C or below on July 26?",
+      "market_id": "3076821",
+      "range": [
+        -999.0,
+        26.0
+      ],
+      "price": 0.0005,
+      "volume": 511.0
+    },
+    {
+      "question": "Will the highest temperature in Kuala Lumpur be 27°C on July 26?",
+      "market_id": "3076822",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.0005,
+      "volume": 542.0
+    },
+    {
+      "question": "Will the highest temperature in Kuala Lumpur be 28°C on July 26?",
+      "market_id": "3076823",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.0015,
+      "volume": 1101.0
+    },
+    {
+      "question": "Will the highest temperature in Kuala Lumpur be 29°C on July 26?",
+      "market_id": "3076824",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.0075,
+      "volume": 3031.0
+    },
+    {
+      "question": "Will the highest temperature in Kuala Lumpur be 30°C on July 26?",
+      "market_id": "3076825",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.085,
+      "volume": 980.0
+    },
+    {
+      "question": "Will the highest temperature in Kuala Lumpur be 31°C on July 26?",
+      "market_id": "3076826",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "price": 0.435,
+      "volume": 6046.0
+    },
+    {
+      "question": "Will the highest temperature in Kuala Lumpur be 32°C on July 26?",
+      "market_id": "3076827",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "price": 0.375,
+      "volume": 2491.0
+    },
+    {
+      "question": "Will the highest temperature in Kuala Lumpur be 33°C on July 26?",
+      "market_id": "3076828",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.065,
+      "volume": 1442.0
+    },
+    {
+      "question": "Will the highest temperature in Kuala Lumpur be 34°C on July 26?",
+      "market_id": "3076829",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "price": 0.015,
+      "volume": 897.0
+    },
+    {
+      "question": "Will the highest temperature in Kuala Lumpur be 35°C on July 26?",
+      "market_id": "3076830",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "price": 0.0015,
+      "volume": 2658.0
+    },
+    {
+      "question": "Will the highest temperature in Kuala Lumpur be 36°C or higher on July 26?",
+      "market_id": "3076831",
+      "range": [
+        36.0,
+        999.0
+      ],
+      "price": 0.002,
+      "volume": 3059.0
+    }
+  ],
+  "created_at": "2026-07-24T15:17:32.891579+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

@@ -1,0 +1,169 @@
+{
+  "city": "wellington",
+  "city_name": "Wellington",
+  "date": "2026-07-16",
+  "unit": "C",
+  "station": "NZWN",
+  "event_end_date": "2026-07-16T12:00:00Z",
+  "hours_at_discovery": 12.4,
+  "status": "resolved",
+  "position": {
+    "market_id": "2917015",
+    "question": "Will the highest temperature in Wellington be 15°C on July 16?",
+    "bucket_low": 15.0,
+    "bucket_high": 15.0,
+    "entry_price": 0.001,
+    "bid_at_entry": 0.0005,
+    "spread": 0.0005,
+    "shares": 20000.0,
+    "cost": 20.0,
+    "p": 0.3137,
+    "ev": 312.7,
+    "kelly": 0.0783,
+    "forecast_temp": 14.7,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-15T23:38:04.878577+00:00",
+    "status": "closed",
+    "pnl": -10.0,
+    "exit_price": 0.0005,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-15T23:48:42.514737+00:00"
+  },
+  "actual_temp": 16.0,
+  "resolved_outcome": "loss",
+  "pnl": -10.0,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-15T23:38:04.878577+00:00",
+      "horizon": "D+0",
+      "hours_left": 12.4,
+      "ecmwf": 14.7,
+      "hrrr": null,
+      "metar": 16.0,
+      "best": 14.7,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-15T23:38:04.878577+00:00",
+      "top_bucket": "16.0-16.0C",
+      "top_price": 0.495
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Wellington be 10°C or below on July 16?",
+      "market_id": "2917010",
+      "range": [
+        -999.0,
+        10.0
+      ],
+      "price": 0.0005,
+      "volume": 1722.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 11°C on July 16?",
+      "market_id": "2917011",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "price": 0.0005,
+      "volume": 3247.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 12°C on July 16?",
+      "market_id": "2917012",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "price": 0.0005,
+      "volume": 3556.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 13°C on July 16?",
+      "market_id": "2917013",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "price": 0.0005,
+      "volume": 4016.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 14°C on July 16?",
+      "market_id": "2917014",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "price": 0.0005,
+      "volume": 13685.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 15°C on July 16?",
+      "market_id": "2917015",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "price": 0.0005,
+      "volume": 26129.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 16°C on July 16?",
+      "market_id": "2917016",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "price": 0.495,
+      "volume": 21572.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 17°C on July 16?",
+      "market_id": "2917017",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "price": 0.4755,
+      "volume": 7502.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 18°C on July 16?",
+      "market_id": "2917018",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "price": 0.003,
+      "volume": 3819.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 19°C on July 16?",
+      "market_id": "2917019",
+      "range": [
+        19.0,
+        19.0
+      ],
+      "price": 0.0005,
+      "volume": 586.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 20°C or higher on July 16?",
+      "market_id": "2917020",
+      "range": [
+        20.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 346.0
+    }
+  ],
+  "created_at": "2026-07-15T23:38:06.736319+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

@@ -1,0 +1,444 @@
+{
+  "city": "ankara",
+  "city_name": "Ankara",
+  "date": "2026-07-09",
+  "unit": "C",
+  "station": "LTAC",
+  "event_end_date": "2026-07-09T12:00:00Z",
+  "hours_at_discovery": 14.3,
+  "status": "closed",
+  "position": {
+    "market_id": "2825814",
+    "question": "Will the highest temperature in Ankara be 30°C on July 9?",
+    "bucket_low": 30.0,
+    "bucket_high": 30.0,
+    "entry_price": 0.35,
+    "bid_at_entry": 0.34,
+    "spread": 0.01,
+    "shares": 57.14,
+    "cost": 20.0,
+    "p": 1.0,
+    "ev": 1.8571,
+    "kelly": 0.25,
+    "forecast_temp": 30.2,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-08T21:39:15.868523+00:00",
+    "status": "closed",
+    "pnl": -19.97,
+    "exit_price": 0.0005,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-09T16:26:13.947389+00:00",
+    "stop_price": 0.35,
+    "trailing_activated": true
+  },
+  "actual_temp": 31.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-08T21:39:15.868523+00:00",
+      "horizon": "D+1",
+      "hours_left": 14.3,
+      "ecmwf": 30.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:07:38.440095+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.9,
+      "ecmwf": 30.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:29:10.373173+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.5,
+      "ecmwf": 30.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-08T22:41:24.759132+00:00",
+      "horizon": "D+1",
+      "hours_left": 13.3,
+      "ecmwf": 30.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:04:45.255737+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 30.2,
+      "hrrr": null,
+      "metar": 14.0,
+      "best": 30.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:06:42.441156+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.9,
+      "ecmwf": 30.2,
+      "hrrr": null,
+      "metar": 14.0,
+      "best": 30.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T01:22:57.003570+00:00",
+      "horizon": "D+0",
+      "hours_left": 10.6,
+      "ecmwf": 30.2,
+      "hrrr": null,
+      "metar": 14.0,
+      "best": 30.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T02:11:15.426005+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.8,
+      "ecmwf": 30.2,
+      "hrrr": null,
+      "metar": 13.0,
+      "best": 30.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T02:27:50.718928+00:00",
+      "horizon": "D+0",
+      "hours_left": 9.5,
+      "ecmwf": 30.2,
+      "hrrr": null,
+      "metar": 13.0,
+      "best": 30.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T03:15:01.847512+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.7,
+      "ecmwf": 30.2,
+      "hrrr": null,
+      "metar": 14.0,
+      "best": 30.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T03:32:06.972275+00:00",
+      "horizon": "D+0",
+      "hours_left": 8.5,
+      "ecmwf": 30.2,
+      "hrrr": null,
+      "metar": 13.0,
+      "best": 30.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T16:26:13.947389+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": 29.0,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T16:28:36.107585+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": 29.0,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T18:23:03.147120+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T18:23:07.217202+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": 25.0,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T19:00:57.570152+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 29.9,
+      "hrrr": null,
+      "metar": 24.0,
+      "best": 29.9,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T20:03:41.560585+00:00",
+      "horizon": "D+0",
+      "hours_left": 0.0,
+      "ecmwf": 30.2,
+      "hrrr": null,
+      "metar": 22.0,
+      "best": 30.2,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-08T21:39:15.868523+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-07-08T22:07:38.440095+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-07-08T22:29:10.373173+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-07-08T22:41:24.759132+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-07-09T01:04:45.255737+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.445
+    },
+    {
+      "ts": "2026-07-09T01:06:42.441156+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.445
+    },
+    {
+      "ts": "2026-07-09T01:22:57.003570+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-07-09T02:11:15.426005+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.445
+    },
+    {
+      "ts": "2026-07-09T02:27:50.718928+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.445
+    },
+    {
+      "ts": "2026-07-09T03:15:01.847512+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.445
+    },
+    {
+      "ts": "2026-07-09T03:32:06.972275+00:00",
+      "top_bucket": "30.0-30.0C",
+      "top_price": 0.445
+    },
+    {
+      "ts": "2026-07-09T16:26:13.947389+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.9985
+    },
+    {
+      "ts": "2026-07-09T16:28:36.107585+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.9985
+    },
+    {
+      "ts": "2026-07-09T18:23:03.147120+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-07-09T18:23:07.217202+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-07-09T19:00:57.570152+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.9995
+    },
+    {
+      "ts": "2026-07-09T20:03:41.560585+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.9995
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Ankara be 28°C or below on July 9?",
+      "market_id": "2825812",
+      "range": [
+        -999.0,
+        28.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2090.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 29°C on July 9?",
+      "market_id": "2825813",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 5820.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 30°C on July 9?",
+      "market_id": "2825814",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 6780.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 31°C on July 9?",
+      "market_id": "2825815",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 0.9995,
+      "ask": 0.0005,
+      "price": 0.9995,
+      "spread": -0.999,
+      "volume": 7978.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 32°C on July 9?",
+      "market_id": "2825816",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 7914.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 33°C on July 9?",
+      "market_id": "2825817",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 5315.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 34°C on July 9?",
+      "market_id": "2825818",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 2522.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 35°C on July 9?",
+      "market_id": "2825819",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1716.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 36°C on July 9?",
+      "market_id": "2825820",
+      "range": [
+        36.0,
+        36.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1535.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 37°C on July 9?",
+      "market_id": "2825821",
+      "range": [
+        37.0,
+        37.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1565.0
+    },
+    {
+      "question": "Will the highest temperature in Ankara be 38°C or higher on July 9?",
+      "market_id": "2825822",
+      "range": [
+        38.0,
+        999.0
+      ],
+      "bid": 0.0005,
+      "ask": 0.9995,
+      "price": 0.0005,
+      "spread": 0.999,
+      "volume": 1565.0
+    }
+  ],
+  "created_at": "2026-07-08T21:39:19.051573+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

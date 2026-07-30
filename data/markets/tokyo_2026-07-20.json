@@ -1,0 +1,298 @@
+{
+  "city": "tokyo",
+  "city_name": "Tokyo",
+  "date": "2026-07-20",
+  "unit": "C",
+  "station": "RJTT",
+  "event_end_date": "2026-07-20T12:00:00Z",
+  "hours_at_discovery": 55.4,
+  "status": "resolved",
+  "position": {
+    "market_id": "2968774",
+    "question": "Will the highest temperature in Tokyo be 32°C on July 20?",
+    "bucket_low": 32.0,
+    "bucket_high": 32.0,
+    "entry_price": 0.1,
+    "bid_at_entry": 0.08,
+    "spread": 0.02,
+    "shares": 200.0,
+    "cost": 20.0,
+    "p": 0.3189,
+    "ev": 2.189,
+    "kelly": 0.0629,
+    "forecast_temp": 32.2,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-18T14:26:00.372030+00:00",
+    "status": "closed",
+    "pnl": -4.0,
+    "exit_price": 0.08,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-18T14:36:37.062790+00:00"
+  },
+  "actual_temp": 35.0,
+  "resolved_outcome": "loss",
+  "pnl": -4.0,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-18T04:37:52.297147+00:00",
+      "horizon": "D+2",
+      "hours_left": 55.4,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T05:39:18.965623+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.3,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T06:40:56.782242+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.3,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T07:42:32.629527+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.3,
+      "ecmwf": 31.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 31.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T08:44:11.415121+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.3,
+      "ecmwf": 32.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 32.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T09:45:42.738581+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.2,
+      "ecmwf": 32.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 32.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T12:22:33.236394+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.6,
+      "ecmwf": 32.1,
+      "hrrr": null,
+      "metar": null,
+      "best": 32.1,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T13:24:14.158543+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.6,
+      "ecmwf": 32.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 32.2,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-18T14:26:00.372030+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.6,
+      "ecmwf": 32.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 32.2,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-18T04:37:52.297147+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.235
+    },
+    {
+      "ts": "2026-07-18T05:39:18.965623+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.26
+    },
+    {
+      "ts": "2026-07-18T06:40:56.782242+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-07-18T07:42:32.629527+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-18T08:44:11.415121+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.32
+    },
+    {
+      "ts": "2026-07-18T09:45:42.738581+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.375
+    },
+    {
+      "ts": "2026-07-18T12:22:33.236394+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.365
+    },
+    {
+      "ts": "2026-07-18T13:24:14.158543+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.37
+    },
+    {
+      "ts": "2026-07-18T14:26:00.372030+00:00",
+      "top_bucket": "33.0-33.0C",
+      "top_price": 0.365
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Tokyo be 27°C or below on July 20?",
+      "market_id": "2968769",
+      "range": [
+        -999.0,
+        27.0
+      ],
+      "price": 0.002,
+      "volume": 440.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 28°C on July 20?",
+      "market_id": "2968770",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.003,
+      "volume": 511.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 29°C on July 20?",
+      "market_id": "2968771",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.006,
+      "volume": 240.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 30°C on July 20?",
+      "market_id": "2968772",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.006,
+      "volume": 234.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 31°C on July 20?",
+      "market_id": "2968773",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "price": 0.021,
+      "volume": 342.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 32°C on July 20?",
+      "market_id": "2968774",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "price": 0.09,
+      "volume": 526.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 33°C on July 20?",
+      "market_id": "2968775",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.365,
+      "volume": 3743.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 34°C on July 20?",
+      "market_id": "2968776",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "price": 0.325,
+      "volume": 255.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 35°C on July 20?",
+      "market_id": "2968777",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "price": 0.16,
+      "volume": 155.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 36°C on July 20?",
+      "market_id": "2968778",
+      "range": [
+        36.0,
+        36.0
+      ],
+      "price": 0.0365,
+      "volume": 404.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 37°C or higher on July 20?",
+      "market_id": "2968779",
+      "range": [
+        37.0,
+        999.0
+      ],
+      "price": 0.007,
+      "volume": 305.0
+    }
+  ],
+  "created_at": "2026-07-18T04:37:54.614099+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

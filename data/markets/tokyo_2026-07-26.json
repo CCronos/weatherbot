@@ -1,0 +1,474 @@
+{
+  "city": "tokyo",
+  "city_name": "Tokyo",
+  "date": "2026-07-26",
+  "unit": "C",
+  "station": "RJTT",
+  "event_end_date": "2026-07-26T12:00:00Z",
+  "hours_at_discovery": 55.9,
+  "status": "open",
+  "position": {
+    "market_id": "3076624",
+    "question": "Will the highest temperature in Tokyo be 27°C on July 26?",
+    "bucket_low": 27.0,
+    "bucket_high": 27.0,
+    "entry_price": 0.001,
+    "bid_at_entry": 0.0005,
+    "spread": 0.0005,
+    "shares": 200000.0,
+    "cost": 200.0,
+    "p": 0.3066,
+    "ev": 305.6,
+    "kelly": 0.0766,
+    "forecast_temp": 27.4,
+    "forecast_src": "regional",
+    "sigma": 1.2,
+    "opened_at": "2026-07-25T18:20:50.636031+00:00",
+    "status": "open",
+    "pnl": null,
+    "exit_price": null,
+    "close_reason": null,
+    "closed_at": null
+  },
+  "actual_temp": 32.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-24T04:08:13.636906+00:00",
+      "horizon": "D+2",
+      "hours_left": 55.9,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T05:09:55.347355+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.8,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T06:11:37.142805+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.8,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T07:13:08.601430+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.8,
+      "ecmwf": 30.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 30.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T08:14:42.112484+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.8,
+      "ecmwf": 28.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T09:16:14.663086+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.7,
+      "ecmwf": 28.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T10:17:45.515183+00:00",
+      "horizon": "D+2",
+      "hours_left": 49.7,
+      "ecmwf": 28.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T11:19:20.982382+00:00",
+      "horizon": "D+2",
+      "hours_left": 48.7,
+      "ecmwf": 28.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T12:21:09.500754+00:00",
+      "horizon": "D+2",
+      "hours_left": 47.6,
+      "ecmwf": 28.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 28.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T13:22:58.468855+00:00",
+      "horizon": "D+2",
+      "hours_left": 46.6,
+      "ecmwf": 29.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.2,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:24:40.856191+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.6,
+      "ecmwf": 29.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.2,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:53:10.683701+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.1,
+      "ecmwf": 29.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.2,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:54:15.461285+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.1,
+      "ecmwf": 29.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.2,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T14:56:02.738881+00:00",
+      "horizon": "D+2",
+      "hours_left": 45.1,
+      "ecmwf": 29.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.2,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:16:53.358164+00:00",
+      "horizon": "D+1",
+      "hours_left": 44.7,
+      "ecmwf": 29.2,
+      "regional": 26.8,
+      "metar": null,
+      "best": 26.8,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T15:20:57.593337+00:00",
+      "horizon": "D+1",
+      "hours_left": 44.6,
+      "ecmwf": 29.2,
+      "regional": 26.8,
+      "metar": null,
+      "best": 26.8,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T16:38:12.805559+00:00",
+      "horizon": "D+1",
+      "hours_left": 43.4,
+      "ecmwf": 29.2,
+      "regional": 26.2,
+      "metar": null,
+      "best": 26.2,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T20:41:20.656564+00:00",
+      "horizon": "D+1",
+      "hours_left": 39.3,
+      "ecmwf": 29.9,
+      "regional": 26.2,
+      "metar": null,
+      "best": 26.2,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-24T23:53:57.775169+00:00",
+      "horizon": "D+1",
+      "hours_left": 36.1,
+      "ecmwf": 29.9,
+      "regional": 28.1,
+      "metar": null,
+      "best": 28.1,
+      "best_source": "regional",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-25T18:20:50.636031+00:00",
+      "horizon": "D+0",
+      "hours_left": 17.7,
+      "ecmwf": 30.3,
+      "regional": 27.4,
+      "metar": 26.0,
+      "best": 27.4,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-24T04:08:13.636906+00:00",
+      "top_bucket": "-999.0-26.0C",
+      "top_price": 0.5
+    },
+    {
+      "ts": "2026-07-24T05:09:55.347355+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-07-24T06:11:37.142805+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-07-24T07:13:08.601430+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-07-24T08:14:42.112484+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.3
+    },
+    {
+      "ts": "2026-07-24T09:16:14.663086+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-07-24T10:17:45.515183+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-07-24T11:19:20.982382+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-07-24T12:21:09.500754+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-07-24T13:22:58.468855+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-07-24T14:24:40.856191+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-07-24T14:53:10.683701+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-07-24T14:54:15.461285+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-07-24T14:56:02.738881+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.31
+    },
+    {
+      "ts": "2026-07-24T15:16:53.358164+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-07-24T15:20:57.593337+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-07-24T16:38:12.805559+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.4
+    },
+    {
+      "ts": "2026-07-24T20:41:20.656564+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.4
+    },
+    {
+      "ts": "2026-07-24T23:53:57.775169+00:00",
+      "top_bucket": "31.0-31.0C",
+      "top_price": 0.405
+    },
+    {
+      "ts": "2026-07-25T18:20:50.636031+00:00",
+      "top_bucket": "32.0-32.0C",
+      "top_price": 0.335
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Tokyo be 26°C or below on July 26?",
+      "market_id": "3076623",
+      "range": [
+        -999.0,
+        26.0
+      ],
+      "price": 0.003,
+      "volume": 2862.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 27°C on July 26?",
+      "market_id": "3076624",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "price": 0.0005,
+      "volume": 1422.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 28°C on July 26?",
+      "market_id": "3076625",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "price": 0.0055,
+      "volume": 2435.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 29°C on July 26?",
+      "market_id": "3076626",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "price": 0.04,
+      "volume": 2743.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 30°C on July 26?",
+      "market_id": "3076627",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "price": 0.11,
+      "volume": 1313.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 31°C on July 26?",
+      "market_id": "3076628",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "price": 0.305,
+      "volume": 5025.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 32°C on July 26?",
+      "market_id": "3076629",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "price": 0.335,
+      "volume": 3288.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 33°C on July 26?",
+      "market_id": "3076630",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "price": 0.165,
+      "volume": 2310.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 34°C on July 26?",
+      "market_id": "3076631",
+      "range": [
+        34.0,
+        34.0
+      ],
+      "price": 0.0635,
+      "volume": 3184.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 35°C on July 26?",
+      "market_id": "3076632",
+      "range": [
+        35.0,
+        35.0
+      ],
+      "price": 0.0185,
+      "volume": 2481.0
+    },
+    {
+      "question": "Will the highest temperature in Tokyo be 36°C or higher on July 26?",
+      "market_id": "3076633",
+      "range": [
+        36.0,
+        999.0
+      ],
+      "price": 0.0055,
+      "volume": 4748.0
+    }
+  ],
+  "created_at": "2026-07-24T04:08:18.249467+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

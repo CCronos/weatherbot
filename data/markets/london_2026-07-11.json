@@ -1,0 +1,261 @@
+{
+  "city": "london",
+  "city_name": "London",
+  "date": "2026-07-11",
+  "unit": "C",
+  "station": "EGLC",
+  "event_end_date": "2026-07-11T12:00:00Z",
+  "hours_at_discovery": 43.5,
+  "status": "resolved",
+  "position": {
+    "market_id": "2854415",
+    "question": "Will the highest temperature in London be 29°C on July 11?",
+    "bucket_low": 29.0,
+    "bucket_high": 29.0,
+    "entry_price": 0.33,
+    "bid_at_entry": 0.32,
+    "spread": 0.01,
+    "shares": 60.61,
+    "cost": 20.0,
+    "p": 1.0,
+    "ev": 2.0303,
+    "kelly": 0.25,
+    "forecast_temp": 29.2,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-09T18:22:46.368498+00:00",
+    "status": "closed",
+    "pnl": -20.0,
+    "exit_price": 0.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-07-15T23:36:41.855216+00:00"
+  },
+  "actual_temp": 27.0,
+  "resolved_outcome": "loss",
+  "pnl": -20.0,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-09T16:28:25.892576+00:00",
+      "horizon": "D+2",
+      "hours_left": 43.5,
+      "ecmwf": 29.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T18:22:46.368498+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.6,
+      "ecmwf": 29.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T18:22:56.986817+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.6,
+      "ecmwf": 29.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T19:00:35.250398+00:00",
+      "horizon": "D+2",
+      "hours_left": 41.0,
+      "ecmwf": 29.2,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.2,
+      "best_source": "ecmwf"
+    },
+    {
+      "ts": "2026-07-09T20:03:26.835977+00:00",
+      "horizon": "D+2",
+      "hours_left": 39.9,
+      "ecmwf": 29.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 29.6,
+      "best_source": "ecmwf"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-09T16:28:25.892576+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-07-09T18:22:46.368498+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-07-09T18:22:56.986817+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-07-09T19:00:35.250398+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.355
+    },
+    {
+      "ts": "2026-07-09T20:03:26.835977+00:00",
+      "top_bucket": "29.0-29.0C",
+      "top_price": 0.365
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in London be 24°C or below on July 11?",
+      "market_id": "2854410",
+      "range": [
+        -999.0,
+        24.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 370.0
+    },
+    {
+      "question": "Will the highest temperature in London be 25°C on July 11?",
+      "market_id": "2854411",
+      "range": [
+        25.0,
+        25.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 245.0
+    },
+    {
+      "question": "Will the highest temperature in London be 26°C on July 11?",
+      "market_id": "2854412",
+      "range": [
+        26.0,
+        26.0
+      ],
+      "bid": 0.012,
+      "ask": 0.988,
+      "price": 0.012,
+      "spread": 0.976,
+      "volume": 547.0
+    },
+    {
+      "question": "Will the highest temperature in London be 27°C on July 11?",
+      "market_id": "2854413",
+      "range": [
+        27.0,
+        27.0
+      ],
+      "bid": 0.065,
+      "ask": 0.935,
+      "price": 0.065,
+      "spread": 0.87,
+      "volume": 785.0
+    },
+    {
+      "question": "Will the highest temperature in London be 28°C on July 11?",
+      "market_id": "2854414",
+      "range": [
+        28.0,
+        28.0
+      ],
+      "bid": 0.195,
+      "ask": 0.805,
+      "price": 0.195,
+      "spread": 0.61,
+      "volume": 919.0
+    },
+    {
+      "question": "Will the highest temperature in London be 29°C on July 11?",
+      "market_id": "2854415",
+      "range": [
+        29.0,
+        29.0
+      ],
+      "bid": 0.365,
+      "ask": 0.635,
+      "price": 0.365,
+      "spread": 0.27,
+      "volume": 588.0
+    },
+    {
+      "question": "Will the highest temperature in London be 30°C on July 11?",
+      "market_id": "2854416",
+      "range": [
+        30.0,
+        30.0
+      ],
+      "bid": 0.245,
+      "ask": 0.755,
+      "price": 0.245,
+      "spread": 0.51,
+      "volume": 1074.0
+    },
+    {
+      "question": "Will the highest temperature in London be 31°C on July 11?",
+      "market_id": "2854417",
+      "range": [
+        31.0,
+        31.0
+      ],
+      "bid": 0.0885,
+      "ask": 0.9115,
+      "price": 0.0885,
+      "spread": 0.823,
+      "volume": 1004.0
+    },
+    {
+      "question": "Will the highest temperature in London be 32°C on July 11?",
+      "market_id": "2854418",
+      "range": [
+        32.0,
+        32.0
+      ],
+      "bid": 0.035,
+      "ask": 0.965,
+      "price": 0.035,
+      "spread": 0.93,
+      "volume": 865.0
+    },
+    {
+      "question": "Will the highest temperature in London be 33°C on July 11?",
+      "market_id": "2854419",
+      "range": [
+        33.0,
+        33.0
+      ],
+      "bid": 0.005,
+      "ask": 0.995,
+      "price": 0.005,
+      "spread": 0.99,
+      "volume": 553.0
+    },
+    {
+      "question": "Will the highest temperature in London be 34°C or higher on July 11?",
+      "market_id": "2854420",
+      "range": [
+        34.0,
+        999.0
+      ],
+      "bid": 0.0025,
+      "ask": 0.9975,
+      "price": 0.0025,
+      "spread": 0.995,
+      "volume": 707.0
+    }
+  ],
+  "created_at": "2026-07-09T16:28:28.923690+00:00"
+}

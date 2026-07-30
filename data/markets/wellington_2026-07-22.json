@@ -1,0 +1,666 @@
+{
+  "city": "wellington",
+  "city_name": "Wellington",
+  "date": "2026-07-22",
+  "unit": "C",
+  "station": "NZWN",
+  "event_end_date": "2026-07-22T12:00:00Z",
+  "hours_at_discovery": 55.7,
+  "status": "resolved",
+  "position": {
+    "market_id": "2996548",
+    "question": "Will the highest temperature in Wellington be 12°C on July 22?",
+    "bucket_low": 12.0,
+    "bucket_high": 12.0,
+    "entry_price": 0.047,
+    "bid_at_entry": 0.031,
+    "spread": 0.016,
+    "shares": 425.53,
+    "cost": 20.0,
+    "p": 0.2977,
+    "ev": 5.334,
+    "kelly": 0.0671,
+    "forecast_temp": 12.5,
+    "forecast_src": "ecmwf",
+    "sigma": 1.2,
+    "opened_at": "2026-07-21T13:11:25.281676+00:00",
+    "status": "closed",
+    "pnl": -8.09,
+    "exit_price": 0.028,
+    "close_reason": "stop_loss",
+    "closed_at": "2026-07-21T13:21:53.085858+00:00"
+  },
+  "actual_temp": 14.0,
+  "resolved_outcome": "loss",
+  "pnl": -8.09,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-20T04:18:11.794119+00:00",
+      "horizon": "D+2",
+      "hours_left": 55.7,
+      "ecmwf": 13.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 13.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T05:19:56.298034+00:00",
+      "horizon": "D+2",
+      "hours_left": 54.7,
+      "ecmwf": 13.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 13.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T06:21:27.170028+00:00",
+      "horizon": "D+2",
+      "hours_left": 53.6,
+      "ecmwf": 13.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 13.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T07:23:00.016656+00:00",
+      "horizon": "D+2",
+      "hours_left": 52.6,
+      "ecmwf": 13.3,
+      "hrrr": null,
+      "metar": null,
+      "best": 13.3,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T08:24:43.236177+00:00",
+      "horizon": "D+2",
+      "hours_left": 51.6,
+      "ecmwf": 12.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.9,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T09:26:26.281382+00:00",
+      "horizon": "D+2",
+      "hours_left": 50.6,
+      "ecmwf": 12.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.9,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T12:08:10.093662+00:00",
+      "horizon": "D+1",
+      "hours_left": 47.9,
+      "ecmwf": 12.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.9,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T12:32:33.320818+00:00",
+      "horizon": "D+1",
+      "hours_left": 47.5,
+      "ecmwf": 12.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.9,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T13:34:15.261205+00:00",
+      "horizon": "D+1",
+      "hours_left": 46.4,
+      "ecmwf": 12.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T14:36:11.697292+00:00",
+      "horizon": "D+1",
+      "hours_left": 45.4,
+      "ecmwf": 12.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T15:38:08.762630+00:00",
+      "horizon": "D+1",
+      "hours_left": 44.4,
+      "ecmwf": 12.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T16:39:51.049513+00:00",
+      "horizon": "D+1",
+      "hours_left": 43.3,
+      "ecmwf": 12.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T17:41:40.821059+00:00",
+      "horizon": "D+1",
+      "hours_left": 42.3,
+      "ecmwf": 12.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T18:43:17.088283+00:00",
+      "horizon": "D+1",
+      "hours_left": 41.3,
+      "ecmwf": 12.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T19:44:49.890660+00:00",
+      "horizon": "D+1",
+      "hours_left": 40.3,
+      "ecmwf": 12.8,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.8,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T20:46:22.103797+00:00",
+      "horizon": "D+1",
+      "hours_left": 39.2,
+      "ecmwf": 12.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T21:47:57.619433+00:00",
+      "horizon": "D+1",
+      "hours_left": 38.2,
+      "ecmwf": 12.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T22:49:27.033796+00:00",
+      "horizon": "D+1",
+      "hours_left": 37.2,
+      "ecmwf": 12.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-20T23:51:02.304574+00:00",
+      "horizon": "D+1",
+      "hours_left": 36.1,
+      "ecmwf": 12.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T00:52:22.210920+00:00",
+      "horizon": "D+1",
+      "hours_left": 35.1,
+      "ecmwf": 12.6,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.6,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T01:53:47.536120+00:00",
+      "horizon": "D+1",
+      "hours_left": 34.1,
+      "ecmwf": 12.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T02:55:32.955402+00:00",
+      "horizon": "D+1",
+      "hours_left": 33.1,
+      "ecmwf": 12.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T03:56:56.834670+00:00",
+      "horizon": "D+1",
+      "hours_left": 32.1,
+      "ecmwf": 12.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T04:58:22.362606+00:00",
+      "horizon": "D+1",
+      "hours_left": 31.0,
+      "ecmwf": 12.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T06:00:16.986597+00:00",
+      "horizon": "D+1",
+      "hours_left": 30.0,
+      "ecmwf": 12.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T07:02:00.550431+00:00",
+      "horizon": "D+1",
+      "hours_left": 29.0,
+      "ecmwf": 12.5,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T08:03:36.128270+00:00",
+      "horizon": "D+1",
+      "hours_left": 27.9,
+      "ecmwf": 12.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.9,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T09:05:01.558856+00:00",
+      "horizon": "D+1",
+      "hours_left": 26.9,
+      "ecmwf": 12.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.9,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T10:06:34.320216+00:00",
+      "horizon": "D+1",
+      "hours_left": 25.9,
+      "ecmwf": 12.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.9,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T11:07:51.567664+00:00",
+      "horizon": "D+1",
+      "hours_left": 24.9,
+      "ecmwf": 12.9,
+      "hrrr": null,
+      "metar": null,
+      "best": 12.9,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T12:09:23.027246+00:00",
+      "horizon": "D+0",
+      "hours_left": 23.8,
+      "ecmwf": 12.9,
+      "hrrr": null,
+      "metar": 9.0,
+      "best": 12.9,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    },
+    {
+      "ts": "2026-07-21T13:11:25.281676+00:00",
+      "horizon": "D+0",
+      "hours_left": 22.8,
+      "ecmwf": 12.5,
+      "hrrr": null,
+      "metar": 9.0,
+      "best": 12.5,
+      "best_source": "ecmwf",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-20T04:18:11.794119+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.6
+    },
+    {
+      "ts": "2026-07-20T05:19:56.298034+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.59
+    },
+    {
+      "ts": "2026-07-20T06:21:27.170028+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.53
+    },
+    {
+      "ts": "2026-07-20T07:23:00.016656+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.525
+    },
+    {
+      "ts": "2026-07-20T08:24:43.236177+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.515
+    },
+    {
+      "ts": "2026-07-20T09:26:26.281382+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.505
+    },
+    {
+      "ts": "2026-07-20T12:08:10.093662+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.495
+    },
+    {
+      "ts": "2026-07-20T12:32:33.320818+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-07-20T13:34:15.261205+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.475
+    },
+    {
+      "ts": "2026-07-20T14:36:11.697292+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.47
+    },
+    {
+      "ts": "2026-07-20T15:38:08.762630+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-07-20T16:39:51.049513+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-07-20T17:41:40.821059+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-07-20T18:43:17.088283+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-07-20T19:44:49.890660+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-07-20T20:46:22.103797+00:00",
+      "top_bucket": "14.0-14.0C",
+      "top_price": 0.455
+    },
+    {
+      "ts": "2026-07-20T21:47:57.619433+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.445
+    },
+    {
+      "ts": "2026-07-20T22:49:27.033796+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-07-20T23:51:02.304574+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-07-21T00:52:22.210920+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.465
+    },
+    {
+      "ts": "2026-07-21T01:53:47.536120+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.525
+    },
+    {
+      "ts": "2026-07-21T02:55:32.955402+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.545
+    },
+    {
+      "ts": "2026-07-21T03:56:56.834670+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.55
+    },
+    {
+      "ts": "2026-07-21T04:58:22.362606+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.545
+    },
+    {
+      "ts": "2026-07-21T06:00:16.986597+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.51
+    },
+    {
+      "ts": "2026-07-21T07:02:00.550431+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.55
+    },
+    {
+      "ts": "2026-07-21T08:03:36.128270+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.565
+    },
+    {
+      "ts": "2026-07-21T09:05:01.558856+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.555
+    },
+    {
+      "ts": "2026-07-21T10:06:34.320216+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.545
+    },
+    {
+      "ts": "2026-07-21T11:07:51.567664+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.55
+    },
+    {
+      "ts": "2026-07-21T12:09:23.027246+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.55
+    },
+    {
+      "ts": "2026-07-21T13:11:25.281676+00:00",
+      "top_bucket": "13.0-13.0C",
+      "top_price": 0.585
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Wellington be 9°C or below on July 22?",
+      "market_id": "2996545",
+      "range": [
+        -999.0,
+        9.0
+      ],
+      "price": 0.0005,
+      "volume": 376.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 10°C on July 22?",
+      "market_id": "2996546",
+      "range": [
+        10.0,
+        10.0
+      ],
+      "price": 0.0005,
+      "volume": 445.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 11°C on July 22?",
+      "market_id": "2996547",
+      "range": [
+        11.0,
+        11.0
+      ],
+      "price": 0.0035,
+      "volume": 1966.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 12°C on July 22?",
+      "market_id": "2996548",
+      "range": [
+        12.0,
+        12.0
+      ],
+      "price": 0.04,
+      "volume": 2044.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 13°C on July 22?",
+      "market_id": "2996549",
+      "range": [
+        13.0,
+        13.0
+      ],
+      "price": 0.585,
+      "volume": 6048.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 14°C on July 22?",
+      "market_id": "2996550",
+      "range": [
+        14.0,
+        14.0
+      ],
+      "price": 0.345,
+      "volume": 4987.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 15°C on July 22?",
+      "market_id": "2996551",
+      "range": [
+        15.0,
+        15.0
+      ],
+      "price": 0.07,
+      "volume": 5072.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 16°C on July 22?",
+      "market_id": "2996552",
+      "range": [
+        16.0,
+        16.0
+      ],
+      "price": 0.004,
+      "volume": 2019.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 17°C on July 22?",
+      "market_id": "2996553",
+      "range": [
+        17.0,
+        17.0
+      ],
+      "price": 0.0005,
+      "volume": 1040.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 18°C on July 22?",
+      "market_id": "2996554",
+      "range": [
+        18.0,
+        18.0
+      ],
+      "price": 0.0005,
+      "volume": 290.0
+    },
+    {
+      "question": "Will the highest temperature in Wellington be 19°C or higher on July 22?",
+      "market_id": "2996555",
+      "range": [
+        19.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 375.0
+    }
+  ],
+  "created_at": "2026-07-20T04:18:14.669111+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}

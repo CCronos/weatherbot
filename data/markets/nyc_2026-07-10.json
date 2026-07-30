@@ -1,0 +1,381 @@
+{
+  "city": "nyc",
+  "city_name": "New York City",
+  "date": "2026-07-10",
+  "unit": "F",
+  "station": "KLGA",
+  "event_end_date": "2026-07-10T12:00:00Z",
+  "hours_at_discovery": 34.9,
+  "status": "resolved",
+  "position": {
+    "market_id": "2853335",
+    "question": "Will the highest temperature in New York City be between 90-91°F on July 10?",
+    "bucket_low": 90.0,
+    "bucket_high": 91.0,
+    "entry_price": 0.3,
+    "bid_at_entry": 0.27,
+    "spread": 0.03,
+    "shares": 66.67,
+    "cost": 20.0,
+    "p": 1.0,
+    "ev": 2.3333,
+    "kelly": 0.25,
+    "forecast_temp": 91,
+    "forecast_src": "hrrr",
+    "sigma": 2.0,
+    "opened_at": "2026-07-09T16:22:56.324449+00:00",
+    "status": "closed",
+    "pnl": -20.0,
+    "exit_price": 0.0,
+    "close_reason": "resolved",
+    "closed_at": "2026-07-15T23:36:41.855216+00:00"
+  },
+  "actual_temp": 88.1,
+  "resolved_outcome": "loss",
+  "pnl": -20.0,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-09T01:04:06.029785+00:00",
+      "horizon": "D+1",
+      "hours_left": 34.9,
+      "ecmwf": 89,
+      "hrrr": 89,
+      "metar": null,
+      "best": 89,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T01:06:06.848183+00:00",
+      "horizon": "D+1",
+      "hours_left": 34.9,
+      "ecmwf": 89,
+      "hrrr": 89,
+      "metar": null,
+      "best": 89,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T01:22:22.786076+00:00",
+      "horizon": "D+1",
+      "hours_left": 34.6,
+      "ecmwf": 89,
+      "hrrr": 89,
+      "metar": null,
+      "best": 89,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T02:08:53.906216+00:00",
+      "horizon": "D+1",
+      "hours_left": 33.8,
+      "ecmwf": 89,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T02:25:50.501682+00:00",
+      "horizon": "D+1",
+      "hours_left": 33.6,
+      "ecmwf": 89,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T03:14:15.206273+00:00",
+      "horizon": "D+1",
+      "hours_left": 32.8,
+      "ecmwf": 89,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T03:31:22.186860+00:00",
+      "horizon": "D+1",
+      "hours_left": 32.5,
+      "ecmwf": 89,
+      "hrrr": 88,
+      "metar": null,
+      "best": 88,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T16:22:56.324449+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.6,
+      "ecmwf": 87,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T16:26:55.745699+00:00",
+      "horizon": "D+1",
+      "hours_left": 19.5,
+      "ecmwf": 87,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T18:21:05.399769+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.6,
+      "ecmwf": 87,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T18:22:26.537902+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.6,
+      "ecmwf": 87,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T19:00:10.454626+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.0,
+      "ecmwf": 87,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    },
+    {
+      "ts": "2026-07-09T20:02:23.964119+00:00",
+      "horizon": "D+1",
+      "hours_left": 16.0,
+      "ecmwf": 86,
+      "hrrr": 91,
+      "metar": null,
+      "best": 91,
+      "best_source": "hrrr"
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-09T01:04:06.029785+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.185
+    },
+    {
+      "ts": "2026-07-09T01:06:06.848183+00:00",
+      "top_bucket": "80.0-81.0F",
+      "top_price": 0.185
+    },
+    {
+      "ts": "2026-07-09T01:22:22.786076+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.24
+    },
+    {
+      "ts": "2026-07-09T02:08:53.906216+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.305
+    },
+    {
+      "ts": "2026-07-09T02:25:50.501682+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.33
+    },
+    {
+      "ts": "2026-07-09T03:14:15.206273+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-09T03:31:22.186860+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.335
+    },
+    {
+      "ts": "2026-07-09T16:22:56.324449+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.35
+    },
+    {
+      "ts": "2026-07-09T16:26:55.745699+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.345
+    },
+    {
+      "ts": "2026-07-09T18:21:05.399769+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-07-09T18:22:26.537902+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.315
+    },
+    {
+      "ts": "2026-07-09T19:00:10.454626+00:00",
+      "top_bucket": "88.0-89.0F",
+      "top_price": 0.325
+    },
+    {
+      "ts": "2026-07-09T20:02:23.964119+00:00",
+      "top_bucket": "90.0-91.0F",
+      "top_price": 0.345
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in New York City be 79°F or below on July 10?",
+      "market_id": "2853329",
+      "range": [
+        -999.0,
+        79.0
+      ],
+      "bid": 0.0015,
+      "ask": 0.9985,
+      "price": 0.0015,
+      "spread": 0.997,
+      "volume": 43.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 80-81°F on July 10?",
+      "market_id": "2853330",
+      "range": [
+        80.0,
+        81.0
+      ],
+      "bid": 0.0075,
+      "ask": 0.9925,
+      "price": 0.0075,
+      "spread": 0.985,
+      "volume": 638.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 82-83°F on July 10?",
+      "market_id": "2853331",
+      "range": [
+        82.0,
+        83.0
+      ],
+      "bid": 0.017,
+      "ask": 0.983,
+      "price": 0.017,
+      "spread": 0.966,
+      "volume": 580.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 84-85°F on July 10?",
+      "market_id": "2853332",
+      "range": [
+        84.0,
+        85.0
+      ],
+      "bid": 0.036,
+      "ask": 0.964,
+      "price": 0.036,
+      "spread": 0.928,
+      "volume": 708.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 86-87°F on July 10?",
+      "market_id": "2853333",
+      "range": [
+        86.0,
+        87.0
+      ],
+      "bid": 0.125,
+      "ask": 0.875,
+      "price": 0.125,
+      "spread": 0.75,
+      "volume": 1176.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 88-89°F on July 10?",
+      "market_id": "2853334",
+      "range": [
+        88.0,
+        89.0
+      ],
+      "bid": 0.315,
+      "ask": 0.685,
+      "price": 0.315,
+      "spread": 0.37,
+      "volume": 1077.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 90-91°F on July 10?",
+      "market_id": "2853335",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "bid": 0.345,
+      "ask": 0.655,
+      "price": 0.345,
+      "spread": 0.31,
+      "volume": 1076.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 92-93°F on July 10?",
+      "market_id": "2853336",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "bid": 0.095,
+      "ask": 0.905,
+      "price": 0.095,
+      "spread": 0.81,
+      "volume": 1490.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 94-95°F on July 10?",
+      "market_id": "2853337",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "bid": 0.0285,
+      "ask": 0.9715,
+      "price": 0.0285,
+      "spread": 0.943,
+      "volume": 788.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be between 96-97°F on July 10?",
+      "market_id": "2853338",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "bid": 0.0035,
+      "ask": 0.9965,
+      "price": 0.0035,
+      "spread": 0.993,
+      "volume": 442.0
+    },
+    {
+      "question": "Will the highest temperature in New York City be 98°F or higher on July 10?",
+      "market_id": "2853339",
+      "range": [
+        98.0,
+        999.0
+      ],
+      "bid": 0.003,
+      "ask": 0.997,
+      "price": 0.003,
+      "spread": 0.994,
+      "volume": 323.0
+    }
+  ],
+  "created_at": "2026-07-09T01:04:09.862831+00:00"
+}

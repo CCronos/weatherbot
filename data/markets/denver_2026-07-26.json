@@ -1,0 +1,148 @@
+{
+  "city": "denver",
+  "city_name": "Denver",
+  "date": "2026-07-26",
+  "unit": "F",
+  "station": "KBKF",
+  "event_end_date": "2026-07-26T12:00:00Z",
+  "hours_at_discovery": 17.7,
+  "status": "open",
+  "position": null,
+  "actual_temp": 101.0,
+  "resolved_outcome": null,
+  "pnl": null,
+  "forecast_snapshots": [
+    {
+      "ts": "2026-07-25T18:19:48.982210+00:00",
+      "horizon": "D+1",
+      "hours_left": 17.7,
+      "ecmwf": 101,
+      "regional": 101,
+      "metar": null,
+      "best": 101,
+      "best_source": "regional",
+      "best_sigma": null
+    }
+  ],
+  "market_snapshots": [
+    {
+      "ts": "2026-07-25T18:19:48.982210+00:00",
+      "top_bucket": "100.0-101.0F",
+      "top_price": 0.545
+    }
+  ],
+  "all_outcomes": [
+    {
+      "question": "Will the highest temperature in Denver be 89°F or below on July 26?",
+      "market_id": "3094856",
+      "range": [
+        -999.0,
+        89.0
+      ],
+      "price": 0.0005,
+      "volume": 365.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 90-91°F on July 26?",
+      "market_id": "3094857",
+      "range": [
+        90.0,
+        91.0
+      ],
+      "price": 0.0005,
+      "volume": 516.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 92-93°F on July 26?",
+      "market_id": "3094858",
+      "range": [
+        92.0,
+        93.0
+      ],
+      "price": 0.002,
+      "volume": 533.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 94-95°F on July 26?",
+      "market_id": "3094859",
+      "range": [
+        94.0,
+        95.0
+      ],
+      "price": 0.015,
+      "volume": 926.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 96-97°F on July 26?",
+      "market_id": "3094860",
+      "range": [
+        96.0,
+        97.0
+      ],
+      "price": 0.03,
+      "volume": 1102.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 98-99°F on July 26?",
+      "market_id": "3094861",
+      "range": [
+        98.0,
+        99.0
+      ],
+      "price": 0.135,
+      "volume": 1789.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 100-101°F on July 26?",
+      "market_id": "3094862",
+      "range": [
+        100.0,
+        101.0
+      ],
+      "price": 0.545,
+      "volume": 5905.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 102-103°F on July 26?",
+      "market_id": "3094863",
+      "range": [
+        102.0,
+        103.0
+      ],
+      "price": 0.245,
+      "volume": 1103.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 104-105°F on July 26?",
+      "market_id": "3094864",
+      "range": [
+        104.0,
+        105.0
+      ],
+      "price": 0.015,
+      "volume": 636.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be between 106-107°F on July 26?",
+      "market_id": "3094865",
+      "range": [
+        106.0,
+        107.0
+      ],
+      "price": 0.0005,
+      "volume": 420.0
+    },
+    {
+      "question": "Will the highest temperature in Denver be 108°F or higher on July 26?",
+      "market_id": "3094866",
+      "range": [
+        108.0,
+        999.0
+      ],
+      "price": 0.0005,
+      "volume": 422.0
+    }
+  ],
+  "created_at": "2026-07-25T18:19:53.351795+00:00",
+  "actual_temp_backfilled": "2026-07-28"
+}
