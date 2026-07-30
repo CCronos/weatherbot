@@ -830,7 +830,10 @@
     tableEl.style.display = "";
     updateLiveAge();
 
-    body.innerHTML = LIVE.cities.map(function (c) {
+    // Orden alfabetico por nombre de ciudad (pedido 2026-07-30) — antes la tabla salia
+    // en el orden interno de LOCATIONS, que no le dice nada al lector.
+    var ciudadesOrdenadas = LIVE.cities.slice().sort(function (a, b) { return a.name.localeCompare(b.name); });
+    body.innerHTML = ciudadesOrdenadas.map(function (c) {
       var peakClass = c.peak_final == null ? "" : (c.spread_modelo_vs_empirico != null && c.spread_modelo_vs_empirico >= SPREAD_ALERTA ? "warn" : "good");
       var spreadFlag = c.spread_modelo_vs_empirico != null && c.spread_modelo_vs_empirico >= SPREAD_ALERTA
         ? '<span class="spread-flag high">±' + c.spread_modelo_vs_empirico.toFixed(1) + "</span>" : "";
@@ -923,10 +926,30 @@
           '</div>';
       }).join("");
     }
-    if (LIVE.generated_at) {
-      var mins = Math.round((Date.now() - new Date(LIVE.generated_at).getTime()) / 60000);
-      upd.textContent = "actualizado hace " + (mins < 1 ? "instantes" : mins + " min") + " — se refresca solo cada hora";
+    updatePicksAge();
+  }
+
+  // Edad + proxima actualizacion de los picks, avanzando en vivo (pedido 2026-07-30:
+  // "que diga prox actualizacion en tanto tiempo, que no vayan a estar fuera de hora").
+  // El ciclo automatico corre a la hora en punto (UTC) y tarda ~8 min en publicar, asi
+  // que la proxima publicacion se estima como la proxima hora en punto + 8 min. Si la
+  // lectura tiene mas de 2h30, algo esta caido y se avisa en rojo en vez de fingir.
+  function updatePicksAge() {
+    var upd = document.getElementById("picks-updated");
+    if (!upd || !LIVE || !LIVE.generated_at) return;
+    var mins = Math.round((Date.now() - new Date(LIVE.generated_at).getTime()) / 60000);
+    var edad = mins < 1 ? "hace instantes" : mins < 60 ? "hace " + mins + " min" : "hace " + Math.round(mins / 60) + "h";
+    if (mins >= 150) {
+      upd.textContent = "⚠ picks de " + edad + " — el ciclo automático parece caído, no operar con esto";
+      upd.style.color = "var(--bad)";
+      return;
     }
+    upd.style.color = "";
+    var ahora = new Date();
+    var proxima = new Date(ahora); proxima.setUTCMinutes(8, 0, 0);
+    if (proxima <= ahora) proxima.setUTCHours(proxima.getUTCHours() + 1);
+    var faltan = Math.max(1, Math.round((proxima - ahora) / 60000));
+    upd.textContent = "picks de " + edad + " · próxima actualización en ~" + faltan + " min";
   }
   document.getElementById("top-picks").addEventListener("click", function (e) {
     var card = e.target.closest(".pick-card[data-station]");
@@ -996,11 +1019,30 @@
   // ("LTAC - AnkaraHelsinki") y el filtro no matchea nada (bug reportado 2026-07-29:
   // "escribo una ciudad y no filtra"). Seleccionando todo al hacer foco, escribir
   // directamente reemplaza el valor anterior, como en cualquier buscador.
+  // El buscador tambien filtra la tabla "Pico en vivo": al escribir (o elegir) una
+  // ciudad, la tabla muestra SOLO las filas que coinciden — vacio = todas (pedido
+  // 2026-07-30: "que se filtre de la lista para que solo aparezca la solicitada").
+  function filtrarTablaVivo(q) {
+    var f = (q || "").toLowerCase().trim();
+    // tras elegir una estacion el input queda "CODE - Nombre" — filtrar por el nombre
+    var m = f.match(/^[a-z0-9]{4}\s*-\s*(.+)$/);
+    if (m) f = m[1].trim();
+    var rows = document.querySelectorAll("#live-body tr[data-station]");
+    Array.prototype.forEach.call(rows, function (tr) {
+      var code = (tr.getAttribute("data-station") || "").toLowerCase();
+      var city = tr.querySelector("td.city");
+      var nombre = city ? city.textContent.toLowerCase() : "";
+      tr.style.display = (!f || nombre.indexOf(f) >= 0 || code.indexOf(f) >= 0) ? "" : "none";
+    });
+  }
   input.addEventListener("focus", function () {
     input.select();
     renderStationList(input.value);
   });
-  input.addEventListener("input", function () { renderStationList(input.value); });
+  input.addEventListener("input", function () {
+    renderStationList(input.value);
+    filtrarTablaVivo(input.value);
+  });
   document.addEventListener("click", function (e) {
     if (!listEl.contains(e.target) && e.target !== input) listEl.classList.remove("open");
   });
@@ -1009,6 +1051,7 @@
     if (!opt) return;
     selectStation(opt.getAttribute("data-code"));
     listEl.classList.remove("open");
+    filtrarTablaVivo(input.value);
   });
 
   function localHourNow(tz) {
@@ -1051,6 +1094,7 @@
   });
   setInterval(tickClock, 1000);
   setInterval(updateLiveAge, 30000); // cada 30s alcanza, es solo texto de "hace X min"
+  setInterval(updatePicksAge, 30000);
 
   // ---- hour stepper ----
   document.getElementById("hour-minus").addEventListener("click", function () {
