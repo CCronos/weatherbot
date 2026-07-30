@@ -178,7 +178,6 @@ def agregar(filas, country_code):
             if celdas:
                 curve[hora] = celdas
         if curve:
-            dias_unicos = len(set((f["mes"],) for f in filas))  # aprox, no exacto pero informativo
             resultado[temporada] = {
                 "n_days": sum(c.get("any", {}).get("n", 0) for c in [curve.get(h, {}) for h in curve][:1]) or None,
                 "curve": curve,
@@ -217,7 +216,6 @@ def main():
             r = procesar_estacion(code)
             if r:
                 stations.append(r)
-                n_lecturas = sum(len(h) for s in r["seasons"].values() for h in [s["curve"]])
                 print(f"OK ({len(r['seasons'])} temporadas)")
             else:
                 print("sin datos suficientes")

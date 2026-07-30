@@ -682,13 +682,29 @@ def take_forecast_snapshot(city_slug, dates):
         # ecmwf/regional fields stored in the snapshot stay untouched so future
         # calibration keeps measuring the raw model's real error, not an
         # already-corrected number chasing its own tail.
+        # Bug encontrado 2026-07-30 en auditoria: este bloque solo miraba `cal_key in _cal`
+        # (calibracion PROPIA de la ciudad) para decidir si corregir sesgo y entrar al
+        # blend — el fallback agrupado (_pooled_{unit}_{source}) que get_bias/get_sigma
+        # ya saben usar (ver arriba, agregado junto con el resto del fix de calibracion
+        # agrupada) nunca se llegaba a consultar aca, asi que ninguna ciudad SIN historia
+        # propia recibia correccion de sesgo real en el valor usado para operar — el sesgo
+        # calido documentado (+1.9F en ciudades de EEUU) seguia colandose en el EV de la
+        # mayoria de las ciudades pese al fix. `husky_live_snapshot.py` ya bypaseaba este
+        # mismo gate con un `or True` puntual sin arreglar el original. Fix: usar
+        # get_bias/get_sigma (que ya caen a agrupado y despues a la constante) en vez de
+        # mirar `_cal` directo, para toda ciudad+fuente con datos reales (propios O
+        # agrupados) — la fuente sin ninguna calibracion real sigue sin entrar al blend
+        # (mismo criterio que antes, solo que ahora "calibracion real" incluye agrupada).
+        def _tiene_calibracion_real(source):
+            unit = LOCATIONS[city_slug]["unit"]
+            return f"{city_slug}_{source}" in _cal or f"_pooled_{unit}_{source}" in _cal
+
         calibrated = []
         for source in ("ecmwf", "regional"):
             value = snap[source]
-            cal_key = f"{city_slug}_{source}"
-            if value is not None and cal_key in _cal:
+            if value is not None and _tiene_calibracion_real(source):
                 corrected = value - get_bias(city_slug, source)
-                calibrated.append((corrected, _cal[cal_key]["sigma"], source))
+                calibrated.append((corrected, get_sigma(city_slug, source), source))
 
         if len(calibrated) >= 2:
             weights = [1.0 / (sigma ** 2) for _, sigma, _ in calibrated]
@@ -700,10 +716,10 @@ def take_forecast_snapshot(city_slug, dates):
         elif len(calibrated) == 1:
             snap["best"], _, snap["best_source"] = calibrated[0]
         elif snap["regional"] is not None:
-            snap["best"] = snap["regional"]
+            snap["best"] = round(snap["regional"] - get_bias(city_slug, "regional"), 1)
             snap["best_source"] = "regional"
         elif snap["ecmwf"] is not None:
-            snap["best"] = snap["ecmwf"]
+            snap["best"] = round(snap["ecmwf"] - get_bias(city_slug, "ecmwf"), 1)
             snap["best_source"] = "ecmwf"
         else:
             snap["best"] = None
@@ -1054,12 +1070,23 @@ def scan_and_update():
                 mkt["status"] = "closed"
 
             save_market(mkt)
+            # Bug encontrado 2026-07-30 en auditoria: `balance` solo se volcaba a
+            # state.json UNA vez, al final de todo el ciclo (~30 ciudades x 4 fechas).
+            # Cada posicion cerrada arriba (stop-loss/TP/invalidada/cambio de pronostico)
+            # ya se guardaba al toque en su propio archivo de mercado con status
+            # "resolved" via save_market(mkt) — pero si el proceso se caia (excepcion,
+            # corte, Ctrl+C) en CUALQUIER ciudad posterior antes de llegar al
+            # save_state() final, esa plata quedaba perdida del balance para siempre: el
+            # mercado ya esta "resolved" y el chequeo de arriba (`if mkt["status"] ==
+            # "resolved": continue`) nunca lo vuelve a mirar. Ahora se sincroniza el
+            # balance al mismo tiempo que cada archivo de mercado, no al final.
+            state["balance"] = round(balance, 2)
+            save_state(state)
             time.sleep(0.1)
 
         print("ok")
 
     # --- AUTO-RESOLUTION ---
-    hoy_utc = now.strftime("%Y-%m-%d")
     for mkt in load_all_markets():
         # Registrar la temperatura real de CUALQUIER mercado ya pasado que no la tenga,
         # tenga posicion o no y sin importar como se cerro. Sin esto la calibracion se
@@ -1067,7 +1094,17 @@ def scan_and_update():
         # status="resolved" sin consultar nunca get_actual_temp, y los mercados sin
         # posicion ni siquiera llegaban a este bucle. Resultado medido el 2026-07-28:
         # 179 mercados "resolved" y solo 14 con actual_temp, con calibration.json en {}.
-        if mkt.get("actual_temp") is None and mkt["date"] < hoy_utc:
+        #
+        # Bug encontrado 2026-07-30 en auditoria: `mkt["date"]` es la fecha LOCAL de la
+        # ciudad (ver take_forecast_snapshot: "dates[0] must be city-local today"), pero
+        # se comparaba contra `hoy_utc` (fecha UTC). Para ciudades al oeste de UTC (EEUU,
+        # Toronto, Sao Paulo, Buenos Aires) el dia UTC rueda varias horas ANTES de que
+        # termine el dia local — se podia consultar (y fijar para siempre, porque el
+        # chequeo de arriba es "if actual_temp is None") una maxima todavia incompleta.
+        # Para ciudades al este de UTC pasaba lo opuesto: el backfill se demoraba hasta
+        # 24h de mas. Ahora se compara contra el "hoy" local de CADA ciudad.
+        hoy_local = now.astimezone(ZoneInfo(TIMEZONES.get(mkt["city"], "UTC"))).strftime("%Y-%m-%d")
+        if mkt.get("actual_temp") is None and mkt["date"] < hoy_local:
             t = get_actual_temp(mkt["city"], mkt["date"])
             if t is not None:
                 mkt["actual_temp"] = t
@@ -1118,6 +1155,10 @@ def scan_and_update():
         resolved += 1
 
         save_market(mkt)
+        # Mismo fix que arriba: sincronizar balance junto con cada archivo de mercado,
+        # no solo al final del ciclo completo.
+        state["balance"] = round(balance, 2)
+        save_state(state)
         time.sleep(0.3)
 
     state["balance"]      = round(balance, 2)
@@ -1711,10 +1752,13 @@ def monitor_positions():
 
         if dirty:
             save_market(mkt)
-
-    if closed:
-        state["balance"] = round(balance, 2)
-        save_state(state)
+            # Mismo fix que scan_and_update: sincronizar balance junto con cada archivo
+            # de mercado que cierra posicion, no solo una vez al final del loop entero —
+            # sin esto, una excepcion en una ciudad posterior perdia para siempre el
+            # credito de balance de un cierre anterior que ya habia quedado grabado como
+            # "resolved" en su propio archivo.
+            state["balance"] = round(balance, 2)
+            save_state(state)
 
     return closed
 

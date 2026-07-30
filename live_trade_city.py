@@ -58,6 +58,12 @@ TOKENS = {}
 # (bucket, precio_limite, presupuesto_usd_de_ese_nivel)
 PLAN = []
 
+# Poner en True SOLO si el usuario pide explicitamente correr sin la salida
+# escalonada de live_trade_common (sin stop-loss, sin TP1/TP2) — usado por la
+# operacion de Istanbul 25C del 2026-07-29/30 (cerrada, ver data/archive_real/).
+# Default False: cualquier operacion nueva usa la salida escalonada compartida.
+SIN_SALIDA_AUTOMATICA = False
+
 DRIP_USD = 2.50        # tamano de cada orden chica del goteo
 CHECK_INTERVAL = 240   # 4 min — mercados sin mucho volumen, no hace falta mas rapido
 
@@ -133,6 +139,7 @@ def fresh_state():
             "usd_deployed": 0.0, "shares_filled": 0.0, "cost_filled": 0.0,
             "order_id": None, "order_status": "none",   # none | placed | done
             "order_counted_shares": 0.0,                # cuanto de la orden EN CURSO ya se conto
+            "fallos_consecutivos": 0,
         })
     return {"ciudad": CIUDAD, "fecha": FECHA_MERCADO, "niveles": niveles, "cycles": 0}
 
@@ -143,11 +150,15 @@ def load_state():
     state = json.loads(STATE_FILE.read_text(encoding="utf-8"))
     for n in state.get("niveles", []):
         n.setdefault("order_counted_shares", 0.0)  # migra states de la version anterior
+        n.setdefault("fallos_consecutivos", 0)
     return state
 
 
 def save_state(state):
     atomic_write(STATE_FILE, json.dumps(state, indent=2, ensure_ascii=False))
+
+
+PLACE_DRIP_MAX_FALLOS = 3  # tras esto, un solo aviso por Telegram y sigue reintentando en silencio
 
 
 def place_drip(client, nivel):
@@ -165,17 +176,36 @@ def place_drip(client, nivel):
             token_id=TOKENS[nivel["bucket"]], price=nivel["price"], size=size, side="BUY",
         )
         ok = getattr(resp, "ok", False)
+        error_txt = None if ok else f"{getattr(resp, 'code', '')} {getattr(resp, 'message', '')}"
     except Exception as e:
-        log(f"  [ERROR] place_drip {nivel['bucket']}{UNIDAD}@${nivel['price']}: {e}")
-        return
+        ok = False
+        error_txt = str(e)
+
     if ok:
         nivel["order_id"] = resp.order_id
         nivel["order_status"] = "placed"
         nivel["order_counted_shares"] = 0.0
+        nivel["fallos_consecutivos"] = 0
         log(f"  {nivel['bucket']}{UNIDAD} @ ${nivel['price']}: gota de ${usd:.2f} ({size} shares) -> {resp.order_id}")
-    else:
-        log(f"  [ERROR] place_drip {nivel['bucket']}{UNIDAD}@${nivel['price']} rechazada: "
-            f"{getattr(resp, 'code', '')} {getattr(resp, 'message', '')}")
+        return
+
+    # Antes de esto, un fallo de place_drip (ej. el rechazo por fee estimate que
+    # encontramos 2026-07-29 comprando Istanbul a mano) solo se logueaba — el bot podia
+    # quedar reintentando la misma gota fallida cada 4 min PARA SIEMPRE sin que nadie se
+    # enterara, porque el loop principal solo manda Telegram si run_once() lanza una
+    # excepcion, y esta se atajaba adentro sin propagarse. Ahora avisa una vez tras
+    # PLACE_DRIP_MAX_FALLOS seguidos (no en cada intento, para no saturar Telegram) y
+    # sigue reintentando igual — no marca el nivel como "done" porque un rechazo de
+    # balance puede resolverse solo (ej. otra posicion se libera fondos al vender).
+    nivel["fallos_consecutivos"] = nivel.get("fallos_consecutivos", 0) + 1
+    log(f"  [ERROR] place_drip {nivel['bucket']}{UNIDAD}@${nivel['price']} "
+        f"(fallo {nivel['fallos_consecutivos']}): {error_txt}")
+    if nivel["fallos_consecutivos"] == PLACE_DRIP_MAX_FALLOS:
+        send_telegram(
+            f"⚠️ {CIUDAD} {nivel['bucket']}{UNIDAD}@${nivel['price']}: la gota de compra "
+            f"fallo {PLACE_DRIP_MAX_FALLOS} veces seguidas — ${nivel['usd_total'] - nivel['usd_deployed']:.2f} "
+            f"sin desplegar. Ultimo error: {error_txt}"
+        )
 
 
 def check_drip_fill(client, nivel):
@@ -221,10 +251,25 @@ def check_drip_fill(client, nivel):
             f"nivel ${nivel['usd_deployed']:.2f}/${nivel['usd_total']:.2f}"
         )
 
-    # La orden termino (llena o cancelada por el exchange): se libera el nivel para la
-    # proxima gota. Lo ya llenado quedo contabilizado arriba en cualquiera de los casos.
+    # La orden termino (llena, cancelada por el exchange, o cerrada con fill parcial):
+    # se libera el nivel para la proxima gota. Lo ya llenado quedo contabilizado arriba
+    # en cualquiera de los casos.
+    #
+    # Bug encontrado 2026-07-29 con dinero real (Istanbul 25C): Polymarket devuelve
+    # status="MATCHED" para una orden que ya NO esta resting en el book aunque
+    # size_matched < original_size (confirmado con list_open_orders() -> 0 abiertas
+    # mientras el nivel seguia en 'placed' aca). O sea "MATCHED" es terminal en su
+    # vocabulario incluso con fill parcial, no solo cuando matched>=original. Antes de
+    # este fix, el goteo quedaba trabado para siempre en cuanto una gota se llenaba
+    # parcial y el exchange la cerraba asi — plata sin desplegar y sin aviso.
+    # El SDK define el vocabulario de status como LIVE | MATCHED | DELAYED | UNMATCHED |
+    # CANCELED (polymarket/models/clob/user_events.py) — son mutuamente excluyentes para
+    # UNA orden entera, no por fill. Solo "LIVE" y "DELAYED" implican que puede seguir
+    # llegando mas fill; "UNMATCHED" se suma aca por la misma razon que "MATCHED": si no
+    # es LIVE, no esta resting, y dejar el nivel trabado esperando un fill que no va a
+    # llegar es el mismo bug de fondo (aunque con 0 shares compradas, sin riesgo de plata).
     estado_orden = (getattr(order, "status", "") or "").upper()
-    if matched >= original - 1e-6 or estado_orden in ("CANCELED", "CANCELLED", "EXPIRED"):
+    if matched >= original - 1e-6 or estado_orden in ("MATCHED", "UNMATCHED", "CANCELED", "CANCELLED", "EXPIRED"):
         nivel["order_id"] = None
         nivel["order_status"] = "none"
         nivel["order_counted_shares"] = 0.0
@@ -250,14 +295,15 @@ def run_once():
     #    pendiente de ESE bucket antes de intentar comprar mas en el mismo ciclo.
     posiciones = refresh_posiciones(state, key_fn=lambda n: n["bucket"])
     stopped_buckets = set()
-    for bucket_str, pos in posiciones.items():
-        bucket = int(bucket_str)
-        if bucket not in TOKENS or pos["shares"] <= 0.01:
-            continue
-        check_tiered_exit(client, TOKENS[bucket], pos, log, send_telegram,
-                          label=f"{CIUDAD} {bucket}{UNIDAD}")
-        if pos.get("stop_triggered") or pos.get("closed"):
-            stopped_buckets.add(bucket)
+    if not SIN_SALIDA_AUTOMATICA:
+        for bucket_str, pos in posiciones.items():
+            bucket = int(bucket_str)
+            if bucket not in TOKENS or pos["shares"] <= 0.01:
+                continue
+            check_tiered_exit(client, TOKENS[bucket], pos, log, send_telegram,
+                              label=f"{CIUDAD} {bucket}{UNIDAD}")
+            if pos.get("stop_triggered") or pos.get("closed"):
+                stopped_buckets.add(bucket)
 
     for nivel in state["niveles"]:
         if nivel["bucket"] in stopped_buckets and nivel["order_status"] != "done":
@@ -304,7 +350,10 @@ def print_plan():
         total += usd
     print("-" * 60)
     print(f"  TOTAL A ARRIESGAR: ${total:.2f}")
-    print(f"  Salida: stop-loss -50% | TP1 +200% (30%) | TP2 +400% (30%) | resto libre")
+    if SIN_SALIDA_AUTOMATICA:
+        print(f"  Salida: NINGUNA — sin stop-loss ni TP, se mantiene hasta resolucion")
+    else:
+        print(f"  Salida: stop-loss -50% | TP1 +200% (30%) | TP2 +400% (30%) | resto libre")
     print(f"  State: {STATE_FILE}")
     print("=" * 60)
     return True
@@ -342,8 +391,9 @@ def main():
 
     acquire_lock()
     try:
+        salida_txt = "SIN salida automatica (SIN_SALIDA_AUTOMATICA)" if SIN_SALIDA_AUTOMATICA else "salida escalonada activa"
         log(f"live_trade_city — {CIUDAD} {FECHA_MERCADO} — iniciado "
-            f"(goteo de ${DRIP_USD:.2f} cada {CHECK_INTERVAL//60} min, salida escalonada activa)")
+            f"(goteo de ${DRIP_USD:.2f} cada {CHECK_INTERVAL//60} min, {salida_txt})")
         while True:
             try:
                 run_once()

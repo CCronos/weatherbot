@@ -46,7 +46,6 @@ TELEGRAM_CHAT_ID = _cfg.get("telegram_chat_bot_principal") or _cfg.get("telegram
 # Regla: aca va SOLO lo que tiene que estar vivo AHORA. Un bot de una operacion
 # terminada se saca el mismo dia — no se comenta, se saca.
 PROCESSES = [
-    ("live_trade_city",         ["live_trade_city.py", "run"]),
 ]
 
 

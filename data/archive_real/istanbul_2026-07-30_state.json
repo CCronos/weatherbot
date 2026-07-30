@@ -1,0 +1,44 @@
+{
+  "ciudad": "Istanbul",
+  "fecha": "2026-07-30",
+  "niveles": [
+    {
+      "bucket": 25,
+      "price": 0.2265,
+      "usd_total": 12.51,
+      "usd_deployed": 11.9708,
+      "shares_filled": 52.83,
+      "cost_filled": 11.9708,
+      "order_id": null,
+      "order_status": "done",
+      "order_counted_shares": 0.0
+    }
+  ],
+  "cycles": 5,
+  "posiciones": {
+    "25": {
+      "bought_shares": 52.83,
+      "bought_cost": 11.9708,
+      "shares": 52.83,
+      "total_cost": 11.9708,
+      "avg_price": 0.2265,
+      "tp1_target": null,
+      "tp1_sold": 0.0,
+      "tp1_done": false,
+      "tp2_target": null,
+      "tp2_sold": 0.0,
+      "tp2_done": false,
+      "stop_triggered": false,
+      "closed": true,
+      "realized_pnl": -11.9444
+    }
+  },
+  "resolution": {
+    "winning_bucket": "26C",
+    "our_bucket": "25C",
+    "final_cost": 11.9708,
+    "final_pnl": -11.9444,
+    "resolved_at": "2026-07-30",
+    "note": "Confirmado por el usuario que el mercado cerro; 26C paso a $0.9995 (ganador), nuestro 25C a $0.0005. Perdida casi total, sin stop-loss/TP porque la operacion corrio con SIN_SALIDA_AUTOMATICA=True."
+  }
+}

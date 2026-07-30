@@ -66,7 +66,14 @@ def descargar_estacion(station, reintentos=3):
 
 def main():
     import json
-    solo = sys.argv[1].upper() if len(sys.argv) > 1 else None
+    # Bug encontrado 2026-07-30 en auditoria: CLAUDE.md documenta este script como
+    # "(rarely needed) refresh the free IEM raw METAR archive", pero sin este flag
+    # "refrescar" no hacia nada — cualquier estacion cuyo CSV ya existiera se saltaba
+    # incondicionalmente, siempre, sin forma de forzar una descarga nueva salvo borrar
+    # los archivos a mano primero.
+    args = [a for a in sys.argv[1:] if a != "--force"]
+    force = "--force" in sys.argv[1:]
+    solo = args[0].upper() if args else None
     # las 50 estaciones (30 que operamos + 20 de expansion futura), no solo LOCATIONS
     codes_path = Path("data/husky/all_50_codes.json")
     if codes_path.exists():
@@ -76,12 +83,13 @@ def main():
     if solo:
         estaciones = [s for s in estaciones if s == solo]
 
-    print(f"Descargando {len(estaciones)} estaciones, {START} a {END}, desde IEM (mesonet.agron.iastate.edu)\n")
+    print(f"Descargando {len(estaciones)} estaciones, {START} a {END}, desde IEM (mesonet.agron.iastate.edu)"
+          f"{' [--force: reintenta todas]' if force else ''}\n")
     ok, fail = [], []
     for i, station in enumerate(estaciones, 1):
         out_path = OUT_DIR / f"{station}.csv"
-        if out_path.exists() and out_path.stat().st_size > 1000:
-            print(f"  [{i}/{len(estaciones)}] {station}... ya existe, se salta")
+        if not force and out_path.exists() and out_path.stat().st_size > 1000:
+            print(f"  [{i}/{len(estaciones)}] {station}... ya existe, se salta (usar --force para refrescar)")
             ok.append(station)
             continue
         print(f"  [{i}/{len(estaciones)}] {station}...", end=" ", flush=True)

@@ -297,7 +297,13 @@ def main():
         time.sleep(0.3)
 
     snapshot = {"generated_at": datetime.now(timezone.utc).isoformat(), "cities": resultados}
-    OUT_FILE.write_text(json.dumps(snapshot, indent=2, ensure_ascii=False), encoding="utf-8")
+    # atomic_write (no write_text directo) — este script corre desatendido via las
+    # tareas programadas HuskyDigestAM/PM; un crash a mitad de escritura dejaria un JSON
+    # corrupto que build_passport.py/husky_daily_digest.py tendrian que manejar. Mismo
+    # patron que ya usa husky_check_resolutions.py.guardar_log() para LOG_FILE mas abajo
+    # (que si era atomico) — encontrado 2026-07-30 en auditoria: la inconsistencia entre
+    # estos dos archivos hermanos del mismo script.
+    B.atomic_write(OUT_FILE, json.dumps(snapshot, indent=2, ensure_ascii=False))
     print(f"\n{len(resultados)} ciudades -> {OUT_FILE}")
 
     registrar_predicciones(resultados)
@@ -335,7 +341,7 @@ def registrar_predicciones(resultados):
         })
         nuevos += 1
     if nuevos:
-        LOG_FILE.write_text(json.dumps(log, indent=2, ensure_ascii=False), encoding="utf-8")
+        B.atomic_write(LOG_FILE, json.dumps(log, indent=2, ensure_ascii=False))
     print(f"registro de predicciones: {nuevos} nuevas, {len(log['records'])} totales")
 
 

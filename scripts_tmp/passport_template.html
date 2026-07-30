@@ -712,6 +712,15 @@
   var RESOLUTION = JSON.parse(document.getElementById("data-resolution").textContent); // { ICAO: {source, source_confirmed, source_fallback, full_station_name} }
   var TRACK_RECORD = JSON.parse(document.getElementById("data-track-record").textContent); // { records: [...] }
 
+  // Compartido entre renderLive() y renderLiveDetail() — antes cada uno tenia su propia
+  // logica de riesgo por precio: renderLive() usaba un umbral fijo `price < 0.06` que
+  // quedo muerto (husky_live_snapshot.py ya filtra mejor_bucket a precio >= 0.06 antes
+  // de escribirlo, asi que esa condicion nunca podia dispararse), mientras el panel de
+  // detalle SI usaba el campo `confianza` real (tiers escalable/moderado/cautela del
+  // audit de 1,680 trades). Encontrado 2026-07-30 en auditoria: la tabla principal — lo
+  // primero que se ve — no mostraba ninguna advertencia para picks "moderado"/"cautela".
+  var CONF_LABEL = { escalable: "✅ escalable", moderado: "🟡 moderado", cautela: "🔶 cautela (precio bajo)" };
+
   function renderTrackRecord() {
     var records = (TRACK_RECORD && TRACK_RECORD.records) || [];
     var resueltos = records.filter(function (r) { return r.resolved; });
@@ -812,15 +821,17 @@
       var bucketCell = "s/d";
       if (c.mejor_bucket) {
         var mb = c.mejor_bucket;
-        // Precio muy bajo infla el EV matematicamente sin que sea ejecutable en tamano
-        // real (la misma trampa que hizo parecer +61% rentable a favoritos_bot cuando
-        // en realidad perdia plata) — se marca en vez de mostrar el numero pelado.
-        var cautela = mb.price < 0.06;
+        // Precio bajo infla el EV matematicamente sin que sea ejecutable en tamano real
+        // (la misma trampa que hizo parecer +61% rentable a favoritos_bot cuando en
+        // realidad perdia plata) — se marca segun el tier de confianza real (escalable
+        // >=$0.20 / moderado $0.10-0.20 / cautela <$0.10, del audit de 1,680 trades),
+        // no un umbral fijo separado que podia desincronizarse del backend.
+        var noEscalable = mb.confianza && mb.confianza !== "escalable";
         bucketCell = mb.bucket + " @ " + mb.price.toFixed(3) +
-          " · EV " + (mb.ev * 100).toFixed(0) + "%" + (cautela ? " ⚠" : "") +
+          " · EV " + (mb.ev * 100).toFixed(0) + "%" + (noEscalable ? " ⚠" : "") +
           " · Kelly " + (mb.kelly * 100).toFixed(1) + "%" +
           '<div class="sub" style="margin-top:2px;">vol $' + mb.volume.toLocaleString() +
-          (cautela ? " — precio muy bajo, EV no es fiable en tamaño" : "") + "</div>";
+          (noEscalable ? " — " + (CONF_LABEL[mb.confianza] || mb.confianza) + ", EV no es fiable en tamaño" : "") + "</div>";
       }
       return '<tr class="row-clickable" data-station="' + c.station + '" title="Ver detalle completo de ' + c.name + '">' +
         '<td class="city">' + c.name + " (" + c.station + ")</td>" +
@@ -1208,7 +1219,6 @@
     const mb = c.mejor_bucket;
     const mercadoBody = document.getElementById("ld-mercado-body");
     if (mb) {
-      const CONF_LABEL = { escalable: "✅ escalable", moderado: "🟡 moderado", cautela: "🔶 cautela (precio bajo)" };
       mercadoBody.innerHTML =
         '<div class="ld-mercado-row">' + mb.bucket + " @ $" + mb.price.toFixed(3) + " — " + (CONF_LABEL[mb.confianza] || "") + "</div>" +
         '<div class="ld-mercado-row">prob ' + (mb.prob * 100).toFixed(0) + "% · EV " + (mb.ev >= 0 ? "+" : "") + (mb.ev * 100).toFixed(0) +

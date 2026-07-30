@@ -404,7 +404,16 @@ def extraer_fecha_iso(title):
     mes = MESES_EDGE.get(m.group(1))
     if not mes:
         return None
-    anio = datetime.now(timezone.utc).year
+    # Bug encontrado 2026-07-30 en auditoria: usaba siempre el anio actual, sin rollover
+    # cerca de fin de anio (a diferencia de la logica ya correcta en
+    # chengdu_early_entry.py:extract_date_from_question). Sin esto, un trade de wallet
+    # que menciona un mercado de enero visto en diciembre calculaba una fecha en el
+    # PASADO — fetch_forecast_edge no tira error, pero devuelve vacio/nada util, asi que
+    # ese trade queda silenciosamente sin "nuestro edge" calculado.
+    ahora = datetime.now(timezone.utc)
+    anio = ahora.year
+    if mes < ahora.month - 6:  # ej. parseando "enero" estando ya en diciembre
+        anio += 1
     return f"{anio}-{mes:02d}-{int(m.group(2)):02d}"
 
 

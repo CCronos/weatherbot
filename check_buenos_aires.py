@@ -757,7 +757,7 @@ def run_check():
 
     wu_max = fetch_wu_max_hoy()
 
-    real_txt = f"{real_t:.1f}°C" if real_t else "s/d"
+    real_txt = f"{real_t:.1f}°C" if real_t is not None else "s/d"
     wu_txt = f"  |  WU hoy: {wu_max:.1f}°C" if wu_max is not None else ""
     modelos_txt = " · ".join(
         f"{n.upper()} {finals[n]:.1f}°" if finals.get(n) is not None else f"{n.upper()} s/d"

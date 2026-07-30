@@ -91,6 +91,7 @@ def fresh_posicion():
         "tp1_target": None, "tp1_sold": 0.0, "tp1_done": False,
         "tp2_target": None, "tp2_sold": 0.0, "tp2_done": False,
         "stop_triggered": False, "closed": False, "realized_pnl": 0.0,
+        "fallos_venta_consecutivos": 0,
     }
 
 
@@ -124,6 +125,14 @@ def refresh_posiciones(state, key_fn):
     return posiciones
 
 
+# Cada cuantos fallos de venta SEGUIDOS se manda un aviso por Telegram (y se repite
+# cada tantos fallos mas, no una sola vez) — un stop-loss o TP que no logra vender
+# deja la posicion abierta y expuesta; a diferencia de una compra fallida (donde lo
+# peor que pasa es perder una oportunidad), acá el riesgo es que nadie se entere de
+# que la salida esta trabada mientras el precio se sigue moviendo en contra.
+FALLOS_VENTA_ALERTA_CADA = 3
+
+
 def sell_partial(client, token_id, shares_to_sell, pos, reason, log, send_telegram,
                   slippage_tolerance=SELL_SLIPPAGE_TOLERANCE):
     """Como safe_sell_all pero para una CANTIDAD especifica (no toda la posicion) —
@@ -132,14 +141,29 @@ def sell_partial(client, token_id, shares_to_sell, pos, reason, log, send_telegr
     aguanta todo dentro del margen, vende lo que pueda; el resto queda pendiente,
     el llamador reintenta en el proximo ciclo porque tp1_done/tp2_done solo se
     marca True si algo se vendio de verdad."""
+
+    def _fallo(motivo):
+        # Antes esto solo se logueaba — encontrado 2026-07-29 en auditoria: una venta
+        # (stop-loss o TP) que falla repetidamente no tenia NINGUN aviso escalado, a
+        # diferencia de otros fallos del proyecto (ver PLACE_DRIP_MAX_FALLOS en
+        # live_trade_city.py, agregado el mismo dia por el mismo motivo del lado compra).
+        pos["fallos_venta_consecutivos"] = pos.get("fallos_venta_consecutivos", 0) + 1
+        n = pos["fallos_venta_consecutivos"]
+        log(f"  [ERROR] {reason}: {motivo} (fallo de venta #{n})")
+        if n % FALLOS_VENTA_ALERTA_CADA == 0:
+            send_telegram(
+                f"🚨 {reason}: {n} intentos de venta seguidos fallaron ({motivo}) — "
+                f"la posicion sigue ABIERTA y expuesta, revisar manualmente si persiste."
+            )
+        return 0.0, 0.0
+
     shares_to_sell = min(shares_to_sell, pos["shares"])
     if shares_to_sell <= 0.01:
         return 0.0, 0.0
     asks_bids = get_book(token_id)
     bids = asks_bids[1]
     if not bids:
-        log("  [WARN] sin bids, no se puede vender parcial este ciclo")
-        return 0.0, 0.0
+        return _fallo("sin bids en el book")
     bid_ahora = float(bids[0]["price"])
     floor_price = round(max(0.01, bid_ahora * (1 - slippage_tolerance)), 2)
 
@@ -162,17 +186,16 @@ def sell_partial(client, token_id, shares_to_sell, pos, reason, log, send_telegr
         )
         ok = getattr(resp, "ok", False)
     except Exception as e:
-        log(f"  [ERROR] venta parcial: {e}")
-        return 0.0, 0.0
+        return _fallo(f"excepcion: {e}")
     if not ok:
-        log(f"  [ERROR] venta parcial rechazada: {getattr(resp, 'code', '')} {getattr(resp, 'message', '')}")
-        return 0.0, 0.0
+        return _fallo(f"rechazada: {getattr(resp, 'code', '')} {getattr(resp, 'message', '')}")
 
     sold = float(resp.making_amount) if resp.making_amount else 0.0
     proceeds = float(resp.taking_amount) if resp.taking_amount else 0.0
     if sold <= 0:
-        return 0.0, 0.0
+        return _fallo("orden aceptada pero no se vendio nada")
 
+    pos["fallos_venta_consecutivos"] = 0
     cost_vendido = pos["total_cost"] * (sold / pos["shares"]) if pos["shares"] > 0 else 0.0
     pos["shares"] = round(pos["shares"] - sold, 6)
     pos["total_cost"] = round(pos["total_cost"] - cost_vendido, 6)

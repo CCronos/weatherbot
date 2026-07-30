@@ -270,8 +270,18 @@ def main():
                 mid = str(m.get("id", ""))
                 if mid not in seen:
                     new_count += 1
-                    process_new_market(m, seen)
-            save_seen(seen)
+                    # Encontrado 2026-07-30 en auditoria: `seen.add()` pasa DENTRO de
+                    # process_new_market antes de procesar nada, pero antes solo se
+                    # guardaba a disco una vez despues de TODO el batch — si un mercado
+                    # de la mitad tirara una excepcion no atajada, el resto del batch (y
+                    # el guardado en disco) se saltaba, y un reinicio del proceso volveria
+                    # a ver ese mercado como "nuevo" (alerta/entrada simulada duplicada).
+                    # Guardar por mercado y aislar la excepcion evita ambos problemas.
+                    try:
+                        process_new_market(m, seen)
+                    except Exception as e:
+                        print(f"  [ERROR] procesando mercado {mid}: {e}")
+                    save_seen(seen)
             if new_count == 0:
                 print(f"  [{datetime.now(ZoneInfo('Asia/Shanghai')).strftime('%H:%M:%S')}] sin mercados nuevos")
         except Exception as e:

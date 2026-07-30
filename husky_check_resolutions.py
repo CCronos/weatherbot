@@ -106,12 +106,30 @@ def main():
                 pick_won = (round(mb["range"][0], 3) == round(rng_ganador[0], 3) and
                             round(mb["range"][1], 3) == round(rng_ganador[1], 3))
 
-            r["resolved"] = True
-            r["actual_temp"] = actual_temp
             r["winning_bucket"] = pregunta_ganadora
             r["winning_range"] = list(rng_ganador)
             r["pick_won"] = pick_won
             r["forecast_error"] = round(r["peak_final"] - actual_temp, 2) if (r["peak_final"] is not None and actual_temp is not None) else None
+
+            if actual_temp is None:
+                # Bug encontrado 2026-07-30 en auditoria: antes esto igual marcaba
+                # resolved=True con actual_temp=None, y el print de abajo (que asumia
+                # forecast_error siempre numerico) tiraba TypeError sobre None — el
+                # except de mas abajo lo atajaba y contaba como "fallido, se reintenta",
+                # pero como los campos ya se habian escrito en `r` y resolved quedaba en
+                # True, guardar_log() persistia el registro varado PARA SIEMPRE (el
+                # filtro de pendientes es solo `not r["resolved"]`): el panel de Track
+                # Record mostraba ese registro sin dato real de por vida, mientras el log
+                # decia falsamente que se iba a reintentar. Ahora NO se marca resolved
+                # hasta tener actual_temp de verdad; el bucket ganador/pick_won ya
+                # calculado arriba se re-guarda igual cada ciclo (barato, no hace daño).
+                fallidos += 1
+                print(f"  [WARN] {r['name']} {r['fecha_mercado']}: bucket ganador OK "
+                      f"({pregunta_ganadora}) pero sin temperatura real todavia — se reintenta")
+                continue
+
+            r["resolved"] = True
+            r["actual_temp"] = actual_temp
             r["resolved_at"] = datetime.now(timezone.utc).isoformat()
             resueltos += 1
 
