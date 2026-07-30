@@ -15,8 +15,9 @@ name: passport-web
 
 on:
   schedule:
-    # cada 4 horas (UTC). Chile en invierno es UTC-4: 12 UTC = 08:00, 20 UTC = 16:00.
-    - cron: "0 0,4,8,12,16,20 * * *"
+    # cada hora (UTC). El digest de Telegram igual sale solo a las 12 y 20 UTC
+    # (08:00 y 16:00 de Chile en invierno) — ver el paso del digest mas abajo.
+    - cron: "0 * * * *"
   workflow_dispatch: {}
 
 permissions:
