@@ -437,6 +437,18 @@ WU_COUNTRY = {
     "tel-aviv": "IL", "toronto": "CA", "sao-paulo": "BR", "buenos-aires": "AR",
     "wellington": "NZ", "chengdu": "CN", "beijing": "CN",
     "taipei": "TW", "kuala-lumpur": "MY",
+    # Las 21 ciudades extra de Husky (monkey-patcheadas en LOCATIONS por
+    # husky_live_snapshot.py / husky_check_resolutions.py) faltaban aca, asi que
+    # get_actual_temp_wunderground devolvia None de inmediato y todas caian a Visual
+    # Crossing - una fuente que puede discrepar varios grados de lo que Polymarket
+    # realmente resuelve (encontrado 2026-07-31: Hong Kong y Mexico City resueltos
+    # con actual_temp de VC a ~3 grados del bucket que de verdad gano en Polymarket).
+    "austin": "US", "san-francisco": "US", "mexico-city": "MX",
+    "paris-le-bourget": "FR", "milan": "IT", "helsinki": "FI", "istanbul": "TR",
+    "moscow": "RU", "cape-town": "ZA", "jeddah": "SA", "karachi": "PK",
+    "panama-city": "PA", "hong-kong": "HK", "busan": "KR", "manila": "PH",
+    "jakarta": "ID", "chongqing": "CN", "guangzhou": "CN", "shenzhen": "CN",
+    "wuhan": "CN", "qingdao": "CN",
 }
 # Clave publica embebida en el propio HTML de wunderground.com - la recibe cualquier
 # visitante de la pagina, no es una clave privada ni protegida. Solo funciona con este
