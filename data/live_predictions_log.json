@@ -1542,12 +1542,16 @@
       "empirico_peak": 94.7,
       "peak_final": 98.4,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 99.0,
+      "winning_bucket": "Will the highest temperature in Dallas be between 98-99°F on July 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": -0.6,
+      "resolved_at": "2026-07-31T10:46:55.213593+00:00",
+      "winning_range": [
+        98.0,
+        99.0
+      ]
     },
     {
       "slug": "seattle",
@@ -1573,12 +1577,16 @@
           75.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 78.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 78-79°F on July 30?",
+      "pick_won": false,
+      "forecast_error": -3.4,
+      "resolved_at": "2026-07-31T10:46:55.564803+00:00",
+      "winning_range": [
+        78.0,
+        79.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -1661,12 +1669,16 @@
           81.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 77.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 76-77°F on July 30?",
+      "pick_won": false,
+      "forecast_error": 1.7,
+      "resolved_at": "2026-07-31T10:46:55.858133+00:00",
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "denver",
@@ -1679,12 +1691,16 @@
       "empirico_peak": 88.0,
       "peak_final": 90.5,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 94.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 94-95°F on July 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": -3.5,
+      "resolved_at": "2026-07-31T10:46:56.142217+00:00",
+      "winning_range": [
+        94.0,
+        95.0
+      ]
     },
     {
       "slug": "toronto",
@@ -1767,12 +1783,16 @@
           16.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 17.0,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 17°C on July 30?",
+      "pick_won": false,
+      "forecast_error": -0.7,
+      "resolved_at": "2026-07-31T10:46:56.503290+00:00",
+      "winning_range": [
+        17.0,
+        17.0
+      ]
     },
     {
       "slug": "wellington",
@@ -1851,12 +1871,16 @@
       "empirico_peak": 68.0,
       "peak_final": 70.9,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 73.1,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 72-73°F on July 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": -2.2,
+      "resolved_at": "2026-07-31T10:46:56.953176+00:00",
+      "winning_range": [
+        72.0,
+        73.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -3114,6 +3138,24 @@
       "model_peak": 31.5,
       "empirico_peak": 31.3,
       "peak_final": 31.4,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "station": "KBKF",
+      "unit": "F",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-31T10:41:10.391517+00:00",
+      "model_peak": 90.0,
+      "empirico_peak": 84.4,
+      "peak_final": 87.2,
       "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
