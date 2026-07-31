@@ -200,12 +200,16 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 28.0,
+      "winning_bucket": "Will the highest temperature in London be 28°C on July 30?",
+      "pick_won": false,
+      "forecast_error": 0.3,
+      "resolved_at": "2026-07-31T00:11:42.327432+00:00",
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "paris",
@@ -231,12 +235,16 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Paris be 30°C on July 30?",
+      "pick_won": false,
+      "forecast_error": 2.0,
+      "resolved_at": "2026-07-31T00:11:42.426843+00:00",
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "munich",
@@ -249,12 +257,16 @@
       "empirico_peak": 25.1,
       "peak_final": 30.4,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 37.0,
+      "winning_bucket": "Will the highest temperature in Munich be 37°C on July 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": -6.6,
+      "resolved_at": "2026-07-31T00:11:42.545817+00:00",
+      "winning_range": [
+        37.0,
+        37.0
+      ]
     },
     {
       "slug": "madrid",
@@ -329,12 +341,16 @@
       "empirico_peak": 24.1,
       "peak_final": 27.9,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Warsaw be 31°C on July 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": -3.1,
+      "resolved_at": "2026-07-31T00:11:42.853092+00:00",
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "seoul",
@@ -970,12 +986,16 @@
       "empirico_peak": 31.3,
       "peak_final": 33.8,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 35.9,
+      "winning_bucket": "Will the highest temperature in Milan be 36°C on July 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": -2.1,
+      "resolved_at": "2026-07-31T00:11:43.929953+00:00",
+      "winning_range": [
+        36.0,
+        36.0
+      ]
     },
     {
       "slug": "moscow",
@@ -2699,6 +2719,37 @@
       "empirico_peak": 16.3,
       "peak_final": 20.5,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-31T00:04:06.769441+00:00",
+      "model_peak": 25.0,
+      "empirico_peak": 26.3,
+      "peak_final": 25.7,
+      "mejor_bucket": {
+        "bucket": "27C",
+        "price": 0.065,
+        "prob": 0.184,
+        "ev": 1.829,
+        "kelly": 0.0318,
+        "volume": 3257.0,
+        "confianza": "cautela",
+        "market_id": "3198282",
+        "range": [
+          27.0,
+          27.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
