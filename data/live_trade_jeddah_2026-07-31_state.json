@@ -5,13 +5,18 @@
   "token_yes": "49424547442956741427904551448753150246739626609983173820884500907901243592941",
   "modo": "ordenes limite GTC descansando en el book (sin loop local, laptop puede dormir)",
   "sin_salida_automatica": true,
-  "ordenes": [
-    {"precio": 0.03, "shares": 100, "order_id": "0x5d6126c2b989f2..."},
-    {"precio": 0.02, "shares": 125, "order_id": "0xa66a57d27be1dd..."},
-    {"precio": 0.02, "shares": 125, "order_id": "0x48cae1cbb42293..."},
-    {"precio": 0.01, "shares": 215, "order_id": "0x86935390af22db..."},
-    {"precio": 0.01, "shares": 215, "order_id": "0x37465862ddc0b5..."}
+  "historial": [
+    {"ts": "2026-07-31 entrada inicial", "ordenes": [
+      {"precio": 0.03, "shares": 100, "llenado": 93.59},
+      {"precio": 0.02, "shares": 125, "llenado": 0, "estado": "cancelada tras subir el precio de mercado"},
+      {"precio": 0.02, "shares": 125, "llenado": 0, "estado": "cancelada tras subir el precio de mercado"},
+      {"precio": 0.01, "shares": 215, "llenado": 0, "estado": "cancelada tras subir el precio de mercado"},
+      {"precio": 0.01, "shares": 215, "llenado": 0, "estado": "cancelada tras subir el precio de mercado"}
+    ]},
+    {"ts": "2026-07-31 ajuste tras confirmar maxima real 42.0C del 30-jul", "ordenes": [
+      {"precio": 0.06, "shares": 79.33, "order_id": "0x131711893b8b3d..."},
+      {"precio": 0.07, "shares": 68.0, "order_id": "0x3077e978fd9bdc..."}
+    ]}
   ],
-  "presupuesto_total": 12.30,
-  "nota": "Pedido explicito del usuario 2026-07-31 ('tengo fe'): todo el saldo al bucket 43C. Tesis: ola de calor en curso (30-jul max real 42.0 vs norma historica ~40), ECMWF 43.6. Ordenes chicas a 1-3c por libro vacio. Sin stop-loss ni TP, corre a resolucion."
+  "nota": "Pedido explicito del usuario: no anadir bucket 42C (diluye el EV segun analisis con center 41-43.3), quedarse concentrado en 43C. Ordenes viejas a 1-2c canceladas por quedar muy lejos del mercado tras subir el precio (bid 0.09/ask 0.10-0.14); reemplazadas por dos ordenes a 6c y 7c, cerca del bid actual, para tener chance real de llenarse en un retroceso sin perseguir el ask mas caro."
 }
