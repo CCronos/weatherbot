@@ -292,12 +292,16 @@
           38.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 40.0,
+      "winning_bucket": "Will the highest temperature in Madrid be 40°C on July 30?",
+      "pick_won": false,
+      "forecast_error": -3.1,
+      "resolved_at": "2026-07-31T07:59:39.276481+00:00",
+      "winning_range": [
+        40.0,
+        40.0
+      ]
     },
     {
       "slug": "amsterdam",
@@ -323,12 +327,16 @@
           27.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 26°C on July 30?",
+      "pick_won": false,
+      "forecast_error": 1.2,
+      "resolved_at": "2026-07-31T07:59:39.487773+00:00",
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -1056,12 +1064,16 @@
           20.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in Cape Town be 21°C on July 30?",
+      "pick_won": false,
+      "forecast_error": -1.7,
+      "resolved_at": "2026-07-31T07:59:40.557187+00:00",
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "jeddah",
@@ -1451,12 +1463,16 @@
       "empirico_peak": 77.9,
       "peak_final": 77.5,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 76.0,
+      "winning_bucket": "Will the highest temperature in New York City be between 76-77°F on July 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": 1.5,
+      "resolved_at": "2026-07-31T07:59:40.932324+00:00",
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "chicago",
@@ -1469,12 +1485,16 @@
       "empirico_peak": 84.4,
       "peak_final": 86.5,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 86.0,
+      "winning_bucket": "Will the highest temperature in Chicago be between 86-87°F on July 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": 0.5,
+      "resolved_at": "2026-07-31T07:59:41.114748+00:00",
+      "winning_range": [
+        86.0,
+        87.0
+      ]
     },
     {
       "slug": "miami",
@@ -1500,12 +1520,16 @@
           93.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 96.0,
+      "winning_bucket": "Will the highest temperature in Miami be between 96-97°F on July 30?",
+      "pick_won": false,
+      "forecast_error": -2.1,
+      "resolved_at": "2026-07-31T07:59:41.217701+00:00",
+      "winning_range": [
+        96.0,
+        97.0
+      ]
     },
     {
       "slug": "dallas",
@@ -1580,12 +1604,16 @@
           89.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 89.0,
+      "winning_bucket": "Will the highest temperature in Atlanta be between 88-89°F on July 30?",
+      "pick_won": true,
+      "forecast_error": 0.5,
+      "resolved_at": "2026-07-31T07:59:41.464056+00:00",
+      "winning_range": [
+        88.0,
+        89.0
+      ]
     },
     {
       "slug": "houston",
@@ -1598,12 +1626,16 @@
       "empirico_peak": 93.6,
       "peak_final": 96.1,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 96.0,
+      "winning_bucket": "Will the highest temperature in Houston be between 96-97°F on July 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": 0.1,
+      "resolved_at": "2026-07-31T07:59:41.569162+00:00",
+      "winning_range": [
+        96.0,
+        97.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -1797,12 +1829,16 @@
           97.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 100.1,
+      "winning_bucket": "Will the highest temperature in Austin be between 100-101°F on July 30?",
+      "pick_won": false,
+      "forecast_error": -3.6,
+      "resolved_at": "2026-07-31T07:59:42.170511+00:00",
+      "winning_range": [
+        100.0,
+        101.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -1846,12 +1882,16 @@
           25.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 24.2,
+      "winning_bucket": "Will the highest temperature in Mexico City be 27°C on July 30?",
+      "pick_won": false,
+      "forecast_error": 2.2,
+      "resolved_at": "2026-07-31T07:59:42.583930+00:00",
+      "winning_range": [
+        27.0,
+        27.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -1877,12 +1917,16 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Panama City be 33°C on July 30?",
+      "pick_won": false,
+      "forecast_error": -0.4,
+      "resolved_at": "2026-07-31T07:59:42.980552+00:00",
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "seoul",
@@ -2896,6 +2940,181 @@
           24.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "chicago",
+      "name": "Chicago",
+      "station": "KORD",
+      "unit": "F",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-31T07:50:25.357689+00:00",
+      "model_peak": 83.6,
+      "empirico_peak": 81.3,
+      "peak_final": 82.4,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "dallas",
+      "name": "Dallas",
+      "station": "KDAL",
+      "unit": "F",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-31T07:50:29.338331+00:00",
+      "model_peak": 105.2,
+      "empirico_peak": 99.5,
+      "peak_final": 102.3,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "station": "KSEA",
+      "unit": "F",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-31T07:51:13.229640+00:00",
+      "model_peak": null,
+      "empirico_peak": 75.5,
+      "peak_final": 75.5,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "houston",
+      "name": "Houston",
+      "station": "KHOU",
+      "unit": "F",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-31T07:51:33.280001+00:00",
+      "model_peak": 98.9,
+      "empirico_peak": 91.9,
+      "peak_final": 95.4,
+      "mejor_bucket": {
+        "bucket": "94-95F",
+        "price": 0.1,
+        "prob": 0.125,
+        "ev": 0.248,
+        "kelly": 0.0069,
+        "volume": 1977.0,
+        "confianza": "moderado",
+        "market_id": "3215582",
+        "range": [
+          94.0,
+          95.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "los-angeles",
+      "name": "Los Angeles",
+      "station": "KLAX",
+      "unit": "F",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-31T07:51:35.057166+00:00",
+      "model_peak": 81.6,
+      "empirico_peak": 73.2,
+      "peak_final": 77.4,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "austin",
+      "name": "Austin",
+      "station": "KAUS",
+      "unit": "F",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-31T07:55:49.513848+00:00",
+      "model_peak": 99.5,
+      "empirico_peak": 93.6,
+      "peak_final": 96.5,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "san-francisco",
+      "name": "San Francisco",
+      "station": "KSFO",
+      "unit": "F",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-31T07:56:12.149901+00:00",
+      "model_peak": 75.6,
+      "empirico_peak": 69.0,
+      "peak_final": 72.3,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "mexico-city",
+      "name": "Mexico City",
+      "station": "MMMX",
+      "unit": "C",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-31T07:56:29.749020+00:00",
+      "model_peak": 24.8,
+      "empirico_peak": 23.6,
+      "peak_final": 24.2,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null
+    },
+    {
+      "slug": "panama-city",
+      "name": "Panama City",
+      "station": "MPMG",
+      "unit": "C",
+      "fecha_mercado": "2026-07-31",
+      "logged_at": "2026-07-31T07:57:35.215589+00:00",
+      "model_peak": 31.5,
+      "empirico_peak": 31.3,
+      "peak_final": 31.4,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
