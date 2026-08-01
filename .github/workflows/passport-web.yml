@@ -60,6 +60,11 @@ jobs:
           printf '%s' "$CONFIG_JSON" > config.json
           python -c "import json; json.load(open('config.json')); print('config.json valido')"
 
+      - name: Recalibrar sesgo de peak_final contra el track record
+        # Corre ANTES del snapshot para que el sesgo mas fresco (con el track record
+        # ya calificado hasta el ciclo anterior) se aplique a los picos de este ciclo.
+        run: python husky_recalibrate.py
+
       - name: Snapshot en vivo (51 estaciones)
         run: python husky_live_snapshot.py
 
@@ -83,6 +88,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/live_peak_snapshot.json data/live_predictions_log.json
+          # Condicional: husky_recalibrate.py no escribe este archivo si alguna unidad
+          # todavia no junta MIN_SAMPLES - "git add" sobre un archivo inexistente falla
+          # y el -e implicito de Actions tumbaria todo el step.
+          [ -f data/husky_peak_bias.json ] && git add data/husky_peak_bias.json
           if git diff --cached --quiet; then
             echo "sin cambios que commitear"
           else

@@ -60,6 +60,14 @@ for _slug, _loc in _EXTRA.items():
 #     HISTORICAL_STATION_OVERRIDE arriba, no se salta.
 SIN_HISTORICO_COMPATIBLE = {"LFPG"}
 
+# Sesgo propio de peak_final (modelo+empirico ya promediados), calculado por
+# husky_recalibrate.py contra el track record real de PASSPORT (live_predictions_log.json)
+# - separado de calibration.json/bot_v2 a proposito, ver el docstring de ese script.
+# Si el archivo no existe todavia (primeras corridas) o una unidad no junta
+# suficientes muestras, PEAK_BIAS.get(unit, {}) es {} y la correccion es 0.
+PEAK_BIAS_FILE = Path("data/husky_peak_bias.json")
+PEAK_BIAS = json.loads(PEAK_BIAS_FILE.read_text(encoding="utf-8")) if PEAK_BIAS_FILE.exists() else {}
+
 COMPASS = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
 
 
@@ -181,6 +189,12 @@ def pronosticar_pico(city_slug, loc):
     candidatos = [v for v in (model_peak, empirico_peak) if v is not None]
     peak_final = round(sum(candidatos) / len(candidatos), 1) if candidatos else None
     spread = round(abs(model_peak - empirico_peak), 1) if (model_peak is not None and empirico_peak is not None) else None
+
+    # Correccion de sesgo propia de peak_final (ver PEAK_BIAS arriba) - se aplica
+    # DESPUES del spread (que compara modelo vs empirico crudos, no el corregido).
+    peak_bias_unit = PEAK_BIAS.get(fc_unit, {}).get("bias")
+    if peak_final is not None and peak_bias_unit:
+        peak_final = round(peak_final - peak_bias_unit, 1)
 
     # --- EV/Kelly contra el mercado de HOY de Polymarket, usando peak_final como
     # el pronostico y la sigma YA CALIBRADA (misma matematica que bot_v2.scan_and_update,
