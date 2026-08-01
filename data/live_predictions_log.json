@@ -2996,12 +2996,17 @@
       "empirico_peak": 84.0,
       "peak_final": 85.2,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 84.0,
+      "winning_bucket": "Will the highest temperature in New York City be between 84-85°F on July 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": 1.2,
+      "resolved_at": "2026-08-01T12:10:21.213901+00:00",
+      "winning_range": [
+        84.0,
+        85.0
+      ],
+      "crps": null
     },
     {
       "slug": "miami",
@@ -3037,12 +3042,17 @@
       "empirico_peak": 90.1,
       "peak_final": 90.1,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 90.0,
+      "winning_bucket": "Will the highest temperature in Atlanta be between 90-91°F on July 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": 0.1,
+      "resolved_at": "2026-08-01T12:10:21.390091+00:00",
+      "winning_range": [
+        90.0,
+        91.0
+      ],
+      "crps": null
     },
     {
       "slug": "toronto",
@@ -3173,12 +3183,17 @@
       "empirico_peak": 99.5,
       "peak_final": 102.3,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 102.0,
+      "winning_bucket": "Will the highest temperature in Dallas be between 102-103°F on July 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": 0.3,
+      "resolved_at": "2026-08-01T12:10:21.549015+00:00",
+      "winning_range": [
+        102.0,
+        103.0
+      ],
+      "crps": null
     },
     {
       "slug": "seattle",
@@ -3227,12 +3242,17 @@
           95.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 96.0,
+      "winning_bucket": "Will the highest temperature in Houston be between 96-97°F on July 31?",
+      "pick_won": false,
+      "forecast_error": -0.6,
+      "resolved_at": "2026-08-01T12:10:21.729484+00:00",
+      "winning_range": [
+        96.0,
+        97.0
+      ],
+      "crps": null
     },
     {
       "slug": "los-angeles",
@@ -3245,12 +3265,17 @@
       "empirico_peak": 73.2,
       "peak_final": 77.4,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 79.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 78-79°F on July 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": -1.6,
+      "resolved_at": "2026-08-01T12:10:21.876586+00:00",
+      "winning_range": [
+        78.0,
+        79.0
+      ],
+      "crps": null
     },
     {
       "slug": "austin",
@@ -3263,12 +3288,17 @@
       "empirico_peak": 93.6,
       "peak_final": 96.5,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 100.0,
+      "winning_bucket": "Will the highest temperature in Austin be between 100-101°F on July 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": -3.5,
+      "resolved_at": "2026-08-01T12:10:22.059737+00:00",
+      "winning_range": [
+        100.0,
+        101.0
+      ],
+      "crps": null
     },
     {
       "slug": "san-francisco",
@@ -3281,12 +3311,17 @@
       "empirico_peak": 69.0,
       "peak_final": 72.3,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 72.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 72-73°F on July 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": 0.3,
+      "resolved_at": "2026-08-01T12:10:22.249015+00:00",
+      "winning_range": [
+        72.0,
+        73.0
+      ],
+      "crps": null
     },
     {
       "slug": "mexico-city",
@@ -4631,6 +4666,46 @@
       "empirico_peak": 68.0,
       "peak_final": 74.3,
       "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "station": "KBKF",
+      "unit": "F",
+      "fecha_mercado": "2026-08-01",
+      "logged_at": "2026-08-01T12:03:19.540923+00:00",
+      "model_peak": 91.3,
+      "empirico_peak": 82.4,
+      "peak_final": 88.4,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-08-02",
+      "logged_at": "2026-08-01T12:06:49.387403+00:00",
+      "model_peak": null,
+      "empirico_peak": 10.1,
+      "peak_final": 11.6,
+      "sigma": 1.603,
       "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
