@@ -59,6 +59,21 @@ def evento_de(slug, fecha_str):
     return B.get_polymarket_event(slug, B.MONTHS[int(m) - 1], int(d), int(y))
 
 
+def crps_gaussiano(mu, sigma, y):
+    """CRPS de un pronostico gaussiano N(mu, sigma) contra el valor real y - formula
+    cerrada de Gneiting & Raftery 2007. Mas bajo = mejor. A diferencia del Brier
+    score (que solo evalua el bucket apostado ese dia), esto puntua la calidad de
+    TODA la distribucion del pronostico contra el resultado real, tenga pick o no.
+    None si falta cualquier dato (mu, sigma o y)."""
+    if mu is None or sigma is None or y is None or sigma <= 0:
+        return None
+    import math
+    z = (y - mu) / sigma
+    phi = math.exp(-z * z / 2) / math.sqrt(2 * math.pi)
+    valor = sigma * (z * (2 * B.norm_cdf(z) - 1) + 2 * phi - 1 / math.sqrt(math.pi))
+    return round(valor, 4)
+
+
 def bucket_ganador(event):
     """De todos los buckets del evento, cual resolvio YES (outcomePrices ~[1,0]).
     None si el evento todavia no cerro (ningun bucket a ~1.0 todavia)."""
@@ -110,6 +125,12 @@ def main():
             r["winning_range"] = list(rng_ganador)
             r["pick_won"] = pick_won
             r["forecast_error"] = round(r["peak_final"] - actual_temp, 2) if (r["peak_final"] is not None and actual_temp is not None) else None
+            # CRPS (formula cerrada para pronostico gaussiano N(peak_final, sigma) vs el
+            # valor real) - evalua la distribucion COMPLETA del pronostico, no solo el
+            # bucket que se apostaria ese dia. Solo disponible para registros que ya
+            # guardan "sigma" (agregado 2026-07-31 a husky_live_snapshot.py) - los
+            # anteriores se quedan en None, no se recalculan con un sigma inventado.
+            r["crps"] = crps_gaussiano(r["peak_final"], r.get("sigma"), actual_temp)
 
             if actual_temp is None:
                 # Bug encontrado 2026-07-30 en auditoria: antes esto igual marcaba

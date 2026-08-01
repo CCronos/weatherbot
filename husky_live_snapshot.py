@@ -200,14 +200,19 @@ def pronosticar_pico(city_slug, loc):
     # el pronostico y la sigma YA CALIBRADA (misma matematica que bot_v2.scan_and_update,
     # pero con nuestro pico combinado modelo+empirico en vez de solo modelo) ---
     mejor_bucket = None
+    sigma = None
     fecha_mercado = datetime.now(timezone.utc).astimezone(
         __import__("zoneinfo").ZoneInfo(B.TIMEZONES.get(city_slug, "UTC"))).strftime("%Y-%m-%d")
     if peak_final is not None:
+        # sigma no depende del evento de Polymarket (solo de la fuente del modelo) - se
+        # saca aca, antes del "if event", para que quede disponible en el registro aunque
+        # ese dia no haya mercado (sirve para CRPS despues, evaluar el pronostico entero
+        # y no solo las ciudades con pick).
+        fuente_sigma = model_src.split("+")[0] if model_src else "ecmwf"
+        sigma = B.get_sigma(city_slug, fuente_sigma)
         dt_local = datetime.now(timezone.utc).astimezone(__import__("zoneinfo").ZoneInfo(B.TIMEZONES.get(city_slug, "UTC")))
         event = B.get_polymarket_event(city_slug, B.MONTHS[dt_local.month - 1], dt_local.day, dt_local.year)
         if event:
-            fuente_sigma = model_src.split("+")[0] if model_src else "ecmwf"
-            sigma = B.get_sigma(city_slug, fuente_sigma)
             candidatos = []
             for m in event.get("markets", []):
                 rng = B.parse_temp_range(m.get("question", ""))
@@ -270,6 +275,7 @@ def pronosticar_pico(city_slug, loc):
         "empirico_n": hist["n"] if hist else None,
         "empirico_pct_nuevo_max": hist["new_high_pct"] if hist else None,
         "peak_final": peak_final, "spread_modelo_vs_empirico": spread,
+        "sigma": round(sigma, 3) if sigma is not None else None,
         "viento_nota": viento_nota,
         "mejor_bucket": mejor_bucket,
         "fecha_mercado": fecha_mercado,
@@ -349,9 +355,10 @@ def registrar_predicciones(resultados):
             "slug": c["slug"], "name": c["name"], "station": c["station"], "unit": c["unit"],
             "fecha_mercado": c["fecha_mercado"], "logged_at": c["fetched_at"],
             "model_peak": c["model_peak"], "empirico_peak": c["empirico_peak"], "peak_final": c["peak_final"],
+            "sigma": c.get("sigma"),
             "mejor_bucket": c["mejor_bucket"],
             "resolved": False, "actual_temp": None, "winning_bucket": None,
-            "pick_won": None, "forecast_error": None, "resolved_at": None,
+            "pick_won": None, "forecast_error": None, "resolved_at": None, "crps": None,
         })
         nuevos += 1
     if nuevos:

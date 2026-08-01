@@ -776,11 +776,37 @@
     var winRateClass = !conPick.length ? "" : (ganados.length / conPick.length >= 0.4 ? "good" : ganados.length / conPick.length >= 0.2 ? "warn" : "bad");
     var maeClass = mae == null ? "" : (mae <= 1.5 ? "good" : mae <= 3 ? "warn" : "bad");
 
+    // Brier score: que tan bien calibrada esta la probabilidad que le pusimos al
+    // bucket que apostamos (no solo si acertamos el bucket exacto). 0 = perfecto,
+    // 0.25 = igual que adivinar 50/50, mas alto = peor que adivinar. Mismo calculo
+    // que ya usa bot_v2.py en su reporte de trading en papel, aca aplicado al
+    // track record de PASSPORT (mismos campos prob + pick_won, ya guardados).
+    var conProb = conPick.filter(function (r) { return r.mejor_bucket.prob != null; });
+    var brier = null;
+    if (conProb.length) {
+      var sumSq = conProb.reduce(function (acc, r) {
+        var o = r.pick_won ? 1 : 0;
+        return acc + Math.pow(r.mejor_bucket.prob - o, 2);
+      }, 0);
+      brier = sumSq / conProb.length;
+    }
+    var brierClass = brier == null ? "" : (brier < 0.20 ? "good" : brier < 0.25 ? "warn" : "bad");
+
+    // CRPS: puntua la distribucion COMPLETA del pronostico (peak_final +- sigma)
+    // contra el valor real, para TODAS las ciudades resueltas - tengan pick o no
+    // ese dia. Complementa al Brier score (que solo mira el bucket apostado).
+    // Solo disponible en registros con "crps" ya calculado (agregado 2026-07-31,
+    // los registros viejos no lo tienen y se excluyen en vez de inventar un numero).
+    var crpsVals = resueltos.filter(function (r) { return r.crps != null; }).map(function (r) { return r.crps; });
+    var crpsAvg = crpsVals.length ? crpsVals.reduce(function (a, b) { return a + b; }, 0) / crpsVals.length : null;
+
     document.getElementById("tr-stats").innerHTML =
       '<div class="tr-stat"><div class="lbl">Predicciones resueltas</div><div class="num neutral">' + resueltos.length + '</div></div>' +
       '<div class="tr-stat"><div class="lbl">Error promedio del pico (MAE)</div><div class="num ' + maeClass + '">' + (mae != null ? "±" + mae.toFixed(1) + "°" : "s/d") + '</div></div>' +
       '<div class="tr-stat"><div class="lbl">Picks con EV acertados</div><div class="num ' + winRateClass + '">' + (conPick.length ? ganados.length + "/" + conPick.length : "s/d") + '</div></div>' +
-      '<div class="tr-stat"><div class="lbl">Tasa de acierto</div><div class="num ' + winRateClass + '">' + (conPick.length ? (ganados.length / conPick.length * 100).toFixed(0) + "%" : "s/d") + '</div></div>';
+      '<div class="tr-stat"><div class="lbl">Tasa de acierto</div><div class="num ' + winRateClass + '">' + (conPick.length ? (ganados.length / conPick.length * 100).toFixed(0) + "%" : "s/d") + '</div></div>' +
+      '<div class="tr-stat"><div class="lbl">Brier score (calibracion del pick)</div><div class="num ' + brierClass + '">' + (brier != null ? brier.toFixed(3) : "s/d") + '</div></div>' +
+      '<div class="tr-stat"><div class="lbl">CRPS promedio (todo el pronostico)</div><div class="num neutral">' + (crpsAvg != null ? crpsAvg.toFixed(2) + "°" : "s/d (acumulando)") + '</div></div>';
 
     var ordenados = resueltos.slice().sort(function (a, b) { return b.fecha_mercado.localeCompare(a.fecha_mercado); });
     document.getElementById("tr-body").innerHTML = ordenados.slice(0, 40).map(function (r) {
