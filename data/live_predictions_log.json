@@ -831,7 +831,8 @@
       "winning_range": [
         26.0,
         26.0
-      ]
+      ],
+      "crps": null
     },
     {
       "slug": "atlanta",
@@ -2103,12 +2104,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Beijing be 36°C on July 31?",
+      "pick_won": false,
+      "forecast_error": -3.0,
+      "resolved_at": "2026-08-01T02:33:50.521804+00:00",
+      "winning_range": [
+        36.0,
+        36.0
+      ],
+      "crps": null
     },
     {
       "slug": "singapore",
@@ -2134,12 +2140,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Singapore be 32°C on July 31?",
+      "pick_won": false,
+      "forecast_error": -1.2,
+      "resolved_at": "2026-08-01T02:33:50.726396+00:00",
+      "winning_range": [
+        32.0,
+        32.0
+      ],
+      "crps": null
     },
     {
       "slug": "kuala-lumpur",
@@ -2222,12 +2233,17 @@
           42.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 41.0,
+      "winning_bucket": "Will the highest temperature in Jeddah be 41°C on July 31?",
+      "pick_won": false,
+      "forecast_error": 1.2,
+      "resolved_at": "2026-08-01T02:33:51.058385+00:00",
+      "winning_range": [
+        41.0,
+        41.0
+      ],
+      "crps": null
     },
     {
       "slug": "karachi",
@@ -2253,12 +2269,17 @@
           36.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Karachi be 36°C on July 31?",
+      "pick_won": true,
+      "forecast_error": -0.4,
+      "resolved_at": "2026-08-01T02:33:51.289214+00:00",
+      "winning_range": [
+        36.0,
+        36.0
+      ],
+      "crps": null
     },
     {
       "slug": "hong-kong",
@@ -2412,12 +2433,17 @@
           30.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Guangzhou be 33°C on July 31?",
+      "pick_won": false,
+      "forecast_error": -2.7,
+      "resolved_at": "2026-08-01T02:33:51.949388+00:00",
+      "winning_range": [
+        33.0,
+        33.0
+      ],
+      "crps": null
     },
     {
       "slug": "shenzhen",
@@ -2478,12 +2504,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Wuhan be 35°C on July 31?",
+      "pick_won": false,
+      "forecast_error": -0.8,
+      "resolved_at": "2026-08-01T02:33:52.169400+00:00",
+      "winning_range": [
+        35.0,
+        35.0
+      ],
+      "crps": null
     },
     {
       "slug": "qingdao",
@@ -2544,12 +2575,17 @@
           26.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Ankara be 26°C on July 31?",
+      "pick_won": true,
+      "forecast_error": 0.1,
+      "resolved_at": "2026-08-01T02:33:52.425810+00:00",
+      "winning_range": [
+        26.0,
+        26.0
+      ],
+      "crps": null
     },
     {
       "slug": "tel-aviv",
@@ -2575,12 +2611,17 @@
           35.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Tel Aviv be 34°C on July 31?",
+      "pick_won": false,
+      "forecast_error": 0.5,
+      "resolved_at": "2026-08-01T02:33:52.637399+00:00",
+      "winning_range": [
+        34.0,
+        34.0
+      ],
+      "crps": null
     },
     {
       "slug": "helsinki",
@@ -2606,12 +2647,17 @@
           23.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Helsinki be 26°C on July 31?",
+      "pick_won": false,
+      "forecast_error": -3.9,
+      "resolved_at": "2026-08-01T02:33:52.897396+00:00",
+      "winning_range": [
+        26.0,
+        26.0
+      ],
+      "crps": null
     },
     {
       "slug": "istanbul",
@@ -2639,10 +2685,15 @@
       },
       "resolved": false,
       "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
+      "winning_bucket": "Will the highest temperature in Istanbul be 26°C on July 31?",
+      "pick_won": false,
       "forecast_error": null,
-      "resolved_at": null
+      "resolved_at": null,
+      "winning_range": [
+        26.0,
+        26.0
+      ],
+      "crps": null
     },
     {
       "slug": "moscow",
@@ -2668,12 +2719,17 @@
           24.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Moscow be 24°C on July 31?",
+      "pick_won": true,
+      "forecast_error": -1.3,
+      "resolved_at": "2026-08-01T02:33:53.660498+00:00",
+      "winning_range": [
+        24.0,
+        24.0
+      ],
+      "crps": null
     },
     {
       "slug": "paris",
@@ -2735,12 +2791,17 @@
       "empirico_peak": 41.0,
       "peak_final": 39.2,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 38.0,
+      "winning_bucket": "Will the highest temperature in Madrid be 38°C on July 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": 1.2,
+      "resolved_at": "2026-08-01T02:33:54.078684+00:00",
+      "winning_range": [
+        38.0,
+        38.0
+      ],
+      "crps": null
     },
     {
       "slug": "amsterdam",
@@ -2766,12 +2827,17 @@
           25.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 24°C on July 31?",
+      "pick_won": false,
+      "forecast_error": 1.2,
+      "resolved_at": "2026-08-01T02:33:54.278541+00:00",
+      "winning_range": [
+        24.0,
+        24.0
+      ],
+      "crps": null
     },
     {
       "slug": "warsaw",
@@ -2784,12 +2850,17 @@
       "empirico_peak": 30.1,
       "peak_final": 30.1,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Warsaw be 33°C on July 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": -2.9,
+      "resolved_at": "2026-08-01T02:33:54.519715+00:00",
+      "winning_range": [
+        33.0,
+        33.0
+      ],
+      "crps": null
     },
     {
       "slug": "paris-le-bourget",
@@ -2833,12 +2904,17 @@
           35.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Milan be 35°C on July 31?",
+      "pick_won": true,
+      "forecast_error": -0.9,
+      "resolved_at": "2026-08-01T02:33:55.048016+00:00",
+      "winning_range": [
+        35.0,
+        35.0
+      ],
+      "crps": null
     },
     {
       "slug": "cape-town",
@@ -4113,6 +4189,39 @@
       "pick_won": null,
       "forecast_error": null,
       "resolved_at": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-01",
+      "logged_at": "2026-08-01T02:26:27.904684+00:00",
+      "model_peak": 26.8,
+      "empirico_peak": 23.3,
+      "peak_final": 26.7,
+      "sigma": 1.98,
+      "mejor_bucket": {
+        "bucket": "27C",
+        "price": 0.125,
+        "prob": 0.197,
+        "ev": 0.577,
+        "kelly": 0.0206,
+        "volume": 5584.0,
+        "confianza": "moderado",
+        "market_id": "3216540",
+        "range": [
+          27.0,
+          27.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
