@@ -3345,12 +3345,17 @@
       "empirico_peak": 84.4,
       "peak_final": 87.2,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 90.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 90-91°F on July 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "forecast_error": -2.8,
+      "resolved_at": "2026-08-01T10:50:40.677802+00:00",
+      "winning_range": [
+        90.0,
+        91.0
+      ],
+      "crps": null
     },
     {
       "slug": "wellington",
