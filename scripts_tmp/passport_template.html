@@ -437,6 +437,30 @@
   table.live .wind-flag.boost { color: var(--good); }
   table.live .wind-flag.kill { color: var(--bad); }
 
+  /* Icono "?" de ayuda en cada columna de la tabla en vivo + su tooltip. CSS puro
+     (sin JS) para no sumar riesgo. Se despliega HACIA ABAJO, no hacia arriba: el
+     encabezado esta pegado al borde superior de .live-scroll (que tiene
+     overflow-x:auto, y por spec CSS eso fuerza overflow-y a "auto" tambien), asi
+     que un tooltip que intente abrirse hacia arriba quedaria cortado por ese
+     contenedor. Hacia abajo cae sobre las filas de datos, que sí tienen espacio. */
+  .th-help {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 13px; height: 13px; margin-left: 5px; border-radius: 50%;
+    border: 1px solid var(--text-faint); color: var(--text-faint);
+    font-size: 9px; font-weight: 700; line-height: 1; cursor: help;
+    position: relative; text-transform: none; vertical-align: middle;
+  }
+  .th-help:hover { border-color: var(--accent); color: var(--accent); }
+  .th-help .tip {
+    display: none; position: absolute; top: 130%; left: 0;
+    width: 200px; white-space: normal; text-align: left;
+    background: var(--panel-2); border: 1px solid var(--accent-dim); border-radius: 4px;
+    padding: 8px 10px; font-size: 11px; font-weight: 400; letter-spacing: normal;
+    text-transform: none; color: var(--text-dim); z-index: 50;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  }
+  .th-help:hover .tip { display: block; }
+
   .picks-sub { font-size: 11.5px; color: var(--muted); margin: 4px 0 12px; }
   .pick-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
   .pick-card {
@@ -581,7 +605,15 @@
     <div class="live-scroll">
       <table class="live" id="live-table" style="display:none;">
         <thead><tr>
-          <th>Ciudad</th><th>METAR ahora</th><th>Viento</th><th>Proyección (modelo nuestro)</th><th>Histórico</th><th title="Promedio de Proyección + Histórico — el numero que se compara contra Polymarket">Pico final</th><th>Nota</th><th>Resuelve vía</th><th>Mejor bucket (EV/Kelly)</th>
+          <th>Ciudad</th>
+          <th>METAR ahora<span class="th-help">?<span class="tip">Temperatura real medida ahora mismo en la estación (aeropuerto), vía Aviation Weather — no es un pronóstico, es la lectura actual.</span></span></th>
+          <th>Viento<span class="th-help">?<span class="tip">Dirección del viento actual y estado del cielo (CAVOK/CLR=despejado, FEW/SCT/BKN=nubosidad parcial creciente, OVC=cubierto).</span></span></th>
+          <th>Proyección (modelo nuestro)<span class="th-help">?<span class="tip">Pronóstico del pico del día: ECMWF + el modelo regional con mejor desempeño para esta ciudad, ya corregido por el sesgo medido históricamente.</span></span></th>
+          <th>Histórico<span class="th-help">?<span class="tip">METAR de ahora + cuánto sube en promedio desde esta hora y viento, según ~3.4 años de historial real de esta estación (empírico, no es un modelo numérico).</span></span></th>
+          <th>Pico final<span class="th-help">?<span class="tip">Promedio de Proyección + Histórico, con el sesgo del track record ya aplicado — es el número que se compara contra el precio de Polymarket.</span></span></th>
+          <th>Nota<span class="th-help">?<span class="tip">Marca si el viento de HOY coincide con el patrón que más ayuda (▲) o más frena (▼) la subida de temperatura en esta estación y temporada.</span></span></th>
+          <th>Resuelve vía<span class="th-help">?<span class="tip">Fuente que probablemente usa Polymarket para resolver este mercado (WU=Wunderground). "✓" = verificado contra el texto real del mercado; "?" = fuente asumida, no confirmada ciudad por ciudad.</span></span></th>
+          <th>Mejor bucket (EV/Kelly)<span class="th-help">?<span class="tip">El bucket de Polymarket con mejor valor esperado según nuestro Pico final: probabilidad, EV, tamaño Kelly y volumen del libro. "sin pick" = ningún bucket pasa el piso de precio/volumen/confianza.</span></span></th>
         </tr></thead>
         <tbody id="live-body"></tbody>
       </table>
