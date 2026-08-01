@@ -4035,12 +4035,17 @@
           27.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 28.0,
+      "winning_bucket": "Will the highest temperature in Ankara be 28°C on August 1?",
+      "pick_won": false,
+      "forecast_error": -1.8,
+      "resolved_at": "2026-08-01T22:06:37.454451+00:00",
+      "winning_range": [
+        28.0,
+        28.0
+      ],
+      "crps": null
     },
     {
       "slug": "tel-aviv",
@@ -4066,12 +4071,17 @@
           36.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Tel Aviv be 34°C on August 1?",
+      "pick_won": false,
+      "forecast_error": 1.6,
+      "resolved_at": "2026-08-01T22:06:37.550907+00:00",
+      "winning_range": [
+        34.0,
+        34.0
+      ],
+      "crps": null
     },
     {
       "slug": "helsinki",
@@ -4097,12 +4107,17 @@
           22.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Helsinki be 23°C on August 1?",
+      "pick_won": false,
+      "forecast_error": -1.0,
+      "resolved_at": "2026-08-01T22:06:37.647053+00:00",
+      "winning_range": [
+        23.0,
+        23.0
+      ],
+      "crps": null
     },
     {
       "slug": "istanbul",
@@ -4130,10 +4145,15 @@
       },
       "resolved": false,
       "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
+      "winning_bucket": "Will the highest temperature in Istanbul be 27°C on August 1?",
+      "pick_won": false,
       "forecast_error": null,
-      "resolved_at": null
+      "resolved_at": null,
+      "winning_range": [
+        27.0,
+        27.0
+      ],
+      "crps": null
     },
     {
       "slug": "moscow",
@@ -4159,12 +4179,17 @@
           26.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null
+      "resolved": true,
+      "actual_temp": 27.0,
+      "winning_bucket": "Will the highest temperature in Moscow be 27°C on August 1?",
+      "pick_won": false,
+      "forecast_error": -2.2,
+      "resolved_at": "2026-08-01T22:06:38.287061+00:00",
+      "winning_range": [
+        27.0,
+        27.0
+      ],
+      "crps": null
     },
     {
       "slug": "jeddah",
@@ -5305,6 +5330,251 @@
         "range": [
           34.0,
           34.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "ankara",
+      "name": "Ankara",
+      "station": "LTAC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-02",
+      "logged_at": "2026-08-01T21:59:30.021964+00:00",
+      "model_peak": null,
+      "empirico_peak": 27.5,
+      "peak_final": 29.1,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "tel-aviv",
+      "name": "Tel Aviv",
+      "station": "LLBG",
+      "unit": "C",
+      "fecha_mercado": "2026-08-02",
+      "logged_at": "2026-08-01T22:01:50.060505+00:00",
+      "model_peak": 39.1,
+      "empirico_peak": 33.1,
+      "peak_final": 37.7,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "paris-le-bourget",
+      "name": "Paris (Le Bourget)",
+      "station": "LFPB",
+      "unit": "C",
+      "fecha_mercado": "2026-08-02",
+      "logged_at": "2026-08-01T22:03:08.694757+00:00",
+      "model_peak": 32.6,
+      "empirico_peak": 28.3,
+      "peak_final": 32.0,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "milan",
+      "name": "Milan",
+      "station": "LIMC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-02",
+      "logged_at": "2026-08-01T22:03:13.258642+00:00",
+      "model_peak": 34.5,
+      "empirico_peak": 34.2,
+      "peak_final": 35.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "36C",
+        "price": 0.22,
+        "prob": 0.244,
+        "ev": 0.111,
+        "kelly": 0.0078,
+        "volume": 5983.0,
+        "confianza": "escalable",
+        "market_id": "3237433",
+        "range": [
+          36.0,
+          36.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "helsinki",
+      "name": "Helsinki",
+      "station": "EFHK",
+      "unit": "C",
+      "fecha_mercado": "2026-08-02",
+      "logged_at": "2026-08-01T22:03:44.763610+00:00",
+      "model_peak": 22.0,
+      "empirico_peak": 19.6,
+      "peak_final": 22.4,
+      "sigma": 1.98,
+      "mejor_bucket": {
+        "bucket": "23C",
+        "price": 0.135,
+        "prob": 0.191,
+        "ev": 0.412,
+        "kelly": 0.0161,
+        "volume": 1150.0,
+        "confianza": "moderado",
+        "market_id": "3237500",
+        "range": [
+          23.0,
+          23.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "istanbul",
+      "name": "Istanbul",
+      "station": "LTFM",
+      "unit": "C",
+      "fecha_mercado": "2026-08-02",
+      "logged_at": "2026-08-01T22:03:46.874800+00:00",
+      "model_peak": 28.1,
+      "empirico_peak": 25.3,
+      "peak_final": 28.3,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "moscow",
+      "name": "Moscow",
+      "station": "UUWW",
+      "unit": "C",
+      "fecha_mercado": "2026-08-02",
+      "logged_at": "2026-08-01T22:04:14.863941+00:00",
+      "model_peak": 31.3,
+      "empirico_peak": 24.7,
+      "peak_final": 29.6,
+      "sigma": 1.98,
+      "mejor_bucket": {
+        "bucket": "29C",
+        "price": 0.17,
+        "prob": 0.191,
+        "ev": 0.121,
+        "kelly": 0.0062,
+        "volume": 985.0,
+        "confianza": "moderado",
+        "market_id": "3237467",
+        "range": [
+          29.0,
+          29.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "cape-town",
+      "name": "Cape Town",
+      "station": "FACT",
+      "unit": "C",
+      "fecha_mercado": "2026-08-02",
+      "logged_at": "2026-08-01T22:04:16.252706+00:00",
+      "model_peak": 24.0,
+      "empirico_peak": 16.3,
+      "peak_final": 21.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "22C",
+        "price": 0.19,
+        "prob": 0.241,
+        "ev": 0.267,
+        "kelly": 0.0157,
+        "volume": 1188.0,
+        "confianza": "moderado",
+        "market_id": "3237518",
+        "range": [
+          22.0,
+          22.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "jeddah",
+      "name": "Jeddah",
+      "station": "OEJN",
+      "unit": "C",
+      "fecha_mercado": "2026-08-02",
+      "logged_at": "2026-08-01T22:04:17.723197+00:00",
+      "model_peak": 44.3,
+      "empirico_peak": 42.7,
+      "peak_final": 45.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "44C",
+        "price": 0.115,
+        "prob": 0.195,
+        "ev": 0.696,
+        "kelly": 0.0226,
+        "volume": 1578.0,
+        "confianza": "moderado",
+        "market_id": "3237514",
+        "range": [
+          44.0,
+          44.0
         ]
       },
       "resolved": false,
