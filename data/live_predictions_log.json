@@ -4616,13 +4616,17 @@
           89.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 86.0,
+      "winning_bucket": "Will the highest temperature in Atlanta be between 86-87°F on August 1?",
+      "pick_won": false,
+      "forecast_error": 2.8,
+      "resolved_at": "2026-08-02T15:09:26.088812+00:00",
+      "crps": 1.6719,
+      "winning_range": [
+        86.0,
+        87.0
+      ]
     },
     {
       "slug": "houston",
@@ -4708,13 +4712,17 @@
       "peak_final": 99.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 95.0,
+      "winning_bucket": "Will the highest temperature in Austin be between 94-95°F on August 1?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 4.8,
+      "resolved_at": "2026-08-02T15:09:26.165222+00:00",
+      "crps": 3.2307,
+      "winning_range": [
+        94.0,
+        95.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -4765,13 +4773,17 @@
       "peak_final": 32.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Panama City be 33°C on August 1?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.5,
+      "resolved_at": "2026-08-02T15:09:26.285612+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "seattle",
@@ -4870,13 +4882,17 @@
       "peak_final": 74.3,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 73.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 72-73°F on August 1?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.3,
+      "resolved_at": "2026-08-02T15:09:26.358823+00:00",
+      "crps": 0.9302,
+      "winning_range": [
+        72.0,
+        73.0
+      ]
     },
     {
       "slug": "denver",
@@ -6283,6 +6299,105 @@
         "range": [
           17.0,
           17.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "seoul",
+      "name": "Seoul",
+      "station": "RKSI",
+      "unit": "C",
+      "fecha_mercado": "2026-08-03",
+      "logged_at": "2026-08-02T15:04:38.034643+00:00",
+      "model_peak": 31.5,
+      "empirico_peak": 30.7,
+      "peak_final": 32.5,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "32C",
+        "price": 0.125,
+        "prob": 0.234,
+        "ev": 0.869,
+        "kelly": 0.031,
+        "volume": 4654.0,
+        "confianza": "moderado",
+        "market_id": "3254139",
+        "range": [
+          32.0,
+          32.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "tokyo",
+      "name": "Tokyo",
+      "station": "RJTT",
+      "unit": "C",
+      "fecha_mercado": "2026-08-03",
+      "logged_at": "2026-08-02T15:04:39.198230+00:00",
+      "model_peak": 26.4,
+      "empirico_peak": 28.3,
+      "peak_final": 28.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "29C",
+        "price": 0.125,
+        "prob": 0.243,
+        "ev": 0.945,
+        "kelly": 0.0337,
+        "volume": 2381.0,
+        "confianza": "moderado",
+        "market_id": "3254195",
+        "range": [
+          29.0,
+          29.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "busan",
+      "name": "Busan",
+      "station": "RKPK",
+      "unit": "C",
+      "fecha_mercado": "2026-08-03",
+      "logged_at": "2026-08-02T15:08:35.238927+00:00",
+      "model_peak": 34.8,
+      "empirico_peak": 34.3,
+      "peak_final": 35.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "34C",
+        "price": 0.08,
+        "prob": 0.124,
+        "ev": 0.551,
+        "kelly": 0.012,
+        "volume": 876.0,
+        "confianza": "cautela",
+        "market_id": "3254355",
+        "range": [
+          34.0,
+          34.0
         ]
       },
       "resolved": false,
