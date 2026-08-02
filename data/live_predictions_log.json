@@ -4781,13 +4781,17 @@
       "peak_final": 76.3,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 71.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 70-71°F on August 1?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 5.3,
+      "resolved_at": "2026-08-02T10:06:20.833837+00:00",
+      "crps": 3.6817,
+      "winning_range": [
+        70.0,
+        71.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -4814,13 +4818,17 @@
           83.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 79.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 78-79°F on August 1?",
+      "pick_won": false,
+      "forecast_error": 3.7,
+      "resolved_at": "2026-08-02T10:06:21.001672+00:00",
+      "crps": 2.3127,
+      "winning_range": [
+        78.0,
+        79.0
+      ]
     },
     {
       "slug": "sao-paulo",
@@ -4878,13 +4886,17 @@
       "peak_final": 88.4,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 93.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 92-93°F on August 1?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -4.6,
+      "resolved_at": "2026-08-02T10:06:21.252358+00:00",
+      "crps": 3.0553,
+      "winning_range": [
+        92.0,
+        93.0
+      ]
     },
     {
       "slug": "wellington",
@@ -6215,6 +6227,26 @@
       "empirico_peak": 30.8,
       "peak_final": 32.7,
       "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "station": "KBKF",
+      "unit": "F",
+      "fecha_mercado": "2026-08-02",
+      "logged_at": "2026-08-02T09:59:19.604605+00:00",
+      "model_peak": 99.5,
+      "empirico_peak": 92.1,
+      "peak_final": 96.6,
+      "sigma": 3.048,
       "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
