@@ -4741,13 +4741,17 @@
           25.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 27.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 27°C on August 1?",
+      "pick_won": false,
+      "forecast_error": -1.9,
+      "resolved_at": "2026-08-02T13:31:04.425102+00:00",
+      "crps": 1.181,
+      "winning_range": [
+        27.0,
+        27.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -6248,6 +6252,39 @@
       "peak_final": 96.6,
       "sigma": 3.048,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-08-03",
+      "logged_at": "2026-08-02T13:27:20.313818+00:00",
+      "model_peak": null,
+      "empirico_peak": 13.7,
+      "peak_final": 15.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "17C",
+        "price": 0.07,
+        "prob": 0.124,
+        "ev": 0.772,
+        "kelly": 0.0145,
+        "volume": 7425.0,
+        "confianza": "cautela",
+        "market_id": "3254162",
+        "range": [
+          17.0,
+          17.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
