@@ -6287,13 +6287,17 @@
           101.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 98.0,
+      "winning_bucket": "Will the highest temperature in Houston be between 98-99°F on August 2?",
+      "pick_won": false,
+      "forecast_error": 1.1,
+      "resolved_at": "2026-08-03T12:33:02.435395+00:00",
+      "crps": 0.869,
+      "winning_range": [
+        98.0,
+        99.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -6344,13 +6348,17 @@
       "peak_final": 96.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 100.0,
+      "winning_bucket": "Will the highest temperature in Austin be between 100-101°F on August 2?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.2,
+      "resolved_at": "2026-08-03T12:33:02.534639+00:00",
+      "crps": 1.9418,
+      "winning_range": [
+        100.0,
+        101.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -6377,13 +6385,17 @@
           81.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 79.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 78-79°F on August 2?",
+      "pick_won": false,
+      "forecast_error": 0.0,
+      "resolved_at": "2026-08-03T12:33:02.622558+00:00",
+      "crps": 0.7123,
+      "winning_range": [
+        78.0,
+        79.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -6410,13 +6422,17 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 27.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 27°C on August 2?",
+      "pick_won": false,
+      "forecast_error": 0.5,
+      "resolved_at": "2026-08-03T12:33:02.725245+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        27.0,
+        27.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -6430,13 +6446,17 @@
       "peak_final": 32.7,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Panama City be 33°C on August 2?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.3,
+      "resolved_at": "2026-08-03T12:33:02.922991+00:00",
+      "crps": 0.3969,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "denver",
@@ -7862,6 +7882,39 @@
         "range": [
           31.0,
           31.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-08-04",
+      "logged_at": "2026-08-03T12:28:55.821831+00:00",
+      "model_peak": 10.4,
+      "empirico_peak": 12.0,
+      "peak_final": 12.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "11C",
+        "price": 0.18,
+        "prob": 0.195,
+        "ev": 0.083,
+        "kelly": 0.0046,
+        "volume": 5753.0,
+        "confianza": "moderado",
+        "market_id": "3280207",
+        "range": [
+          11.0,
+          11.0
         ]
       },
       "resolved": false,
