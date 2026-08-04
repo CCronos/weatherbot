@@ -7795,13 +7795,17 @@
       "peak_final": 76.7,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 82.0,
+      "winning_bucket": "Will the highest temperature in Chicago be between 82-83°F on August 3?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -5.3,
+      "resolved_at": "2026-08-04T11:31:36.144175+00:00",
+      "crps": 3.6817,
+      "winning_range": [
+        82.0,
+        83.0
+      ]
     },
     {
       "slug": "dallas",
@@ -7852,13 +7856,17 @@
       "peak_final": 75.1,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 75.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 74-75°F on August 3?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.1,
+      "resolved_at": "2026-08-04T11:31:36.240122+00:00",
+      "crps": 0.7136,
+      "winning_range": [
+        74.0,
+        75.0
+      ]
     },
     {
       "slug": "houston",
@@ -7909,13 +7917,17 @@
       "peak_final": 78.6,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 78.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 78-79°F on August 3?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.6,
+      "resolved_at": "2026-08-04T11:31:36.338595+00:00",
+      "crps": 0.7593,
+      "winning_range": [
+        78.0,
+        79.0
+      ]
     },
     {
       "slug": "denver",
@@ -7942,13 +7954,17 @@
           99.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 101.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 100-101°F on August 3?",
+      "pick_won": false,
+      "forecast_error": -1.8,
+      "resolved_at": "2026-08-04T11:31:36.441178+00:00",
+      "crps": 1.1245,
+      "winning_range": [
+        100.0,
+        101.0
+      ]
     },
     {
       "slug": "austin",
@@ -7986,13 +8002,17 @@
       "peak_final": 79.7,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 77.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 76-77°F on August 3?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.7,
+      "resolved_at": "2026-08-04T11:31:36.567812+00:00",
+      "crps": 1.6086,
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -8019,13 +8039,17 @@
           26.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 27.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 27°C on August 3?",
+      "pick_won": false,
+      "forecast_error": 0.1,
+      "resolved_at": "2026-08-04T11:31:36.712614+00:00",
+      "crps": 0.3771,
+      "winning_range": [
+        27.0,
+        27.0
+      ]
     },
     {
       "slug": "panama-city",
