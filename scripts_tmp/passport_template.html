@@ -5,30 +5,35 @@
     src: local("Segoe UI");
   }
   :root {
-    /* Paleta "glass cockpit" — teal/cian de pantalla digital de cabina, en vez del
-       ambar de instrumento analogico de la version anterior. Cambio pedido por el
-       usuario 2026-07-29, facil de revertir (son solo estos tokens). */
-    --bg: #0a0f14;
-    --panel: #101922;
-    --panel-2: #141f29;
-    --line: #22303a;
-    --line-soft: #1a252e;
-    --text: #e6f2ef;
-    --text-dim: #83a09c;
-    --text-faint: #5f8480;
-    --accent: #2dd4bf;
-    --accent-dim: #17685e;
-    --accent-soft: rgba(45, 212, 191, 0.14);
-    --good: #34d399;
-    --good-soft: rgba(52, 211, 153, 0.14);
-    --warn: #fbbf24;
-    --warn-soft: rgba(251, 191, 36, 0.14);
-    --bad: #f87171;
-    --bad-soft: rgba(248, 113, 113, 0.14);
-    --info: #60a5fa;
-    --info-soft: rgba(96, 165, 250, 0.14);
+    /* Paleta "sala de mando meteorologico nocturno" — indigo de cielo de tormenta +
+       latón de instrumento de aviación vintage como acento, en vez del cian
+       generico de dashboard oscuro. Cambio pedido por el usuario 2026-08-05
+       ("mas vistoso pero elegante, como para un ejecutivo"). Tema unico deliberado
+       (no hay variante clara): la identidad ES el cielo nocturno, invertirla a
+       blanco le quita el sentido. */
+    --bg: #0a0e1a;
+    --bg-2: #0d1322;
+    --panel: #121a2e;
+    --panel-2: #182140;
+    --line: #2a3459;
+    --line-soft: #1e2745;
+    --text: #eef0f8;
+    --text-dim: #99a3c4;
+    --text-faint: #69739a;
+    --accent: #c9a15a;
+    --accent-dim: #7d6636;
+    --accent-soft: rgba(201, 161, 90, 0.14);
+    --good: #55b895;
+    --good-soft: rgba(85, 184, 149, 0.14);
+    --warn: #d9863f;
+    --warn-soft: rgba(217, 134, 63, 0.14);
+    --bad: #e0685a;
+    --bad-soft: rgba(224, 104, 90, 0.14);
+    --info: #7b93d9;
+    --info-soft: rgba(123, 147, 217, 0.14);
     --mono: ui-monospace, "Cascadia Code", "JetBrains Mono", Consolas, "SFMono-Regular", monospace;
     --sans: ui-sans-serif, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    --display: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
     --radius: 3px;
   }
 
@@ -50,29 +55,61 @@
   .wrap {
     max-width: 1240px;
     margin: 0 auto;
-    padding: 20px 22px 64px;
+    padding: 0 22px 64px;
   }
 
-  /* ---------- header ---------- */
-  header.top {
+  /* ---------- hero ---------- */
+  header.hero {
+    position: relative;
+    overflow: hidden;
+    background:
+      radial-gradient(ellipse 900px 420px at 15% -10%, rgba(201,161,90,0.10), transparent 60%),
+      linear-gradient(180deg, var(--bg-2) 0%, var(--bg) 100%);
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 22px;
+  }
+  .hero-wind {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 0.55;
+    pointer-events: none;
+  }
+  .hero-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 40px 22px 30px;
+  }
+  .hero-top {
     display: flex;
-    align-items: baseline;
+    align-items: flex-end;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 10px 20px;
-    padding-bottom: 16px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid var(--line);
+    gap: 14px 20px;
   }
   .wordmark {
-    font-family: var(--mono);
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 0.08em;
-    color: var(--accent);
+    font-family: var(--display);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 34px;
+    letter-spacing: 0.01em;
+    color: var(--text);
+    text-wrap: balance;
   }
-  .wordmark span { color: var(--text-faint); font-weight: 400; }
-  .tagline { color: var(--text-dim); font-size: 12.5px; margin-top: 2px; }
+  .wordmark-sub {
+    display: block;
+    font-family: var(--sans);
+    font-style: normal;
+    font-size: 12.5px;
+    letter-spacing: 0.04em;
+    color: var(--text-dim);
+    margin-top: 6px;
+  }
+  .tagline { color: var(--text-dim); font-size: 12.5px; margin-top: 4px; max-width: 62ch; }
   .top-right { display: flex; align-items: center; gap: 10px; }
   .badge {
     font-family: var(--mono);
@@ -84,8 +121,36 @@
     border: 1px solid var(--line);
     color: var(--text-dim);
     white-space: nowrap;
+    background: rgba(10,14,26,0.4);
   }
-  .badge.private { color: var(--good); border-color: rgba(63,185,80,0.3); background: var(--good-soft); }
+  .badge.private { color: var(--good); border-color: rgba(85,184,149,0.35); background: var(--good-soft); }
+
+  /* ---------- tabs ---------- */
+  .tabs {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid var(--line);
+    overflow-x: auto;
+  }
+  .tab-btn {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 10px 16px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color 0.15s ease, border-color 0.15s ease;
+  }
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .tabpanel { display: none; }
+  .tabpanel.active { display: block; }
 
   /* ---------- control deck ---------- */
   .deck {
@@ -179,7 +244,7 @@
     align-items: center;
     gap: 8px;
     background: var(--good-soft);
-    border: 1px solid rgba(63,185,80,0.35);
+    border: 1px solid rgba(85,184,149,0.35);
     border-radius: var(--radius);
     padding: 7px 11px;
   }
@@ -194,7 +259,7 @@
   .now-clock .txt .lbl { font-size: 9.5px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--good); }
   .now-clock .txt .time { font-family: var(--mono); font-size: 16px; font-weight: 700; font-variant-numeric: tabular-nums; }
   .now-clock button {
-    background: transparent; border: 1px solid rgba(63,185,80,0.4); color: var(--good);
+    background: transparent; border: 1px solid rgba(85,184,149,0.4); color: var(--good);
     font-family: var(--mono); font-size: 10px; letter-spacing: 0.04em; text-transform: uppercase;
     padding: 4px 8px; border-radius: var(--radius); cursor: pointer; margin-left: 4px;
   }
@@ -246,13 +311,15 @@
   }
   .panel + .panel { margin-top: 18px; }
   .panel h2 {
-    font-size: 11px;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-    color: var(--text-faint);
-    margin: 0 0 14px;
+    font-family: var(--display);
+    font-style: italic;
+    font-size: 17px;
     font-weight: 600;
+    letter-spacing: 0.005em;
+    color: var(--text);
+    margin: 0 0 14px;
   }
+  .live-head h2 { margin: 0; }
 
   /* readout */
   .readout-head {
@@ -461,23 +528,26 @@
   }
   .th-help:hover .tip { display: block; }
 
-  .picks-sub { font-size: 11.5px; color: var(--muted); margin: 4px 0 12px; }
-  .pick-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px; }
+  .picks-sub { font-size: 11.5px; color: var(--text-dim); margin: 4px 0 14px; max-width: 68ch; }
+  .pick-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; }
   .pick-card {
-    border: 1px solid var(--line-soft); border-left: 3px solid var(--accent);
-    border-radius: 4px; padding: 10px 12px; cursor: pointer; background: var(--panel-2);
+    position: relative;
+    border: 1px solid var(--line-soft); border-top: 1px solid var(--accent-dim);
+    border-radius: 2px; padding: 12px 13px 11px; cursor: pointer; background: var(--panel-2);
+    transition: border-color 0.15s ease, background 0.15s ease;
   }
-  .pick-card:hover { background: var(--accent-soft); }
-  .pick-card.moderado { border-left-color: var(--warn); }
+  .pick-card:hover { background: var(--accent-soft); border-top-color: var(--accent); }
+  .pick-card.moderado { border-top-color: var(--warn); }
+  .pick-card.moderado:hover { border-top-color: var(--warn); }
   .pick-card .pc-city { font-weight: 700; font-size: 13px; }
-  .pick-card .pc-date { font-size: 10.5px; color: var(--muted); margin-left: 6px; }
+  .pick-card .pc-date { font-size: 10.5px; color: var(--text-faint); margin-left: 6px; }
   .pick-card .pc-line { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 12.5px; margin-top: 5px; }
   .pick-card .pc-ev { font-weight: 700; color: var(--good); }
-  .pick-card .pc-meta { font-size: 10.5px; color: var(--muted); margin-top: 4px; }
+  .pick-card .pc-meta { font-size: 10.5px; color: var(--text-faint); margin-top: 4px; }
   .pick-card .pc-tier { font-size: 10px; padding: 1px 6px; border-radius: 2px; background: var(--accent-soft); color: var(--accent); margin-left: 6px; }
   .pick-card.moderado .pc-tier { background: var(--warn-soft); color: var(--warn); }
   .pick-card .pc-spread { font-size: 10.5px; color: var(--warn); margin-top: 4px; }
-  .picks-empty { font-size: 12px; color: var(--muted); padding: 6px 0; }
+  .picks-empty { font-size: 12px; color: var(--text-faint); padding: 6px 0; }
 
   .mismatch-alert {
     margin-top: 14px;
@@ -519,24 +589,150 @@
   @media (prefers-reduced-motion: reduce) { .crew img { transition: none; } }
 </style>
 
-<div class="wrap">
-  <header class="top">
-    <div>
-      <div class="wordmark">PASSPORT <span>· historial de calentamiento por estación</span></div>
-      <div class="tagline">A partir de una hora dada, cuánto sube la temperatura y en qué % de los días — por estación, temporada y viento.</div>
-      <div class="tagline" id="data-coverage-line" style="margin-top:3px;">Histórico: 2023-01-01 → 2026-07-04 (~3,4 años, ~1.257 días por estación)</div>
-    </div>
-    <div class="top-right">
-      <div class="crew" title="La tripulación">
-        <img src="data:image/png;base64,__GATO1_B64__" alt="Gato 1" />
-        <img src="data:image/png;base64,__GATO2_B64__" alt="Gato 2" />
-        <img src="data:image/png;base64,__GATO3_B64__" alt="Gato 3" />
+<header class="hero">
+  <canvas class="hero-wind" id="hero-wind" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <div class="hero-top">
+      <div>
+        <div class="wordmark">PASSPORT<span class="wordmark-sub">Historial de calentamiento por estación</span></div>
+        <div class="tagline">A partir de una hora dada, cuánto sube la temperatura y en qué % de los días — por estación, temporada y viento.</div>
+        <div class="tagline" id="data-coverage-line" style="margin-top:3px;">Histórico: 2023-01-01 → 2026-07-04 (~3,4 años, ~1.257 días por estación)</div>
       </div>
-      <span class="badge private">● local · privado</span>
-      <span class="badge" id="station-count-badge" title="Ver la tabla de cobertura" style="cursor:pointer;">50 estaciones</span>
+      <div class="top-right">
+        <div class="crew" title="La tripulación">
+          <img src="data:image/png;base64,__GATO1_B64__" alt="Gato 1" />
+          <img src="data:image/png;base64,__GATO2_B64__" alt="Gato 2" />
+          <img src="data:image/png;base64,__GATO3_B64__" alt="Gato 3" />
+        </div>
+        <span class="badge private">● local · privado</span>
+        <span class="badge" id="station-count-badge" title="Ver la tabla de cobertura" style="cursor:pointer;">50 estaciones</span>
+      </div>
     </div>
-  </header>
+  </div>
+</header>
+<script>
+(function () {
+  "use strict";
+  var canvas = document.getElementById("hero-wind");
+  if (!canvas || !canvas.getContext) return;
+  var ctx = canvas.getContext("2d");
+  var reduced = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var dpr = Math.min(window.devicePixelRatio || 1, 2);
+  var w = 0, h = 0, lines = [];
 
+  function rand(a, b) { return a + Math.random() * (b - a); }
+
+  function initLines() {
+    var count = Math.max(5, Math.round(w / 130));
+    lines = [];
+    for (var i = 0; i < count; i++) {
+      lines.push({
+        y: rand(0.06, 0.94) * h,
+        amp: rand(6, 22),
+        len: rand(0.16, 0.34) * w,
+        speed: rand(16, 34),
+        phase: rand(0, Math.PI * 2),
+        freq: rand(0.006, 0.016),
+        x: rand(-0.3, 1.1) * w,
+        alpha: rand(0.16, 0.46),
+      });
+    }
+  }
+
+  function resize() {
+    var rect = canvas.parentElement.getBoundingClientRect();
+    w = rect.width; h = rect.height;
+    canvas.width = Math.max(1, w * dpr); canvas.height = Math.max(1, h * dpr);
+    canvas.style.width = w + "px"; canvas.style.height = h + "px";
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    initLines();
+  }
+
+  function drawLine(ln, x0) {
+    ctx.beginPath();
+    var steps = 40;
+    for (var i = 0; i <= steps; i++) {
+      var t = i / steps;
+      var x = x0 + ln.len * t;
+      var y = ln.y + Math.sin(x * ln.freq + ln.phase) * ln.amp;
+      if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    }
+    var grad = ctx.createLinearGradient(x0, ln.y, x0 + ln.len, ln.y);
+    grad.addColorStop(0, "rgba(201,161,90,0)");
+    grad.addColorStop(0.5, "rgba(201,161,90," + ln.alpha + ")");
+    grad.addColorStop(1, "rgba(201,161,90,0)");
+    ctx.strokeStyle = grad;
+    ctx.lineWidth = 1.1;
+    ctx.stroke();
+  }
+
+  // rosa de los vientos de fondo — marca fija de instrumento nautico/aviacion,
+  // no rota (igual que la rosa impresa en una carta de navegacion real). Es lo
+  // que hace que el hero se lea como "instrumento meteorologico" y no solo
+  // "dashboard oscuro con lineas" (pedido 2026-08-05).
+  function drawCompass() {
+    var cx = w * 0.83, cy = h * 0.46, r = Math.min(w * 0.5, h * 0.85);
+    if (r < 40) return;
+    ctx.save();
+    ctx.strokeStyle = "rgba(201,161,90,0.15)";
+    ctx.fillStyle = "rgba(201,161,90,0.22)";
+    ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.arc(cx, cy, r, 0, Math.PI * 2); ctx.stroke();
+    ctx.beginPath(); ctx.arc(cx, cy, r * 0.7, 0, Math.PI * 2); ctx.stroke();
+    var labels = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"];
+    for (var i = 0; i < 16; i++) {
+      var ang = (i * 22.5 - 90) * Math.PI / 180;
+      var cardinal = i % 4 === 0;
+      var inter = i % 2 === 0;
+      var rInner = cardinal ? r * 0.82 : inter ? r * 0.89 : r * 0.94;
+      var x1 = cx + Math.cos(ang) * r, y1 = cy + Math.sin(ang) * r;
+      var x2 = cx + Math.cos(ang) * rInner, y2 = cy + Math.sin(ang) * rInner;
+      ctx.lineWidth = cardinal ? 1.5 : 1;
+      ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke();
+    }
+    ctx.font = "11px ui-monospace, Consolas, monospace";
+    ctx.textAlign = "center"; ctx.textBaseline = "middle";
+    labels.forEach(function (lab, i) {
+      var ang = (i * 45 - 90) * Math.PI / 180;
+      var rl = r * 1.11;
+      ctx.fillText(lab, cx + Math.cos(ang) * rl, cy + Math.sin(ang) * rl);
+    });
+    ctx.restore();
+  }
+
+  var last = 0;
+  function tick(ts) {
+    var dt = last ? Math.min((ts - last) / 1000, 0.1) : 0;
+    last = ts;
+    ctx.clearRect(0, 0, w, h);
+    drawCompass();
+    lines.forEach(function (ln) {
+      ln.x += ln.speed * dt;
+      if (ln.x > w + 20) { ln.x = -ln.len - rand(0, 200); ln.y = rand(0.06, 0.94) * h; }
+      drawLine(ln, ln.x);
+    });
+    if (!reduced) requestAnimationFrame(tick);
+  }
+
+  window.addEventListener("resize", resize);
+  resize();
+  ctx.clearRect(0, 0, w, h);
+  drawCompass();
+  lines.forEach(function (ln) { drawLine(ln, ln.x); });
+  if (!reduced) requestAnimationFrame(tick);
+})();
+</script>
+
+<div class="wrap">
+  <nav class="tabs" id="tabs">
+    <button class="tab-btn" data-tab="picks">Picks del día</button>
+    <button class="tab-btn" data-tab="vivo">Ciudades en vivo</button>
+    <button class="tab-btn" data-tab="detalle">Detalle por ciudad</button>
+    <button class="tab-btn" data-tab="track">Track record</button>
+    <button class="tab-btn" data-tab="cobertura">Cobertura</button>
+  </nav>
+
+  <div class="tabpanel" data-tabpanel="detalle">
   <div class="deck">
     <div class="deck-row">
       <div class="field field-station">
@@ -584,7 +780,9 @@
       </div>
     </div>
   </div>
+  </div><!-- /tabpanel detalle (parte 1: deck) -->
 
+  <div class="tabpanel" data-tabpanel="picks">
   <div class="panel" style="margin-bottom:18px;">
     <div class="live-head">
       <h2 style="margin:0;">Mejores picks del día</h2>
@@ -593,7 +791,9 @@
     <div class="picks-sub">Solo tiers <b>escalable</b> (precio ≥$0.20) y <b>moderado</b> ($0.10–0.20), ordenados por confianza y EV — los "EV gigantes" de buckets baratos (tier cautela) se excluyen a propósito: no son ejecutables en tamaño real. Click en un pick abre el detalle de la ciudad.</div>
     <div class="pick-cards" id="top-picks"></div>
   </div>
+  </div><!-- /tabpanel picks -->
 
+  <div class="tabpanel" data-tabpanel="vivo">
   <div class="panel" style="margin-bottom:18px;">
     <div class="live-head">
       <h2 style="margin:0;">Pico en vivo — las 30 ciudades operadas</h2>
@@ -619,7 +819,9 @@
       </table>
     </div>
   </div>
+  </div><!-- /tabpanel vivo -->
 
+  <div class="tabpanel" data-tabpanel="track">
   <div class="panel" id="track-record-panel" style="margin-bottom:18px;">
     <div class="live-head">
       <h2 style="margin:0;">Track record — ¿sirve el modelo?</h2>
@@ -640,8 +842,26 @@
     </div>
   </div>
 
-  <div class="grid">
-    <div class="col-main">
+  <div class="panel" id="weekly-best-panel" style="margin-bottom:18px;">
+    <div class="live-head">
+      <h2 style="margin:0;">Mejores ciudades de la semana</h2>
+      <span class="live-updated" id="weekly-best-summary">—</span>
+    </div>
+    <div class="live-empty" id="weekly-best-empty" style="display:none;">
+      Sin predicciones resueltas en los últimos 7 días todavía.
+    </div>
+    <div class="live-scroll">
+      <table class="live" id="weekly-best-table" style="display:none;">
+        <thead><tr>
+          <th>Ciudad</th><th>Predicciones resueltas</th><th>Tasa de acierto</th><th>Error promedio (MAE)</th>
+        </tr></thead>
+        <tbody id="weekly-best-body"></tbody>
+      </table>
+    </div>
+  </div>
+  </div><!-- /tabpanel track -->
+
+  <div class="tabpanel" data-tabpanel="detalle">
       <div class="panel">
         <h2>Lectura histórica</h2>
         <div class="readout-head">
@@ -730,9 +950,9 @@
         </div>
         <div class="ld-updated" id="ld-updated">—</div>
       </div>
-    </div>
+  </div><!-- /tabpanel detalle (parte 2) -->
 
-    <div class="col-side">
+  <div class="tabpanel" data-tabpanel="cobertura">
       <div class="panel" id="coverage-panel">
         <h2>Cobertura — 50 estaciones vs. nuestras 30 ciudades</h2>
         <input class="cov-search" id="cov-search" placeholder="Filtrar…" />
@@ -746,8 +966,7 @@
           <b>⚠ Paris — aeropuertos distintos.</b> Nuestro mercado resuelve en LFPG (Charles de Gaulle); el histórico disponible es de LFPB (Le Bourget). No usar directo sin ajustar.
         </div>
       </div>
-    </div>
-  </div>
+  </div><!-- /tabpanel cobertura -->
 
   <footer class="provenance">
     <div><b>Fuente:</b> servicio externo de climatología por estación, autenticado con sesión propia del usuario.</div>
@@ -783,6 +1002,39 @@
   // como poco confiable. Mantener sincronizado con SPREAD_ALERTA en husky_daily_digest.py.
   // 2.0 desde 2026-07-30 (caso Wellington: ±2.4 pasaba sin marca con el umbral viejo de 3.0).
   var SPREAD_ALERTA = 2.0;
+
+  // ---- iconos de instrumento (viento con aguja + cielo) — reemplazan el texto
+  // plano "NE" / "FEW" por algo que se lee como instrumento real, no solo dato.
+  // Formas simples (circulos/lineas/elipses), no paths dibujados a mano.
+  var DIR_DEG = { N: 0, NE: 45, E: 90, SE: 135, S: 180, SW: 225, W: 270, NW: 315 };
+  function windGlyph(dir) {
+    var deg = DIR_DEG[dir];
+    if (deg == null) return "";
+    return '<svg class="wg" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2.5px;margin-right:4px;flex-shrink:0;">' +
+      '<circle cx="12" cy="12" r="10.5" fill="none" stroke="currentColor" stroke-opacity="0.4" stroke-width="1.2"/>' +
+      '<g transform="rotate(' + deg + ' 12 12)">' +
+      '<path d="M12 3.2 L15 12 L12 9.8 L9 12 Z" fill="currentColor"/>' +
+      '<line x1="12" y1="12" x2="12" y2="18.5" stroke="currentColor" stroke-width="1.3"/>' +
+      '</g></svg>';
+  }
+  function skyGlyph(sky) {
+    var s = (sky || "").toUpperCase();
+    function wrap(inner) {
+      return '<svg class="sg" width="14" height="14" viewBox="0 0 24 24" style="vertical-align:-2.5px;margin-right:3px;flex-shrink:0;">' + inner + '</svg>';
+    }
+    if (/CAVOK|CLR|SKC|NCD/.test(s)) {
+      var rays = [0, 45, 90, 135, 180, 225, 270, 315].map(function (a) {
+        var rad = a * Math.PI / 180, x1 = 12 + 8 * Math.cos(rad), y1 = 12 + 8 * Math.sin(rad),
+          x2 = 12 + 10.3 * Math.cos(rad), y2 = 12 + 10.3 * Math.sin(rad);
+        return '<line x1="' + x1.toFixed(1) + '" y1="' + y1.toFixed(1) + '" x2="' + x2.toFixed(1) + '" y2="' + y2.toFixed(1) + '" stroke="currentColor" stroke-width="1.1"/>';
+      }).join("");
+      return wrap('<circle cx="12" cy="12" r="5.3" fill="currentColor"/>' + rays);
+    }
+    if (/OVC/.test(s)) return wrap('<ellipse cx="9" cy="13.5" rx="5.3" ry="3.4" fill="currentColor" opacity="0.85"/><ellipse cx="15" cy="12.3" rx="5.3" ry="3.8" fill="currentColor"/>');
+    if (/BKN/.test(s)) return wrap('<circle cx="8" cy="9" r="2.8" fill="currentColor" opacity="0.55"/><ellipse cx="13.5" cy="14.2" rx="6.2" ry="3.9" fill="currentColor"/>');
+    if (/FEW|SCT/.test(s)) return wrap('<circle cx="8.2" cy="9" r="3.2" fill="currentColor"/><ellipse cx="14.2" cy="14.8" rx="5.2" ry="3.1" fill="currentColor" opacity="0.7"/>');
+    return "";
+  }
 
   function renderTrackRecord() {
     var records = (TRACK_RECORD && TRACK_RECORD.records) || [];
@@ -928,7 +1180,7 @@
       return '<tr class="row-clickable" data-station="' + c.station + '" title="Ver detalle completo de ' + c.name + '">' +
         '<td class="city">' + c.name + " (" + c.station + ")</td>" +
         "<td>" + (c.metar_temp != null ? c.metar_temp.toFixed(1) + "°" + c.unit : "s/d") + "</td>" +
-        "<td>" + (c.wind_compass || "—") + (c.sky ? " · " + c.sky : "") + "</td>" +
+        "<td>" + windGlyph(c.wind_compass) + (c.wind_compass || "—") + (c.sky ? " · " + skyGlyph(c.sky) + c.sky : "") + "</td>" +
         '<td title="' + (c.model_src_display || "") + '">' + (c.model_peak != null ? c.model_peak.toFixed(1) + "° (" + (c.model_src_display || "?") + ")" : "s/d") + "</td>" +
         "<td>" + (c.empirico_peak != null ? c.empirico_peak.toFixed(1) + "°" : "s/d") + "</td>" +
         '<td class="peak ' + peakClass + '">' + (c.peak_final != null ? c.peak_final.toFixed(1) + "°" + c.unit : "s/d") + spreadFlag + "</td>" +
@@ -1013,7 +1265,7 @@
     var card = e.target.closest(".pick-card[data-station]");
     if (!card) return;
     selectStation(card.getAttribute("data-station"));
-    document.getElementById("live-detail-panel").scrollIntoView({ behavior: "smooth", block: "start" });
+    activateTab("detalle");
   });
 
   // Clic en una fila de "Pico en vivo" abre esa ciudad en el panel de arriba, con
@@ -1023,7 +1275,7 @@
     var tr = e.target.closest("tr[data-station]");
     if (!tr) return;
     selectStation(tr.getAttribute("data-station"));
-    document.getElementById("live-detail-panel").scrollIntoView({ behavior: "smooth", block: "start" });
+    activateTab("detalle");
   });
   var STATIONS = DATA.stations; // array
   var byCode = {};
@@ -1242,7 +1494,7 @@
     var curve = (block && block.curve) || {};
     var hours = Object.keys(curve).map(Number).sort(function (a, b) { return a - b; });
     if (!hours.length) {
-      ctx.fillStyle = "#5b626b"; ctx.font = "12px ui-monospace, monospace";
+      ctx.fillStyle = "#69739a"; ctx.font = "12px ui-monospace, monospace";
       ctx.fillText("Sin datos de curva para esta temporada.", 10, h / 2);
       return;
     }
@@ -1270,8 +1522,8 @@
     ctx.lineTo(x(hours.length - 1), yGain(0));
     ctx.closePath();
     var grad = ctx.createLinearGradient(0, pad.t, 0, pad.t + gh);
-    grad.addColorStop(0, "rgba(224,168,63,0.28)");
-    grad.addColorStop(1, "rgba(224,168,63,0.02)");
+    grad.addColorStop(0, "rgba(201,161,90,0.26)");
+    grad.addColorStop(1, "rgba(201,161,90,0.02)");
     ctx.fillStyle = grad; ctx.fill();
 
     // gain line
@@ -1280,29 +1532,29 @@
       var px = x(i), py = yGain(curve[hh].any.g);
       if (i === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
     });
-    ctx.strokeStyle = "#e0a83f"; ctx.lineWidth = 2; ctx.stroke();
+    ctx.strokeStyle = "#c9a15a"; ctx.lineWidth = 2; ctx.stroke();
 
-    // pct line (dashed green)
+    // pct line (dashed, verde mar)
     ctx.beginPath();
     ctx.setLineDash([4, 3]);
     hours.forEach(function (hh, i) {
       var px = x(i), py = yPct(curve[hh].any.p);
       if (i === 0) ctx.moveTo(px, py); else ctx.lineTo(px, py);
     });
-    ctx.strokeStyle = "#3fb950"; ctx.lineWidth = 1.6; ctx.stroke();
+    ctx.strokeStyle = "#55b895"; ctx.lineWidth = 1.6; ctx.stroke();
     ctx.setLineDash([]);
 
     // current-hour marker
     var nh = nearestHour(hours, hour);
     var idx = hours.indexOf(nh);
     var mx = x(idx);
-    ctx.strokeStyle = "rgba(233,230,221,0.25)"; ctx.lineWidth = 1;
+    ctx.strokeStyle = "rgba(238,240,248,0.22)"; ctx.lineWidth = 1;
     ctx.beginPath(); ctx.moveTo(mx, pad.t); ctx.lineTo(mx, pad.t + gh); ctx.stroke();
     ctx.beginPath(); ctx.arc(mx, yGain(curve[nh].any.g), 4, 0, Math.PI * 2);
-    ctx.fillStyle = "#e0a83f"; ctx.fill();
+    ctx.fillStyle = "#c9a15a"; ctx.fill();
 
     // axis labels (hours)
-    ctx.fillStyle = "#5b626b"; ctx.font = "10px ui-monospace, monospace"; ctx.textAlign = "center";
+    ctx.fillStyle = "#69739a"; ctx.font = "10px ui-monospace, monospace"; ctx.textAlign = "center";
     hours.forEach(function (hh, i) {
       if (hours.length > 10 && i % 2 !== 0) return;
       ctx.fillText(hh + "h", x(i), h - 6);
@@ -1378,10 +1630,10 @@
 
     var wb = (st.seasons[season] || {}).best_wind || {};
     var ww = (st.seasons[season] || {}).worst_wind || {};
-    document.getElementById("wind-best-dir").textContent = wb.dir || "—";
+    document.getElementById("wind-best-dir").innerHTML = windGlyph(wb.dir) + (wb.dir || "—");
     document.getElementById("wind-best-eff").textContent = wb.max_c != null
       ? "máx. típico " + wb.max_c.toFixed(1) + "°C (" + (wb.effect || "") + ")" : "sin datos suficientes";
-    document.getElementById("wind-worst-dir").textContent = ww.dir || "—";
+    document.getElementById("wind-worst-dir").innerHTML = windGlyph(ww.dir) + (ww.dir || "—");
     document.getElementById("wind-worst-eff").textContent = ww.max_c != null
       ? "máx. típico " + ww.max_c.toFixed(1) + "°C (" + (ww.effect || "") + ")" : "sin datos suficientes";
 
@@ -1399,7 +1651,7 @@
     panel.style.display = "";
 
     document.getElementById("ld-metar").textContent = c.metar_temp != null ? c.metar_temp.toFixed(1) + "°" + c.unit : "s/d";
-    document.getElementById("ld-viento").textContent = (c.wind_compass || "—") + (c.sky ? " · " + c.sky : "");
+    document.getElementById("ld-viento").innerHTML = windGlyph(c.wind_compass) + (c.wind_compass || "—") + (c.sky ? " · " + skyGlyph(c.sky) + c.sky : "");
 
     document.getElementById("ld-modelo").textContent = c.model_peak != null ? c.model_peak.toFixed(1) + "°" + c.unit : "s/d";
     document.getElementById("ld-modelo-src").textContent = c.model_src_display ? "vía " + c.model_src_display : "";
@@ -1458,20 +1710,92 @@
     var tr = e.target.closest("tr[data-code]"); if (!tr) return;
     selectStation(tr.getAttribute("data-code"));
     renderCoverage(document.getElementById("cov-search").value);
+    activateTab("detalle");
   });
 
   renderCoverage("");
   document.getElementById("prov-count").textContent = STATIONS.length;
   document.getElementById("station-count-badge").textContent = STATIONS.length + " estaciones";
   document.getElementById("station-count-badge").addEventListener("click", function () {
-    document.getElementById("coverage-panel").scrollIntoView({ behavior: "smooth", block: "start" });
+    activateTab("cobertura");
+  });
+
+  // ---- mejores ciudades de la semana (derivado de TRACK_RECORD, ultimos 7 dias) ----
+  function renderWeeklyBest() {
+    var records = (TRACK_RECORD && TRACK_RECORD.records) || [];
+    var corte = new Date(Date.now() - 7 * 24 * 3600 * 1000);
+    var recientes = records.filter(function (r) {
+      return r.resolved && r.fecha_mercado && new Date(r.fecha_mercado) >= corte;
+    });
+    var porCiudad = {};
+    recientes.forEach(function (r) {
+      var key = r.name || r.station;
+      if (!porCiudad[key]) porCiudad[key] = { name: key, total: 0, ganados: 0, errores: [] };
+      var c = porCiudad[key];
+      c.total++;
+      if (r.mejor_bucket && r.pick_won) c.ganados++;
+      if (r.forecast_error != null) c.errores.push(Math.abs(r.forecast_error));
+    });
+    var filas = Object.keys(porCiudad).map(function (k) { return porCiudad[k]; });
+    filas.sort(function (a, b) {
+      var wa = a.total ? a.ganados / a.total : -1, wb = b.total ? b.ganados / b.total : -1;
+      return wb - wa;
+    });
+
+    var summary = document.getElementById("weekly-best-summary");
+    var empty = document.getElementById("weekly-best-empty");
+    var table = document.getElementById("weekly-best-table");
+    if (!filas.length) {
+      summary.textContent = "—";
+      empty.style.display = "";
+      table.style.display = "none";
+      return;
+    }
+    summary.textContent = filas.length + " ciudades con predicciones resueltas en los últimos 7 días";
+    empty.style.display = "none";
+    table.style.display = "";
+    document.getElementById("weekly-best-body").innerHTML = filas.map(function (c) {
+      var mae = c.errores.length ? (c.errores.reduce(function (a, b) { return a + b; }, 0) / c.errores.length) : null;
+      var maeClass = mae == null ? "" : (mae <= 1.5 ? "good" : mae <= 3 ? "warn" : "bad");
+      var winClass = c.total ? (c.ganados / c.total >= 0.4 ? "good" : c.ganados / c.total >= 0.2 ? "warn" : "bad") : "";
+      return "<tr>" +
+        '<td class="city">' + c.name + "</td>" +
+        "<td>" + c.total + "</td>" +
+        '<td class="' + winClass + '">' + (c.total ? (c.ganados / c.total * 100).toFixed(0) + "% (" + c.ganados + "/" + c.total + ")" : "s/d") + "</td>" +
+        '<td class="' + maeClass + '">' + (mae != null ? "±" + mae.toFixed(1) + "°" : "s/d") + "</td>" +
+        "</tr>";
+    }).join("");
+  }
+
+  // ---- tabs ----
+  var tabPanels = {};
+  ["picks", "vivo", "detalle", "track", "cobertura"].forEach(function (name) {
+    tabPanels[name] = document.querySelectorAll('.tabpanel[data-tabpanel="' + name + '"]');
+  });
+  var tabBtns = document.querySelectorAll(".tab-btn");
+  function activateTab(name) {
+    tabBtns.forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-tab") === name); });
+    Object.keys(tabPanels).forEach(function (k) {
+      tabPanels[k].forEach(function (el) { el.classList.toggle("active", k === name); });
+    });
+    // el canvas del historico no dibuja bien su ancho real mientras esta oculto
+    // (display:none => clientWidth 0) — redibujar al mostrar la pestaña "detalle".
+    if (name === "detalle" && state.code) {
+      var st = byCode[state.code];
+      drawChart(st, state.seasonOverride || seasonFor(st.country, new Date().getMonth() + 1), state.hour);
+    }
+  }
+  tabBtns.forEach(function (b) {
+    b.addEventListener("click", function () { activateTab(b.getAttribute("data-tab")); });
   });
 
   // default: Ankara if present, else first station
   renderLive();
   renderTopPicks();
   renderTrackRecord();
+  renderWeeklyBest();
   selectStation(byCode["LTAC"] ? "LTAC" : STATIONS[0].code);
+  activateTab("picks");
   window.addEventListener("resize", function () { if (state.code) drawChart(byCode[state.code], state.seasonOverride || seasonFor(byCode[state.code].country, new Date().getMonth()+1), state.hour); });
 })();
 </script>
