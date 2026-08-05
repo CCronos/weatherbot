@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T03:19:42.254200+00:00",
+  "generated_at": "2026-08-05T03:34:23.523378+00:00",
   "cities": [
     {
       "slug": "nyc",
@@ -23,7 +23,7 @@
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-04",
-      "fetched_at": "2026-08-05T03:10:54.178946+00:00"
+      "fetched_at": "2026-08-05T03:24:41.813543+00:00"
     },
     {
       "slug": "chicago",
@@ -47,7 +47,7 @@
       "viento_nota": "viento HOY coincide con el setup que MAS impulsa el calentamiento esta temporada",
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-04",
-      "fetched_at": "2026-08-05T03:10:55.659388+00:00"
+      "fetched_at": "2026-08-05T03:24:43.581720+00:00"
     },
     {
       "slug": "miami",
@@ -71,7 +71,7 @@
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-04",
-      "fetched_at": "2026-08-05T03:10:57.089928+00:00"
+      "fetched_at": "2026-08-05T03:24:45.199068+00:00"
     },
     {
       "slug": "dallas",
@@ -95,7 +95,7 @@
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-04",
-      "fetched_at": "2026-08-05T03:10:58.607768+00:00"
+      "fetched_at": "2026-08-05T03:24:46.746269+00:00"
     },
     {
       "slug": "seattle",
@@ -107,19 +107,19 @@
       "wind_deg": 350,
       "sky": "SCT",
       "metar_obs_time": "2026-08-05T03:00:00.000Z",
-      "model_peak": 78.6,
-      "model_src": "ecmwf",
-      "model_src_display": "ECMWF",
+      "model_peak": null,
+      "model_src": null,
+      "model_src_display": null,
       "empirico_peak": 75.0,
       "empirico_n": 93,
       "empirico_pct_nuevo_max": 0.0,
-      "peak_final": 77.4,
-      "spread_modelo_vs_empirico": 3.6,
+      "peak_final": 75.6,
+      "spread_modelo_vs_empirico": null,
       "sigma": 3.048,
       "viento_nota": "viento HOY coincide con el setup que MAS impulsa el calentamiento esta temporada",
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-04",
-      "fetched_at": "2026-08-05T03:11:21.189012+00:00"
+      "fetched_at": "2026-08-05T03:25:30.309008+00:00"
     },
     {
       "slug": "atlanta",
@@ -131,19 +131,19 @@
       "wind_deg": 110,
       "sky": "FEW",
       "metar_obs_time": "2026-08-05T03:00:00.000Z",
-      "model_peak": null,
-      "model_src": null,
-      "model_src_display": null,
+      "model_peak": 82.2,
+      "model_src": "ecmwf+regional",
+      "model_src_display": "ECMWF+gfs seamless",
       "empirico_peak": 77.0,
       "empirico_n": 36,
       "empirico_pct_nuevo_max": 0.0,
-      "peak_final": 77.6,
-      "spread_modelo_vs_empirico": null,
+      "peak_final": 80.2,
+      "spread_modelo_vs_empirico": 5.2,
       "sigma": 3.048,
       "viento_nota": "viento HOY coincide con el setup que MAS frena el calentamiento esta temporada",
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-04",
-      "fetched_at": "2026-08-05T03:12:04.826486+00:00"
+      "fetched_at": "2026-08-05T03:25:48.093735+00:00"
     },
     {
       "slug": "houston",
@@ -167,7 +167,7 @@
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-04",
-      "fetched_at": "2026-08-05T03:12:06.247554+00:00"
+      "fetched_at": "2026-08-05T03:25:49.630128+00:00"
     },
     {
       "slug": "los-angeles",
@@ -191,7 +191,7 @@
       "viento_nota": "viento HOY coincide con el setup que MAS frena el calentamiento esta temporada",
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-04",
-      "fetched_at": "2026-08-05T03:12:07.664068+00:00"
+      "fetched_at": "2026-08-05T03:25:51.071993+00:00"
     },
     {
       "slug": "denver",
@@ -215,7 +215,7 @@
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-04",
-      "fetched_at": "2026-08-05T03:12:09.472378+00:00"
+      "fetched_at": "2026-08-05T03:25:52.763153+00:00"
     },
     {
       "slug": "london",
@@ -224,9 +224,9 @@
       "unit": "C",
       "metar_temp": 19.0,
       "wind_compass": "SW",
-      "wind_deg": 220,
+      "wind_deg": 210,
       "sky": "FEW",
-      "metar_obs_time": "2026-08-05T03:00:00.000Z",
+      "metar_obs_time": "2026-08-05T03:20:00.000Z",
       "model_peak": null,
       "model_src": null,
       "model_src_display": null,
@@ -252,7 +252,7 @@
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:12:55.176272+00:00"
+      "fetched_at": "2026-08-05T03:26:36.541973+00:00"
     },
     {
       "slug": "paris",
@@ -276,55 +276,68 @@
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:12:56.786602+00:00"
+      "fetched_at": "2026-08-05T03:26:55.956284+00:00"
     },
     {
       "slug": "munich",
       "name": "Munich",
       "station": "EDDM",
       "unit": "C",
-      "metar_temp": 19.0,
-      "wind_compass": "W",
-      "wind_deg": 250,
+      "metar_temp": 20.0,
+      "wind_compass": "SW",
+      "wind_deg": 240,
       "sky": "CAVOK",
-      "metar_obs_time": "2026-08-05T03:00:00.000Z",
+      "metar_obs_time": "2026-08-05T03:20:00.000Z",
       "model_peak": 33.1,
       "model_src": "ecmwf+regional",
       "model_src_display": "ECMWF+icon d2",
-      "empirico_peak": 24.1,
-      "empirico_n": 71,
-      "empirico_pct_nuevo_max": 94.4,
-      "peak_final": 29.2,
-      "spread_modelo_vs_empirico": 9.0,
+      "empirico_peak": 26.4,
+      "empirico_n": 41,
+      "empirico_pct_nuevo_max": 100.0,
+      "peak_final": 30.3,
+      "spread_modelo_vs_empirico": 6.7,
       "sigma": 1.603,
-      "viento_nota": "viento HOY coincide con el setup que MAS frena el calentamiento esta temporada",
-      "mejor_bucket": null,
+      "viento_nota": null,
+      "mejor_bucket": {
+        "bucket": "32C",
+        "price": 0.09,
+        "prob": 0.142,
+        "ev": 0.579,
+        "kelly": 0.0143,
+        "volume": 7896.0,
+        "confianza": "cautela",
+        "market_id": "3298667",
+        "range": [
+          32.0,
+          32.0
+        ]
+      },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:12:58.276853+00:00"
+      "fetched_at": "2026-08-05T03:26:57.449589+00:00"
     },
     {
       "slug": "ankara",
       "name": "Ankara",
       "station": "LTAC",
       "unit": "C",
-      "metar_temp": 15.0,
-      "wind_compass": "NE",
-      "wind_deg": 30,
+      "metar_temp": 14.0,
+      "wind_compass": null,
+      "wind_deg": "VRB",
       "sky": "CAVOK",
-      "metar_obs_time": "2026-08-05T03:00:00.000Z",
+      "metar_obs_time": "2026-08-05T03:20:00.000Z",
       "model_peak": 32.4,
       "model_src": "ecmwf+regional",
       "model_src_display": "ECMWF+icon eu",
-      "empirico_peak": 24.5,
-      "empirico_n": 88,
+      "empirico_peak": 23.5,
+      "empirico_n": 284,
       "empirico_pct_nuevo_max": 100.0,
-      "peak_final": 29.0,
-      "spread_modelo_vs_empirico": 7.9,
+      "peak_final": 28.5,
+      "spread_modelo_vs_empirico": 8.9,
       "sigma": 1.603,
-      "viento_nota": "viento HOY coincide con el setup que MAS frena el calentamiento esta temporada",
+      "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:12:59.813051+00:00"
+      "fetched_at": "2026-08-05T03:26:59.131450+00:00"
     },
     {
       "slug": "madrid",
@@ -352,7 +365,7 @@
         "prob": 0.16,
         "ev": 0.187,
         "kelly": 0.0073,
-        "volume": 7979.0,
+        "volume": 8074.0,
         "confianza": "moderado",
         "market_id": "3298750",
         "range": [
@@ -361,7 +374,7 @@
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:13:01.350779+00:00"
+      "fetched_at": "2026-08-05T03:27:00.710368+00:00"
     },
     {
       "slug": "amsterdam",
@@ -389,7 +402,7 @@
         "prob": 0.241,
         "ev": 0.07,
         "kelly": 0.0051,
-        "volume": 4564.0,
+        "volume": 4568.0,
         "confianza": "escalable",
         "market_id": "3298896",
         "range": [
@@ -398,7 +411,7 @@
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:13:48.608005+00:00"
+      "fetched_at": "2026-08-05T03:27:44.191583+00:00"
     },
     {
       "slug": "warsaw",
@@ -422,11 +435,11 @@
       "viento_nota": null,
       "mejor_bucket": {
         "bucket": "36C",
-        "price": 0.17,
+        "price": 0.175,
         "prob": 0.203,
-        "ev": 0.193,
-        "kelly": 0.0099,
-        "volume": 2225.0,
+        "ev": 0.159,
+        "kelly": 0.0084,
+        "volume": 2236.0,
         "confianza": "moderado",
         "market_id": "3298762",
         "range": [
@@ -435,7 +448,7 @@
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:14:06.590611+00:00"
+      "fetched_at": "2026-08-05T03:28:03.011184+00:00"
     },
     {
       "slug": "seoul",
@@ -459,7 +472,7 @@
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:14:08.128889+00:00"
+      "fetched_at": "2026-08-05T03:28:04.513522+00:00"
     },
     {
       "slug": "tokyo",
@@ -483,12 +496,12 @@
       "viento_nota": null,
       "mejor_bucket": {
         "bucket": "29C",
-        "price": 0.09,
+        "price": 0.11,
         "prob": 0.244,
-        "ev": 1.716,
-        "kelly": 0.0424,
-        "volume": 5178.0,
-        "confianza": "cautela",
+        "ev": 1.222,
+        "kelly": 0.0378,
+        "volume": 5411.0,
+        "confianza": "moderado",
         "market_id": "3298691",
         "range": [
           29.0,
@@ -496,7 +509,7 @@
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:14:09.649374+00:00"
+      "fetched_at": "2026-08-05T03:28:05.975041+00:00"
     },
     {
       "slug": "taipei",
@@ -520,7 +533,7 @@
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:14:11.210762+00:00"
+      "fetched_at": "2026-08-05T03:28:07.724539+00:00"
     },
     {
       "slug": "shanghai",
@@ -532,32 +545,32 @@
       "wind_deg": 90,
       "sky": "FEW",
       "metar_obs_time": "2026-08-05T03:00:00.000Z",
-      "model_peak": 33.5,
-      "model_src": "ecmwf",
-      "model_src_display": "ECMWF",
+      "model_peak": null,
+      "model_src": null,
+      "model_src_display": null,
       "empirico_peak": 33.7,
       "empirico_n": 48,
       "empirico_pct_nuevo_max": 56.2,
-      "peak_final": 34.2,
-      "spread_modelo_vs_empirico": 0.2,
+      "peak_final": 34.3,
+      "spread_modelo_vs_empirico": null,
       "sigma": 1.603,
       "viento_nota": "viento HOY coincide con el setup que MAS frena el calentamiento esta temporada",
       "mejor_bucket": {
-        "bucket": "34C",
-        "price": 0.165,
-        "prob": 0.243,
-        "ev": 0.473,
-        "kelly": 0.0234,
-        "volume": 9013.0,
-        "confianza": "moderado",
-        "market_id": "3298715",
+        "bucket": "35C",
+        "price": 0.09,
+        "prob": 0.223,
+        "ev": 1.481,
+        "kelly": 0.0366,
+        "volume": 12381.0,
+        "confianza": "cautela",
+        "market_id": "3298716",
         "range": [
-          34.0,
-          34.0
+          35.0,
+          35.0
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:14:33.645726+00:00"
+      "fetched_at": "2026-08-05T03:28:51.154911+00:00"
     },
     {
       "slug": "chengdu",
@@ -569,19 +582,19 @@
       "wind_deg": "VRB",
       "sky": "FEW",
       "metar_obs_time": "2026-08-05T03:00:00.000Z",
-      "model_peak": 36.5,
-      "model_src": "regional",
-      "model_src_display": "icon seamless",
+      "model_peak": 33.6,
+      "model_src": "ecmwf+regional",
+      "model_src_display": "ECMWF+icon seamless",
       "empirico_peak": 36.3,
       "empirico_n": 284,
       "empirico_pct_nuevo_max": 87.3,
-      "peak_final": 37.0,
-      "spread_modelo_vs_empirico": 0.2,
-      "sigma": 1.98,
+      "peak_final": 35.5,
+      "spread_modelo_vs_empirico": 2.7,
+      "sigma": 1.603,
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:15:12.353393+00:00"
+      "fetched_at": "2026-08-05T03:29:09.913237+00:00"
     },
     {
       "slug": "beijing",
@@ -605,11 +618,11 @@
       "viento_nota": null,
       "mejor_bucket": {
         "bucket": "38C",
-        "price": 0.11,
+        "price": 0.15,
         "prob": 0.203,
-        "ev": 0.844,
-        "kelly": 0.0261,
-        "volume": 2036.0,
+        "ev": 0.352,
+        "kelly": 0.0155,
+        "volume": 2083.0,
         "confianza": "moderado",
         "market_id": "3298799",
         "range": [
@@ -618,7 +631,7 @@
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:15:13.783886+00:00"
+      "fetched_at": "2026-08-05T03:29:12.515795+00:00"
     },
     {
       "slug": "singapore",
@@ -642,7 +655,7 @@
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:15:14.722227+00:00"
+      "fetched_at": "2026-08-05T03:29:13.542736+00:00"
     },
     {
       "slug": "kuala-lumpur",
@@ -666,7 +679,7 @@
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:15:15.892345+00:00"
+      "fetched_at": "2026-08-05T03:29:15.074035+00:00"
     },
     {
       "slug": "lucknow",
@@ -678,32 +691,19 @@
       "wind_deg": 160,
       "sky": "OVC",
       "metar_obs_time": "2026-08-05T03:00:00.000Z",
-      "model_peak": 31.3,
-      "model_src": "ecmwf",
-      "model_src_display": "ECMWF",
+      "model_peak": null,
+      "model_src": null,
+      "model_src_display": null,
       "empirico_peak": 32.2,
       "empirico_n": 282,
       "empirico_pct_nuevo_max": 98.2,
-      "peak_final": 32.3,
-      "spread_modelo_vs_empirico": 0.9,
+      "peak_final": 32.8,
+      "spread_modelo_vs_empirico": null,
       "sigma": 1.603,
       "viento_nota": null,
-      "mejor_bucket": {
-        "bucket": "32C",
-        "price": 0.23,
-        "prob": 0.241,
-        "ev": 0.047,
-        "kelly": 0.0035,
-        "volume": 1493.0,
-        "confianza": "escalable",
-        "market_id": "3299623",
-        "range": [
-          32.0,
-          32.0
-        ]
-      },
+      "mejor_bucket": null,
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:15:16.984188+00:00"
+      "fetched_at": "2026-08-05T03:29:37.220689+00:00"
     },
     {
       "slug": "tel-aviv",
@@ -711,36 +711,23 @@
       "station": "LLBG",
       "unit": "C",
       "metar_temp": 25.0,
-      "wind_compass": null,
-      "wind_deg": "VRB",
+      "wind_compass": "SE",
+      "wind_deg": 150,
       "sky": "FEW",
-      "metar_obs_time": "2026-08-05T03:00:00.000Z",
-      "model_peak": 35.6,
-      "model_src": "ecmwf",
-      "model_src_display": "ECMWF",
-      "empirico_peak": 30.1,
-      "empirico_n": 284,
-      "empirico_pct_nuevo_max": 99.6,
-      "peak_final": 33.4,
-      "spread_modelo_vs_empirico": 5.5,
+      "metar_obs_time": "2026-08-05T03:20:00.000Z",
+      "model_peak": null,
+      "model_src": null,
+      "model_src_display": null,
+      "empirico_peak": 30.4,
+      "empirico_n": 41,
+      "empirico_pct_nuevo_max": 100.0,
+      "peak_final": 31.0,
+      "spread_modelo_vs_empirico": null,
       "sigma": 1.603,
-      "viento_nota": null,
-      "mejor_bucket": {
-        "bucket": "34C",
-        "price": 0.08,
-        "prob": 0.229,
-        "ev": 1.861,
-        "kelly": 0.0404,
-        "volume": 5293.0,
-        "confianza": "cautela",
-        "market_id": "3298682",
-        "range": [
-          34.0,
-          34.0
-        ]
-      },
+      "viento_nota": "viento HOY coincide con el setup que MAS impulsa el calentamiento esta temporada",
+      "mejor_bucket": null,
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:15:18.015668+00:00"
+      "fetched_at": "2026-08-05T03:29:59.282008+00:00"
     },
     {
       "slug": "toronto",
@@ -752,19 +739,19 @@
       "wind_deg": 140,
       "sky": "SKC",
       "metar_obs_time": "2026-08-05T03:00:00.000Z",
-      "model_peak": null,
-      "model_src": null,
-      "model_src_display": null,
+      "model_peak": 28.5,
+      "model_src": "ecmwf+regional",
+      "model_src_display": "ECMWF+gem seamless",
       "empirico_peak": 21.0,
       "empirico_n": 59,
       "empirico_pct_nuevo_max": 0.0,
-      "peak_final": 21.6,
-      "spread_modelo_vs_empirico": null,
+      "peak_final": 25.3,
+      "spread_modelo_vs_empirico": 7.5,
       "sigma": 1.603,
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-04",
-      "fetched_at": "2026-08-05T03:16:01.400770+00:00"
+      "fetched_at": "2026-08-05T03:30:01.258630+00:00"
     },
     {
       "slug": "sao-paulo",
@@ -788,7 +775,7 @@
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:16:10.756691+00:00"
+      "fetched_at": "2026-08-05T03:30:03.178513+00:00"
     },
     {
       "slug": "buenos-aires",
@@ -810,9 +797,22 @@
       "spread_modelo_vs_empirico": 3.9,
       "sigma": 1.603,
       "viento_nota": null,
-      "mejor_bucket": null,
+      "mejor_bucket": {
+        "bucket": "17C",
+        "price": 0.125,
+        "prob": 0.133,
+        "ev": 0.064,
+        "kelly": 0.0023,
+        "volume": 2847.0,
+        "confianza": "moderado",
+        "market_id": "3323912",
+        "range": [
+          17.0,
+          17.0
+        ]
+      },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:16:11.721913+00:00"
+      "fetched_at": "2026-08-05T03:30:05.014084+00:00"
     },
     {
       "slug": "wellington",
@@ -836,7 +836,7 @@
       "viento_nota": "viento HOY coincide con el setup que MAS frena el calentamiento esta temporada",
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:16:15.434429+00:00"
+      "fetched_at": "2026-08-05T03:30:06.187138+00:00"
     },
     {
       "slug": "austin",
@@ -848,19 +848,19 @@
       "wind_deg": 180,
       "sky": "FEW",
       "metar_obs_time": "2026-08-05T03:00:00.000Z",
-      "model_peak": 96.6,
-      "model_src": "ecmwf",
-      "model_src_display": "ECMWF",
+      "model_peak": 98.0,
+      "model_src": "regional",
+      "model_src_display": "gfs seamless",
       "empirico_peak": 87.1,
       "empirico_n": 60,
       "empirico_pct_nuevo_max": 0.0,
-      "peak_final": 92.5,
-      "spread_modelo_vs_empirico": 9.5,
-      "sigma": 3.048,
+      "peak_final": 93.1,
+      "spread_modelo_vs_empirico": 10.9,
+      "sigma": 2.0,
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-04",
-      "fetched_at": "2026-08-05T03:16:37.928560+00:00"
+      "fetched_at": "2026-08-05T03:30:45.266251+00:00"
     },
     {
       "slug": "san-francisco",
@@ -884,7 +884,7 @@
       "viento_nota": "viento HOY coincide con el setup que MAS impulsa el calentamiento esta temporada",
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-04",
-      "fetched_at": "2026-08-05T03:16:47.578131+00:00"
+      "fetched_at": "2026-08-05T03:30:46.910112+00:00"
     },
     {
       "slug": "mexico-city",
@@ -908,7 +908,7 @@
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-04",
-      "fetched_at": "2026-08-05T03:16:48.547961+00:00"
+      "fetched_at": "2026-08-05T03:30:48.199835+00:00"
     },
     {
       "slug": "paris-le-bourget",
@@ -932,34 +932,34 @@
       "viento_nota": "viento HOY coincide con el setup que MAS frena el calentamiento esta temporada",
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:16:50.118212+00:00"
+      "fetched_at": "2026-08-05T03:30:50.205951+00:00"
     },
     {
       "slug": "milan",
       "name": "Milan",
       "station": "LIMC",
       "unit": "C",
-      "metar_temp": 23.0,
+      "metar_temp": 24.0,
       "wind_compass": "NE",
-      "wind_deg": 40,
+      "wind_deg": 30,
       "sky": "CAVOK",
-      "metar_obs_time": "2026-08-05T03:00:00.000Z",
-      "model_peak": 37.3,
-      "model_src": "ecmwf+regional",
-      "model_src_display": "ECMWF+icon eu",
-      "empirico_peak": 30.2,
+      "metar_obs_time": "2026-08-05T03:20:00.000Z",
+      "model_peak": 37.7,
+      "model_src": "regional",
+      "model_src_display": "icon eu",
+      "empirico_peak": 31.2,
       "empirico_n": 61,
       "empirico_pct_nuevo_max": 100.0,
-      "peak_final": 34.3,
-      "spread_modelo_vs_empirico": 7.1,
-      "sigma": 1.603,
+      "peak_final": 35.0,
+      "spread_modelo_vs_empirico": 6.5,
+      "sigma": 1.98,
       "viento_nota": "viento HOY coincide con el setup que MAS impulsa el calentamiento esta temporada",
       "mejor_bucket": {
         "bucket": "35C",
-        "price": 0.06,
-        "prob": 0.223,
-        "ev": 2.722,
-        "kelly": 0.0434,
+        "price": 0.065,
+        "prob": 0.199,
+        "ev": 2.067,
+        "kelly": 0.0359,
         "volume": 2700.0,
         "confianza": "cautela",
         "market_id": "3298737",
@@ -969,58 +969,71 @@
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:16:51.743274+00:00"
+      "fetched_at": "2026-08-05T03:31:21.806717+00:00"
     },
     {
       "slug": "helsinki",
       "name": "Helsinki",
       "station": "EFHK",
       "unit": "C",
-      "metar_temp": 9.0,
-      "wind_compass": "SE",
-      "wind_deg": 130,
+      "metar_temp": 10.0,
+      "wind_compass": "N",
+      "wind_deg": 0,
       "sky": "FEW",
-      "metar_obs_time": "2026-08-05T03:00:00.000Z",
-      "model_peak": 20.5,
-      "model_src": "ecmwf",
-      "model_src_display": "ECMWF",
-      "empirico_peak": 12.9,
-      "empirico_n": 22,
-      "empirico_pct_nuevo_max": 90.9,
-      "peak_final": 17.3,
-      "spread_modelo_vs_empirico": 7.6,
-      "sigma": 1.603,
-      "viento_nota": null,
-      "mejor_bucket": null,
+      "metar_obs_time": "2026-08-05T03:20:00.000Z",
+      "model_peak": 21.3,
+      "model_src": "regional",
+      "model_src_display": "icon eu",
+      "empirico_peak": 16.0,
+      "empirico_n": 29,
+      "empirico_pct_nuevo_max": 100.0,
+      "peak_final": 19.2,
+      "spread_modelo_vs_empirico": 5.3,
+      "sigma": 1.98,
+      "viento_nota": "viento HOY coincide con el setup que MAS frena el calentamiento esta temporada",
+      "mejor_bucket": {
+        "bucket": "20C",
+        "price": 0.125,
+        "prob": 0.184,
+        "ev": 0.472,
+        "kelly": 0.0169,
+        "volume": 672.0,
+        "confianza": "moderado",
+        "market_id": "3298904",
+        "range": [
+          20.0,
+          20.0
+        ]
+      },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:17:14.395151+00:00"
+      "fetched_at": "2026-08-05T03:31:49.181660+00:00"
     },
     {
       "slug": "istanbul",
       "name": "Istanbul",
       "station": "LTFM",
       "unit": "C",
-      "metar_temp": 23.0,
+      "metar_temp": 24.0,
       "wind_compass": "N",
-      "wind_deg": 10,
-      "sky": "BKN",
-      "metar_obs_time": "2026-08-05T03:00:00.000Z",
-      "model_peak": 29.7,
-      "model_src": "regional",
-      "model_src_display": "icon eu",
-      "empirico_peak": 25.6,
+      "wind_deg": 340,
+      "sky": "SCT",
+      "metar_obs_time": "2026-08-05T03:20:00.000Z",
+      "model_peak": 29.4,
+      "model_src": "ecmwf+regional",
+      "model_src_display": "ECMWF+icon eu",
+      "empirico_peak": 26.6,
       "empirico_n": 59,
       "empirico_pct_nuevo_max": 83.1,
-      "peak_final": 28.2,
-      "spread_modelo_vs_empirico": 4.1,
-      "sigma": 1.98,
+      "peak_final": 28.6,
+      "spread_modelo_vs_empirico": 2.8,
+      "sigma": 1.603,
       "viento_nota": null,
       "mejor_bucket": {
         "bucket": "30C",
-        "price": 0.09,
-        "prob": 0.133,
-        "ev": 0.478,
-        "kelly": 0.0118,
+        "price": 0.085,
+        "prob": 0.169,
+        "ev": 0.992,
+        "kelly": 0.023,
         "volume": 3157.0,
         "confianza": "cautela",
         "market_id": "3298874",
@@ -1030,7 +1043,7 @@
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:17:53.439761+00:00"
+      "fetched_at": "2026-08-05T03:31:50.687239+00:00"
     },
     {
       "slug": "moscow",
@@ -1058,7 +1071,7 @@
         "prob": 0.217,
         "ev": 0.113,
         "kelly": 0.0069,
-        "volume": 905.0,
+        "volume": 918.0,
         "confianza": "moderado",
         "market_id": "3298860",
         "range": [
@@ -1067,7 +1080,7 @@
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:17:54.996314+00:00"
+      "fetched_at": "2026-08-05T03:31:52.412411+00:00"
     },
     {
       "slug": "cape-town",
@@ -1091,10 +1104,10 @@
       "viento_nota": "viento HOY coincide con el setup que MAS frena el calentamiento esta temporada",
       "mejor_bucket": {
         "bucket": "18C",
-        "price": 0.185,
+        "price": 0.19,
         "prob": 0.203,
-        "ev": 0.097,
-        "kelly": 0.0055,
+        "ev": 0.068,
+        "kelly": 0.004,
         "volume": 900.0,
         "confianza": "moderado",
         "market_id": "3299632",
@@ -1104,7 +1117,7 @@
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:17:55.937197+00:00"
+      "fetched_at": "2026-08-05T03:31:53.441073+00:00"
     },
     {
       "slug": "jeddah",
@@ -1128,10 +1141,10 @@
       "viento_nota": null,
       "mejor_bucket": {
         "bucket": ">=40C",
-        "price": 0.275,
+        "price": 0.285,
         "prob": 0.475,
-        "ev": 0.728,
-        "kelly": 0.069,
+        "ev": 0.667,
+        "kelly": 0.0665,
         "volume": 4967.0,
         "confianza": "escalable",
         "market_id": "3298933",
@@ -1141,36 +1154,36 @@
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:17:56.905916+00:00"
+      "fetched_at": "2026-08-05T03:31:54.416457+00:00"
     },
     {
       "slug": "karachi",
       "name": "Karachi",
       "station": "OPKC",
       "unit": "C",
-      "metar_temp": 29.0,
+      "metar_temp": 30.0,
       "wind_compass": "W",
       "wind_deg": 260,
       "sky": "BKN",
-      "metar_obs_time": "2026-08-05T03:00:00.000Z",
-      "model_peak": 34.8,
-      "model_src": "ecmwf",
-      "model_src_display": "ECMWF",
-      "empirico_peak": 32.5,
+      "metar_obs_time": "2026-08-05T03:30:00.000Z",
+      "model_peak": null,
+      "model_src": null,
+      "model_src_display": null,
+      "empirico_peak": 33.5,
       "empirico_n": 179,
       "empirico_pct_nuevo_max": 98.9,
-      "peak_final": 34.2,
-      "spread_modelo_vs_empirico": 2.3,
+      "peak_final": 34.1,
+      "spread_modelo_vs_empirico": null,
       "sigma": 1.603,
       "viento_nota": "viento HOY coincide con el setup que MAS impulsa el calentamiento esta temporada",
       "mejor_bucket": {
         "bucket": "34C",
-        "price": 0.145,
-        "prob": 0.243,
-        "ev": 0.676,
-        "kelly": 0.0287,
-        "volume": 3026.0,
-        "confianza": "moderado",
+        "price": 0.095,
+        "prob": 0.244,
+        "ev": 1.573,
+        "kelly": 0.0413,
+        "volume": 3306.0,
+        "confianza": "cautela",
         "market_id": "3299644",
         "range": [
           34.0,
@@ -1178,7 +1191,7 @@
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:17:57.894946+00:00"
+      "fetched_at": "2026-08-05T03:32:16.347840+00:00"
     },
     {
       "slug": "panama-city",
@@ -1202,55 +1215,105 @@
       "viento_nota": "viento HOY coincide con el setup que MAS impulsa el calentamiento esta temporada",
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-04",
-      "fetched_at": "2026-08-05T03:17:58.834735+00:00"
+      "fetched_at": "2026-08-05T03:32:25.588360+00:00"
     },
     {
       "slug": "hong-kong",
       "name": "Hong Kong",
       "station": "VHHH",
       "unit": "C",
-      "metar_temp": 30.0,
+      "metar_temp": 31.0,
       "wind_compass": "NE",
-      "wind_deg": 60,
+      "wind_deg": 50,
       "sky": "FEW",
-      "metar_obs_time": "2026-08-05T03:00:00.000Z",
-      "model_peak": 33.9,
-      "model_src": "regional",
-      "model_src_display": "icon seamless",
-      "empirico_peak": 30.9,
+      "metar_obs_time": "2026-08-05T03:30:00.000Z",
+      "model_peak": 32.6,
+      "model_src": "ecmwf+regional",
+      "model_src_display": "ECMWF+icon seamless",
+      "empirico_peak": 31.9,
       "empirico_n": 26,
       "empirico_pct_nuevo_max": 61.5,
-      "peak_final": 33.0,
-      "spread_modelo_vs_empirico": 3.0,
-      "sigma": 1.98,
+      "peak_final": 32.8,
+      "spread_modelo_vs_empirico": 0.7,
+      "sigma": 1.603,
       "viento_nota": null,
-      "mejor_bucket": null,
+      "mejor_bucket": {
+        "bucket": "34C",
+        "price": 0.075,
+        "prob": 0.187,
+        "ev": 1.49,
+        "kelly": 0.0302,
+        "volume": 14253.0,
+        "confianza": "cautela",
+        "market_id": "3298705",
+        "range": [
+          34.0,
+          34.0
+        ]
+      },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:18:21.376834+00:00"
+      "fetched_at": "2026-08-05T03:32:27.099062+00:00"
+    },
+    {
+      "slug": "busan",
+      "name": "Busan",
+      "station": "RKPK",
+      "unit": "C",
+      "metar_temp": 33.0,
+      "wind_compass": "NE",
+      "wind_deg": 50,
+      "sky": "BKN",
+      "metar_obs_time": "2026-08-05T03:00:00.000Z",
+      "model_peak": 35.1,
+      "model_src": "ecmwf",
+      "model_src_display": "ECMWF",
+      "empirico_peak": 33.9,
+      "empirico_n": 27,
+      "empirico_pct_nuevo_max": 66.7,
+      "peak_final": 35.1,
+      "spread_modelo_vs_empirico": 1.2,
+      "sigma": 1.603,
+      "viento_nota": null,
+      "mejor_bucket": {
+        "bucket": "36C",
+        "price": 0.08,
+        "prob": 0.21,
+        "ev": 1.628,
+        "kelly": 0.0354,
+        "volume": 2444.0,
+        "confianza": "cautela",
+        "market_id": "3298885",
+        "range": [
+          36.0,
+          36.0
+        ]
+      },
+      "fecha_mercado": "2026-08-05",
+      "fetched_at": "2026-08-05T03:33:05.968142+00:00"
     },
     {
       "slug": "manila",
       "name": "Manila",
       "station": "RPLL",
       "unit": "C",
-      "metar_temp": 28.0,
+      "metar_temp": 25.0,
       "wind_compass": "SW",
       "wind_deg": 240,
       "sky": "OVC",
-      "metar_obs_time": "2026-08-05T03:00:00.000Z",
+      "metar_obs_time": "2026-08-05T03:24:00.000Z",
       "model_peak": 28.1,
       "model_src": "ecmwf",
       "model_src_display": "ECMWF",
-      "empirico_peak": 28.5,
+      "empirico_peak": 25.5,
       "empirico_n": 16,
       "empirico_pct_nuevo_max": 37.5,
-      "peak_final": 28.9,
-      "spread_modelo_vs_empirico": 0.4,
+      "peak_final": 27.4,
+      "spread_modelo_vs_empirico": 2.6,
       "sigma": 1.603,
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:18:39.621293+00:00"
+      "fetched_at": "2026-08-05T03:33:07.076510+00:00"
     },
     {
       "slug": "jakarta",
@@ -1274,7 +1337,7 @@
       "viento_nota": null,
       "mejor_bucket": null,
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:18:40.566550+00:00"
+      "fetched_at": "2026-08-05T03:33:08.268959+00:00"
     },
     {
       "slug": "chongqing",
@@ -1298,11 +1361,11 @@
       "viento_nota": "viento HOY coincide con el setup que MAS impulsa el calentamiento esta temporada",
       "mejor_bucket": {
         "bucket": "33C",
-        "price": 0.15,
+        "price": 0.165,
         "prob": 0.244,
-        "ev": 0.63,
-        "kelly": 0.0278,
-        "volume": 4980.0,
+        "ev": 0.481,
+        "kelly": 0.0238,
+        "volume": 4997.0,
         "confianza": "moderado",
         "market_id": "3298786",
         "range": [
@@ -1311,7 +1374,7 @@
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:18:42.046581+00:00"
+      "fetched_at": "2026-08-05T03:33:09.744783+00:00"
     },
     {
       "slug": "guangzhou",
@@ -1335,12 +1398,12 @@
       "viento_nota": null,
       "mejor_bucket": {
         "bucket": "33C",
-        "price": 0.08,
+        "price": 0.1,
         "prob": 0.217,
-        "ev": 1.714,
-        "kelly": 0.0373,
+        "ev": 1.171,
+        "kelly": 0.0325,
         "volume": 2862.0,
-        "confianza": "cautela",
+        "confianza": "moderado",
         "market_id": "3298939",
         "range": [
           33.0,
@@ -1348,7 +1411,7 @@
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:19:04.568927+00:00"
+      "fetched_at": "2026-08-05T03:33:32.459413+00:00"
     },
     {
       "slug": "shenzhen",
@@ -1370,9 +1433,22 @@
       "spread_modelo_vs_empirico": 1.2,
       "sigma": 1.603,
       "viento_nota": null,
-      "mejor_bucket": null,
+      "mejor_bucket": {
+        "bucket": "31C",
+        "price": 0.115,
+        "prob": 0.195,
+        "ev": 0.696,
+        "kelly": 0.0226,
+        "volume": 4490.0,
+        "confianza": "moderado",
+        "market_id": "3298850",
+        "range": [
+          31.0,
+          31.0
+        ]
+      },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:19:22.427935+00:00"
+      "fetched_at": "2026-08-05T03:33:51.071918+00:00"
     },
     {
       "slug": "wuhan",
@@ -1384,19 +1460,32 @@
       "wind_deg": 100,
       "sky": "CAVOK",
       "metar_obs_time": "2026-08-05T03:00:00.000Z",
-      "model_peak": 36.0,
-      "model_src": "ecmwf+regional",
-      "model_src_display": "ECMWF+icon seamless",
+      "model_peak": 37.1,
+      "model_src": "regional",
+      "model_src_display": "icon seamless",
       "empirico_peak": 37.0,
       "empirico_n": 40,
       "empirico_pct_nuevo_max": 92.5,
-      "peak_final": 37.1,
-      "spread_modelo_vs_empirico": 1.0,
-      "sigma": 1.603,
+      "peak_final": 37.6,
+      "spread_modelo_vs_empirico": 0.1,
+      "sigma": 1.98,
       "viento_nota": null,
-      "mejor_bucket": null,
+      "mejor_bucket": {
+        "bucket": "36C",
+        "price": 0.13,
+        "prob": 0.145,
+        "ev": 0.114,
+        "kelly": 0.0043,
+        "volume": 3672.0,
+        "confianza": "moderado",
+        "market_id": "3298807",
+        "range": [
+          36.0,
+          36.0
+        ]
+      },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:19:40.405531+00:00"
+      "fetched_at": "2026-08-05T03:34:21.766183+00:00"
     },
     {
       "slug": "qingdao",
@@ -1420,11 +1509,11 @@
       "viento_nota": null,
       "mejor_bucket": {
         "bucket": "34C",
-        "price": 0.07,
+        "price": 0.065,
         "prob": 0.133,
-        "ev": 0.9,
-        "kelly": 0.0169,
-        "volume": 2713.0,
+        "ev": 1.046,
+        "kelly": 0.0182,
+        "volume": 2790.0,
         "confianza": "cautela",
         "market_id": "3298953",
         "range": [
@@ -1433,7 +1522,7 @@
         ]
       },
       "fecha_mercado": "2026-08-05",
-      "fetched_at": "2026-08-05T03:19:41.953761+00:00"
+      "fetched_at": "2026-08-05T03:34:23.222971+00:00"
     }
   ]
 }
