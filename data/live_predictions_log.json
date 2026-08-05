@@ -9414,13 +9414,17 @@
           26.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 28.0,
+      "winning_bucket": "Will the highest temperature in Toronto be 28°C on August 4?",
+      "pick_won": false,
+      "forecast_error": -0.5,
+      "resolved_at": "2026-08-05T10:44:25.829923+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "sao-paulo",
@@ -9447,13 +9451,17 @@
           25.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 26°C on August 4?",
+      "pick_won": false,
+      "forecast_error": -0.8,
+      "resolved_at": "2026-08-05T10:44:25.968161+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -9467,13 +9475,17 @@
       "peak_final": 19.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 16.0,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 16°C on August 4?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 3.6,
+      "resolved_at": "2026-08-05T10:44:26.122556+00:00",
+      "crps": 2.7093,
+      "winning_range": [
+        16.0,
+        16.0
+      ]
     },
     {
       "slug": "austin",
@@ -9537,13 +9549,17 @@
           81.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 80.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 80-81°F on August 4?",
+      "pick_won": true,
+      "forecast_error": 1.6,
+      "resolved_at": "2026-08-05T10:44:26.218020+00:00",
+      "crps": 1.0399,
+      "winning_range": [
+        80.0,
+        81.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -9557,13 +9573,17 @@
       "peak_final": 77.3,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 77.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 76-77°F on August 4?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.3,
+      "resolved_at": "2026-08-05T10:44:26.363744+00:00",
+      "crps": 0.7241,
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "denver",
@@ -9590,13 +9610,17 @@
           83.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 74.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 74-75°F on August 4?",
+      "pick_won": false,
+      "forecast_error": 6.3,
+      "resolved_at": "2026-08-05T10:44:26.669982+00:00",
+      "crps": 4.6235,
+      "winning_range": [
+        74.0,
+        75.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -9623,13 +9647,17 @@
           71.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 73.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 72-73°F on August 4?",
+      "pick_won": false,
+      "forecast_error": -2.9,
+      "resolved_at": "2026-08-05T10:44:26.968976+00:00",
+      "crps": 1.737,
+      "winning_range": [
+        72.0,
+        73.0
+      ]
     },
     {
       "slug": "mexico-city",
