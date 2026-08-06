@@ -10547,13 +10547,17 @@
           26.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 25°C on August 5?",
+      "pick_won": false,
+      "forecast_error": 0.8,
+      "resolved_at": "2026-08-06T04:22:03.790985+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -10881,13 +10885,17 @@
       "peak_final": 25.7,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 28.0,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 28°C on August 5?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.3,
+      "resolved_at": "2026-08-06T04:22:04.368143+00:00",
+      "crps": 1.5044,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -10901,13 +10909,17 @@
       "peak_final": 18.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 16.0,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 16°C on August 5?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.8,
+      "resolved_at": "2026-08-06T04:22:04.507826+00:00",
+      "crps": 1.9479,
+      "winning_range": [
+        16.0,
+        16.0
+      ]
     },
     {
       "slug": "nyc",
@@ -12258,6 +12270,165 @@
           17.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "nyc",
+      "name": "New York City",
+      "station": "KLGA",
+      "unit": "F",
+      "fecha_mercado": "2026-08-06",
+      "logged_at": "2026-08-06T04:12:58.604447+00:00",
+      "model_peak": 89.6,
+      "empirico_peak": 86.6,
+      "peak_final": 88.5,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "miami",
+      "name": "Miami",
+      "station": "KMIA",
+      "unit": "F",
+      "fecha_mercado": "2026-08-06",
+      "logged_at": "2026-08-06T04:13:01.556937+00:00",
+      "model_peak": 84.3,
+      "empirico_peak": 85.6,
+      "peak_final": 85.3,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "atlanta",
+      "name": "Atlanta",
+      "station": "KATL",
+      "unit": "F",
+      "fecha_mercado": "2026-08-06",
+      "logged_at": "2026-08-06T04:14:08.322218+00:00",
+      "model_peak": 85.8,
+      "empirico_peak": 85.0,
+      "peak_final": 85.8,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "84-85F",
+        "price": 0.105,
+        "prob": 0.119,
+        "ev": 0.134,
+        "kelly": 0.0039,
+        "volume": 1324.0,
+        "confianza": "moderado",
+        "market_id": "3350823",
+        "range": [
+          84.0,
+          85.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "toronto",
+      "name": "Toronto",
+      "station": "CYYZ",
+      "unit": "C",
+      "fecha_mercado": "2026-08-06",
+      "logged_at": "2026-08-06T04:17:57.490648+00:00",
+      "model_peak": 29.8,
+      "empirico_peak": 27.7,
+      "peak_final": 29.4,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "30C",
+        "price": 0.165,
+        "prob": 0.229,
+        "ev": 0.387,
+        "kelly": 0.0191,
+        "volume": 1038.0,
+        "confianza": "moderado",
+        "market_id": "3350759",
+        "range": [
+          30.0,
+          30.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-08-06",
+      "logged_at": "2026-08-06T04:17:58.415539+00:00",
+      "model_peak": 28.2,
+      "empirico_peak": 24.1,
+      "peak_final": 26.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "27C",
+        "price": 0.17,
+        "prob": 0.241,
+        "ev": 0.416,
+        "kelly": 0.0213,
+        "volume": 6247.0,
+        "confianza": "moderado",
+        "market_id": "3350734",
+        "range": [
+          27.0,
+          27.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-08-06",
+      "logged_at": "2026-08-06T04:17:59.334788+00:00",
+      "model_peak": 14.2,
+      "empirico_peak": 21.7,
+      "peak_final": 18.5,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
