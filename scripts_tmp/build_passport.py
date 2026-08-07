@@ -35,12 +35,24 @@ gato1_b64 = (ROOT / "scripts_tmp/gatos/gato1_cutout_small.b64").read_text(encodi
 gato2_b64 = (ROOT / "scripts_tmp/gatos/gato2_cutout_small.b64").read_text(encoding="ascii")
 gato3_b64 = (ROOT / "scripts_tmp/gatos/gato3_crop.b64").read_text(encoding="ascii")
 
+# Serie diaria historica (temp max / viento / direccion dominante) por estacion,
+# generada por build_daily_series.py a partir de data/iem_raw/*.csv — un archivo
+# compacto por estacion, se combinan todos en un solo dict keyed por ICAO para
+# el grafico "evolucion historica" de la pestana Detalle por ciudad.
+daily_series_dir = ROOT / "data/husky/daily_series"
+daily_series = {}
+if daily_series_dir.exists():
+    for f in sorted(daily_series_dir.glob("*.json")):
+        daily_series[f.stem] = json.loads(f.read_text(encoding="utf-8"))
+daily_series_json = json.dumps(daily_series, separators=(",", ":")).replace("</script", "<\\/script")
+
 out = (tpl
        .replace("__CONSOLIDATED_JSON__", consolidated)
        .replace("__TRACKED_JSON__", tracked)
        .replace("__LIVE_SNAPSHOT_JSON__", live_json)
        .replace("__RESOLUTION_JSON__", res_json)
        .replace("__TRACK_RECORD_JSON__", tr_json)
+       .replace("__DAILY_SERIES_JSON__", daily_series_json)
        .replace("__GATO1_B64__", gato1_b64)
        .replace("__GATO2_B64__", gato2_b64)
        .replace("__GATO3_B64__", gato3_b64))

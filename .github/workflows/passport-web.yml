@@ -100,6 +100,12 @@ jobs:
             git push origin main
           fi
 
+      - name: Serie diaria historica (temp/viento/direccion desde data/iem_raw)
+        # Se regenera cada corrida a partir de data/iem_raw/*.csv (ya versionado en
+        # el repo publico) — no hace falta commitear el resultado, es barato de
+        # recalcular. Alimenta el grafico "Evolucion historica" de build_passport.py.
+        run: python scripts_tmp/build_daily_series.py
+
       # El build va DESPUES del commit: genera dist/ y scripts_tmp/husky_passport.html
       # (ambos gitignoreados — el HTML lleva el dataset privado completo embebido y no
       # puede vivir en el repo publico), y un arbol sucio rompia el pull --rebase.
