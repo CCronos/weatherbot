@@ -13310,13 +13310,17 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Taipei be 33°C on August 7?",
+      "pick_won": true,
+      "forecast_error": -0.2,
+      "resolved_at": "2026-08-07T20:50:40.269975+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "shanghai",
@@ -13511,13 +13515,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Lucknow be 32°C on August 7?",
+      "pick_won": false,
+      "forecast_error": 0.6,
+      "resolved_at": "2026-08-07T20:50:40.567659+00:00",
+      "crps": 0.4632,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "tel-aviv",
