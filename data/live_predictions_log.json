@@ -12713,13 +12713,17 @@
       "peak_final": 83.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 87.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 86-87°F on August 6?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.2,
+      "resolved_at": "2026-08-07T11:54:54.572299+00:00",
+      "crps": 1.9418,
+      "winning_range": [
+        86.0,
+        87.0
+      ]
     },
     {
       "slug": "houston",
@@ -12842,13 +12846,17 @@
       "peak_final": 70.6,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 72.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 72-73°F on August 6?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.4,
+      "resolved_at": "2026-08-07T11:54:54.668272+00:00",
+      "crps": 0.9644,
+      "winning_range": [
+        72.0,
+        73.0
+      ]
     },
     {
       "slug": "mexico-city",
