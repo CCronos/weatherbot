@@ -13252,13 +13252,17 @@
           21.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 22.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 22°C on August 7?",
+      "pick_won": false,
+      "forecast_error": -0.5,
+      "resolved_at": "2026-08-07T23:42:27.060969+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -15460,6 +15464,39 @@
       "peak_final": 16.2,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-08",
+      "logged_at": "2026-08-07T23:34:56.754216+00:00",
+      "model_peak": 28.1,
+      "empirico_peak": 23.8,
+      "peak_final": 26.4,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "26C",
+        "price": 0.075,
+        "prob": 0.238,
+        "ev": 2.168,
+        "kelly": 0.044,
+        "volume": 3380.0,
+        "confianza": "cautela",
+        "market_id": "3375568",
+        "range": [
+          26.0,
+          26.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
