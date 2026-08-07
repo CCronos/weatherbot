@@ -12506,13 +12506,17 @@
       "peak_final": 85.3,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 88.0,
+      "winning_bucket": "Will the highest temperature in Miami be between 88-89°F on August 6?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.7,
+      "resolved_at": "2026-08-07T09:08:39.377323+00:00",
+      "crps": 1.6086,
+      "winning_range": [
+        88.0,
+        89.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -12753,13 +12757,17 @@
       "peak_final": 78.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 77.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 76-77°F on August 6?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.8,
+      "resolved_at": "2026-08-07T09:08:39.555541+00:00",
+      "crps": 1.1245,
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "denver",
@@ -12773,13 +12781,17 @@
       "peak_final": 85.0,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 97.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 96-97°F on August 6?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -12.0,
+      "resolved_at": "2026-08-07T09:08:39.760262+00:00",
+      "crps": 10.2804,
+      "winning_range": [
+        96.0,
+        97.0
+      ]
     },
     {
       "slug": "austin",
@@ -12806,13 +12818,17 @@
           97.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 100.0,
+      "winning_bucket": "Will the highest temperature in Austin be between 100-101°F on August 6?",
+      "pick_won": false,
+      "forecast_error": -3.7,
+      "resolved_at": "2026-08-07T09:08:39.902552+00:00",
+      "crps": 2.3127,
+      "winning_range": [
+        100.0,
+        101.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -12859,13 +12875,17 @@
           27.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 24°C on August 6?",
+      "pick_won": false,
+      "forecast_error": 2.0,
+      "resolved_at": "2026-08-07T09:08:40.085418+00:00",
+      "crps": 1.2586,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "panama-city",
