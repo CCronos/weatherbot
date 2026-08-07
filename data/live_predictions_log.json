@@ -11708,13 +11708,17 @@
       "peak_final": 33.1,
       "sigma": 1.98,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 34°C on August 6?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.1,
+      "resolved_at": "2026-08-07T03:20:13.688915+00:00",
+      "crps": 0.4647,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "manila",
@@ -13905,6 +13909,72 @@
         "range": [
           29.0,
           29.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-08-07",
+      "logged_at": "2026-08-07T03:16:49.377828+00:00",
+      "model_peak": 27.7,
+      "empirico_peak": 25.3,
+      "peak_final": 27.0,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "27C",
+        "price": 0.19,
+        "prob": 0.245,
+        "ev": 0.289,
+        "kelly": 0.0169,
+        "volume": 2704.0,
+        "confianza": "moderado",
+        "market_id": "3372950",
+        "range": [
+          27.0,
+          27.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-08-07",
+      "logged_at": "2026-08-07T03:17:11.179940+00:00",
+      "model_peak": null,
+      "empirico_peak": 14.6,
+      "peak_final": 15.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "15C",
+        "price": 0.115,
+        "prob": 0.244,
+        "ev": 1.125,
+        "kelly": 0.0366,
+        "volume": 5366.0,
+        "confianza": "moderado",
+        "market_id": "3372963",
+        "range": [
+          15.0,
+          15.0
         ]
       },
       "resolved": false,
