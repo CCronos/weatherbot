@@ -13881,6 +13881,39 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "moscow",
+      "name": "Moscow",
+      "station": "UUWW",
+      "unit": "C",
+      "fecha_mercado": "2026-08-07",
+      "logged_at": "2026-08-07T01:05:26.311888+00:00",
+      "model_peak": 30.8,
+      "empirico_peak": 24.1,
+      "peak_final": 27.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "29C",
+        "price": 0.165,
+        "prob": 0.195,
+        "ev": 0.182,
+        "kelly": 0.009,
+        "volume": 2149.0,
+        "confianza": "moderado",
+        "market_id": "3352545",
+        "range": [
+          29.0,
+          29.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
