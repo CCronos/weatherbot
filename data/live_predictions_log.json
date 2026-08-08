@@ -14637,13 +14637,17 @@
           15.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 13.0,
+      "winning_bucket": "Will the highest temperature in Wellington be 13°C on August 8?",
+      "pick_won": false,
+      "forecast_error": 2.1,
+      "resolved_at": "2026-08-08T20:39:04.554318+00:00",
+      "crps": 1.3385,
+      "winning_range": [
+        13.0,
+        13.0
+      ]
     },
     {
       "slug": "busan",
@@ -14670,13 +14674,17 @@
           36.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Busan be 36°C on August 8?",
+      "pick_won": true,
+      "forecast_error": -1.6,
+      "resolved_at": "2026-08-08T20:39:04.677638+00:00",
+      "crps": 0.9637,
+      "winning_range": [
+        36.0,
+        36.0
+      ]
     },
     {
       "slug": "seoul",
@@ -14703,13 +14711,17 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Seoul (Incheon) be 36°C on August 8?",
+      "pick_won": false,
+      "forecast_error": -3.1,
+      "resolved_at": "2026-08-08T20:39:04.766802+00:00",
+      "crps": 2.228,
+      "winning_range": [
+        36.0,
+        36.0
+      ]
     },
     {
       "slug": "tokyo",
@@ -14723,13 +14735,17 @@
       "peak_final": 30.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Tokyo be 34°C on August 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.6,
+      "resolved_at": "2026-08-08T20:39:04.854962+00:00",
+      "crps": 2.7093,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "beijing",
@@ -14756,13 +14772,17 @@
           30.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Beijing be 32°C on August 8?",
+      "pick_won": false,
+      "forecast_error": -0.8,
+      "resolved_at": "2026-08-08T20:39:04.941380+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "singapore",
@@ -14776,13 +14796,17 @@
       "peak_final": 32.7,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Singapore be 32°C on August 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.7,
+      "resolved_at": "2026-08-08T20:39:05.027817+00:00",
+      "crps": 0.4947,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "kuala-lumpur",
@@ -14796,13 +14820,17 @@
       "peak_final": 33.9,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Kuala Lumpur be 33°C on August 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.9,
+      "resolved_at": "2026-08-08T20:39:05.145423+00:00",
+      "crps": 0.5711,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "hong-kong",
@@ -14849,13 +14877,17 @@
       "peak_final": 28.7,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 28.0,
+      "winning_bucket": "Will the highest temperature in Manila be 28°C on August 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.7,
+      "resolved_at": "2026-08-08T20:39:05.378182+00:00",
+      "crps": 0.4947,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "chongqing",
@@ -14869,13 +14901,17 @@
       "peak_final": 30.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Chongqing be 30°C on August 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.4,
+      "resolved_at": "2026-08-08T20:39:05.485325+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "guangzhou",
@@ -14889,13 +14925,17 @@
       "peak_final": 35.5,
       "sigma": 1.98,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 37.0,
+      "winning_bucket": "Will the highest temperature in Guangzhou be 37°C on August 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.5,
+      "resolved_at": "2026-08-08T20:39:05.571823+00:00",
+      "crps": 0.8956,
+      "winning_range": [
+        37.0,
+        37.0
+      ]
     },
     {
       "slug": "shenzhen",
@@ -14922,13 +14962,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Shenzhen be 36°C on August 8?",
+      "pick_won": false,
+      "forecast_error": -2.0,
+      "resolved_at": "2026-08-08T20:39:05.685222+00:00",
+      "crps": 1.2586,
+      "winning_range": [
+        36.0,
+        36.0
+      ]
     },
     {
       "slug": "qingdao",
@@ -14955,13 +14999,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Qingdao be 33°C on August 8?",
+      "pick_won": false,
+      "forecast_error": 2.2,
+      "resolved_at": "2026-08-08T20:39:05.803776+00:00",
+      "crps": 1.4205,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "taipei",
@@ -14988,13 +15036,17 @@
           999.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Taipei be 32°C or higher on August 8?",
+      "pick_won": true,
+      "forecast_error": -1.7,
+      "resolved_at": "2026-08-08T20:39:05.916822+00:00",
+      "crps": 1.0333,
+      "winning_range": [
+        32.0,
+        999.0
+      ]
     },
     {
       "slug": "shanghai",
@@ -15021,13 +15073,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Shanghai be 33°C on August 8?",
+      "pick_won": false,
+      "forecast_error": 0.5,
+      "resolved_at": "2026-08-08T20:39:06.005056+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "chengdu",
@@ -15054,13 +15110,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Chengdu be 35°C on August 8?",
+      "pick_won": false,
+      "forecast_error": -1.7,
+      "resolved_at": "2026-08-08T20:39:06.114580+00:00",
+      "crps": 1.0333,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "jakarta",
@@ -15094,13 +15154,17 @@
       "peak_final": 35.2,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 37.0,
+      "winning_bucket": "Will the highest temperature in Wuhan be 37°C on August 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.8,
+      "resolved_at": "2026-08-08T20:39:06.298335+00:00",
+      "crps": 1.1058,
+      "winning_range": [
+        37.0,
+        37.0
+      ]
     },
     {
       "slug": "lucknow",
@@ -15127,13 +15191,17 @@
           35.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Lucknow be 32°C on August 8?",
+      "pick_won": false,
+      "forecast_error": 1.6,
+      "resolved_at": "2026-08-08T20:39:06.379825+00:00",
+      "crps": 0.9637,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "karachi",
@@ -15147,13 +15215,17 @@
       "peak_final": 34.2,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Karachi be 34°C on August 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.2,
+      "resolved_at": "2026-08-08T20:39:06.493386+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "ankara",
