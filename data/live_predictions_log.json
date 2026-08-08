@@ -14128,13 +14128,17 @@
           27.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 25°C on August 7?",
+      "pick_won": false,
+      "forecast_error": 2.0,
+      "resolved_at": "2026-08-08T03:35:57.835272+00:00",
+      "crps": 1.2586,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -15503,6 +15507,72 @@
         "range": [
           26.0,
           26.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-08-08",
+      "logged_at": "2026-08-08T03:31:43.180605+00:00",
+      "model_peak": 27.5,
+      "empirico_peak": 26.1,
+      "peak_final": 27.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "27C",
+        "price": 0.215,
+        "prob": 0.241,
+        "ev": 0.12,
+        "kelly": 0.0082,
+        "volume": 2337.0,
+        "confianza": "escalable",
+        "market_id": "3393128",
+        "range": [
+          27.0,
+          27.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-08-08",
+      "logged_at": "2026-08-08T03:31:44.370049+00:00",
+      "model_peak": 13.0,
+      "empirico_peak": 16.3,
+      "peak_final": 15.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "15C",
+        "price": 0.075,
+        "prob": 0.244,
+        "ev": 2.259,
+        "kelly": 0.0458,
+        "volume": 1359.0,
+        "confianza": "cautela",
+        "market_id": "3393141",
+        "range": [
+          15.0,
+          15.0
         ]
       },
       "resolved": false,
