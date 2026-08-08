@@ -13166,13 +13166,17 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 28.0,
+      "winning_bucket": "Will the highest temperature in Munich be 28°C on August 7?",
+      "pick_won": false,
+      "forecast_error": -0.4,
+      "resolved_at": "2026-08-08T07:01:42.663235+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "ankara",
@@ -13223,13 +13227,17 @@
       "peak_final": 37.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 39.0,
+      "winning_bucket": "Will the highest temperature in Madrid be 39°C on August 7?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.0,
+      "resolved_at": "2026-08-08T07:01:42.738179+00:00",
+      "crps": 1.2586,
+      "winning_range": [
+        39.0,
+        39.0
+      ]
     },
     {
       "slug": "amsterdam",
@@ -14165,13 +14173,17 @@
           15.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 14.0,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 14°C on August 7?",
+      "pick_won": false,
+      "forecast_error": 1.1,
+      "resolved_at": "2026-08-08T07:01:43.218905+00:00",
+      "crps": 0.6645,
+      "winning_range": [
+        14.0,
+        14.0
+      ]
     },
     {
       "slug": "nyc",
@@ -14218,13 +14230,17 @@
       "peak_final": 84.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 87.0,
+      "winning_bucket": "Will the highest temperature in Chicago be between 86-87°F on August 7?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.2,
+      "resolved_at": "2026-08-08T07:01:43.324485+00:00",
+      "crps": 1.3197,
+      "winning_range": [
+        86.0,
+        87.0
+      ]
     },
     {
       "slug": "miami",
@@ -14288,13 +14304,17 @@
           103.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 100.0,
+      "winning_bucket": "Will the highest temperature in Dallas be between 100-101°F on August 7?",
+      "pick_won": false,
+      "forecast_error": 2.5,
+      "resolved_at": "2026-08-08T07:01:43.403946+00:00",
+      "crps": 1.4874,
+      "winning_range": [
+        100.0,
+        101.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -15788,6 +15808,26 @@
       "empirico_peak": 92.0,
       "peak_final": 93.6,
       "sigma": 2.0,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "mexico-city",
+      "name": "Mexico City",
+      "station": "MMMX",
+      "unit": "C",
+      "fecha_mercado": "2026-08-08",
+      "logged_at": "2026-08-08T06:58:54.948298+00:00",
+      "model_peak": 22.5,
+      "empirico_peak": 21.8,
+      "peak_final": 22.6,
+      "sigma": 1.603,
       "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
