@@ -13092,13 +13092,17 @@
           24.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in London be 26°C on August 7?",
+      "pick_won": false,
+      "forecast_error": -0.6,
+      "resolved_at": "2026-08-08T01:47:58.835206+00:00",
+      "crps": 0.5347,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "paris",
@@ -13616,13 +13620,17 @@
       "peak_final": 33.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Milan be 33°C on August 7?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.6,
+      "resolved_at": "2026-08-08T01:47:59.175839+00:00",
+      "crps": 0.4632,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "helsinki",
