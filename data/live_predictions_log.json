@@ -14251,13 +14251,17 @@
           87.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 90.0,
+      "winning_bucket": "Will the highest temperature in Miami be between 90-91°F on August 7?",
+      "pick_won": false,
+      "forecast_error": -2.2,
+      "resolved_at": "2026-08-08T05:54:44.989331+00:00",
+      "crps": 1.3197,
+      "winning_range": [
+        90.0,
+        91.0
+      ]
     },
     {
       "slug": "dallas",
@@ -14317,13 +14321,17 @@
           85.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 87.0,
+      "winning_bucket": "Will the highest temperature in Atlanta be between 86-87°F on August 7?",
+      "pick_won": false,
+      "forecast_error": 0.0,
+      "resolved_at": "2026-08-08T05:54:45.118520+00:00",
+      "crps": 0.7123,
+      "winning_range": [
+        86.0,
+        87.0
+      ]
     },
     {
       "slug": "houston",
@@ -15721,6 +15729,66 @@
           32.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "chicago",
+      "name": "Chicago",
+      "station": "KORD",
+      "unit": "F",
+      "fecha_mercado": "2026-08-08",
+      "logged_at": "2026-08-08T05:46:42.097812+00:00",
+      "model_peak": 85.4,
+      "empirico_peak": 89.3,
+      "peak_final": 87.9,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "dallas",
+      "name": "Dallas",
+      "station": "KDAL",
+      "unit": "F",
+      "fecha_mercado": "2026-08-08",
+      "logged_at": "2026-08-08T05:46:44.433409+00:00",
+      "model_peak": 102.2,
+      "empirico_peak": 96.6,
+      "peak_final": 100.0,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "houston",
+      "name": "Houston",
+      "station": "KHOU",
+      "unit": "F",
+      "fecha_mercado": "2026-08-08",
+      "logged_at": "2026-08-08T05:47:59.943757+00:00",
+      "model_peak": 94.0,
+      "empirico_peak": 92.0,
+      "peak_final": 93.6,
+      "sigma": 2.0,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
