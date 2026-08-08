@@ -14210,13 +14210,17 @@
           95.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 93.0,
+      "winning_bucket": "Will the highest temperature in New York City be between 92-93°F on August 7?",
+      "pick_won": false,
+      "forecast_error": 0.2,
+      "resolved_at": "2026-08-08T07:58:50.967052+00:00",
+      "crps": 0.7175,
+      "winning_range": [
+        92.0,
+        93.0
+      ]
     },
     {
       "slug": "chicago",
@@ -14365,13 +14369,17 @@
       "peak_final": 91.7,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 93.0,
+      "winning_bucket": "Will the highest temperature in Houston be between 92-93°F on August 7?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.3,
+      "resolved_at": "2026-08-08T07:58:51.041154+00:00",
+      "crps": 0.9302,
+      "winning_range": [
+        92.0,
+        93.0
+      ]
     },
     {
       "slug": "toronto",
@@ -14398,13 +14406,17 @@
           28.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Toronto be 26°C on August 7?",
+      "pick_won": false,
+      "forecast_error": 1.9,
+      "resolved_at": "2026-08-08T07:58:51.112810+00:00",
+      "crps": 1.181,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "austin",
@@ -14418,13 +14430,17 @@
       "peak_final": 99.3,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 99.0,
+      "winning_bucket": "Will the highest temperature in Austin be between 98-99°F on August 7?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.3,
+      "resolved_at": "2026-08-08T07:58:51.189704+00:00",
+      "crps": 0.7241,
+      "winning_range": [
+        98.0,
+        99.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -14451,13 +14467,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Panama City be 34°C on August 7?",
+      "pick_won": false,
+      "forecast_error": -2.7,
+      "resolved_at": "2026-08-08T07:58:51.263635+00:00",
+      "crps": 1.8565,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "seattle",
@@ -15829,6 +15849,112 @@
       "peak_final": 22.6,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "station": "KSEA",
+      "unit": "F",
+      "fecha_mercado": "2026-08-08",
+      "logged_at": "2026-08-08T07:50:19.349629+00:00",
+      "model_peak": 83.2,
+      "empirico_peak": 78.7,
+      "peak_final": 81.5,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "los-angeles",
+      "name": "Los Angeles",
+      "station": "KLAX",
+      "unit": "F",
+      "fecha_mercado": "2026-08-08",
+      "logged_at": "2026-08-08T07:51:34.014820+00:00",
+      "model_peak": 83.4,
+      "empirico_peak": 76.5,
+      "peak_final": 80.6,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "station": "KBKF",
+      "unit": "F",
+      "fecha_mercado": "2026-08-08",
+      "logged_at": "2026-08-08T07:51:35.251854+00:00",
+      "model_peak": 98.9,
+      "empirico_peak": 92.4,
+      "peak_final": 96.2,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "96-97F",
+        "price": 0.085,
+        "prob": 0.13,
+        "ev": 0.526,
+        "kelly": 0.0122,
+        "volume": 1513.0,
+        "confianza": "cautela",
+        "market_id": "3393252",
+        "range": [
+          96.0,
+          97.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "san-francisco",
+      "name": "San Francisco",
+      "station": "KSFO",
+      "unit": "F",
+      "fecha_mercado": "2026-08-08",
+      "logged_at": "2026-08-08T07:55:45.332586+00:00",
+      "model_peak": 73.4,
+      "empirico_peak": 66.2,
+      "peak_final": 70.4,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "<=67F",
+        "price": 0.08,
+        "prob": 0.132,
+        "ev": 0.654,
+        "kelly": 0.0142,
+        "volume": 1535.0,
+        "confianza": "cautela",
+        "market_id": "3393281",
+        "range": [
+          -999.0,
+          67.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
