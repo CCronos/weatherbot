@@ -18035,6 +18035,39 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "lucknow",
+      "name": "Lucknow",
+      "station": "VILK",
+      "unit": "C",
+      "fecha_mercado": "2026-08-10",
+      "logged_at": "2026-08-09T18:45:14.970657+00:00",
+      "model_peak": 33.2,
+      "empirico_peak": 32.6,
+      "peak_final": 33.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "32C",
+        "price": 0.175,
+        "prob": 0.178,
+        "ev": 0.018,
+        "kelly": 0.0009,
+        "volume": 1152.0,
+        "confianza": "moderado",
+        "market_id": "3415636",
+        "range": [
+          32.0,
+          32.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
