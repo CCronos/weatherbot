@@ -18068,6 +18068,39 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "karachi",
+      "name": "Karachi",
+      "station": "OPKC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-10",
+      "logged_at": "2026-08-09T19:40:04.908445+00:00",
+      "model_peak": 34.2,
+      "empirico_peak": 32.5,
+      "peak_final": 33.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "34C",
+        "price": 0.13,
+        "prob": 0.241,
+        "ev": 0.852,
+        "kelly": 0.0318,
+        "volume": 1986.0,
+        "confianza": "moderado",
+        "market_id": "3415778",
+        "range": [
+          34.0,
+          34.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
