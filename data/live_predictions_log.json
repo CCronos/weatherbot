@@ -16126,13 +16126,17 @@
           97.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 99.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 98-99°F on August 8?",
+      "pick_won": false,
+      "forecast_error": -2.8,
+      "resolved_at": "2026-08-09T09:49:34.517607+00:00",
+      "crps": 1.6719,
+      "winning_range": [
+        98.0,
+        99.0
+      ]
     },
     {
       "slug": "san-francisco",
