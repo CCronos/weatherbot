@@ -15352,11 +15352,15 @@
       },
       "resolved": false,
       "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
+      "winning_bucket": "Will the highest temperature in Istanbul be 29°C on August 8?",
+      "pick_won": false,
       "forecast_error": null,
       "resolved_at": null,
-      "crps": null
+      "crps": null,
+      "winning_range": [
+        29.0,
+        29.0
+      ]
     },
     {
       "slug": "moscow",
@@ -16037,13 +16041,17 @@
       "peak_final": 22.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 24°C on August 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.4,
+      "resolved_at": "2026-08-09T08:53:11.550533+00:00",
+      "crps": 0.8336,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "seattle",
@@ -16057,13 +16065,17 @@
       "peak_final": 81.5,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 83.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 82-83°F on August 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.5,
+      "resolved_at": "2026-08-09T08:53:11.716494+00:00",
+      "crps": 1.001,
+      "winning_range": [
+        82.0,
+        83.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -16077,13 +16089,17 @@
       "peak_final": 80.6,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 79.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 78-79°F on August 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.6,
+      "resolved_at": "2026-08-09T08:53:11.862876+00:00",
+      "crps": 1.0399,
+      "winning_range": [
+        78.0,
+        79.0
+      ]
     },
     {
       "slug": "denver",
@@ -16143,13 +16159,17 @@
           67.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 66.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be 67°F or below on August 8?",
+      "pick_won": true,
+      "forecast_error": 4.4,
+      "resolved_at": "2026-08-09T08:53:12.110755+00:00",
+      "crps": 2.8833,
+      "winning_range": [
+        -999.0,
+        67.0
+      ]
     },
     {
       "slug": "wellington",
