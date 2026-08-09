@@ -15579,13 +15579,17 @@
           24.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 22.0,
+      "winning_bucket": "Will the highest temperature in Warsaw be 22°C on August 8?",
+      "pick_won": false,
+      "forecast_error": 2.3,
+      "resolved_at": "2026-08-09T08:04:17.569607+00:00",
+      "crps": 1.5044,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "paris-le-bourget",
@@ -15693,13 +15697,17 @@
           26.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 28.0,
+      "winning_bucket": "Will the highest temperature in London be 28°C on August 8?",
+      "pick_won": false,
+      "forecast_error": -1.6,
+      "resolved_at": "2026-08-09T08:04:17.778704+00:00",
+      "crps": 0.9637,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "sao-paulo",
@@ -17440,6 +17448,46 @@
           25.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "station": "KSEA",
+      "unit": "F",
+      "fecha_mercado": "2026-08-09",
+      "logged_at": "2026-08-09T07:55:45.491587+00:00",
+      "model_peak": 78.6,
+      "empirico_peak": 84.1,
+      "peak_final": 81.8,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "los-angeles",
+      "name": "Los Angeles",
+      "station": "KLAX",
+      "unit": "F",
+      "fecha_mercado": "2026-08-09",
+      "logged_at": "2026-08-09T07:57:08.205008+00:00",
+      "model_peak": 83.1,
+      "empirico_peak": 76.8,
+      "peak_final": 80.4,
+      "sigma": 3.048,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
