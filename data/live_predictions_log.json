@@ -16526,13 +16526,17 @@
           37.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 36°C on August 9?",
+      "pick_won": false,
+      "forecast_error": -0.4,
+      "resolved_at": "2026-08-10T07:50:04.403364+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        36.0,
+        36.0
+      ]
     },
     {
       "slug": "manila",
@@ -16823,13 +16827,17 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Ankara be 31°C on August 9?",
+      "pick_won": false,
+      "forecast_error": 0.4,
+      "resolved_at": "2026-08-10T07:50:04.551455+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "tel-aviv",
@@ -16856,13 +16864,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Tel Aviv be 33°C on August 9?",
+      "pick_won": false,
+      "forecast_error": 1.8,
+      "resolved_at": "2026-08-10T07:50:04.642400+00:00",
+      "crps": 1.1058,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "helsinki",
@@ -16937,13 +16949,17 @@
       "peak_final": 23.2,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 22.0,
+      "winning_bucket": "Will the highest temperature in Moscow be 22°C on August 9?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.2,
+      "resolved_at": "2026-08-10T07:50:04.944262+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "jeddah",
@@ -16970,13 +16986,17 @@
           999.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 37.0,
+      "winning_bucket": "Will the highest temperature in Jeddah be 37°C on August 9?",
+      "pick_won": false,
+      "forecast_error": 3.2,
+      "resolved_at": "2026-08-10T07:50:05.027415+00:00",
+      "crps": 2.3231,
+      "winning_range": [
+        37.0,
+        37.0
+      ]
     },
     {
       "slug": "paris",
@@ -17304,13 +17324,17 @@
           13.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 13.0,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 13°C on August 9?",
+      "pick_won": true,
+      "forecast_error": 0.9,
+      "resolved_at": "2026-08-10T07:50:05.285293+00:00",
+      "crps": 0.5711,
+      "winning_range": [
+        13.0,
+        13.0
+      ]
     },
     {
       "slug": "nyc",
@@ -17418,13 +17442,17 @@
           97.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 98.0,
+      "winning_bucket": "Will the highest temperature in Dallas be between 98-99°F on August 9?",
+      "pick_won": false,
+      "forecast_error": -0.5,
+      "resolved_at": "2026-08-10T07:50:05.402413+00:00",
+      "crps": 0.745,
+      "winning_range": [
+        98.0,
+        99.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -17462,13 +17490,17 @@
       "peak_final": 92.0,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 93.0,
+      "winning_bucket": "Will the highest temperature in Houston be between 92-93°F on August 9?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.0,
+      "resolved_at": "2026-08-10T07:50:05.500079+00:00",
+      "crps": 0.842,
+      "winning_range": [
+        92.0,
+        93.0
+      ]
     },
     {
       "slug": "toronto",
@@ -17506,13 +17538,17 @@
       "peak_final": 97.6,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 99.0,
+      "winning_bucket": "Will the highest temperature in Austin be between 98-99°F on August 9?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.4,
+      "resolved_at": "2026-08-10T07:50:05.575359+00:00",
+      "crps": 0.9644,
+      "winning_range": [
+        98.0,
+        99.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -17616,13 +17652,17 @@
           25.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 23°C on August 9?",
+      "pick_won": false,
+      "forecast_error": 0.3,
+      "resolved_at": "2026-08-10T07:50:05.737065+00:00",
+      "crps": 0.3969,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "seattle",
@@ -18901,6 +18941,112 @@
           33.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "station": "KSEA",
+      "unit": "F",
+      "fecha_mercado": "2026-08-10",
+      "logged_at": "2026-08-10T07:41:57.627233+00:00",
+      "model_peak": 77.6,
+      "empirico_peak": 75.2,
+      "peak_final": 76.9,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "los-angeles",
+      "name": "Los Angeles",
+      "station": "KLAX",
+      "unit": "F",
+      "fecha_mercado": "2026-08-10",
+      "logged_at": "2026-08-10T07:43:25.341303+00:00",
+      "model_peak": null,
+      "empirico_peak": 77.6,
+      "peak_final": 78.1,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "80-81F",
+        "price": 0.07,
+        "prob": 0.096,
+        "ev": 0.369,
+        "kelly": 0.0069,
+        "volume": 3869.0,
+        "confianza": "cautela",
+        "market_id": "3433952",
+        "range": [
+          80.0,
+          81.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "san-francisco",
+      "name": "San Francisco",
+      "station": "KSFO",
+      "unit": "F",
+      "fecha_mercado": "2026-08-10",
+      "logged_at": "2026-08-10T07:47:03.962863+00:00",
+      "model_peak": 80.0,
+      "empirico_peak": 68.0,
+      "peak_final": 74.5,
+      "sigma": 2.0,
+      "mejor_bucket": {
+        "bucket": "72-73F",
+        "price": 0.08,
+        "prob": 0.121,
+        "ev": 0.512,
+        "kelly": 0.0111,
+        "volume": 3911.0,
+        "confianza": "cautela",
+        "market_id": "3433962",
+        "range": [
+          72.0,
+          73.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "mexico-city",
+      "name": "Mexico City",
+      "station": "MMMX",
+      "unit": "C",
+      "fecha_mercado": "2026-08-10",
+      "logged_at": "2026-08-10T07:47:04.785403+00:00",
+      "model_peak": 22.9,
+      "empirico_peak": 21.8,
+      "peak_final": 22.7,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
