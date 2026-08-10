@@ -17385,13 +17385,17 @@
           89.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 84.0,
+      "winning_bucket": "Will the highest temperature in Chicago be between 84-85°F on August 9?",
+      "pick_won": false,
+      "forecast_error": 0.9,
+      "resolved_at": "2026-08-10T09:30:30.418533+00:00",
+      "crps": 0.8176,
+      "winning_range": [
+        84.0,
+        85.0
+      ]
     },
     {
       "slug": "miami",
@@ -17586,13 +17590,17 @@
       "peak_final": 96.8,
       "sigma": 2.0,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 98.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 98-99°F on August 9?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.2,
+      "resolved_at": "2026-08-10T09:30:30.828145+00:00",
+      "crps": 0.7463,
+      "winning_range": [
+        98.0,
+        99.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -17619,13 +17627,17 @@
           81.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 70.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be 75°F or below on August 9?",
+      "pick_won": false,
+      "forecast_error": 7.8,
+      "resolved_at": "2026-08-10T09:30:31.220207+00:00",
+      "crps": 6.0905,
+      "winning_range": [
+        -999.0,
+        75.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -17676,13 +17688,17 @@
       "peak_final": 81.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 77.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 76-77°F on August 9?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 4.8,
+      "resolved_at": "2026-08-10T09:30:31.462026+00:00",
+      "crps": 3.2307,
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -17696,13 +17712,17 @@
       "peak_final": 80.4,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 80.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 80-81°F on August 9?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.4,
+      "resolved_at": "2026-08-10T09:30:31.685696+00:00",
+      "crps": 0.7332,
+      "winning_range": [
+        80.0,
+        81.0
+      ]
     },
     {
       "slug": "wellington",
@@ -19047,6 +19067,39 @@
       "peak_final": 22.7,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "station": "KBKF",
+      "unit": "F",
+      "fecha_mercado": "2026-08-10",
+      "logged_at": "2026-08-10T09:23:38.515145+00:00",
+      "model_peak": null,
+      "empirico_peak": 92.6,
+      "peak_final": 93.1,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "92-93F",
+        "price": 0.075,
+        "prob": 0.128,
+        "ev": 0.704,
+        "kelly": 0.0143,
+        "volume": 1815.0,
+        "confianza": "cautela",
+        "market_id": "3433930",
+        "range": [
+          92.0,
+          93.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
