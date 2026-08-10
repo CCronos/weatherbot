@@ -13824,13 +13824,17 @@
       "peak_final": 32.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 33°C on August 7?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.2,
+      "resolved_at": "2026-08-10T04:03:18.164501+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "manila",
@@ -14857,13 +14861,17 @@
           36.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 34°C on August 8?",
+      "pick_won": false,
+      "forecast_error": -1.0,
+      "resolved_at": "2026-08-10T04:03:18.509277+00:00",
+      "crps": 0.66,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "manila",
@@ -17259,13 +17267,17 @@
           28.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 26°C on August 9?",
+      "pick_won": false,
+      "forecast_error": 2.1,
+      "resolved_at": "2026-08-10T04:03:20.423849+00:00",
+      "crps": 1.3385,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -18597,6 +18609,26 @@
           28.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-08-10",
+      "logged_at": "2026-08-10T04:00:10.933643+00:00",
+      "model_peak": null,
+      "empirico_peak": 11.6,
+      "peak_final": 12.0,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
