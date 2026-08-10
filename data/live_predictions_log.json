@@ -16868,13 +16868,17 @@
       "peak_final": 19.9,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 22.0,
+      "winning_bucket": "Will the highest temperature in Helsinki be 22°C on August 9?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.1,
+      "resolved_at": "2026-08-10T01:58:15.725954+00:00",
+      "crps": 1.3385,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "istanbul",
@@ -16903,11 +16907,15 @@
       },
       "resolved": false,
       "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
+      "winning_bucket": "Will the highest temperature in Istanbul be 27°C on August 9?",
+      "pick_won": false,
       "forecast_error": null,
       "resolved_at": null,
-      "crps": null
+      "crps": null,
+      "winning_range": [
+        27.0,
+        27.0
+      ]
     },
     {
       "slug": "moscow",
@@ -16974,13 +16982,17 @@
       "peak_final": 35.8,
       "sigma": 1.98,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Paris be 33°C on August 9?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 3.8,
+      "resolved_at": "2026-08-10T01:58:16.110203+00:00",
+      "crps": 2.7245,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "munich",
@@ -16994,13 +17006,17 @@
       "peak_final": 27.9,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Munich be 34°C on August 9?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -6.1,
+      "resolved_at": "2026-08-10T01:58:16.238844+00:00",
+      "crps": 5.1957,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "madrid",
@@ -17027,13 +17043,17 @@
           38.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 37.0,
+      "winning_bucket": "Will the highest temperature in Madrid be 37°C on August 9?",
+      "pick_won": false,
+      "forecast_error": 2.0,
+      "resolved_at": "2026-08-10T01:58:16.346338+00:00",
+      "crps": 1.2586,
+      "winning_range": [
+        37.0,
+        37.0
+      ]
     },
     {
       "slug": "amsterdam",
@@ -17047,13 +17067,17 @@
       "peak_final": 25.2,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 30°C on August 9?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -4.8,
+      "resolved_at": "2026-08-10T01:58:16.451415+00:00",
+      "crps": 3.8969,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -17067,13 +17091,17 @@
       "peak_final": 22.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Warsaw be 25°C on August 9?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.0,
+      "resolved_at": "2026-08-10T01:58:16.562184+00:00",
+      "crps": 2.1338,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "paris-le-bourget",
@@ -17120,13 +17148,17 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Milan be 34°C on August 9?",
+      "pick_won": false,
+      "forecast_error": -0.8,
+      "resolved_at": "2026-08-10T01:58:16.843281+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "cape-town",
@@ -17153,13 +17185,17 @@
           15.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 15.0,
+      "winning_bucket": "Will the highest temperature in Cape Town be 15°C on August 9?",
+      "pick_won": true,
+      "forecast_error": 0.9,
+      "resolved_at": "2026-08-10T01:58:16.960568+00:00",
+      "crps": 0.5711,
+      "winning_range": [
+        15.0,
+        15.0
+      ]
     },
     {
       "slug": "london",
@@ -17186,13 +17222,17 @@
           30.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in London be 31°C on August 9?",
+      "pick_won": false,
+      "forecast_error": -1.5,
+      "resolved_at": "2026-08-10T01:58:17.057889+00:00",
+      "crps": 0.897,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "sao-paulo",
