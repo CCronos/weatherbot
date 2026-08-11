@@ -19771,13 +19771,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 37.0,
+      "winning_bucket": "Will the highest temperature in Shenzhen be 37°C on August 11?",
+      "pick_won": false,
+      "forecast_error": -2.2,
+      "resolved_at": "2026-08-11T23:49:42.938455+00:00",
+      "crps": 1.3487,
+      "winning_range": [
+        37.0,
+        37.0
+      ]
     },
     {
       "slug": "wuhan",
@@ -19828,13 +19832,17 @@
       "peak_final": 32.3,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Qingdao be 31°C on August 11?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.3,
+      "resolved_at": "2026-08-11T23:49:43.039590+00:00",
+      "crps": 0.7736,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "hong-kong",
@@ -20108,13 +20116,17 @@
           41.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 40.0,
+      "winning_bucket": "Will the highest temperature in Jeddah be 40°C on August 11?",
+      "pick_won": false,
+      "forecast_error": 0.8,
+      "resolved_at": "2026-08-11T23:49:43.557996+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        40.0,
+        40.0
+      ]
     },
     {
       "slug": "paris",
@@ -20178,13 +20190,17 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Munich be 31°C on August 11?",
+      "pick_won": false,
+      "forecast_error": -0.6,
+      "resolved_at": "2026-08-11T23:49:43.622178+00:00",
+      "crps": 0.4632,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "madrid",
@@ -20235,13 +20251,17 @@
           21.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 22.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 22°C on August 11?",
+      "pick_won": false,
+      "forecast_error": -0.3,
+      "resolved_at": "2026-08-11T23:49:43.688654+00:00",
+      "crps": 0.3969,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -20312,13 +20332,17 @@
       "peak_final": 34.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Milan be 36°C on August 11?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.0,
+      "resolved_at": "2026-08-11T23:49:43.981579+00:00",
+      "crps": 1.2586,
+      "winning_range": [
+        36.0,
+        36.0
+      ]
     },
     {
       "slug": "cape-town",
@@ -20345,13 +20369,17 @@
           18.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in Cape Town be 20°C on August 11?",
+      "pick_won": false,
+      "forecast_error": -2.5,
+      "resolved_at": "2026-08-11T23:49:44.078180+00:00",
+      "crps": 1.6775,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "london",
@@ -21768,6 +21796,26 @@
           21.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-12",
+      "logged_at": "2026-08-11T23:41:57.839402+00:00",
+      "model_peak": null,
+      "empirico_peak": 26.0,
+      "peak_final": 26.4,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
