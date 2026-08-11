@@ -18813,13 +18813,17 @@
           28.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in London be 26°C on August 10?",
+      "pick_won": false,
+      "forecast_error": 2.9,
+      "resolved_at": "2026-08-11T01:54:32.702111+00:00",
+      "crps": 2.0403,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -20175,6 +20179,39 @@
         "range": [
           18.0,
           18.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-11",
+      "logged_at": "2026-08-11T01:47:46.043046+00:00",
+      "model_peak": 25.0,
+      "empirico_peak": 23.4,
+      "peak_final": 24.6,
+      "sigma": 1.98,
+      "mejor_bucket": {
+        "bucket": "26C",
+        "price": 0.125,
+        "prob": 0.156,
+        "ev": 0.249,
+        "kelly": 0.0089,
+        "volume": 8708.0,
+        "confianza": "moderado",
+        "market_id": "3435786",
+        "range": [
+          26.0,
+          26.0
         ]
       },
       "resolved": false,
