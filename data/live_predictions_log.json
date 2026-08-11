@@ -19157,13 +19157,17 @@
       "peak_final": 76.9,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 74.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 74-75°F on August 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.9,
+      "resolved_at": "2026-08-11T09:05:49.312105+00:00",
+      "crps": 1.737,
+      "winning_range": [
+        74.0,
+        75.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -19190,13 +19194,17 @@
           81.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 78.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 78-79°F on August 10?",
+      "pick_won": false,
+      "forecast_error": 0.1,
+      "resolved_at": "2026-08-11T09:05:49.388045+00:00",
+      "crps": 0.7136,
+      "winning_range": [
+        78.0,
+        79.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -19223,13 +19231,17 @@
           73.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 73.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 72-73°F on August 10?",
+      "pick_won": true,
+      "forecast_error": 1.5,
+      "resolved_at": "2026-08-11T09:05:49.516969+00:00",
+      "crps": 0.8963,
+      "winning_range": [
+        72.0,
+        73.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -19243,13 +19255,17 @@
       "peak_final": 22.7,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 25°C on August 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.3,
+      "resolved_at": "2026-08-11T09:05:49.706524+00:00",
+      "crps": 1.5044,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "denver",
@@ -19276,13 +19292,17 @@
           93.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 96.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 96-97°F on August 10?",
+      "pick_won": false,
+      "forecast_error": -2.9,
+      "resolved_at": "2026-08-11T09:05:49.957386+00:00",
+      "crps": 1.737,
+      "winning_range": [
+        96.0,
+        97.0
+      ]
     },
     {
       "slug": "wellington",
@@ -20639,6 +20659,26 @@
       "empirico_peak": 23.5,
       "peak_final": 25.4,
       "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "station": "KBKF",
+      "unit": "F",
+      "fecha_mercado": "2026-08-11",
+      "logged_at": "2026-08-11T08:57:53.711689+00:00",
+      "model_peak": 94.8,
+      "empirico_peak": 91.2,
+      "peak_final": 93.3,
+      "sigma": 3.048,
       "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
