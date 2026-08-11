@@ -19316,13 +19316,17 @@
       "peak_final": 12.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 12.0,
+      "winning_bucket": "Will the highest temperature in Wellington be 12°C on August 11?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.8,
+      "resolved_at": "2026-08-11T20:52:31.030723+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        12.0,
+        12.0
+      ]
     },
     {
       "slug": "seoul",
@@ -19349,13 +19353,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Seoul (Incheon) be 32°C on August 11?",
+      "pick_won": true,
+      "forecast_error": -0.1,
+      "resolved_at": "2026-08-11T20:52:31.140488+00:00",
+      "crps": 0.3771,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "tokyo",
@@ -19382,13 +19390,17 @@
           27.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Tokyo be 32°C on August 11?",
+      "pick_won": false,
+      "forecast_error": -5.9,
+      "resolved_at": "2026-08-11T20:52:31.240725+00:00",
+      "crps": 4.9957,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "busan",
@@ -19402,13 +19414,17 @@
       "peak_final": 29.9,
       "sigma": 1.98,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Busan be 31°C on August 11?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.1,
+      "resolved_at": "2026-08-11T20:52:31.337127+00:00",
+      "crps": 0.7004,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "taipei",
@@ -19435,13 +19451,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Taipei be 35°C on August 11?",
+      "pick_won": false,
+      "forecast_error": -2.5,
+      "resolved_at": "2026-08-11T20:52:31.440134+00:00",
+      "crps": 1.6775,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "shanghai",
@@ -19468,13 +19488,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 29.0,
+      "winning_bucket": "Will the highest temperature in Shanghai be 29°C on August 11?",
+      "pick_won": false,
+      "forecast_error": 1.2,
+      "resolved_at": "2026-08-11T20:52:31.540477+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        29.0,
+        29.0
+      ]
     },
     {
       "slug": "chengdu",
@@ -19501,13 +19525,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Chengdu be 35°C on August 11?",
+      "pick_won": false,
+      "forecast_error": 0.0,
+      "resolved_at": "2026-08-11T20:52:31.641207+00:00",
+      "crps": 0.3746,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "beijing",
@@ -19534,13 +19562,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Beijing be 33°C on August 11?",
+      "pick_won": false,
+      "forecast_error": -1.9,
+      "resolved_at": "2026-08-11T20:52:31.745292+00:00",
+      "crps": 1.139,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "singapore",
@@ -19554,13 +19586,17 @@
       "peak_final": 32.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Singapore be 33°C on August 11?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.5,
+      "resolved_at": "2026-08-11T20:52:31.836072+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "kuala-lumpur",
@@ -19587,13 +19623,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Kuala Lumpur be 32°C on August 11?",
+      "pick_won": false,
+      "forecast_error": 1.2,
+      "resolved_at": "2026-08-11T20:52:31.932232+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "manila",
@@ -19620,13 +19660,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Manila be 31°C on August 11?",
+      "pick_won": false,
+      "forecast_error": -0.4,
+      "resolved_at": "2026-08-11T20:52:32.033499+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "chongqing",
@@ -19653,13 +19697,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Chongqing be 35°C on August 11?",
+      "pick_won": false,
+      "forecast_error": -1.1,
+      "resolved_at": "2026-08-11T20:52:32.130041+00:00",
+      "crps": 0.6645,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "guangzhou",
@@ -19686,13 +19734,17 @@
           36.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 37.0,
+      "winning_bucket": "Will the highest temperature in Guangzhou be 37°C on August 11?",
+      "pick_won": false,
+      "forecast_error": -0.9,
+      "resolved_at": "2026-08-11T20:52:32.241157+00:00",
+      "crps": 0.5711,
+      "winning_range": [
+        37.0,
+        37.0
+      ]
     },
     {
       "slug": "shenzhen",
@@ -19752,13 +19804,17 @@
           30.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 29.0,
+      "winning_bucket": "Will the highest temperature in Wuhan be 29°C on August 11?",
+      "pick_won": false,
+      "forecast_error": 0.4,
+      "resolved_at": "2026-08-11T20:52:32.400902+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        29.0,
+        29.0
+      ]
     },
     {
       "slug": "qingdao",
@@ -19858,13 +19914,17 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Lucknow be 34°C on August 11?",
+      "pick_won": false,
+      "forecast_error": -0.2,
+      "resolved_at": "2026-08-11T20:52:32.647231+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "karachi",
@@ -19878,13 +19938,17 @@
       "peak_final": 32.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Karachi be 32°C on August 11?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.0,
+      "resolved_at": "2026-08-11T20:52:32.747310+00:00",
+      "crps": 0.3746,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "ankara",
