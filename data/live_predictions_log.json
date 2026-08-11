@@ -18093,13 +18093,17 @@
           37.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 35°C on August 10?",
+      "pick_won": false,
+      "forecast_error": -0.2,
+      "resolved_at": "2026-08-11T03:52:17.172620+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "manila",
@@ -18837,13 +18841,17 @@
       "peak_final": 12.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 13.0,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 13°C on August 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.0,
+      "resolved_at": "2026-08-11T03:52:17.689539+00:00",
+      "crps": 0.6157,
+      "winning_range": [
+        13.0,
+        13.0
+      ]
     },
     {
       "slug": "nyc",
@@ -20212,6 +20220,72 @@
         "range": [
           26.0,
           26.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-08-11",
+      "logged_at": "2026-08-11T03:48:50.214478+00:00",
+      "model_peak": 17.6,
+      "empirico_peak": 18.3,
+      "peak_final": 18.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "18C",
+        "price": 0.16,
+        "prob": 0.241,
+        "ev": 0.505,
+        "kelly": 0.024,
+        "volume": 1066.0,
+        "confianza": "moderado",
+        "market_id": "3472916",
+        "range": [
+          18.0,
+          18.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-08-11",
+      "logged_at": "2026-08-11T03:48:51.200249+00:00",
+      "model_peak": 12.0,
+      "empirico_peak": 12.7,
+      "peak_final": 12.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "13C",
+        "price": 0.155,
+        "prob": 0.241,
+        "ev": 0.553,
+        "kelly": 0.0254,
+        "volume": 1072.0,
+        "confianza": "moderado",
+        "market_id": "3472927",
+        "range": [
+          13.0,
+          13.0
         ]
       },
       "resolved": false,
