@@ -21857,13 +21857,17 @@
           27.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 28.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 28°C on August 12?",
+      "pick_won": false,
+      "forecast_error": -2.0,
+      "resolved_at": "2026-08-12T23:49:34.871541+00:00",
+      "crps": 1.2586,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -21947,13 +21951,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Milan be 36°C on August 12?",
+      "pick_won": false,
+      "forecast_error": -1.7,
+      "resolved_at": "2026-08-12T23:49:35.148767+00:00",
+      "crps": 1.0333,
+      "winning_range": [
+        36.0,
+        36.0
+      ]
     },
     {
       "slug": "cape-town",
@@ -23340,6 +23348,26 @@
       "model_peak": null,
       "empirico_peak": 18.3,
       "peak_final": 18.7,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-13",
+      "logged_at": "2026-08-12T23:42:35.601048+00:00",
+      "model_peak": 35.9,
+      "empirico_peak": 28.0,
+      "peak_final": 32.4,
       "sigma": 1.603,
       "mejor_bucket": null,
       "resolved": false,
