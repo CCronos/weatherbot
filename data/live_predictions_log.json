@@ -22313,6 +22313,92 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "seoul",
+      "name": "Seoul",
+      "station": "RKSI",
+      "unit": "C",
+      "fecha_mercado": "2026-08-13",
+      "logged_at": "2026-08-12T15:00:17.584577+00:00",
+      "model_peak": 31.6,
+      "empirico_peak": 29.2,
+      "peak_final": 30.8,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "tokyo",
+      "name": "Tokyo",
+      "station": "RJTT",
+      "unit": "C",
+      "fecha_mercado": "2026-08-13",
+      "logged_at": "2026-08-12T15:00:19.168013+00:00",
+      "model_peak": 27.4,
+      "empirico_peak": 27.9,
+      "peak_final": 28.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "26C",
+        "price": 0.065,
+        "prob": 0.107,
+        "ev": 0.642,
+        "kelly": 0.0112,
+        "volume": 1441.0,
+        "confianza": "cautela",
+        "market_id": "3506275",
+        "range": [
+          26.0,
+          26.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "busan",
+      "name": "Busan",
+      "station": "RKPK",
+      "unit": "C",
+      "fecha_mercado": "2026-08-13",
+      "logged_at": "2026-08-12T15:04:26.245979+00:00",
+      "model_peak": 31.2,
+      "empirico_peak": 30.7,
+      "peak_final": 31.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "30C",
+        "price": 0.075,
+        "prob": 0.178,
+        "ev": 1.375,
+        "kelly": 0.0279,
+        "volume": 558.0,
+        "confianza": "cautela",
+        "market_id": "3506386",
+        "range": [
+          30.0,
+          30.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
