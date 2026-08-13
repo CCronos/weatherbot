@@ -24277,6 +24277,92 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "manila",
+      "name": "Manila",
+      "station": "RPLL",
+      "unit": "C",
+      "fecha_mercado": "2026-08-14",
+      "logged_at": "2026-08-13T18:03:20.731096+00:00",
+      "model_peak": 29.5,
+      "empirico_peak": 29.4,
+      "peak_final": 29.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "30C",
+        "price": 0.18,
+        "prob": 0.243,
+        "ev": 0.35,
+        "kelly": 0.0192,
+        "volume": 1198.0,
+        "confianza": "moderado",
+        "market_id": "3534015",
+        "range": [
+          30.0,
+          30.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "jakarta",
+      "name": "Jakarta",
+      "station": "WIHH",
+      "unit": "C",
+      "fecha_mercado": "2026-08-14",
+      "logged_at": "2026-08-13T18:03:42.498827+00:00",
+      "model_peak": null,
+      "empirico_peak": 29.9,
+      "peak_final": 30.3,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "chongqing",
+      "name": "Chongqing",
+      "station": "ZUCK",
+      "unit": "C",
+      "fecha_mercado": "2026-08-14",
+      "logged_at": "2026-08-13T18:03:43.687242+00:00",
+      "model_peak": 34.2,
+      "empirico_peak": 34.0,
+      "peak_final": 34.5,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "34C",
+        "price": 0.23,
+        "prob": 0.234,
+        "ev": 0.016,
+        "kelly": 0.0012,
+        "volume": 5710.0,
+        "confianza": "escalable",
+        "market_id": "3533915",
+        "range": [
+          34.0,
+          34.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
