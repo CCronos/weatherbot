@@ -22012,13 +22012,17 @@
       "peak_final": 26.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in London be 30°C on August 12?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.6,
+      "resolved_at": "2026-08-13T02:09:22.892027+00:00",
+      "crps": 2.7093,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "nyc",
