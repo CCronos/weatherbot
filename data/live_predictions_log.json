@@ -24363,6 +24363,72 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "lucknow",
+      "name": "Lucknow",
+      "station": "VILK",
+      "unit": "C",
+      "fecha_mercado": "2026-08-14",
+      "logged_at": "2026-08-13T19:12:49.699043+00:00",
+      "model_peak": 31.9,
+      "empirico_peak": 34.2,
+      "peak_final": 33.4,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "33C",
+        "price": 0.155,
+        "prob": 0.238,
+        "ev": 0.533,
+        "kelly": 0.0244,
+        "volume": 1955.0,
+        "confianza": "moderado",
+        "market_id": "3535320",
+        "range": [
+          33.0,
+          33.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "karachi",
+      "name": "Karachi",
+      "station": "OPKC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-14",
+      "logged_at": "2026-08-13T19:15:12.109521+00:00",
+      "model_peak": 33.7,
+      "empirico_peak": 31.6,
+      "peak_final": 33.0,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "33C",
+        "price": 0.14,
+        "prob": 0.245,
+        "ev": 0.749,
+        "kelly": 0.0305,
+        "volume": 2090.0,
+        "confianza": "moderado",
+        "market_id": "3535451",
+        "range": [
+          33.0,
+          33.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
