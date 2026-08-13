@@ -23211,11 +23211,15 @@
       "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
-      "winning_bucket": null,
+      "winning_bucket": "Will the highest temperature in Istanbul be 27°C on August 13?",
       "pick_won": null,
       "forecast_error": null,
       "resolved_at": null,
-      "crps": null
+      "crps": null,
+      "winning_range": [
+        27.0,
+        27.0
+      ]
     },
     {
       "slug": "jeddah",
@@ -23363,13 +23367,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 33°C on August 13?",
+      "pick_won": false,
+      "forecast_error": -2.6,
+      "resolved_at": "2026-08-13T23:50:31.002770+00:00",
+      "crps": 1.7663,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -23453,13 +23461,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Milan be 35°C on August 13?",
+      "pick_won": false,
+      "forecast_error": 0.1,
+      "resolved_at": "2026-08-13T23:50:31.599427+00:00",
+      "crps": 0.3771,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "moscow",
@@ -23530,13 +23542,17 @@
       "peak_final": 32.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in London be 34°C on August 13?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.6,
+      "resolved_at": "2026-08-13T23:50:31.908618+00:00",
+      "crps": 0.9637,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "nyc",
@@ -24892,6 +24908,39 @@
         "range": [
           19.0,
           19.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-14",
+      "logged_at": "2026-08-13T23:43:06.095537+00:00",
+      "model_peak": 35.0,
+      "empirico_peak": 30.8,
+      "peak_final": 33.3,
+      "sigma": 1.98,
+      "mejor_bucket": {
+        "bucket": "32C",
+        "price": 0.105,
+        "prob": 0.161,
+        "ev": 0.537,
+        "kelly": 0.0158,
+        "volume": 7776.0,
+        "confianza": "moderado",
+        "market_id": "3535267",
+        "range": [
+          32.0,
+          32.0
         ]
       },
       "resolved": false,
