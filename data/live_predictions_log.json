@@ -23156,13 +23156,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Tel Aviv be 34°C on August 13?",
+      "pick_won": true,
+      "forecast_error": 0.6,
+      "resolved_at": "2026-08-14T02:07:47.725399+00:00",
+      "crps": 0.4632,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "helsinki",
@@ -23189,13 +23193,17 @@
           19.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 19.0,
+      "winning_bucket": "Will the highest temperature in Helsinki be 19°C on August 13?",
+      "pick_won": true,
+      "forecast_error": -0.4,
+      "resolved_at": "2026-08-14T02:07:47.922597+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        19.0,
+        19.0
+      ]
     },
     {
       "slug": "istanbul",
@@ -23294,13 +23302,17 @@
       "peak_final": 26.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Munich be 31°C on August 13?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -5.0,
+      "resolved_at": "2026-08-14T02:07:48.445815+00:00",
+      "crps": 4.0964,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "ankara",
@@ -23314,13 +23326,17 @@
       "peak_final": 28.9,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Ankara be 30°C on August 13?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.1,
+      "resolved_at": "2026-08-14T02:07:48.631892+00:00",
+      "crps": 0.6645,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "madrid",
@@ -23334,13 +23350,17 @@
       "peak_final": 37.9,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 40.0,
+      "winning_bucket": "Will the highest temperature in Madrid be 40°C on August 13?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.1,
+      "resolved_at": "2026-08-14T02:07:48.828540+00:00",
+      "crps": 1.3385,
+      "winning_range": [
+        40.0,
+        40.0
+      ]
     },
     {
       "slug": "amsterdam",
@@ -23498,13 +23518,17 @@
           17.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 15.0,
+      "winning_bucket": "Will the highest temperature in Moscow be 14°C on August 13?",
+      "pick_won": false,
+      "forecast_error": 2.1,
+      "resolved_at": "2026-08-14T02:07:49.304976+00:00",
+      "crps": 1.2765,
+      "winning_range": [
+        14.0,
+        14.0
+      ]
     },
     {
       "slug": "cape-town",
