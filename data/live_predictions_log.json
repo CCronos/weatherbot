@@ -25962,6 +25962,59 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "chengdu",
+      "name": "Chengdu",
+      "station": "ZUUU",
+      "unit": "C",
+      "fecha_mercado": "2026-08-15",
+      "logged_at": "2026-08-14T18:58:58.254730+00:00",
+      "model_peak": 35.7,
+      "empirico_peak": 34.6,
+      "peak_final": 35.6,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "35C",
+        "price": 0.13,
+        "prob": 0.229,
+        "ev": 0.76,
+        "kelly": 0.0284,
+        "volume": 1561.0,
+        "confianza": "moderado",
+        "market_id": "3558231",
+        "range": [
+          35.0,
+          35.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "lucknow",
+      "name": "Lucknow",
+      "station": "VILK",
+      "unit": "C",
+      "fecha_mercado": "2026-08-15",
+      "logged_at": "2026-08-14T18:59:44.811712+00:00",
+      "model_peak": 33.8,
+      "empirico_peak": 31.2,
+      "peak_final": 32.9,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
