@@ -25486,6 +25486,72 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "seoul",
+      "name": "Seoul",
+      "station": "RKSI",
+      "unit": "C",
+      "fecha_mercado": "2026-08-15",
+      "logged_at": "2026-08-14T15:54:28.932673+00:00",
+      "model_peak": 28.8,
+      "empirico_peak": 29.7,
+      "peak_final": 29.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "31C",
+        "price": 0.08,
+        "prob": 0.178,
+        "ev": 1.227,
+        "kelly": 0.0267,
+        "volume": 1935.0,
+        "confianza": "cautela",
+        "market_id": "3558041",
+        "range": [
+          31.0,
+          31.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "busan",
+      "name": "Busan",
+      "station": "RKPK",
+      "unit": "C",
+      "fecha_mercado": "2026-08-15",
+      "logged_at": "2026-08-14T15:57:31.627775+00:00",
+      "model_peak": 30.6,
+      "empirico_peak": 29.0,
+      "peak_final": 30.2,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "30C",
+        "price": 0.14,
+        "prob": 0.243,
+        "ev": 0.736,
+        "kelly": 0.03,
+        "volume": 3199.0,
+        "confianza": "moderado",
+        "market_id": "3558282",
+        "range": [
+          30.0,
+          30.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
