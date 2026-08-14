@@ -25929,6 +25929,39 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "wuhan",
+      "name": "Wuhan",
+      "station": "ZHHH",
+      "unit": "C",
+      "fecha_mercado": "2026-08-15",
+      "logged_at": "2026-08-14T18:00:34.189786+00:00",
+      "model_peak": 30.0,
+      "empirico_peak": 28.4,
+      "peak_final": 29.6,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "29C",
+        "price": 0.135,
+        "prob": 0.229,
+        "ev": 0.695,
+        "kelly": 0.0271,
+        "volume": 755.0,
+        "confianza": "moderado",
+        "market_id": "3558218",
+        "range": [
+          29.0,
+          29.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
