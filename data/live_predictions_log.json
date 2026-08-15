@@ -26616,13 +26616,17 @@
           26.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 23°C on August 15?",
+      "pick_won": false,
+      "forecast_error": 2.9,
+      "resolved_at": "2026-08-15T23:28:49.546422+00:00",
+      "crps": 2.0403,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -28156,6 +28160,39 @@
         "range": [
           17.0,
           17.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-16",
+      "logged_at": "2026-08-15T23:21:53.161221+00:00",
+      "model_peak": null,
+      "empirico_peak": 27.0,
+      "peak_final": 27.4,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "27C",
+        "price": 0.195,
+        "prob": 0.238,
+        "ev": 0.219,
+        "kelly": 0.0132,
+        "volume": 5387.0,
+        "confianza": "moderado",
+        "market_id": "3577275",
+        "range": [
+          27.0,
+          27.0
         ]
       },
       "resolved": false,
