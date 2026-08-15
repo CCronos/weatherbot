@@ -27570,6 +27570,59 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "jakarta",
+      "name": "Jakarta",
+      "station": "WIHH",
+      "unit": "C",
+      "fecha_mercado": "2026-08-16",
+      "logged_at": "2026-08-15T17:27:57.694226+00:00",
+      "model_peak": 35.2,
+      "empirico_peak": 30.9,
+      "peak_final": 33.4,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "qingdao",
+      "name": "Qingdao",
+      "station": "ZSQD",
+      "unit": "C",
+      "fecha_mercado": "2026-08-16",
+      "logged_at": "2026-08-15T17:28:34.081491+00:00",
+      "model_peak": 32.8,
+      "empirico_peak": 29.8,
+      "peak_final": 31.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "32C",
+        "price": 0.23,
+        "prob": 0.241,
+        "ev": 0.047,
+        "kelly": 0.0035,
+        "volume": 1165.0,
+        "confianza": "escalable",
+        "market_id": "3577617",
+        "range": [
+          32.0,
+          32.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
