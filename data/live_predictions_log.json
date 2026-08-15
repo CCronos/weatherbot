@@ -25435,13 +25435,17 @@
           999.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 87.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 86-87°F on August 14?",
+      "pick_won": false,
+      "forecast_error": -1.5,
+      "resolved_at": "2026-08-15T08:37:06.483010+00:00",
+      "crps": 1.001,
+      "winning_range": [
+        86.0,
+        87.0
+      ]
     },
     {
       "slug": "austin",
