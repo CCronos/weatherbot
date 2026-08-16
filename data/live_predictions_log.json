@@ -27144,13 +27144,17 @@
       "peak_final": 27.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 26°C on August 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.0,
+      "resolved_at": "2026-08-16T07:40:15.173571+00:00",
+      "crps": 0.6157,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "seattle",
@@ -28580,6 +28584,72 @@
       "peak_final": 26.8,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "station": "KSEA",
+      "unit": "F",
+      "fecha_mercado": "2026-08-16",
+      "logged_at": "2026-08-16T07:31:47.734848+00:00",
+      "model_peak": 76.6,
+      "empirico_peak": 73.4,
+      "peak_final": 75.3,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "78-79F",
+        "price": 0.065,
+        "prob": 0.075,
+        "ev": 0.161,
+        "kelly": 0.0028,
+        "volume": 1178.0,
+        "confianza": "cautela",
+        "market_id": "3614340",
+        "range": [
+          78.0,
+          79.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "los-angeles",
+      "name": "Los Angeles",
+      "station": "KLAX",
+      "unit": "F",
+      "fecha_mercado": "2026-08-16",
+      "logged_at": "2026-08-16T07:32:33.953722+00:00",
+      "model_peak": 79.2,
+      "empirico_peak": 74.6,
+      "peak_final": 77.2,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "74-75F",
+        "price": 0.075,
+        "prob": 0.088,
+        "ev": 0.178,
+        "kelly": 0.0036,
+        "volume": 1616.0,
+        "confianza": "cautela",
+        "market_id": "3614447",
+        "range": [
+          74.0,
+          75.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
