@@ -26898,13 +26898,17 @@
           87.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 84.0,
+      "winning_bucket": "Will the highest temperature in New York City be between 84-85°F on August 15?",
+      "pick_won": false,
+      "forecast_error": 0.2,
+      "resolved_at": "2026-08-16T11:29:54.692847+00:00",
+      "crps": 0.7175,
+      "winning_range": [
+        84.0,
+        85.0
+      ]
     },
     {
       "slug": "miami",
@@ -26918,13 +26922,17 @@
       "peak_final": 91.4,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 93.0,
+      "winning_bucket": "Will the highest temperature in Miami be between 92-93°F on August 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.6,
+      "resolved_at": "2026-08-16T11:29:54.800710+00:00",
+      "crps": 1.0399,
+      "winning_range": [
+        92.0,
+        93.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -26962,13 +26970,17 @@
       "peak_final": 27.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Toronto be 24°C on August 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 3.4,
+      "resolved_at": "2026-08-16T11:29:54.900569+00:00",
+      "crps": 2.5152,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "chicago",
@@ -27019,13 +27031,17 @@
           103.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 100.0,
+      "winning_bucket": "Will the highest temperature in Dallas be between 100-101°F on August 15?",
+      "pick_won": false,
+      "forecast_error": 1.8,
+      "resolved_at": "2026-08-16T11:29:54.990810+00:00",
+      "crps": 1.1245,
+      "winning_range": [
+        100.0,
+        101.0
+      ]
     },
     {
       "slug": "houston",
@@ -27124,13 +27140,17 @@
       "peak_final": 80.1,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 83.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 82-83°F on August 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.9,
+      "resolved_at": "2026-08-16T11:29:55.082452+00:00",
+      "crps": 1.737,
+      "winning_range": [
+        82.0,
+        83.0
+      ]
     },
     {
       "slug": "mexico-city",
