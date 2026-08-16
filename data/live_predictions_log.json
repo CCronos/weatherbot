@@ -27905,13 +27905,17 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Lucknow be 31°C on August 16?",
+      "pick_won": false,
+      "forecast_error": 2.4,
+      "resolved_at": "2026-08-16T23:28:30.842025+00:00",
+      "crps": 1.5902,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "karachi",
@@ -27938,13 +27942,17 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Karachi be 32°C on August 16?",
+      "pick_won": false,
+      "forecast_error": 0.6,
+      "resolved_at": "2026-08-16T23:28:31.003331+00:00",
+      "crps": 0.4632,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "ankara",
@@ -28032,13 +28040,17 @@
           23.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in Helsinki be 21°C on August 16?",
+      "pick_won": false,
+      "forecast_error": 0.9,
+      "resolved_at": "2026-08-16T23:28:31.138902+00:00",
+      "crps": 0.5711,
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "istanbul",
@@ -28150,13 +28162,17 @@
       "peak_final": 33.6,
       "sigma": 1.98,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Paris be 31°C on August 16?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 3.6,
+      "resolved_at": "2026-08-16T23:28:31.425201+00:00",
+      "crps": 2.5369,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "munich",
@@ -28183,13 +28199,17 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Munich be 32°C on August 16?",
+      "pick_won": false,
+      "forecast_error": -1.9,
+      "resolved_at": "2026-08-16T23:28:31.511543+00:00",
+      "crps": 1.181,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "madrid",
@@ -28203,13 +28223,17 @@
       "peak_final": 33.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Madrid be 35°C on August 16?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.6,
+      "resolved_at": "2026-08-16T23:28:31.589088+00:00",
+      "crps": 0.9637,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "amsterdam",
@@ -28256,13 +28280,17 @@
           28.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Warsaw be 30°C on August 16?",
+      "pick_won": false,
+      "forecast_error": -0.9,
+      "resolved_at": "2026-08-16T23:28:31.718273+00:00",
+      "crps": 0.5711,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "paris-le-bourget",
@@ -28342,13 +28370,17 @@
           17.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 17.0,
+      "winning_bucket": "Will the highest temperature in Cape Town be 17°C on August 16?",
+      "pick_won": true,
+      "forecast_error": 0.4,
+      "resolved_at": "2026-08-16T23:28:32.009387+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        17.0,
+        17.0
+      ]
     },
     {
       "slug": "london",
@@ -29789,6 +29821,39 @@
         "range": [
           17.0,
           17.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-17",
+      "logged_at": "2026-08-16T23:22:11.102892+00:00",
+      "model_peak": 26.7,
+      "empirico_peak": 26.5,
+      "peak_final": 27.0,
+      "sigma": 1.98,
+      "mejor_bucket": {
+        "bucket": "27C",
+        "price": 0.17,
+        "prob": 0.199,
+        "ev": 0.173,
+        "kelly": 0.0088,
+        "volume": 4644.0,
+        "confianza": "moderado",
+        "market_id": "3614516",
+        "range": [
+          27.0,
+          27.0
         ]
       },
       "resolved": false,
