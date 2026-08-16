@@ -26857,13 +26857,17 @@
           17.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 16.0,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 16°C on August 15?",
+      "pick_won": false,
+      "forecast_error": 2.1,
+      "resolved_at": "2026-08-16T04:04:29.560252+00:00",
+      "crps": 1.3385,
+      "winning_range": [
+        16.0,
+        16.0
+      ]
     },
     {
       "slug": "nyc",
