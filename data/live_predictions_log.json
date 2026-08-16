@@ -26982,13 +26982,17 @@
       "peak_final": 80.7,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 79.0,
+      "winning_bucket": "Will the highest temperature in Chicago be between 78-79°F on August 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.7,
+      "resolved_at": "2026-08-16T06:47:08.017597+00:00",
+      "crps": 1.0811,
+      "winning_range": [
+        78.0,
+        79.0
+      ]
     },
     {
       "slug": "dallas",
@@ -27035,13 +27039,17 @@
       "peak_final": 95.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 96.0,
+      "winning_bucket": "Will the highest temperature in Houston be between 96-97°F on August 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.2,
+      "resolved_at": "2026-08-16T06:47:08.392635+00:00",
+      "crps": 0.7175,
+      "winning_range": [
+        96.0,
+        97.0
+      ]
     },
     {
       "slug": "austin",
@@ -27055,13 +27063,17 @@
       "peak_final": 98.3,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 102.0,
+      "winning_bucket": "Will the highest temperature in Austin be between 102-103°F on August 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.7,
+      "resolved_at": "2026-08-16T06:47:08.560871+00:00",
+      "crps": 2.3127,
+      "winning_range": [
+        102.0,
+        103.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -27088,13 +27100,17 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Panama City be 32°C on August 15?",
+      "pick_won": false,
+      "forecast_error": 0.7,
+      "resolved_at": "2026-08-16T06:47:08.742086+00:00",
+      "crps": 0.4947,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "denver",
@@ -28522,6 +28538,46 @@
       "model_peak": 29.4,
       "empirico_peak": 31.5,
       "peak_final": 30.8,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "station": "KBKF",
+      "unit": "F",
+      "fecha_mercado": "2026-08-16",
+      "logged_at": "2026-08-16T06:41:11.487609+00:00",
+      "model_peak": 81.7,
+      "empirico_peak": 81.4,
+      "peak_final": 81.8,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "mexico-city",
+      "name": "Mexico City",
+      "station": "MMMX",
+      "unit": "C",
+      "fecha_mercado": "2026-08-16",
+      "logged_at": "2026-08-16T06:44:37.329335+00:00",
+      "model_peak": 27.4,
+      "empirico_peak": 25.5,
+      "peak_final": 26.8,
       "sigma": 1.603,
       "mejor_bucket": null,
       "resolved": false,
