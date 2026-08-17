@@ -28780,13 +28780,17 @@
       "peak_final": 81.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 83.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 82-83°F on August 16?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.2,
+      "resolved_at": "2026-08-17T10:41:26.655332+00:00",
+      "crps": 0.8984,
+      "winning_range": [
+        82.0,
+        83.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -28898,13 +28902,17 @@
       "peak_final": 70.9,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 69.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 68-69°F on August 16?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.9,
+      "resolved_at": "2026-08-17T10:41:26.907850+00:00",
+      "crps": 1.1701,
+      "winning_range": [
+        68.0,
+        69.0
+      ]
     },
     {
       "slug": "wellington",
