@@ -28874,13 +28874,17 @@
           75.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 76.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 76-77°F on August 16?",
+      "pick_won": false,
+      "forecast_error": 1.2,
+      "resolved_at": "2026-08-17T09:51:22.050137+00:00",
+      "crps": 0.8984,
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "san-francisco",
