@@ -28800,13 +28800,17 @@
       "peak_final": 26.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 27.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 27°C on August 16?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.2,
+      "resolved_at": "2026-08-17T08:52:35.370308+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        27.0,
+        27.0
+      ]
     },
     {
       "slug": "seattle",
@@ -28833,13 +28837,17 @@
           79.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 75.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 74-75°F on August 16?",
+      "pick_won": false,
+      "forecast_error": 0.3,
+      "resolved_at": "2026-08-17T08:52:35.511912+00:00",
+      "crps": 0.7241,
+      "winning_range": [
+        74.0,
+        75.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -30313,6 +30321,39 @@
         "range": [
           80.0,
           81.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "station": "KBKF",
+      "unit": "F",
+      "fecha_mercado": "2026-08-17",
+      "logged_at": "2026-08-17T08:44:22.908660+00:00",
+      "model_peak": 91.3,
+      "empirico_peak": 85.0,
+      "peak_final": 88.3,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "88-89F",
+        "price": 0.115,
+        "prob": 0.13,
+        "ev": 0.131,
+        "kelly": 0.0042,
+        "volume": 1668.0,
+        "confianza": "moderado",
+        "market_id": "3621066",
+        "range": [
+          88.0,
+          89.0
         ]
       },
       "resolved": false,
