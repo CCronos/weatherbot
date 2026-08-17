@@ -30256,6 +30256,72 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "station": "KSEA",
+      "unit": "F",
+      "fecha_mercado": "2026-08-17",
+      "logged_at": "2026-08-17T07:54:12.054716+00:00",
+      "model_peak": 78.6,
+      "empirico_peak": 72.1,
+      "peak_final": 75.5,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "74-75F",
+        "price": 0.085,
+        "prob": 0.124,
+        "ev": 0.453,
+        "kelly": 0.0105,
+        "volume": 881.0,
+        "confianza": "cautela",
+        "market_id": "3620986",
+        "range": [
+          74.0,
+          75.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "los-angeles",
+      "name": "Los Angeles",
+      "station": "KLAX",
+      "unit": "F",
+      "fecha_mercado": "2026-08-17",
+      "logged_at": "2026-08-17T07:55:26.788520+00:00",
+      "model_peak": 81.1,
+      "empirico_peak": 74.0,
+      "peak_final": 77.7,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "80-81F",
+        "price": 0.085,
+        "prob": 0.086,
+        "ev": 0.009,
+        "kelly": 0.0002,
+        "volume": 2102.0,
+        "confianza": "cautela",
+        "market_id": "3621090",
+        "range": [
+          80.0,
+          81.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
