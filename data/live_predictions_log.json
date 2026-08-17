@@ -30785,6 +30785,125 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "taipei",
+      "name": "Taipei",
+      "station": "RCSS",
+      "unit": "C",
+      "fecha_mercado": "2026-08-18",
+      "logged_at": "2026-08-17T17:31:45.800950+00:00",
+      "model_peak": 33.2,
+      "empirico_peak": 31.6,
+      "peak_final": 32.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "33C",
+        "price": 0.135,
+        "prob": 0.241,
+        "ev": 0.783,
+        "kelly": 0.0306,
+        "volume": 3042.0,
+        "confianza": "moderado",
+        "market_id": "3624189",
+        "range": [
+          33.0,
+          33.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "jakarta",
+      "name": "Jakarta",
+      "station": "WIHH",
+      "unit": "C",
+      "fecha_mercado": "2026-08-18",
+      "logged_at": "2026-08-17T17:35:54.891741+00:00",
+      "model_peak": 34.3,
+      "empirico_peak": 31.9,
+      "peak_final": 33.4,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "guangzhou",
+      "name": "Guangzhou",
+      "station": "ZGGG",
+      "unit": "C",
+      "fecha_mercado": "2026-08-18",
+      "logged_at": "2026-08-17T17:36:36.944795+00:00",
+      "model_peak": 32.3,
+      "empirico_peak": 32.8,
+      "peak_final": 32.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "33C",
+        "price": 0.165,
+        "prob": 0.243,
+        "ev": 0.473,
+        "kelly": 0.0234,
+        "volume": 1198.0,
+        "confianza": "moderado",
+        "market_id": "3624352",
+        "range": [
+          33.0,
+          33.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "shenzhen",
+      "name": "Shenzhen",
+      "station": "ZGSZ",
+      "unit": "C",
+      "fecha_mercado": "2026-08-18",
+      "logged_at": "2026-08-17T17:37:00.620324+00:00",
+      "model_peak": 31.4,
+      "empirico_peak": 31.3,
+      "peak_final": 31.6,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "31C",
+        "price": 0.145,
+        "prob": 0.229,
+        "ev": 0.578,
+        "kelly": 0.0245,
+        "volume": 4087.0,
+        "confianza": "moderado",
+        "market_id": "3624244",
+        "range": [
+          31.0,
+          31.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
