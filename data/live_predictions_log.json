@@ -28517,13 +28517,17 @@
           85.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 81.0,
+      "winning_bucket": "Will the highest temperature in New York City be between 80-81°F on August 16?",
+      "pick_won": false,
+      "forecast_error": 2.2,
+      "resolved_at": "2026-08-17T05:44:00.538782+00:00",
+      "crps": 1.3197,
+      "winning_range": [
+        80.0,
+        81.0
+      ]
     },
     {
       "slug": "miami",
@@ -28537,13 +28541,17 @@
       "peak_final": 91.1,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 93.0,
+      "winning_bucket": "Will the highest temperature in Miami be between 92-93°F on August 16?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.9,
+      "resolved_at": "2026-08-17T05:44:00.635926+00:00",
+      "crps": 1.1701,
+      "winning_range": [
+        92.0,
+        93.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -28557,13 +28565,17 @@
       "peak_final": 97.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 95.0,
+      "winning_bucket": "Will the highest temperature in Atlanta be between 94-95°F on August 16?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.8,
+      "resolved_at": "2026-08-17T05:44:00.706234+00:00",
+      "crps": 1.6719,
+      "winning_range": [
+        94.0,
+        95.0
+      ]
     },
     {
       "slug": "toronto",
@@ -28720,13 +28732,17 @@
       "peak_final": 30.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Panama City be 31°C on August 16?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.2,
+      "resolved_at": "2026-08-17T05:44:00.930802+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "denver",
@@ -30030,6 +30046,132 @@
           28.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "chicago",
+      "name": "Chicago",
+      "station": "KORD",
+      "unit": "F",
+      "fecha_mercado": "2026-08-17",
+      "logged_at": "2026-08-17T05:35:03.521268+00:00",
+      "model_peak": 78.5,
+      "empirico_peak": 80.2,
+      "peak_final": 79.6,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "76-77F",
+        "price": 0.06,
+        "prob": 0.078,
+        "ev": 0.301,
+        "kelly": 0.0048,
+        "volume": 1418.0,
+        "confianza": "cautela",
+        "market_id": "3621041",
+        "range": [
+          76.0,
+          77.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "dallas",
+      "name": "Dallas",
+      "station": "KDAL",
+      "unit": "F",
+      "fecha_mercado": "2026-08-17",
+      "logged_at": "2026-08-17T05:35:06.974170+00:00",
+      "model_peak": 107.6,
+      "empirico_peak": 103.5,
+      "peak_final": 105.8,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "106-107F",
+        "price": 0.115,
+        "prob": 0.127,
+        "ev": 0.104,
+        "kelly": 0.0034,
+        "volume": 1284.0,
+        "confianza": "moderado",
+        "market_id": "3621011",
+        "range": [
+          106.0,
+          107.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "houston",
+      "name": "Houston",
+      "station": "KHOU",
+      "unit": "F",
+      "fecha_mercado": "2026-08-17",
+      "logged_at": "2026-08-17T05:36:08.976361+00:00",
+      "model_peak": 99.6,
+      "empirico_peak": 91.1,
+      "peak_final": 95.6,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "austin",
+      "name": "Austin",
+      "station": "KAUS",
+      "unit": "F",
+      "fecha_mercado": "2026-08-17",
+      "logged_at": "2026-08-17T05:40:30.799758+00:00",
+      "model_peak": null,
+      "empirico_peak": 99.6,
+      "peak_final": 99.9,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "panama-city",
+      "name": "Panama City",
+      "station": "MPMG",
+      "unit": "C",
+      "fecha_mercado": "2026-08-17",
+      "logged_at": "2026-08-17T05:42:26.995677+00:00",
+      "model_peak": 29.6,
+      "empirico_peak": 29.5,
+      "peak_final": 29.8,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
