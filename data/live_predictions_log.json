@@ -30412,13 +30412,17 @@
       "peak_final": 70.4,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 71.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 70-71°F on August 17?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.6,
+      "resolved_at": "2026-08-18T08:46:01.862700+00:00",
+      "crps": 0.7593,
+      "winning_range": [
+        70.0,
+        71.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -30482,13 +30486,17 @@
           75.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 78.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 78-79°F on August 17?",
+      "pick_won": false,
+      "forecast_error": -2.5,
+      "resolved_at": "2026-08-18T08:46:02.058778+00:00",
+      "crps": 1.4874,
+      "winning_range": [
+        78.0,
+        79.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -30515,13 +30523,17 @@
           81.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 77.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 76-77°F on August 17?",
+      "pick_won": false,
+      "forecast_error": 0.7,
+      "resolved_at": "2026-08-18T08:46:02.220680+00:00",
+      "crps": 0.7762,
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "denver",
@@ -30548,13 +30560,17 @@
           89.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 92.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 92-93°F on August 17?",
+      "pick_won": false,
+      "forecast_error": -3.7,
+      "resolved_at": "2026-08-18T08:46:02.363762+00:00",
+      "crps": 2.3127,
+      "winning_range": [
+        92.0,
+        93.0
+      ]
     },
     {
       "slug": "wellington",
@@ -31975,6 +31991,26 @@
       "model_peak": null,
       "empirico_peak": 68.0,
       "peak_final": 68.2,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "station": "KBKF",
+      "unit": "F",
+      "fecha_mercado": "2026-08-18",
+      "logged_at": "2026-08-18T08:39:09.372333+00:00",
+      "model_peak": null,
+      "empirico_peak": 89.1,
+      "peak_final": 89.3,
       "sigma": 3.048,
       "mejor_bucket": null,
       "resolved": false,
