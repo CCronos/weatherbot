@@ -30088,13 +30088,17 @@
       "peak_final": 27.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 29.0,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 29°C on August 17?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.5,
+      "resolved_at": "2026-08-18T03:55:20.190862+00:00",
+      "crps": 0.897,
+      "winning_range": [
+        29.0,
+        29.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -30108,13 +30112,17 @@
       "peak_final": 19.3,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 15.0,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 15°C on August 17?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 4.3,
+      "resolved_at": "2026-08-18T03:55:20.264585+00:00",
+      "crps": 3.3992,
+      "winning_range": [
+        15.0,
+        15.0
+      ]
     },
     {
       "slug": "nyc",
@@ -31587,6 +31595,39 @@
         "range": [
           29.0,
           29.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-08-18",
+      "logged_at": "2026-08-18T03:51:48.284159+00:00",
+      "model_peak": 14.2,
+      "empirico_peak": 15.9,
+      "peak_final": 15.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "15C",
+        "price": 0.075,
+        "prob": 0.241,
+        "ev": 2.21,
+        "kelly": 0.0448,
+        "volume": 751.0,
+        "confianza": "cautela",
+        "market_id": "3652736",
+        "range": [
+          15.0,
+          15.0
         ]
       },
       "resolved": false,
