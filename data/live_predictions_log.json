@@ -32153,13 +32153,17 @@
       "peak_final": 79.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 81.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 80-81°F on August 18?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.2,
+      "resolved_at": "2026-08-19T09:41:05.817420+00:00",
+      "crps": 0.8984,
+      "winning_range": [
+        80.0,
+        81.0
+      ]
     },
     {
       "slug": "san-francisco",
