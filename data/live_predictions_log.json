@@ -33451,13 +33451,17 @@
           30.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 32°C on August 19?",
+      "pick_won": false,
+      "forecast_error": -3.7,
+      "resolved_at": "2026-08-20T03:59:43.940376+00:00",
+      "crps": 2.8071,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "buenos-aires",
