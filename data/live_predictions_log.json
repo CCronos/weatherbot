@@ -32599,13 +32599,17 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 32°C on August 19?",
+      "pick_won": false,
+      "forecast_error": -1.7,
+      "resolved_at": "2026-08-20T03:04:26.903993+00:00",
+      "crps": 1.0333,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "manila",
@@ -34850,6 +34854,46 @@
           24.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-08-20",
+      "logged_at": "2026-08-20T03:01:27.733655+00:00",
+      "model_peak": null,
+      "empirico_peak": 23.1,
+      "peak_final": 23.4,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-08-20",
+      "logged_at": "2026-08-20T03:01:49.508180+00:00",
+      "model_peak": null,
+      "empirico_peak": 13.7,
+      "peak_final": 14.0,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
