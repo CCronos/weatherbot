@@ -35330,6 +35330,105 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "seoul",
+      "name": "Seoul",
+      "station": "RKSI",
+      "unit": "C",
+      "fecha_mercado": "2026-08-21",
+      "logged_at": "2026-08-20T15:36:19.327668+00:00",
+      "model_peak": 27.2,
+      "empirico_peak": 30.2,
+      "peak_final": 29.0,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "29C",
+        "price": 0.075,
+        "prob": 0.245,
+        "ev": 2.265,
+        "kelly": 0.0459,
+        "volume": 1124.0,
+        "confianza": "cautela",
+        "market_id": "3715003",
+        "range": [
+          29.0,
+          29.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "tokyo",
+      "name": "Tokyo",
+      "station": "RJTT",
+      "unit": "C",
+      "fecha_mercado": "2026-08-21",
+      "logged_at": "2026-08-20T15:36:21.325466+00:00",
+      "model_peak": 30.1,
+      "empirico_peak": 30.6,
+      "peak_final": 30.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "30C",
+        "price": 0.13,
+        "prob": 0.223,
+        "ev": 0.718,
+        "kelly": 0.0268,
+        "volume": 1181.0,
+        "confianza": "moderado",
+        "market_id": "3715068",
+        "range": [
+          30.0,
+          30.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "busan",
+      "name": "Busan",
+      "station": "RKPK",
+      "unit": "C",
+      "fecha_mercado": "2026-08-21",
+      "logged_at": "2026-08-20T15:41:06.360852+00:00",
+      "model_peak": 28.4,
+      "empirico_peak": 32.4,
+      "peak_final": 30.7,
+      "sigma": 1.98,
+      "mejor_bucket": {
+        "bucket": "31C",
+        "price": 0.185,
+        "prob": 0.197,
+        "ev": 0.066,
+        "kelly": 0.0037,
+        "volume": 1835.0,
+        "confianza": "moderado",
+        "market_id": "3715233",
+        "range": [
+          31.0,
+          31.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
