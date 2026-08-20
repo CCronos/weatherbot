@@ -33807,13 +33807,17 @@
           75.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 82.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 82-83°F on August 19?",
+      "pick_won": false,
+      "forecast_error": -4.6,
+      "resolved_at": "2026-08-20T08:48:06.771842+00:00",
+      "crps": 3.0553,
+      "winning_range": [
+        82.0,
+        83.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -33847,13 +33851,17 @@
       "peak_final": 70.7,
       "sigma": 2.0,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 67.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 66-67°F on August 19?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 3.7,
+      "resolved_at": "2026-08-20T08:48:06.999308+00:00",
+      "crps": 2.6219,
+      "winning_range": [
+        66.0,
+        67.0
+      ]
     },
     {
       "slug": "wellington",
