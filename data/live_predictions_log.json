@@ -34789,13 +34789,17 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Munich be 25°C on August 20?",
+      "pick_won": false,
+      "forecast_error": 2.6,
+      "resolved_at": "2026-08-20T23:35:20.037175+00:00",
+      "crps": 1.7663,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "madrid",
@@ -34846,13 +34850,17 @@
           19.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 22.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 22°C on August 20?",
+      "pick_won": false,
+      "forecast_error": -2.0,
+      "resolved_at": "2026-08-20T23:35:20.135501+00:00",
+      "crps": 1.2586,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -34923,13 +34931,17 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Milan be 30°C or higher on August 20?",
+      "pick_won": false,
+      "forecast_error": -1.6,
+      "resolved_at": "2026-08-20T23:35:20.499392+00:00",
+      "crps": 0.9637,
+      "winning_range": [
+        30.0,
+        999.0
+      ]
     },
     {
       "slug": "cape-town",
@@ -36431,6 +36443,39 @@
         "range": [
           20.0,
           20.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-21",
+      "logged_at": "2026-08-20T23:27:22.915824+00:00",
+      "model_peak": 21.9,
+      "empirico_peak": 21.3,
+      "peak_final": 21.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "23C",
+        "price": 0.105,
+        "prob": 0.195,
+        "ev": 0.857,
+        "kelly": 0.0251,
+        "volume": 4931.0,
+        "confianza": "moderado",
+        "market_id": "3714981",
+        "range": [
+          23.0,
+          23.0
         ]
       },
       "resolved": false,
