@@ -33669,13 +33669,17 @@
           95.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 96.0,
+      "winning_bucket": "Will the highest temperature in Houston be between 96-97°F on August 19?",
+      "pick_won": false,
+      "forecast_error": 0.3,
+      "resolved_at": "2026-08-20T09:43:28.803585+00:00",
+      "crps": 0.7241,
+      "winning_range": [
+        96.0,
+        97.0
+      ]
     },
     {
       "slug": "austin",
@@ -33689,13 +33693,17 @@
       "peak_final": 101.0,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 102.0,
+      "winning_bucket": "Will the highest temperature in Austin be between 102-103°F on August 19?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.0,
+      "resolved_at": "2026-08-20T09:43:28.868056+00:00",
+      "crps": 0.842,
+      "winning_range": [
+        102.0,
+        103.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -33831,13 +33839,17 @@
       "peak_final": 81.2,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 80.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 80-81°F on August 19?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.2,
+      "resolved_at": "2026-08-20T09:43:28.933421+00:00",
+      "crps": 0.8984,
+      "winning_range": [
+        80.0,
+        81.0
+      ]
     },
     {
       "slug": "san-francisco",
