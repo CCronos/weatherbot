@@ -35070,13 +35070,17 @@
       "peak_final": 23.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 32°C on August 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -8.6,
+      "resolved_at": "2026-08-21T06:54:55.174995+00:00",
+      "crps": 7.6956,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -35249,13 +35253,17 @@
       "peak_final": 79.1,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 77.0,
+      "winning_bucket": "Will the highest temperature in Chicago be between 76-77°F on August 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.1,
+      "resolved_at": "2026-08-21T06:54:55.273269+00:00",
+      "crps": 1.2677,
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "dallas",
@@ -35269,13 +35277,17 @@
       "peak_final": 105.9,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 104.0,
+      "winning_bucket": "Will the highest temperature in Dallas be between 104-105°F on August 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.9,
+      "resolved_at": "2026-08-21T06:54:55.363848+00:00",
+      "crps": 1.1701,
+      "winning_range": [
+        104.0,
+        105.0
+      ]
     },
     {
       "slug": "houston",
@@ -35289,13 +35301,17 @@
       "peak_final": 96.2,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 97.0,
+      "winning_bucket": "Will the highest temperature in Houston be between 96-97°F on August 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.8,
+      "resolved_at": "2026-08-21T06:54:55.461254+00:00",
+      "crps": 0.7956,
+      "winning_range": [
+        96.0,
+        97.0
+      ]
     },
     {
       "slug": "austin",
@@ -35309,13 +35325,17 @@
       "peak_final": 99.4,
       "sigma": 2.0,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 103.0,
+      "winning_bucket": "Will the highest temperature in Austin be between 102-103°F on August 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.6,
+      "resolved_at": "2026-08-21T06:54:55.589056+00:00",
+      "crps": 2.5287,
+      "winning_range": [
+        102.0,
+        103.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -36782,6 +36802,59 @@
       "peak_final": 32.1,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "station": "KBKF",
+      "unit": "F",
+      "fecha_mercado": "2026-08-21",
+      "logged_at": "2026-08-21T06:48:22.636161+00:00",
+      "model_peak": 97.2,
+      "empirico_peak": 90.1,
+      "peak_final": 93.8,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "mexico-city",
+      "name": "Mexico City",
+      "station": "MMMX",
+      "unit": "C",
+      "fecha_mercado": "2026-08-21",
+      "logged_at": "2026-08-21T06:52:30.258020+00:00",
+      "model_peak": 25.8,
+      "empirico_peak": 23.8,
+      "peak_final": 25.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "24C",
+        "price": 0.155,
+        "prob": 0.195,
+        "ev": 0.258,
+        "kelly": 0.0118,
+        "volume": 1057.0,
+        "confianza": "moderado",
+        "market_id": "3734983",
+        "range": [
+          24.0,
+          24.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
