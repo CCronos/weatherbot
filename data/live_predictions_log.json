@@ -35410,13 +35410,17 @@
       "peak_final": 81.1,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 85.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 84-85°F on August 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.9,
+      "resolved_at": "2026-08-21T08:48:17.514724+00:00",
+      "crps": 2.4702,
+      "winning_range": [
+        84.0,
+        85.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -35443,13 +35447,17 @@
           83.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 77.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 76-77°F on August 20?",
+      "pick_won": false,
+      "forecast_error": 3.3,
+      "resolved_at": "2026-08-21T08:48:17.683257+00:00",
+      "crps": 2.0132,
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "denver",
@@ -35487,13 +35495,17 @@
       "peak_final": 67.2,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 68.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 68-69°F on August 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.8,
+      "resolved_at": "2026-08-21T08:48:17.859333+00:00",
+      "crps": 0.7956,
+      "winning_range": [
+        68.0,
+        69.0
+      ]
     },
     {
       "slug": "wellington",
