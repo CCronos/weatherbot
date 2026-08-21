@@ -35042,13 +35042,17 @@
           24.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in London be 24°C on August 20?",
+      "pick_won": true,
+      "forecast_error": -1.2,
+      "resolved_at": "2026-08-21T01:28:15.722610+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "sao-paulo",
