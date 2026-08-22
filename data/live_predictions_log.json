@@ -37123,13 +37123,17 @@
       "peak_final": 68.4,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 67.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 66-67°F on August 21?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.4,
+      "resolved_at": "2026-08-22T10:32:53.951061+00:00",
+      "crps": 0.9644,
+      "winning_range": [
+        66.0,
+        67.0
+      ]
     },
     {
       "slug": "wellington",
