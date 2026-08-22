@@ -37315,13 +37315,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Shanghai be 31°C on August 22?",
+      "pick_won": false,
+      "forecast_error": -0.4,
+      "resolved_at": "2026-08-22T21:31:10.584288+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "chengdu",
@@ -37381,13 +37385,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Beijing be 30°C on August 22?",
+      "pick_won": false,
+      "forecast_error": 1.2,
+      "resolved_at": "2026-08-22T21:31:10.962249+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "singapore",
@@ -37414,13 +37422,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Singapore be 33°C on August 22?",
+      "pick_won": false,
+      "forecast_error": -0.9,
+      "resolved_at": "2026-08-22T21:31:11.256141+00:00",
+      "crps": 0.5711,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "kuala-lumpur",
@@ -37434,13 +37446,17 @@
       "peak_final": 33.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Kuala Lumpur be 34°C on August 22?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.2,
+      "resolved_at": "2026-08-22T21:31:11.457698+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "hong-kong",
@@ -37500,13 +37516,17 @@
           30.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Manila be 32°C on August 22?",
+      "pick_won": false,
+      "forecast_error": -1.0,
+      "resolved_at": "2026-08-22T21:31:11.791046+00:00",
+      "crps": 0.6157,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "chongqing",
@@ -37533,13 +37553,17 @@
           35.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 38.0,
+      "winning_bucket": "Will the highest temperature in Chongqing be 38°C or higher on August 22?",
+      "pick_won": false,
+      "forecast_error": -3.1,
+      "resolved_at": "2026-08-22T21:31:12.068911+00:00",
+      "crps": 2.0827,
+      "winning_range": [
+        38.0,
+        999.0
+      ]
     },
     {
       "slug": "guangzhou",
@@ -37566,13 +37590,17 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Guangzhou be 36°C on August 22?",
+      "pick_won": false,
+      "forecast_error": -2.0,
+      "resolved_at": "2026-08-22T21:31:12.395363+00:00",
+      "crps": 1.2586,
+      "winning_range": [
+        36.0,
+        36.0
+      ]
     },
     {
       "slug": "shenzhen",
@@ -37636,13 +37664,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Wuhan be 36°C on August 22?",
+      "pick_won": false,
+      "forecast_error": -1.9,
+      "resolved_at": "2026-08-22T21:31:12.783925+00:00",
+      "crps": 1.181,
+      "winning_range": [
+        36.0,
+        36.0
+      ]
     },
     {
       "slug": "jakarta",
@@ -37850,13 +37882,17 @@
       "peak_final": 20.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 22.0,
+      "winning_bucket": "Will the highest temperature in Moscow be 22°C on August 22?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.4,
+      "resolved_at": "2026-08-22T21:31:13.641604+00:00",
+      "crps": 0.8336,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "jeddah",
@@ -37870,13 +37906,17 @@
       "peak_final": 40.3,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 38.0,
+      "winning_bucket": "Will the highest temperature in Jeddah be 38°C or higher on August 22?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.3,
+      "resolved_at": "2026-08-22T21:31:14.149351+00:00",
+      "crps": 1.5044,
+      "winning_range": [
+        38.0,
+        999.0
+      ]
     },
     {
       "slug": "paris",
@@ -39147,6 +39187,139 @@
       "peak_final": 33.0,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "ankara",
+      "name": "Ankara",
+      "station": "LTAC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-23",
+      "logged_at": "2026-08-22T21:23:49.126402+00:00",
+      "model_peak": 34.5,
+      "empirico_peak": 30.1,
+      "peak_final": 32.6,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "tel-aviv",
+      "name": "Tel Aviv",
+      "station": "LLBG",
+      "unit": "C",
+      "fecha_mercado": "2026-08-23",
+      "logged_at": "2026-08-22T21:26:11.882815+00:00",
+      "model_peak": 34.3,
+      "empirico_peak": 33.1,
+      "peak_final": 34.0,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "helsinki",
+      "name": "Helsinki",
+      "station": "EFHK",
+      "unit": "C",
+      "fecha_mercado": "2026-08-23",
+      "logged_at": "2026-08-22T21:28:28.964848+00:00",
+      "model_peak": 16.7,
+      "empirico_peak": 21.0,
+      "peak_final": 19.1,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "istanbul",
+      "name": "Istanbul",
+      "station": "LTFM",
+      "unit": "C",
+      "fecha_mercado": "2026-08-23",
+      "logged_at": "2026-08-22T21:28:51.606340+00:00",
+      "model_peak": 28.9,
+      "empirico_peak": 25.3,
+      "peak_final": 27.4,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "moscow",
+      "name": "Moscow",
+      "station": "UUWW",
+      "unit": "C",
+      "fecha_mercado": "2026-08-23",
+      "logged_at": "2026-08-22T21:28:53.566096+00:00",
+      "model_peak": 23.1,
+      "empirico_peak": 23.1,
+      "peak_final": 23.4,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "jeddah",
+      "name": "Jeddah",
+      "station": "OEJN",
+      "unit": "C",
+      "fecha_mercado": "2026-08-23",
+      "logged_at": "2026-08-22T21:29:17.073037+00:00",
+      "model_peak": null,
+      "empirico_peak": 36.8,
+      "peak_final": 37.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "38C",
+        "price": 0.105,
+        "prob": 0.21,
+        "ev": 1.002,
+        "kelly": 0.0294,
+        "volume": 704.0,
+        "confianza": "moderado",
+        "market_id": "3757063",
+        "range": [
+          38.0,
+          38.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
