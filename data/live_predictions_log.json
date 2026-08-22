@@ -37160,13 +37160,17 @@
           16.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 16.0,
+      "winning_bucket": "Will the highest temperature in Wellington be 16°C on August 22?",
+      "pick_won": true,
+      "forecast_error": -0.6,
+      "resolved_at": "2026-08-22T20:30:38.955552+00:00",
+      "crps": 0.4632,
+      "winning_range": [
+        16.0,
+        16.0
+      ]
     },
     {
       "slug": "seoul",
@@ -37193,13 +37197,17 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 27.0,
+      "winning_bucket": "Will the highest temperature in Seoul (Incheon) be 27°C on August 22?",
+      "pick_won": false,
+      "forecast_error": 2.2,
+      "resolved_at": "2026-08-22T20:30:39.129609+00:00",
+      "crps": 1.4205,
+      "winning_range": [
+        27.0,
+        27.0
+      ]
     },
     {
       "slug": "tokyo",
@@ -37226,13 +37234,17 @@
           30.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Tokyo be 31°C on August 22?",
+      "pick_won": false,
+      "forecast_error": -1.5,
+      "resolved_at": "2026-08-22T20:30:39.295845+00:00",
+      "crps": 0.897,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "busan",
@@ -37246,13 +37258,17 @@
       "peak_final": 31.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Busan be 35°C on August 22?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.5,
+      "resolved_at": "2026-08-22T20:30:39.481502+00:00",
+      "crps": 2.612,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "taipei",
@@ -37583,13 +37599,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Shenzhen be 32°C on August 22?",
+      "pick_won": false,
+      "forecast_error": -0.4,
+      "resolved_at": "2026-08-22T20:30:40.258255+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "wuhan",
@@ -37689,13 +37709,17 @@
       "peak_final": 32.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Lucknow be 31°C on August 22?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.6,
+      "resolved_at": "2026-08-22T20:30:40.596985+00:00",
+      "crps": 0.9637,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "karachi",
@@ -37709,13 +37733,17 @@
       "peak_final": 32.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Karachi be 30°C on August 22?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.8,
+      "resolved_at": "2026-08-22T20:30:40.800947+00:00",
+      "crps": 1.9479,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "ankara",
