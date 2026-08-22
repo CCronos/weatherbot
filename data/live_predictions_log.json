@@ -36742,13 +36742,17 @@
       "peak_final": 76.2,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 78.0,
+      "winning_bucket": "Will the highest temperature in New York City be between 78-79°F on August 21?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.8,
+      "resolved_at": "2026-08-22T05:37:19.336824+00:00",
+      "crps": 1.1245,
+      "winning_range": [
+        78.0,
+        79.0
+      ]
     },
     {
       "slug": "miami",
@@ -36762,13 +36766,17 @@
       "peak_final": 90.0,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 92.0,
+      "winning_bucket": "Will the highest temperature in Miami be between 92-93°F on August 21?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.0,
+      "resolved_at": "2026-08-22T05:37:19.604657+00:00",
+      "crps": 1.2178,
+      "winning_range": [
+        92.0,
+        93.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -36795,13 +36803,17 @@
           95.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 94.0,
+      "winning_bucket": "Will the highest temperature in Atlanta be between 94-95°F on August 21?",
+      "pick_won": true,
+      "forecast_error": 0.5,
+      "resolved_at": "2026-08-22T05:37:19.747168+00:00",
+      "crps": 0.745,
+      "winning_range": [
+        94.0,
+        95.0
+      ]
     },
     {
       "slug": "toronto",
@@ -36958,13 +36970,17 @@
       "peak_final": 32.1,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Panama City be 33°C on August 21?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.9,
+      "resolved_at": "2026-08-22T05:37:20.341656+00:00",
+      "crps": 0.5711,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "denver",
@@ -38201,6 +38217,145 @@
         "range": [
           25.0,
           25.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "chicago",
+      "name": "Chicago",
+      "station": "KORD",
+      "unit": "F",
+      "fecha_mercado": "2026-08-22",
+      "logged_at": "2026-08-22T05:27:23.331167+00:00",
+      "model_peak": 81.0,
+      "empirico_peak": 83.2,
+      "peak_final": 82.3,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "82-83F",
+        "price": 0.105,
+        "prob": 0.13,
+        "ev": 0.238,
+        "kelly": 0.007,
+        "volume": 578.0,
+        "confianza": "moderado",
+        "market_id": "3754904",
+        "range": [
+          82.0,
+          83.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "dallas",
+      "name": "Dallas",
+      "station": "KDAL",
+      "unit": "F",
+      "fecha_mercado": "2026-08-22",
+      "logged_at": "2026-08-22T05:27:26.758404+00:00",
+      "model_peak": 109.2,
+      "empirico_peak": 102.7,
+      "peak_final": 106.1,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "houston",
+      "name": "Houston",
+      "station": "KHOU",
+      "unit": "F",
+      "fecha_mercado": "2026-08-22",
+      "logged_at": "2026-08-22T05:28:30.105583+00:00",
+      "model_peak": 101.9,
+      "empirico_peak": 94.9,
+      "peak_final": 98.6,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "austin",
+      "name": "Austin",
+      "station": "KAUS",
+      "unit": "F",
+      "fecha_mercado": "2026-08-22",
+      "logged_at": "2026-08-22T05:32:53.908603+00:00",
+      "model_peak": 102.8,
+      "empirico_peak": 101.6,
+      "peak_final": 102.4,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "100-101F",
+        "price": 0.07,
+        "prob": 0.107,
+        "ev": 0.535,
+        "kelly": 0.0101,
+        "volume": 592.0,
+        "confianza": "cautela",
+        "market_id": "3754912",
+        "range": [
+          100.0,
+          101.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "panama-city",
+      "name": "Panama City",
+      "station": "MPMG",
+      "unit": "C",
+      "fecha_mercado": "2026-08-22",
+      "logged_at": "2026-08-22T05:34:41.815191+00:00",
+      "model_peak": 30.9,
+      "empirico_peak": 32.0,
+      "peak_final": 31.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "31C",
+        "price": 0.12,
+        "prob": 0.217,
+        "ev": 0.809,
+        "kelly": 0.0276,
+        "volume": 712.0,
+        "confianza": "moderado",
+        "market_id": "3754989",
+        "range": [
+          31.0,
+          31.0
         ]
       },
       "resolved": false,
