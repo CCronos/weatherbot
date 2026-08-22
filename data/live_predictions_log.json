@@ -36718,13 +36718,17 @@
       "peak_final": 13.9,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 13.0,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 13°C on August 21?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.9,
+      "resolved_at": "2026-08-22T03:50:20.389616+00:00",
+      "crps": 0.5711,
+      "winning_range": [
+        13.0,
+        13.0
+      ]
     },
     {
       "slug": "nyc",
@@ -38034,6 +38038,72 @@
         "range": [
           23.0,
           23.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-08-22",
+      "logged_at": "2026-08-22T03:46:18.398285+00:00",
+      "model_peak": 23.5,
+      "empirico_peak": 19.3,
+      "peak_final": 21.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "21C",
+        "price": 0.185,
+        "prob": 0.217,
+        "ev": 0.173,
+        "kelly": 0.0098,
+        "volume": 862.0,
+        "confianza": "moderado",
+        "market_id": "3754812",
+        "range": [
+          21.0,
+          21.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-08-22",
+      "logged_at": "2026-08-22T03:46:19.187498+00:00",
+      "model_peak": 13.6,
+      "empirico_peak": 10.6,
+      "peak_final": 12.5,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "13C",
+        "price": 0.125,
+        "prob": 0.234,
+        "ev": 0.869,
+        "kelly": 0.031,
+        "volume": 2021.0,
+        "confianza": "moderado",
+        "market_id": "3754825",
+        "range": [
+          13.0,
+          13.0
         ]
       },
       "resolved": false,
