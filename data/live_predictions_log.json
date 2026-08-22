@@ -37010,13 +37010,17 @@
       "peak_final": 93.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 100.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 100-101°F on August 21?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -6.2,
+      "resolved_at": "2026-08-22T08:39:37.387375+00:00",
+      "crps": 4.5276,
+      "winning_range": [
+        100.0,
+        101.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -37067,13 +37071,17 @@
       "peak_final": 87.3,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 80.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 80-81°F on August 21?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 7.3,
+      "resolved_at": "2026-08-22T08:39:37.457917+00:00",
+      "crps": 5.5972,
+      "winning_range": [
+        80.0,
+        81.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -37087,13 +37095,17 @@
       "peak_final": 81.7,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 81.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 80-81°F on August 21?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.7,
+      "resolved_at": "2026-08-22T08:39:37.526934+00:00",
+      "crps": 0.7762,
+      "winning_range": [
+        80.0,
+        81.0
+      ]
     },
     {
       "slug": "san-francisco",
