@@ -38638,13 +38638,17 @@
       "peak_final": 74.4,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 75.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 74-75°F on August 22?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.6,
+      "resolved_at": "2026-08-23T08:39:37.227918+00:00",
+      "crps": 0.7593,
+      "winning_range": [
+        74.0,
+        75.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -38658,13 +38662,17 @@
       "peak_final": 81.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 82.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 82-83°F on August 22?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.2,
+      "resolved_at": "2026-08-23T08:39:37.302324+00:00",
+      "crps": 0.7175,
+      "winning_range": [
+        82.0,
+        83.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -38691,13 +38699,17 @@
           75.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 68.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 68-69°F on August 22?",
+      "pick_won": false,
+      "forecast_error": 3.3,
+      "resolved_at": "2026-08-23T08:39:37.378717+00:00",
+      "crps": 2.0132,
+      "winning_range": [
+        68.0,
+        69.0
+      ]
     },
     {
       "slug": "wellington",
@@ -40055,6 +40067,39 @@
       "peak_final": 84.2,
       "sigma": 3.048,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "san-francisco",
+      "name": "San Francisco",
+      "station": "KSFO",
+      "unit": "F",
+      "fecha_mercado": "2026-08-23",
+      "logged_at": "2026-08-23T08:35:48.935933+00:00",
+      "model_peak": 82.7,
+      "empirico_peak": 70.9,
+      "peak_final": 77.0,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "76-77F",
+        "price": 0.125,
+        "prob": 0.129,
+        "ev": 0.029,
+        "kelly": 0.001,
+        "volume": 1289.0,
+        "confianza": "moderado",
+        "market_id": "3772593",
+        "range": [
+          76.0,
+          77.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
