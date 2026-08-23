@@ -38257,13 +38257,17 @@
           21.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 23°C on August 22?",
+      "pick_won": false,
+      "forecast_error": -1.2,
+      "resolved_at": "2026-08-23T04:44:06.637730+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -38290,13 +38294,17 @@
           13.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 14.0,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 14°C on August 22?",
+      "pick_won": false,
+      "forecast_error": -1.5,
+      "resolved_at": "2026-08-23T04:44:06.943773+00:00",
+      "crps": 0.897,
+      "winning_range": [
+        14.0,
+        14.0
+      ]
     },
     {
       "slug": "nyc",
@@ -38383,13 +38391,17 @@
           25.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Toronto be 25°C on August 22?",
+      "pick_won": true,
+      "forecast_error": 0.5,
+      "resolved_at": "2026-08-23T04:44:07.727092+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "chicago",
@@ -39687,6 +39699,86 @@
           14.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "nyc",
+      "name": "New York City",
+      "station": "KLGA",
+      "unit": "F",
+      "fecha_mercado": "2026-08-23",
+      "logged_at": "2026-08-23T04:37:07.727414+00:00",
+      "model_peak": 81.0,
+      "empirico_peak": 79.8,
+      "peak_final": 80.6,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "miami",
+      "name": "Miami",
+      "station": "KMIA",
+      "unit": "F",
+      "fecha_mercado": "2026-08-23",
+      "logged_at": "2026-08-23T04:37:11.458534+00:00",
+      "model_peak": 89.9,
+      "empirico_peak": 91.4,
+      "peak_final": 90.8,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "atlanta",
+      "name": "Atlanta",
+      "station": "KATL",
+      "unit": "F",
+      "fecha_mercado": "2026-08-23",
+      "logged_at": "2026-08-23T04:37:45.995536+00:00",
+      "model_peak": 93.2,
+      "empirico_peak": 94.4,
+      "peak_final": 94.0,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "toronto",
+      "name": "Toronto",
+      "station": "CYYZ",
+      "unit": "C",
+      "fecha_mercado": "2026-08-23",
+      "logged_at": "2026-08-23T04:41:03.207283+00:00",
+      "model_peak": null,
+      "empirico_peak": 24.8,
+      "peak_final": 25.1,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
