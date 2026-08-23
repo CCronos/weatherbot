@@ -39610,13 +39610,17 @@
           21.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Munich be 23°C on August 23?",
+      "pick_won": false,
+      "forecast_error": -2.5,
+      "resolved_at": "2026-08-23T23:30:31.677412+00:00",
+      "crps": 1.6775,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "madrid",
@@ -39630,13 +39634,17 @@
       "peak_final": 36.3,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Madrid be 34°C on August 23?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.3,
+      "resolved_at": "2026-08-23T23:30:31.751610+00:00",
+      "crps": 1.5044,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "amsterdam",
@@ -39663,13 +39671,17 @@
           18.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 20°C on August 23?",
+      "pick_won": false,
+      "forecast_error": -0.9,
+      "resolved_at": "2026-08-23T23:30:31.821847+00:00",
+      "crps": 0.5711,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -39753,13 +39765,17 @@
           27.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 28.0,
+      "winning_bucket": "Will the highest temperature in Milan be 28°C on August 23?",
+      "pick_won": false,
+      "forecast_error": -1.4,
+      "resolved_at": "2026-08-23T23:30:32.125875+00:00",
+      "crps": 0.8336,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "cape-town",
@@ -39786,13 +39802,17 @@
           20.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 19.0,
+      "winning_bucket": "Will the highest temperature in Cape Town be 19°C on August 23?",
+      "pick_won": false,
+      "forecast_error": 0.8,
+      "resolved_at": "2026-08-23T23:30:32.201275+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        19.0,
+        19.0
+      ]
     },
     {
       "slug": "london",
@@ -41183,6 +41203,39 @@
       "peak_final": 19.1,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-24",
+      "logged_at": "2026-08-23T23:22:41.791047+00:00",
+      "model_peak": null,
+      "empirico_peak": 24.0,
+      "peak_final": 24.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "23C",
+        "price": 0.09,
+        "prob": 0.178,
+        "ev": 0.979,
+        "kelly": 0.0242,
+        "volume": 2533.0,
+        "confianza": "cautela",
+        "market_id": "3774827",
+        "range": [
+          23.0,
+          23.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
