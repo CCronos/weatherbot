@@ -40107,6 +40107,39 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-08-24",
+      "logged_at": "2026-08-23T12:44:40.428626+00:00",
+      "model_peak": 14.7,
+      "empirico_peak": 15.3,
+      "peak_final": 15.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "14C",
+        "price": 0.1,
+        "prob": 0.178,
+        "ev": 0.781,
+        "kelly": 0.0217,
+        "volume": 2887.0,
+        "confianza": "moderado",
+        "market_id": "3774026",
+        "range": [
+          14.0,
+          14.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
