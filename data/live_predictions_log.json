@@ -38590,13 +38590,17 @@
       "peak_final": 94.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 92.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 92-93°F on August 22?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.8,
+      "resolved_at": "2026-08-23T07:43:25.388116+00:00",
+      "crps": 1.6719,
+      "winning_range": [
+        92.0,
+        93.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -38610,13 +38614,17 @@
       "peak_final": 23.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 23°C on August 22?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.5,
+      "resolved_at": "2026-08-23T07:43:25.582447+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "seattle",
@@ -40007,6 +40015,46 @@
           23.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "station": "KSEA",
+      "unit": "F",
+      "fecha_mercado": "2026-08-23",
+      "logged_at": "2026-08-23T07:34:27.093817+00:00",
+      "model_peak": null,
+      "empirico_peak": 74.3,
+      "peak_final": 74.5,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "los-angeles",
+      "name": "Los Angeles",
+      "station": "KLAX",
+      "unit": "F",
+      "fecha_mercado": "2026-08-23",
+      "logged_at": "2026-08-23T07:34:48.449024+00:00",
+      "model_peak": 90.3,
+      "empirico_peak": 77.6,
+      "peak_final": 84.2,
+      "sigma": 3.048,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
