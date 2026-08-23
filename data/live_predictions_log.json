@@ -38834,13 +38834,17 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Busan be 35°C on August 23?",
+      "pick_won": false,
+      "forecast_error": -1.4,
+      "resolved_at": "2026-08-23T22:30:47.032598+00:00",
+      "crps": 0.8336,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "taipei",
@@ -39146,13 +39150,17 @@
           999.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 37.0,
+      "winning_bucket": "Will the highest temperature in Chongqing be 37°C on August 23?",
+      "pick_won": false,
+      "forecast_error": -0.3,
+      "resolved_at": "2026-08-23T22:30:47.180577+00:00",
+      "crps": 0.3969,
+      "winning_range": [
+        37.0,
+        37.0
+      ]
     },
     {
       "slug": "guangzhou",
@@ -39395,13 +39403,17 @@
       "peak_final": 32.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Ankara be 35°C on August 23?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.4,
+      "resolved_at": "2026-08-23T22:30:47.410376+00:00",
+      "crps": 1.5902,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "tel-aviv",
@@ -39415,13 +39427,17 @@
       "peak_final": 34.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Tel Aviv be 32°C on August 23?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.0,
+      "resolved_at": "2026-08-23T22:30:47.511549+00:00",
+      "crps": 1.2586,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "helsinki",
@@ -39435,13 +39451,17 @@
       "peak_final": 19.1,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 15.0,
+      "winning_bucket": "Will the highest temperature in Helsinki be 15°C on August 23?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 4.1,
+      "resolved_at": "2026-08-23T22:30:47.613525+00:00",
+      "crps": 3.201,
+      "winning_range": [
+        15.0,
+        15.0
+      ]
     },
     {
       "slug": "istanbul",
@@ -39457,11 +39477,15 @@
       "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
-      "winning_bucket": null,
+      "winning_bucket": "Will the highest temperature in Istanbul be 28°C on August 23?",
       "pick_won": null,
       "forecast_error": null,
       "resolved_at": null,
-      "crps": null
+      "crps": null,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "moscow",
@@ -39549,13 +39573,17 @@
           25.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Paris be 24°C on August 23?",
+      "pick_won": false,
+      "forecast_error": 1.1,
+      "resolved_at": "2026-08-23T22:30:47.951673+00:00",
+      "crps": 0.6645,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "munich",
@@ -39668,13 +39696,17 @@
           18.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 19.0,
+      "winning_bucket": "Will the highest temperature in Warsaw be 19°C on August 23?",
+      "pick_won": false,
+      "forecast_error": 0.8,
+      "resolved_at": "2026-08-23T22:30:48.206494+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        19.0,
+        19.0
+      ]
     },
     {
       "slug": "paris-le-bourget",
@@ -40963,6 +40995,192 @@
       "model_peak": 39.9,
       "empirico_peak": 39.7,
       "peak_final": 40.2,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "paris",
+      "name": "Paris",
+      "station": "LFPG",
+      "unit": "C",
+      "fecha_mercado": "2026-08-24",
+      "logged_at": "2026-08-23T22:24:02.611054+00:00",
+      "model_peak": null,
+      "empirico_peak": null,
+      "peak_final": null,
+      "sigma": null,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "munich",
+      "name": "Munich",
+      "station": "EDDM",
+      "unit": "C",
+      "fecha_mercado": "2026-08-24",
+      "logged_at": "2026-08-23T22:24:11.923809+00:00",
+      "model_peak": 23.5,
+      "empirico_peak": 18.1,
+      "peak_final": 21.2,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "22C",
+        "price": 0.07,
+        "prob": 0.217,
+        "ev": 2.101,
+        "kelly": 0.0395,
+        "volume": 3568.0,
+        "confianza": "cautela",
+        "market_id": "3774869",
+        "range": [
+          22.0,
+          22.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "madrid",
+      "name": "Madrid",
+      "station": "LEMD",
+      "unit": "C",
+      "fecha_mercado": "2026-08-24",
+      "logged_at": "2026-08-23T22:24:15.430101+00:00",
+      "model_peak": 28.2,
+      "empirico_peak": 35.0,
+      "peak_final": 32.0,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "amsterdam",
+      "name": "Amsterdam",
+      "station": "EHAM",
+      "unit": "C",
+      "fecha_mercado": "2026-08-24",
+      "logged_at": "2026-08-23T22:24:16.662247+00:00",
+      "model_peak": 21.4,
+      "empirico_peak": 18.8,
+      "peak_final": 20.5,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "23C",
+        "price": 0.06,
+        "prob": 0.075,
+        "ev": 0.257,
+        "kelly": 0.0041,
+        "volume": 1375.0,
+        "confianza": "cautela",
+        "market_id": "3774948",
+        "range": [
+          23.0,
+          23.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "warsaw",
+      "name": "Warsaw",
+      "station": "EPWA",
+      "unit": "C",
+      "fecha_mercado": "2026-08-24",
+      "logged_at": "2026-08-23T22:25:00.743960+00:00",
+      "model_peak": null,
+      "empirico_peak": 17.8,
+      "peak_final": 18.2,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "paris-le-bourget",
+      "name": "Paris (Le Bourget)",
+      "station": "LFPB",
+      "unit": "C",
+      "fecha_mercado": "2026-08-24",
+      "logged_at": "2026-08-23T22:27:30.069042+00:00",
+      "model_peak": 28.0,
+      "empirico_peak": 24.4,
+      "peak_final": 26.6,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "milan",
+      "name": "Milan",
+      "station": "LIMC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-24",
+      "logged_at": "2026-08-23T22:27:31.327137+00:00",
+      "model_peak": 28.7,
+      "empirico_peak": 27.2,
+      "peak_final": 28.3,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "cape-town",
+      "name": "Cape Town",
+      "station": "FACT",
+      "unit": "C",
+      "fecha_mercado": "2026-08-24",
+      "logged_at": "2026-08-23T22:28:29.380455+00:00",
+      "model_peak": 18.9,
+      "empirico_peak": 18.6,
+      "peak_final": 19.1,
       "sigma": 1.603,
       "mejor_bucket": null,
       "resolved": false,
