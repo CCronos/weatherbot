@@ -39641,6 +39641,59 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-08-23",
+      "logged_at": "2026-08-23T03:06:26.234411+00:00",
+      "model_peak": 25.0,
+      "empirico_peak": 18.3,
+      "peak_final": 21.9,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-08-23",
+      "logged_at": "2026-08-23T03:06:27.216878+00:00",
+      "model_peak": 13.7,
+      "empirico_peak": 13.6,
+      "peak_final": 13.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "14C",
+        "price": 0.14,
+        "prob": 0.244,
+        "ev": 0.746,
+        "kelly": 0.0304,
+        "volume": 1107.0,
+        "confianza": "moderado",
+        "market_id": "3772461",
+        "range": [
+          14.0,
+          14.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
