@@ -39862,13 +39862,17 @@
       "peak_final": 21.9,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 24°C on August 23?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.1,
+      "resolved_at": "2026-08-24T09:57:15.930261+00:00",
+      "crps": 1.3385,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -40052,13 +40056,17 @@
       "peak_final": 106.1,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 108.0,
+      "winning_bucket": "Will the highest temperature in Dallas be between 108-109°F on August 23?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.9,
+      "resolved_at": "2026-08-24T09:57:16.017876+00:00",
+      "crps": 1.1701,
+      "winning_range": [
+        108.0,
+        109.0
+      ]
     },
     {
       "slug": "houston",
@@ -40072,13 +40080,17 @@
       "peak_final": 99.6,
       "sigma": 2.0,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 98.0,
+      "winning_bucket": "Will the highest temperature in Houston be between 98-99°F on August 23?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.6,
+      "resolved_at": "2026-08-24T09:57:16.316362+00:00",
+      "crps": 0.9524,
+      "winning_range": [
+        98.0,
+        99.0
+      ]
     },
     {
       "slug": "austin",
@@ -40105,13 +40117,17 @@
           103.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 104.0,
+      "winning_bucket": "Will the highest temperature in Austin be between 104-105°F on August 23?",
+      "pick_won": false,
+      "forecast_error": -1.5,
+      "resolved_at": "2026-08-24T09:57:16.489404+00:00",
+      "crps": 1.001,
+      "winning_range": [
+        104.0,
+        105.0
+      ]
     },
     {
       "slug": "panama-city",
