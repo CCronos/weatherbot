@@ -42772,6 +42772,39 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-25",
+      "logged_at": "2026-08-24T23:24:16.893610+00:00",
+      "model_peak": null,
+      "empirico_peak": 23.4,
+      "peak_final": 23.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "23C",
+        "price": 0.09,
+        "prob": 0.223,
+        "ev": 1.481,
+        "kelly": 0.0366,
+        "volume": 11486.0,
+        "confianza": "cautela",
+        "market_id": "3794939",
+        "range": [
+          23.0,
+          23.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
