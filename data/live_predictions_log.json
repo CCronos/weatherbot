@@ -40329,13 +40329,17 @@
           14.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 15.0,
+      "winning_bucket": "Will the highest temperature in Wellington be 15°C on August 24?",
+      "pick_won": false,
+      "forecast_error": 0.3,
+      "resolved_at": "2026-08-24T20:40:27.951956+00:00",
+      "crps": 0.3969,
+      "winning_range": [
+        15.0,
+        15.0
+      ]
     },
     {
       "slug": "seoul",
@@ -40362,13 +40366,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Seoul (Incheon) be 31°C on August 24?",
+      "pick_won": false,
+      "forecast_error": -1.9,
+      "resolved_at": "2026-08-24T20:40:28.024050+00:00",
+      "crps": 1.181,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "tokyo",
@@ -40395,13 +40403,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Tokyo be 33°C on August 24?",
+      "pick_won": false,
+      "forecast_error": -2.0,
+      "resolved_at": "2026-08-24T20:40:28.108426+00:00",
+      "crps": 1.2586,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "busan",
@@ -40428,13 +40440,17 @@
           34.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Busan be 34°C on August 24?",
+      "pick_won": true,
+      "forecast_error": -1.1,
+      "resolved_at": "2026-08-24T20:40:28.186673+00:00",
+      "crps": 0.6645,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "taipei",
