@@ -35863,13 +35863,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 31°C on August 21?",
+      "pick_won": false,
+      "forecast_error": 0.1,
+      "resolved_at": "2026-08-24T03:12:27.497976+00:00",
+      "crps": 0.4647,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "manila",
@@ -37491,13 +37495,17 @@
           30.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 31°C on August 22?",
+      "pick_won": false,
+      "forecast_error": -1.8,
+      "resolved_at": "2026-08-24T03:12:28.573048+00:00",
+      "crps": 1.1058,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "manila",
@@ -39080,13 +39088,17 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 32°C on August 23?",
+      "pick_won": false,
+      "forecast_error": -0.6,
+      "resolved_at": "2026-08-24T03:12:29.630226+00:00",
+      "crps": 0.4632,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "manila",
@@ -41240,6 +41252,59 @@
           23.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-08-24",
+      "logged_at": "2026-08-24T03:09:04.209069+00:00",
+      "model_peak": 21.6,
+      "empirico_peak": 23.1,
+      "peak_final": 22.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "22C",
+        "price": 0.09,
+        "prob": 0.223,
+        "ev": 1.481,
+        "kelly": 0.0366,
+        "volume": 931.0,
+        "confianza": "cautela",
+        "market_id": "3790831",
+        "range": [
+          22.0,
+          22.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-08-24",
+      "logged_at": "2026-08-24T03:09:05.357753+00:00",
+      "model_peak": 12.6,
+      "empirico_peak": 11.2,
+      "peak_final": 12.3,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
