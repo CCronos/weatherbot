@@ -40141,13 +40141,17 @@
       "peak_final": 32.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Panama City be 31°C on August 23?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.0,
+      "resolved_at": "2026-08-24T13:01:02.057729+00:00",
+      "crps": 0.6157,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "denver",
@@ -40231,13 +40235,17 @@
       "peak_final": 74.5,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 75.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 74-75°F on August 23?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.5,
+      "resolved_at": "2026-08-24T13:01:02.261639+00:00",
+      "crps": 0.745,
+      "winning_range": [
+        74.0,
+        75.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -40284,13 +40292,17 @@
           77.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 76.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 76-77°F on August 23?",
+      "pick_won": true,
+      "forecast_error": 1.0,
+      "resolved_at": "2026-08-24T13:01:02.398387+00:00",
+      "crps": 0.842,
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "wellington",
@@ -41720,6 +41732,39 @@
       "peak_final": 82.6,
       "sigma": 3.048,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-08-25",
+      "logged_at": "2026-08-24T12:56:10.593667+00:00",
+      "model_peak": 15.4,
+      "empirico_peak": 16.7,
+      "peak_final": 16.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "15C",
+        "price": 0.11,
+        "prob": 0.178,
+        "ev": 0.619,
+        "kelly": 0.0191,
+        "volume": 2402.0,
+        "confianza": "moderado",
+        "market_id": "3794982",
+        "range": [
+          15.0,
+          15.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
