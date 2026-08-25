@@ -41675,13 +41675,17 @@
       "peak_final": 107.5,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 107.0,
+      "winning_bucket": "Will the highest temperature in Dallas be between 106-107°F on August 24?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.5,
+      "resolved_at": "2026-08-25T09:45:17.187805+00:00",
+      "crps": 0.745,
+      "winning_range": [
+        106.0,
+        107.0
+      ]
     },
     {
       "slug": "houston",
@@ -41924,13 +41928,17 @@
       "peak_final": 82.6,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 82.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 82-83°F on August 24?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.6,
+      "resolved_at": "2026-08-25T09:45:17.469337+00:00",
+      "crps": 0.7593,
+      "winning_range": [
+        82.0,
+        83.0
+      ]
     },
     {
       "slug": "wellington",
