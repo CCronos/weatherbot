@@ -40477,13 +40477,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Taipei be 31°C on August 24?",
+      "pick_won": true,
+      "forecast_error": -1.2,
+      "resolved_at": "2026-08-25T07:52:30.078764+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "shanghai",
@@ -41493,13 +41497,17 @@
       "peak_final": 12.3,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 13.0,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 13°C on August 24?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.7,
+      "resolved_at": "2026-08-25T07:52:30.712999+00:00",
+      "crps": 0.4947,
+      "winning_range": [
+        13.0,
+        13.0
+      ]
     },
     {
       "slug": "nyc",
@@ -41852,13 +41860,17 @@
           21.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 20°C on August 24?",
+      "pick_won": false,
+      "forecast_error": 1.4,
+      "resolved_at": "2026-08-25T07:52:31.208549+00:00",
+      "crps": 0.8336,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "seattle",
@@ -43240,6 +43252,92 @@
         "range": [
           24.0,
           24.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "station": "KSEA",
+      "unit": "F",
+      "fecha_mercado": "2026-08-25",
+      "logged_at": "2026-08-25T07:43:42.304951+00:00",
+      "model_peak": 84.8,
+      "empirico_peak": 85.2,
+      "peak_final": 85.2,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "los-angeles",
+      "name": "Los Angeles",
+      "station": "KLAX",
+      "unit": "F",
+      "fecha_mercado": "2026-08-25",
+      "logged_at": "2026-08-25T07:44:44.704261+00:00",
+      "model_peak": 88.1,
+      "empirico_peak": 78.7,
+      "peak_final": 83.6,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "80-81F",
+        "price": 0.07,
+        "prob": 0.078,
+        "ev": 0.115,
+        "kelly": 0.0022,
+        "volume": 4415.0,
+        "confianza": "cautela",
+        "market_id": "3828489",
+        "range": [
+          80.0,
+          81.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "san-francisco",
+      "name": "San Francisco",
+      "station": "KSFO",
+      "unit": "F",
+      "fecha_mercado": "2026-08-25",
+      "logged_at": "2026-08-25T07:48:48.840964+00:00",
+      "model_peak": 71.7,
+      "empirico_peak": 69.0,
+      "peak_final": 70.5,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "68-69F",
+        "price": 0.1,
+        "prob": 0.105,
+        "ev": 0.053,
+        "kelly": 0.0015,
+        "volume": 823.0,
+        "confianza": "moderado",
+        "market_id": "3828501",
+        "range": [
+          68.0,
+          69.0
         ]
       },
       "resolved": false,
