@@ -40497,13 +40497,17 @@
       "peak_final": 31.2,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Shanghai be 32°C on August 24?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.8,
+      "resolved_at": "2026-08-25T03:07:30.450610+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "chengdu",
@@ -40596,13 +40600,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Singapore be 33°C on August 24?",
+      "pick_won": false,
+      "forecast_error": -0.5,
+      "resolved_at": "2026-08-25T03:07:30.603531+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "kuala-lumpur",
@@ -40649,13 +40657,17 @@
       "peak_final": 32.8,
       "sigma": 1.98,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 33°C on August 24?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.2,
+      "resolved_at": "2026-08-25T03:07:30.792130+00:00",
+      "crps": 0.4708,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "manila",
@@ -40781,13 +40793,17 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Shenzhen be 31°C on August 24?",
+      "pick_won": false,
+      "forecast_error": -1.0,
+      "resolved_at": "2026-08-25T03:07:31.116315+00:00",
+      "crps": 0.6157,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "wuhan",
@@ -41023,13 +41039,17 @@
           20.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 18.0,
+      "winning_bucket": "Will the highest temperature in Helsinki be 18°C on August 24?",
+      "pick_won": false,
+      "forecast_error": 1.9,
+      "resolved_at": "2026-08-25T03:07:31.504728+00:00",
+      "crps": 1.181,
+      "winning_range": [
+        18.0,
+        18.0
+      ]
     },
     {
       "slug": "istanbul",
@@ -41303,13 +41323,17 @@
       "peak_final": 19.1,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 18.0,
+      "winning_bucket": "Will the highest temperature in Cape Town be 18°C on August 24?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.1,
+      "resolved_at": "2026-08-25T03:07:32.230941+00:00",
+      "crps": 0.6645,
+      "winning_range": [
+        18.0,
+        18.0
+      ]
     },
     {
       "slug": "london",
@@ -41336,13 +41360,17 @@
           23.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 22.0,
+      "winning_bucket": "Will the highest temperature in London be 22°C on August 24?",
+      "pick_won": false,
+      "forecast_error": 2.3,
+      "resolved_at": "2026-08-25T03:07:32.314273+00:00",
+      "crps": 1.5044,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "sao-paulo",
@@ -42798,6 +42826,59 @@
           23.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-08-25",
+      "logged_at": "2026-08-25T03:02:55.589869+00:00",
+      "model_peak": 21.3,
+      "empirico_peak": 21.1,
+      "peak_final": 21.5,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "22C",
+        "price": 0.205,
+        "prob": 0.234,
+        "ev": 0.14,
+        "kelly": 0.009,
+        "volume": 1384.0,
+        "confianza": "escalable",
+        "market_id": "3828357",
+        "range": [
+          22.0,
+          22.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-08-25",
+      "logged_at": "2026-08-25T03:03:17.367468+00:00",
+      "model_peak": null,
+      "empirico_peak": 14.7,
+      "peak_final": 15.0,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
