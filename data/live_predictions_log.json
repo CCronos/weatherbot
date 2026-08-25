@@ -40743,13 +40743,17 @@
           36.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 37.0,
+      "winning_bucket": "Will the highest temperature in Chongqing be 37°C on August 24?",
+      "pick_won": false,
+      "forecast_error": -1.4,
+      "resolved_at": "2026-08-25T05:41:33.175415+00:00",
+      "crps": 0.8336,
+      "winning_range": [
+        37.0,
+        37.0
+      ]
     },
     {
       "slug": "guangzhou",
@@ -41201,13 +41205,17 @@
       "peak_final": null,
       "sigma": null,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Paris be 27°C on August 24?",
       "pick_won": null,
       "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved_at": "2026-08-25T05:41:33.978223+00:00",
+      "crps": null,
+      "winning_range": [
+        27.0,
+        27.0
+      ]
     },
     {
       "slug": "munich",
@@ -41234,13 +41242,17 @@
           22.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Munich be 24°C on August 24?",
+      "pick_won": false,
+      "forecast_error": -2.8,
+      "resolved_at": "2026-08-25T05:41:34.190569+00:00",
+      "crps": 1.9479,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "madrid",
@@ -41254,13 +41266,17 @@
       "peak_final": 32.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 29.0,
+      "winning_bucket": "Will the highest temperature in Madrid be 29°C on August 24?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 3.0,
+      "resolved_at": "2026-08-25T05:41:34.360504+00:00",
+      "crps": 2.1338,
+      "winning_range": [
+        29.0,
+        29.0
+      ]
     },
     {
       "slug": "amsterdam",
@@ -41513,13 +41529,17 @@
       "peak_final": 88.1,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 91.0,
+      "winning_bucket": "Will the highest temperature in Miami be between 90-91°F on August 24?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.9,
+      "resolved_at": "2026-08-25T05:41:35.077112+00:00",
+      "crps": 1.737,
+      "winning_range": [
+        90.0,
+        91.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -41546,13 +41566,17 @@
           95.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 91.0,
+      "winning_bucket": "Will the highest temperature in Atlanta be between 90-91°F on August 24?",
+      "pick_won": false,
+      "forecast_error": 2.0,
+      "resolved_at": "2026-08-25T05:41:35.189899+00:00",
+      "crps": 1.2178,
+      "winning_range": [
+        90.0,
+        91.0
+      ]
     },
     {
       "slug": "toronto",
@@ -41709,13 +41733,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Panama City be 32°C on August 24?",
+      "pick_won": false,
+      "forecast_error": -0.4,
+      "resolved_at": "2026-08-25T05:41:35.677643+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "denver",
@@ -43030,6 +43058,119 @@
         "range": [
           23.0,
           23.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "chicago",
+      "name": "Chicago",
+      "station": "KORD",
+      "unit": "F",
+      "fecha_mercado": "2026-08-25",
+      "logged_at": "2026-08-25T05:31:45.211589+00:00",
+      "model_peak": 82.3,
+      "empirico_peak": 74.3,
+      "peak_final": 78.5,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "dallas",
+      "name": "Dallas",
+      "station": "KDAL",
+      "unit": "F",
+      "fecha_mercado": "2026-08-25",
+      "logged_at": "2026-08-25T05:32:10.424233+00:00",
+      "model_peak": 107.6,
+      "empirico_peak": 105.5,
+      "peak_final": 106.8,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "houston",
+      "name": "Houston",
+      "station": "KHOU",
+      "unit": "F",
+      "fecha_mercado": "2026-08-25",
+      "logged_at": "2026-08-25T05:32:44.880645+00:00",
+      "model_peak": 100.3,
+      "empirico_peak": 94.9,
+      "peak_final": 97.8,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "austin",
+      "name": "Austin",
+      "station": "KAUS",
+      "unit": "F",
+      "fecha_mercado": "2026-08-25",
+      "logged_at": "2026-08-25T05:37:36.925412+00:00",
+      "model_peak": null,
+      "empirico_peak": 99.6,
+      "peak_final": 99.8,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "panama-city",
+      "name": "Panama City",
+      "station": "MPMG",
+      "unit": "C",
+      "fecha_mercado": "2026-08-25",
+      "logged_at": "2026-08-25T05:39:05.809149+00:00",
+      "model_peak": 29.8,
+      "empirico_peak": 31.3,
+      "peak_final": 30.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "31C",
+        "price": 0.205,
+        "prob": 0.243,
+        "ev": 0.186,
+        "kelly": 0.012,
+        "volume": 1232.0,
+        "confianza": "escalable",
+        "market_id": "3828533",
+        "range": [
+          31.0,
+          31.0
         ]
       },
       "resolved": false,
