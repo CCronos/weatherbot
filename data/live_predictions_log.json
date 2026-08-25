@@ -42852,13 +42852,17 @@
           999.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 17.0,
+      "winning_bucket": "Will the highest temperature in Munich be 17°C on August 25?",
+      "pick_won": false,
+      "forecast_error": 4.7,
+      "resolved_at": "2026-08-25T23:34:35.773410+00:00",
+      "crps": 3.7972,
+      "winning_range": [
+        17.0,
+        17.0
+      ]
     },
     {
       "slug": "madrid",
@@ -42885,13 +42889,17 @@
           30.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 28.0,
+      "winning_bucket": "Will the highest temperature in Madrid be 28°C on August 25?",
+      "pick_won": false,
+      "forecast_error": 2.4,
+      "resolved_at": "2026-08-25T23:34:36.035734+00:00",
+      "crps": 1.5902,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "amsterdam",
@@ -42918,13 +42926,17 @@
           24.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 25°C on August 25?",
+      "pick_won": false,
+      "forecast_error": -0.6,
+      "resolved_at": "2026-08-25T23:34:36.356864+00:00",
+      "crps": 0.4632,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -43008,13 +43020,17 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 28.0,
+      "winning_bucket": "Will the highest temperature in Milan be 28°C on August 25?",
+      "pick_won": false,
+      "forecast_error": -0.5,
+      "resolved_at": "2026-08-25T23:34:36.970999+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "cape-town",
@@ -44479,6 +44495,39 @@
         "range": [
           24.0,
           24.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-08-26",
+      "logged_at": "2026-08-25T23:26:30.750350+00:00",
+      "model_peak": 27.2,
+      "empirico_peak": 26.0,
+      "peak_final": 26.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "28C",
+        "price": 0.075,
+        "prob": 0.195,
+        "ev": 1.6,
+        "kelly": 0.0324,
+        "volume": 3098.0,
+        "confianza": "cautela",
+        "market_id": "3831512",
+        "range": [
+          28.0,
+          28.0
         ]
       },
       "resolved": false,
