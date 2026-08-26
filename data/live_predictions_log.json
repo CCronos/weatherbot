@@ -43425,13 +43425,17 @@
       "peak_final": 88.7,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 83.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 82-83°F on August 25?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 5.7,
+      "resolved_at": "2026-08-26T07:55:31.846295+00:00",
+      "crps": 4.0532,
+      "winning_range": [
+        82.0,
+        83.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -43458,13 +43462,17 @@
           24.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 22.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 22°C on August 25?",
+      "pick_won": false,
+      "forecast_error": 1.8,
+      "resolved_at": "2026-08-26T07:55:32.033079+00:00",
+      "crps": 1.1058,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "seattle",
@@ -44880,6 +44888,79 @@
       "empirico_peak": 23.8,
       "peak_final": 24.7,
       "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "station": "KSEA",
+      "unit": "F",
+      "fecha_mercado": "2026-08-26",
+      "logged_at": "2026-08-26T07:47:24.089151+00:00",
+      "model_peak": null,
+      "empirico_peak": 71.8,
+      "peak_final": 72.0,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "los-angeles",
+      "name": "Los Angeles",
+      "station": "KLAX",
+      "unit": "F",
+      "fecha_mercado": "2026-08-26",
+      "logged_at": "2026-08-26T07:47:49.766628+00:00",
+      "model_peak": 90.7,
+      "empirico_peak": 79.3,
+      "peak_final": 85.2,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "82-83F",
+        "price": 0.085,
+        "prob": 0.088,
+        "ev": 0.039,
+        "kelly": 0.0009,
+        "volume": 3293.0,
+        "confianza": "cautela",
+        "market_id": "3864417",
+        "range": [
+          82.0,
+          83.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "san-francisco",
+      "name": "San Francisco",
+      "station": "KSFO",
+      "unit": "F",
+      "fecha_mercado": "2026-08-26",
+      "logged_at": "2026-08-26T07:51:42.171226+00:00",
+      "model_peak": 78.8,
+      "empirico_peak": 68.0,
+      "peak_final": 73.6,
+      "sigma": 3.048,
       "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
