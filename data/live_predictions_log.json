@@ -43564,13 +43564,17 @@
           69.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 67.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 66-67°F on August 25?",
+      "pick_won": false,
+      "forecast_error": 3.5,
+      "resolved_at": "2026-08-26T14:53:37.609119+00:00",
+      "crps": 2.1602,
+      "winning_range": [
+        66.0,
+        67.0
+      ]
     },
     {
       "slug": "wellington",
