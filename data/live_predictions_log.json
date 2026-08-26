@@ -43344,13 +43344,17 @@
       "peak_final": 97.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 97.0,
+      "winning_bucket": "Will the highest temperature in Houston be between 96-97°F on August 25?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.8,
+      "resolved_at": "2026-08-26T08:52:08.303519+00:00",
+      "crps": 0.7956,
+      "winning_range": [
+        96.0,
+        97.0
+      ]
     },
     {
       "slug": "austin",
@@ -43486,13 +43490,17 @@
       "peak_final": 85.2,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 84.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 84-85°F on August 25?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.2,
+      "resolved_at": "2026-08-26T08:52:08.654298+00:00",
+      "crps": 0.8984,
+      "winning_range": [
+        84.0,
+        85.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -43519,13 +43527,17 @@
           81.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 84.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 84-85°F on August 25?",
+      "pick_won": false,
+      "forecast_error": -0.4,
+      "resolved_at": "2026-08-26T08:52:08.901069+00:00",
+      "crps": 0.7332,
+      "winning_range": [
+        84.0,
+        85.0
+      ]
     },
     {
       "slug": "san-francisco",
