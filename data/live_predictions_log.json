@@ -52997,13 +52997,17 @@
       "peak_final": 89.5,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 86.0,
+      "winning_bucket": "Will the highest temperature in Chicago be between 86-87°F on August 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 3.5,
+      "resolved_at": "2026-09-01T14:44:10.541197+00:00",
+      "crps": 2.1602,
+      "winning_range": [
+        86.0,
+        87.0
+      ]
     },
     {
       "slug": "dallas",
@@ -53089,13 +53093,17 @@
       "peak_final": 78.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 78.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 78-79°F on August 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.8,
+      "resolved_at": "2026-09-01T14:44:10.636684+00:00",
+      "crps": 0.7956,
+      "winning_range": [
+        78.0,
+        79.0
+      ]
     },
     {
       "slug": "denver",
@@ -53133,13 +53141,17 @@
       "peak_final": 94.3,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 99.0,
+      "winning_bucket": "Will the highest temperature in Austin be between 98-99°F on August 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -4.7,
+      "resolved_at": "2026-09-01T14:44:10.815628+00:00",
+      "crps": 3.1426,
+      "winning_range": [
+        98.0,
+        99.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -53153,13 +53165,17 @@
       "peak_final": 66.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 66.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 66-67°F on August 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.8,
+      "resolved_at": "2026-09-01T14:44:10.946638+00:00",
+      "crps": 0.7956,
+      "winning_range": [
+        66.0,
+        67.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -53186,13 +53202,17 @@
           999.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 24°C on August 31?",
+      "pick_won": false,
+      "forecast_error": 1.1,
+      "resolved_at": "2026-09-01T14:44:11.205722+00:00",
+      "crps": 0.6645,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -54542,6 +54562,39 @@
       "peak_final": 30.5,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-09-02",
+      "logged_at": "2026-09-01T14:39:29.061070+00:00",
+      "model_peak": null,
+      "empirico_peak": 15.2,
+      "peak_final": 15.5,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "15C",
+        "price": 0.085,
+        "prob": 0.234,
+        "ev": 1.749,
+        "kelly": 0.0406,
+        "volume": 6711.0,
+        "confianza": "cautela",
+        "market_id": "4018282",
+        "range": [
+          15.0,
+          15.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
