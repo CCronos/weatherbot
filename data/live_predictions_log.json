@@ -49970,13 +49970,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Panama City be 32°C on August 29?",
+      "pick_won": false,
+      "forecast_error": -1.0,
+      "resolved_at": "2026-09-01T04:05:04.265833+00:00",
+      "crps": 0.6157,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "seattle",
@@ -54116,6 +54120,92 @@
         "range": [
           33.0,
           33.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "toronto",
+      "name": "Toronto",
+      "station": "CYYZ",
+      "unit": "C",
+      "fecha_mercado": "2026-09-01",
+      "logged_at": "2026-09-01T04:00:34.472617+00:00",
+      "model_peak": null,
+      "empirico_peak": 25.4,
+      "peak_final": 25.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "27C",
+        "price": 0.125,
+        "prob": 0.178,
+        "ev": 0.425,
+        "kelly": 0.0152,
+        "volume": 2430.0,
+        "confianza": "moderado",
+        "market_id": "4001302",
+        "range": [
+          27.0,
+          27.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-09-01",
+      "logged_at": "2026-09-01T04:00:35.682277+00:00",
+      "model_peak": 22.9,
+      "empirico_peak": 27.0,
+      "peak_final": 25.2,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-09-01",
+      "logged_at": "2026-09-01T04:00:37.172901+00:00",
+      "model_peak": 20.5,
+      "empirico_peak": 18.8,
+      "peak_final": 19.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "19C",
+        "price": 0.085,
+        "prob": 0.21,
+        "ev": 1.473,
+        "kelly": 0.0342,
+        "volume": 910.0,
+        "confianza": "cautela",
+        "market_id": "4001290",
+        "range": [
+          19.0,
+          19.0
         ]
       },
       "resolved": false,
