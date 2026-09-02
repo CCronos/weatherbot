@@ -54791,13 +54791,17 @@
           15.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 15.0,
+      "winning_bucket": "Will the highest temperature in Wellington be 15°C on September 2?",
+      "pick_won": true,
+      "forecast_error": 0.5,
+      "resolved_at": "2026-09-02T20:46:39.216099+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        15.0,
+        15.0
+      ]
     },
     {
       "slug": "seoul",
@@ -54824,13 +54828,17 @@
           26.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 28.0,
+      "winning_bucket": "Will the highest temperature in Seoul (Incheon) be 28°C on September 2?",
+      "pick_won": false,
+      "forecast_error": -1.1,
+      "resolved_at": "2026-09-02T20:46:39.544908+00:00",
+      "crps": 0.6645,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "tokyo",
@@ -54857,13 +54865,17 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Tokyo be 31°C on September 2?",
+      "pick_won": false,
+      "forecast_error": -2.1,
+      "resolved_at": "2026-09-02T20:46:39.811913+00:00",
+      "crps": 1.3385,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "taipei",
@@ -54983,13 +54995,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Singapore be 33°C on September 2?",
+      "pick_won": false,
+      "forecast_error": -0.9,
+      "resolved_at": "2026-09-02T20:46:40.630652+00:00",
+      "crps": 0.5711,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "kuala-lumpur",
@@ -55016,13 +55032,17 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Kuala Lumpur be 34°C on September 2?",
+      "pick_won": false,
+      "forecast_error": -0.7,
+      "resolved_at": "2026-09-02T20:46:40.899829+00:00",
+      "crps": 0.4947,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "hong-kong",
@@ -55254,13 +55274,17 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Wuhan be 32°C on September 2?",
+      "pick_won": false,
+      "forecast_error": -2.5,
+      "resolved_at": "2026-09-02T20:46:41.798756+00:00",
+      "crps": 1.6775,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "qingdao",
@@ -55314,13 +55338,17 @@
       "peak_final": 31.9,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Lucknow be 30°C on September 2?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.9,
+      "resolved_at": "2026-09-02T20:46:42.248836+00:00",
+      "crps": 1.181,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "tel-aviv",
@@ -55460,13 +55488,17 @@
       "peak_final": 34.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Karachi be 33°C on September 2?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.4,
+      "resolved_at": "2026-09-02T20:46:42.988212+00:00",
+      "crps": 0.8336,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "london",
@@ -56643,6 +56675,72 @@
         "range": [
           29.0,
           29.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "lucknow",
+      "name": "Lucknow",
+      "station": "VILK",
+      "unit": "C",
+      "fecha_mercado": "2026-09-03",
+      "logged_at": "2026-09-02T20:41:34.642315+00:00",
+      "model_peak": 29.6,
+      "empirico_peak": 32.8,
+      "peak_final": 31.5,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "32C",
+        "price": 0.08,
+        "prob": 0.234,
+        "ev": 1.92,
+        "kelly": 0.0417,
+        "volume": 954.0,
+        "confianza": "cautela",
+        "market_id": "4051876",
+        "range": [
+          32.0,
+          32.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "karachi",
+      "name": "Karachi",
+      "station": "OPKC",
+      "unit": "C",
+      "fecha_mercado": "2026-09-03",
+      "logged_at": "2026-09-02T20:44:16.192190+00:00",
+      "model_peak": 33.2,
+      "empirico_peak": 31.5,
+      "peak_final": 32.6,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "33C",
+        "price": 0.06,
+        "prob": 0.238,
+        "ev": 2.96,
+        "kelly": 0.0472,
+        "volume": 510.0,
+        "confianza": "cautela",
+        "market_id": "4052168",
+        "range": [
+          33.0,
+          33.0
         ]
       },
       "resolved": false,
