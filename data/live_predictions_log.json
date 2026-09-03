@@ -56027,13 +56027,17 @@
       "peak_final": 66.6,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 69.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 68-69°F on September 2?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.4,
+      "resolved_at": "2026-09-03T13:26:12.297195+00:00",
+      "crps": 1.4295,
+      "winning_range": [
+        68.0,
+        69.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -56217,13 +56221,17 @@
           23.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 26°C or higher on September 2?",
+      "pick_won": false,
+      "forecast_error": -3.6,
+      "resolved_at": "2026-09-03T13:26:12.401471+00:00",
+      "crps": 2.7093,
+      "winning_range": [
+        26.0,
+        999.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -56307,13 +56315,17 @@
           75.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 72.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 72-73°F on September 2?",
+      "pick_won": false,
+      "forecast_error": 0.9,
+      "resolved_at": "2026-09-03T13:26:12.635020+00:00",
+      "crps": 0.8176,
+      "winning_range": [
+        72.0,
+        73.0
+      ]
     },
     {
       "slug": "seoul",
@@ -57697,6 +57709,39 @@
       "peak_final": 31.6,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-09-04",
+      "logged_at": "2026-09-03T13:22:33.487631+00:00",
+      "model_peak": 16.8,
+      "empirico_peak": 18.1,
+      "peak_final": 17.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "19C",
+        "price": 0.075,
+        "prob": 0.178,
+        "ev": 1.375,
+        "kelly": 0.0279,
+        "volume": 3838.0,
+        "confianza": "cautela",
+        "market_id": "4107072",
+        "range": [
+          19.0,
+          19.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
