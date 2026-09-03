@@ -55589,13 +55589,17 @@
           22.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in London be 21°C on September 2?",
+      "pick_won": false,
+      "forecast_error": 1.1,
+      "resolved_at": "2026-09-03T03:27:45.941297+00:00",
+      "crps": 0.6645,
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "paris",
@@ -55622,13 +55626,17 @@
           24.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Paris be 26°C on September 2?",
+      "pick_won": false,
+      "forecast_error": 0.0,
+      "resolved_at": "2026-09-03T03:27:46.150709+00:00",
+      "crps": 0.3746,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "munich",
@@ -55655,13 +55663,17 @@
           24.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Munich be 25°C on September 2?",
+      "pick_won": false,
+      "forecast_error": -3.2,
+      "resolved_at": "2026-09-03T03:27:46.351436+00:00",
+      "crps": 2.3231,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "amsterdam",
@@ -55675,13 +55687,17 @@
       "peak_final": 19.7,
       "sigma": 1.98,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 22.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 22°C on September 2?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.3,
+      "resolved_at": "2026-09-03T03:27:46.616546+00:00",
+      "crps": 1.4231,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -55748,13 +55764,17 @@
       "peak_final": 28.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Milan be 30°C on September 2?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.2,
+      "resolved_at": "2026-09-03T03:27:47.357036+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "cape-town",
@@ -55768,13 +55788,17 @@
       "peak_final": 18.2,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 19.0,
+      "winning_bucket": "Will the highest temperature in Cape Town be 19°C on September 2?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.8,
+      "resolved_at": "2026-09-03T03:27:47.813322+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        19.0,
+        19.0
+      ]
     },
     {
       "slug": "madrid",
@@ -55788,13 +55812,17 @@
       "peak_final": 29.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Madrid be 36°C on September 2?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -6.2,
+      "resolved_at": "2026-09-03T03:27:48.108377+00:00",
+      "crps": 5.2956,
+      "winning_range": [
+        36.0,
+        36.0
+      ]
     },
     {
       "slug": "sao-paulo",
@@ -57211,6 +57239,46 @@
           999.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-09-03",
+      "logged_at": "2026-09-03T03:22:58.776474+00:00",
+      "model_peak": 27.1,
+      "empirico_peak": 19.5,
+      "peak_final": 23.6,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-09-03",
+      "logged_at": "2026-09-03T03:22:59.914922+00:00",
+      "model_peak": 18.3,
+      "empirico_peak": 23.9,
+      "peak_final": 21.4,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
