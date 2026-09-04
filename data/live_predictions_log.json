@@ -57012,13 +57012,17 @@
           24.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in London be 26°C on September 3?",
+      "pick_won": false,
+      "forecast_error": -1.3,
+      "resolved_at": "2026-09-04T01:02:09.499400+00:00",
+      "crps": 0.7736,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "paris",
@@ -58799,6 +58803,26 @@
           39.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "paris-le-bourget",
+      "name": "Paris (Le Bourget)",
+      "station": "LFPB",
+      "unit": "C",
+      "fecha_mercado": "2026-09-04",
+      "logged_at": "2026-09-04T00:59:29.186150+00:00",
+      "model_peak": 29.1,
+      "empirico_peak": 24.4,
+      "peak_final": 27.1,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
