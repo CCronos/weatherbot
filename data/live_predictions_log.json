@@ -59264,13 +59264,17 @@
       "peak_final": 15.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 18.0,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 18°C on September 4?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.4,
+      "resolved_at": "2026-09-05T03:25:51.810075+00:00",
+      "crps": 1.5902,
+      "winning_range": [
+        18.0,
+        18.0
+      ]
     },
     {
       "slug": "austin",
@@ -60401,6 +60405,72 @@
         "range": [
           22.0,
           22.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-09-05",
+      "logged_at": "2026-09-05T03:22:32.902742+00:00",
+      "model_peak": 24.5,
+      "empirico_peak": 24.5,
+      "peak_final": 24.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "24C",
+        "price": 0.105,
+        "prob": 0.21,
+        "ev": 1.002,
+        "kelly": 0.0294,
+        "volume": 1313.0,
+        "confianza": "moderado",
+        "market_id": "4187689",
+        "range": [
+          24.0,
+          24.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-09-05",
+      "logged_at": "2026-09-05T03:22:33.882962+00:00",
+      "model_peak": 12.5,
+      "empirico_peak": 14.9,
+      "peak_final": 14.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "14C",
+        "price": 0.19,
+        "prob": 0.244,
+        "ev": 0.286,
+        "kelly": 0.0168,
+        "volume": 2387.0,
+        "confianza": "moderado",
+        "market_id": "4187701",
+        "range": [
+          14.0,
+          14.0
         ]
       },
       "resolved": false,
