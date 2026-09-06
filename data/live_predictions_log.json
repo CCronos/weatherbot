@@ -60824,13 +60824,17 @@
           67.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 69.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 68-69°F on September 5?",
+      "pick_won": false,
+      "forecast_error": -5.2,
+      "resolved_at": "2026-09-06T14:07:49.733667+00:00",
+      "crps": 3.5902,
+      "winning_range": [
+        68.0,
+        69.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -62578,6 +62582,39 @@
         "range": [
           25.0,
           25.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-09-07",
+      "logged_at": "2026-09-06T14:03:11.494832+00:00",
+      "model_peak": 11.4,
+      "empirico_peak": 11.2,
+      "peak_final": 11.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "12C",
+        "price": 0.075,
+        "prob": 0.241,
+        "ev": 2.21,
+        "kelly": 0.0448,
+        "volume": 12467.0,
+        "confianza": "cautela",
+        "market_id": "4239110",
+        "range": [
+          12.0,
+          12.0
         ]
       },
       "resolved": false,
