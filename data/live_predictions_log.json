@@ -60338,13 +60338,17 @@
           21.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in London be 23°C on September 5?",
+      "pick_won": false,
+      "forecast_error": -3.0,
+      "resolved_at": "2026-09-06T00:47:06.028461+00:00",
+      "crps": 2.1338,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "paris",
@@ -61998,6 +62002,59 @@
         "range": [
           38.0,
           38.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-09-06",
+      "logged_at": "2026-09-06T00:39:15.218666+00:00",
+      "model_peak": 26.1,
+      "empirico_peak": 19.3,
+      "peak_final": 23.1,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "helsinki",
+      "name": "Helsinki",
+      "station": "EFHK",
+      "unit": "C",
+      "fecha_mercado": "2026-09-06",
+      "logged_at": "2026-09-06T00:44:04.809938+00:00",
+      "model_peak": 15.5,
+      "empirico_peak": 12.0,
+      "peak_final": 14.2,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "14C",
+        "price": 0.155,
+        "prob": 0.243,
+        "ev": 0.568,
+        "kelly": 0.0261,
+        "volume": 2417.0,
+        "confianza": "moderado",
+        "market_id": "4207549",
+        "range": [
+          14.0,
+          14.0
         ]
       },
       "resolved": false,
