@@ -58245,13 +58245,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 31°C on September 4?",
+      "pick_won": true,
+      "forecast_error": 0.8,
+      "resolved_at": "2026-09-07T03:22:42.412931+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "busan",
@@ -59795,13 +59799,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 32°C on September 5?",
+      "pick_won": true,
+      "forecast_error": -0.7,
+      "resolved_at": "2026-09-07T03:22:43.078169+00:00",
+      "crps": 0.4947,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "busan",
@@ -61512,13 +61520,17 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 30°C on September 6?",
+      "pick_won": false,
+      "forecast_error": 0.0,
+      "resolved_at": "2026-09-07T03:22:43.753513+00:00",
+      "crps": 0.3746,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "manila",
@@ -62208,13 +62220,17 @@
       "peak_final": 23.1,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 27.0,
+      "winning_bucket": "Will the highest temperature in London be 27°C on September 6?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.9,
+      "resolved_at": "2026-09-07T03:22:44.320306+00:00",
+      "crps": 3.0035,
+      "winning_range": [
+        27.0,
+        27.0
+      ]
     },
     {
       "slug": "helsinki",
@@ -63653,6 +63669,72 @@
         "range": [
           27.0,
           27.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-09-07",
+      "logged_at": "2026-09-07T03:19:46.743345+00:00",
+      "model_peak": 14.5,
+      "empirico_peak": 14.9,
+      "peak_final": 15.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "15C",
+        "price": 0.08,
+        "prob": 0.244,
+        "ev": 2.055,
+        "kelly": 0.0447,
+        "volume": 928.0,
+        "confianza": "cautela",
+        "market_id": "4245898",
+        "range": [
+          15.0,
+          15.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-09-07",
+      "logged_at": "2026-09-07T03:19:47.263476+00:00",
+      "model_peak": 12.8,
+      "empirico_peak": 9.5,
+      "peak_final": 11.5,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "12C",
+        "price": 0.085,
+        "prob": 0.234,
+        "ev": 1.749,
+        "kelly": 0.0406,
+        "volume": 1931.0,
+        "confianza": "cautela",
+        "market_id": "4245905",
+        "range": [
+          12.0,
+          12.0
         ]
       },
       "resolved": false,
