@@ -63645,13 +63645,17 @@
           23.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in London be 25°C on September 7?",
+      "pick_won": false,
+      "forecast_error": -0.3,
+      "resolved_at": "2026-09-08T01:05:58.490054+00:00",
+      "crps": 0.3969,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "paris",
@@ -63689,13 +63693,17 @@
       "peak_final": 21.7,
       "sigma": 1.98,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 28.0,
+      "winning_bucket": "Will the highest temperature in Munich be 28°C on September 7?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -6.3,
+      "resolved_at": "2026-09-08T01:05:58.692873+00:00",
+      "crps": 5.1837,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "madrid",
@@ -63810,13 +63818,17 @@
       "peak_final": 31.2,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Milan be 31°C on September 7?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.2,
+      "resolved_at": "2026-09-08T01:05:59.317272+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "cape-town",
@@ -65300,6 +65312,39 @@
         "range": [
           38.0,
           38.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-09-08",
+      "logged_at": "2026-09-08T00:57:12.773736+00:00",
+      "model_peak": 19.2,
+      "empirico_peak": 21.6,
+      "peak_final": 20.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "20C",
+        "price": 0.21,
+        "prob": 0.217,
+        "ev": 0.034,
+        "kelly": 0.0022,
+        "volume": 7741.0,
+        "confianza": "escalable",
+        "market_id": "4275616",
+        "range": [
+          20.0,
+          20.0
         ]
       },
       "resolved": false,
