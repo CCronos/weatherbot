@@ -64205,13 +64205,17 @@
       "peak_final": 88.9,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 90.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 90-91°F on September 7?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.1,
+      "resolved_at": "2026-09-08T15:05:25.895693+00:00",
+      "crps": 0.869,
+      "winning_range": [
+        90.0,
+        91.0
+      ]
     },
     {
       "slug": "toronto",
@@ -65824,6 +65828,72 @@
         "range": [
           23.0,
           23.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-08T15:01:22.349390+00:00",
+      "model_peak": 13.3,
+      "empirico_peak": 10.2,
+      "peak_final": 12.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "13C",
+        "price": 0.09,
+        "prob": 0.21,
+        "ev": 1.336,
+        "kelly": 0.033,
+        "volume": 3154.0,
+        "confianza": "cautela",
+        "market_id": "4321797",
+        "range": [
+          13.0,
+          13.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "busan",
+      "name": "Busan",
+      "station": "RKPK",
+      "unit": "C",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-08T15:03:42.911200+00:00",
+      "model_peak": 26.4,
+      "empirico_peak": 28.7,
+      "peak_final": 27.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "28C",
+        "price": 0.095,
+        "prob": 0.244,
+        "ev": 1.573,
+        "kelly": 0.0413,
+        "volume": 1257.0,
+        "confianza": "cautela",
+        "market_id": "4322016",
+        "range": [
+          28.0,
+          28.0
         ]
       },
       "resolved": false,
