@@ -65571,13 +65571,17 @@
       "peak_final": 80.6,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 80.0,
+      "winning_bucket": "Will the highest temperature in New York City be between 80-81°F on September 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.6,
+      "resolved_at": "2026-09-09T08:53:25.345075+00:00",
+      "crps": 0.7593,
+      "winning_range": [
+        80.0,
+        81.0
+      ]
     },
     {
       "slug": "chicago",
@@ -65591,13 +65595,17 @@
       "peak_final": 81.7,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 85.0,
+      "winning_bucket": "Will the highest temperature in Chicago be between 84-85°F on September 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.3,
+      "resolved_at": "2026-09-09T08:53:25.484540+00:00",
+      "crps": 2.0132,
+      "winning_range": [
+        84.0,
+        85.0
+      ]
     },
     {
       "slug": "miami",
@@ -65611,13 +65619,17 @@
       "peak_final": 86.9,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 90.0,
+      "winning_bucket": "Will the highest temperature in Miami be between 90-91°F on September 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.1,
+      "resolved_at": "2026-09-09T08:53:25.630058+00:00",
+      "crps": 1.872,
+      "winning_range": [
+        90.0,
+        91.0
+      ]
     },
     {
       "slug": "dallas",
@@ -65644,13 +65656,17 @@
           103.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 100.0,
+      "winning_bucket": "Will the highest temperature in Dallas be between 100-101°F on September 8?",
+      "pick_won": false,
+      "forecast_error": 2.0,
+      "resolved_at": "2026-09-09T08:53:25.780522+00:00",
+      "crps": 1.2178,
+      "winning_range": [
+        100.0,
+        101.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -65664,13 +65680,17 @@
       "peak_final": 87.2,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 88.0,
+      "winning_bucket": "Will the highest temperature in Atlanta be between 88-89°F on September 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.8,
+      "resolved_at": "2026-09-09T08:53:26.103564+00:00",
+      "crps": 0.7956,
+      "winning_range": [
+        88.0,
+        89.0
+      ]
     },
     {
       "slug": "houston",
@@ -65684,13 +65704,17 @@
       "peak_final": 93.9,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 93.0,
+      "winning_bucket": "Will the highest temperature in Houston be between 92-93°F on September 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.9,
+      "resolved_at": "2026-09-09T08:53:26.408702+00:00",
+      "crps": 0.8176,
+      "winning_range": [
+        92.0,
+        93.0
+      ]
     },
     {
       "slug": "toronto",
@@ -65717,13 +65741,17 @@
           26.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Toronto be 25°C on September 8?",
+      "pick_won": false,
+      "forecast_error": -0.1,
+      "resolved_at": "2026-09-09T08:53:26.571572+00:00",
+      "crps": 0.3771,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "sao-paulo",
@@ -65824,13 +65852,17 @@
           103.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 100.0,
+      "winning_bucket": "Will the highest temperature in Austin be between 100-101°F on September 8?",
+      "pick_won": false,
+      "forecast_error": 0.2,
+      "resolved_at": "2026-09-09T08:53:26.920761+00:00",
+      "crps": 0.7175,
+      "winning_range": [
+        100.0,
+        101.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -65844,13 +65876,17 @@
       "peak_final": 32.1,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Panama City be 34°C on September 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.9,
+      "resolved_at": "2026-09-09T08:53:27.235626+00:00",
+      "crps": 1.181,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "seattle",
@@ -65864,13 +65900,17 @@
       "peak_final": 70.4,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 74.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 74-75°F on September 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.6,
+      "resolved_at": "2026-09-09T08:53:27.388014+00:00",
+      "crps": 2.2358,
+      "winning_range": [
+        74.0,
+        75.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -65884,13 +65924,17 @@
       "peak_final": 86.7,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 91.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 90-91°F on September 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -4.3,
+      "resolved_at": "2026-09-09T08:53:27.470931+00:00",
+      "crps": 2.7986,
+      "winning_range": [
+        90.0,
+        91.0
+      ]
     },
     {
       "slug": "denver",
@@ -65904,13 +65948,17 @@
       "peak_final": 89.0,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 87.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 86-87°F on September 8?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.0,
+      "resolved_at": "2026-09-09T08:53:27.629217+00:00",
+      "crps": 1.2178,
+      "winning_range": [
+        86.0,
+        87.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -65937,13 +65985,17 @@
           83.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 86.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 86-87°F on September 8?",
+      "pick_won": false,
+      "forecast_error": -5.1,
+      "resolved_at": "2026-09-09T08:53:27.723698+00:00",
+      "crps": 3.4993,
+      "winning_range": [
+        86.0,
+        87.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -65970,13 +66022,17 @@
           23.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 25°C or higher on September 8?",
+      "pick_won": false,
+      "forecast_error": -1.8,
+      "resolved_at": "2026-09-09T08:53:28.054976+00:00",
+      "crps": 1.1058,
+      "winning_range": [
+        25.0,
+        999.0
+      ]
     },
     {
       "slug": "wellington",
@@ -67007,6 +67063,364 @@
         "range": [
           19.0,
           19.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "nyc",
+      "name": "New York City",
+      "station": "KLGA",
+      "unit": "F",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-09T08:42:59.610165+00:00",
+      "model_peak": 81.6,
+      "empirico_peak": 78.9,
+      "peak_final": 80.6,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "80-81F",
+        "price": 0.085,
+        "prob": 0.13,
+        "ev": 0.532,
+        "kelly": 0.0124,
+        "volume": 2499.0,
+        "confianza": "cautela",
+        "market_id": "4324340",
+        "range": [
+          80.0,
+          81.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "chicago",
+      "name": "Chicago",
+      "station": "KORD",
+      "unit": "F",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-09T08:43:01.878602+00:00",
+      "model_peak": 84.6,
+      "empirico_peak": 86.4,
+      "peak_final": 85.9,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "miami",
+      "name": "Miami",
+      "station": "KMIA",
+      "unit": "F",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-09T08:43:03.594745+00:00",
+      "model_peak": 88.4,
+      "empirico_peak": 87.4,
+      "peak_final": 88.3,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "dallas",
+      "name": "Dallas",
+      "station": "KDAL",
+      "unit": "F",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-09T08:43:26.326145+00:00",
+      "model_peak": 101.6,
+      "empirico_peak": 99.4,
+      "peak_final": 100.9,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "station": "KSEA",
+      "unit": "F",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-09T08:43:57.314657+00:00",
+      "model_peak": 78.0,
+      "empirico_peak": 72.1,
+      "peak_final": 75.4,
+      "sigma": 2.0,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "atlanta",
+      "name": "Atlanta",
+      "station": "KATL",
+      "unit": "F",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-09T08:43:59.397367+00:00",
+      "model_peak": 90.5,
+      "empirico_peak": 81.8,
+      "peak_final": 86.5,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "houston",
+      "name": "Houston",
+      "station": "KHOU",
+      "unit": "F",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-09T08:44:01.433119+00:00",
+      "model_peak": 91.0,
+      "empirico_peak": 92.6,
+      "peak_final": 92.2,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "los-angeles",
+      "name": "Los Angeles",
+      "station": "KLAX",
+      "unit": "F",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-09T08:44:03.172915+00:00",
+      "model_peak": 98.9,
+      "empirico_peak": 89.3,
+      "peak_final": 94.5,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": ">=96F",
+        "price": 0.155,
+        "prob": 0.311,
+        "ev": 1.008,
+        "kelly": 0.0462,
+        "volume": 1501.0,
+        "confianza": "moderado",
+        "market_id": "4329855",
+        "range": [
+          96.0,
+          999.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "station": "KBKF",
+      "unit": "F",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-09T08:44:46.812668+00:00",
+      "model_peak": null,
+      "empirico_peak": 79.7,
+      "peak_final": 80.1,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "toronto",
+      "name": "Toronto",
+      "station": "CYYZ",
+      "unit": "C",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-09T08:48:06.146126+00:00",
+      "model_peak": 25.3,
+      "empirico_peak": 25.7,
+      "peak_final": 25.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "26C",
+        "price": 0.155,
+        "prob": 0.244,
+        "ev": 0.577,
+        "kelly": 0.0265,
+        "volume": 3038.0,
+        "confianza": "moderado",
+        "market_id": "4333193",
+        "range": [
+          26.0,
+          26.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "austin",
+      "name": "Austin",
+      "station": "KAUS",
+      "unit": "F",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-09T08:48:49.353769+00:00",
+      "model_peak": 95.0,
+      "empirico_peak": 96.2,
+      "peak_final": 96.0,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "san-francisco",
+      "name": "San Francisco",
+      "station": "KSFO",
+      "unit": "F",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-09T08:48:51.103803+00:00",
+      "model_peak": 96.4,
+      "empirico_peak": 80.8,
+      "peak_final": 89.0,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "86-87F",
+        "price": 0.09,
+        "prob": 0.093,
+        "ev": 0.037,
+        "kelly": 0.0009,
+        "volume": 2761.0,
+        "confianza": "cautela",
+        "market_id": "4329861",
+        "range": [
+          86.0,
+          87.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "mexico-city",
+      "name": "Mexico City",
+      "station": "MMMX",
+      "unit": "C",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-09T08:48:52.229296+00:00",
+      "model_peak": 24.0,
+      "empirico_peak": 21.6,
+      "peak_final": 23.2,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "23C",
+        "price": 0.065,
+        "prob": 0.243,
+        "ev": 2.739,
+        "kelly": 0.0476,
+        "volume": 1307.0,
+        "confianza": "cautela",
+        "market_id": "4333205",
+        "range": [
+          23.0,
+          23.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "panama-city",
+      "name": "Panama City",
+      "station": "MPMG",
+      "unit": "C",
+      "fecha_mercado": "2026-09-09",
+      "logged_at": "2026-09-09T08:50:35.111228+00:00",
+      "model_peak": 30.2,
+      "empirico_peak": 30.7,
+      "peak_final": 30.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "31C",
+        "price": 0.215,
+        "prob": 0.243,
+        "ev": 0.131,
+        "kelly": 0.0089,
+        "volume": 1613.0,
+        "confianza": "escalable",
+        "market_id": "4333215",
+        "range": [
+          31.0,
+          31.0
         ]
       },
       "resolved": false,
