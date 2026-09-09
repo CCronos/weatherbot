@@ -67463,6 +67463,125 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "beijing",
+      "name": "Beijing",
+      "station": "ZBAA",
+      "unit": "C",
+      "fecha_mercado": "2026-09-10",
+      "logged_at": "2026-09-09T17:41:14.741856+00:00",
+      "model_peak": 29.5,
+      "empirico_peak": 19.4,
+      "peak_final": 24.8,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "singapore",
+      "name": "Singapore",
+      "station": "WSSS",
+      "unit": "C",
+      "fecha_mercado": "2026-09-10",
+      "logged_at": "2026-09-09T17:41:15.777119+00:00",
+      "model_peak": 32.0,
+      "empirico_peak": 31.8,
+      "peak_final": 32.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "33C",
+        "price": 0.15,
+        "prob": 0.223,
+        "ev": 0.489,
+        "kelly": 0.0216,
+        "volume": 2801.0,
+        "confianza": "moderado",
+        "market_id": "4356347",
+        "range": [
+          33.0,
+          33.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "hong-kong",
+      "name": "Hong Kong",
+      "station": "VHHH",
+      "unit": "C",
+      "fecha_mercado": "2026-09-10",
+      "logged_at": "2026-09-09T17:44:19.248242+00:00",
+      "model_peak": 31.2,
+      "empirico_peak": 31.6,
+      "peak_final": 31.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "33C",
+        "price": 0.065,
+        "prob": 0.187,
+        "ev": 1.873,
+        "kelly": 0.0325,
+        "volume": 1296.0,
+        "confianza": "cautela",
+        "market_id": "4356326",
+        "range": [
+          33.0,
+          33.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wuhan",
+      "name": "Wuhan",
+      "station": "ZHHH",
+      "unit": "C",
+      "fecha_mercado": "2026-09-10",
+      "logged_at": "2026-09-09T17:45:10.985936+00:00",
+      "model_peak": 25.6,
+      "empirico_peak": 23.5,
+      "peak_final": 25.0,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "24C",
+        "price": 0.115,
+        "prob": 0.203,
+        "ev": 0.764,
+        "kelly": 0.0248,
+        "volume": 1437.0,
+        "confianza": "moderado",
+        "market_id": "4356427",
+        "range": [
+          24.0,
+          24.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
