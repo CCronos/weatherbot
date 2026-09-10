@@ -68984,6 +68984,59 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-09-11",
+      "logged_at": "2026-09-10T14:58:36.008085+00:00",
+      "model_peak": 14.4,
+      "empirico_peak": 10.2,
+      "peak_final": 12.7,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "busan",
+      "name": "Busan",
+      "station": "RKPK",
+      "unit": "C",
+      "fecha_mercado": "2026-09-11",
+      "logged_at": "2026-09-10T15:01:21.696545+00:00",
+      "model_peak": 29.2,
+      "empirico_peak": 28.0,
+      "peak_final": 29.0,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "30C",
+        "price": 0.185,
+        "prob": 0.203,
+        "ev": 0.097,
+        "kelly": 0.0055,
+        "volume": 1007.0,
+        "confianza": "moderado",
+        "market_id": "4400217",
+        "range": [
+          30.0,
+          30.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
