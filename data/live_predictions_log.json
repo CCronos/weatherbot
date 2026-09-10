@@ -66883,13 +66883,17 @@
       "peak_final": 19.0,
       "sigma": 1.98,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 19.0,
+      "winning_bucket": "Will the highest temperature in London be 19°C on September 9?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.0,
+      "resolved_at": "2026-09-10T01:07:53.500598+00:00",
+      "crps": 0.4627,
+      "winning_range": [
+        19.0,
+        19.0
+      ]
     },
     {
       "slug": "paris",
@@ -68472,6 +68476,39 @@
         "range": [
           37.0,
           37.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-09-10",
+      "logged_at": "2026-09-10T01:00:24.284081+00:00",
+      "model_peak": 20.0,
+      "empirico_peak": 18.3,
+      "peak_final": 19.6,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "22C",
+        "price": 0.065,
+        "prob": 0.083,
+        "ev": 0.273,
+        "kelly": 0.0047,
+        "volume": 3833.0,
+        "confianza": "cautela",
+        "market_id": "4356226",
+        "range": [
+          22.0,
+          22.0
         ]
       },
       "resolved": false,
