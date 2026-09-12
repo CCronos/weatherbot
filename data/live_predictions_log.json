@@ -72610,6 +72610,92 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "lucknow",
+      "name": "Lucknow",
+      "station": "VILK",
+      "unit": "C",
+      "fecha_mercado": "2026-09-13",
+      "logged_at": "2026-09-12T19:03:17.175745+00:00",
+      "model_peak": 32.5,
+      "empirico_peak": 32.4,
+      "peak_final": 32.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "32C",
+        "price": 0.17,
+        "prob": 0.217,
+        "ev": 0.277,
+        "kelly": 0.0142,
+        "volume": 2135.0,
+        "confianza": "moderado",
+        "market_id": "4461682",
+        "range": [
+          32.0,
+          32.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "karachi",
+      "name": "Karachi",
+      "station": "OPKC",
+      "unit": "C",
+      "fecha_mercado": "2026-09-13",
+      "logged_at": "2026-09-12T19:05:49.700037+00:00",
+      "model_peak": 40.0,
+      "empirico_peak": 32.5,
+      "peak_final": 36.6,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "37C",
+        "price": 0.225,
+        "prob": 0.238,
+        "ev": 0.056,
+        "kelly": 0.0041,
+        "volume": 3523.0,
+        "confianza": "escalable",
+        "market_id": "4461978",
+        "range": [
+          37.0,
+          37.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "jakarta",
+      "name": "Jakarta",
+      "station": "WIHH",
+      "unit": "C",
+      "fecha_mercado": "2026-09-13",
+      "logged_at": "2026-09-12T19:06:36.741717+00:00",
+      "model_peak": 37.0,
+      "empirico_peak": 30.2,
+      "peak_final": 34.0,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
