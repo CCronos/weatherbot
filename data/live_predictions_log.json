@@ -71809,13 +71809,17 @@
       "peak_final": 27.7,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 20°C on September 12?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 7.7,
+      "resolved_at": "2026-09-13T03:42:34.594454+00:00",
+      "crps": 6.7956,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -71829,13 +71833,17 @@
       "peak_final": 15.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 12.0,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 12°C on September 12?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 3.4,
+      "resolved_at": "2026-09-13T03:42:34.782998+00:00",
+      "crps": 2.5152,
+      "winning_range": [
+        12.0,
+        12.0
+      ]
     },
     {
       "slug": "jeddah",
@@ -73234,6 +73242,46 @@
           25.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-09-13",
+      "logged_at": "2026-09-13T03:38:46.269557+00:00",
+      "model_peak": 17.9,
+      "empirico_peak": 23.0,
+      "peak_final": 20.8,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-09-13",
+      "logged_at": "2026-09-13T03:38:47.108552+00:00",
+      "model_peak": 13.1,
+      "empirico_peak": 10.6,
+      "peak_final": 12.2,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
