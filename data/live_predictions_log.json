@@ -74637,13 +74637,17 @@
           20.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 22.0,
+      "winning_bucket": "Will the highest temperature in Munich be 22°C on September 14?",
+      "pick_won": false,
+      "forecast_error": -2.2,
+      "resolved_at": "2026-09-15T01:22:37.792698+00:00",
+      "crps": 1.4205,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "ankara",
@@ -74694,13 +74698,17 @@
       "peak_final": 33.4,
       "sigma": 1.98,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Madrid be 35°C on September 14?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.6,
+      "resolved_at": "2026-09-15T01:22:38.148024+00:00",
+      "crps": 0.9522,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "amsterdam",
@@ -74727,13 +74735,17 @@
           21.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 23°C on September 14?",
+      "pick_won": false,
+      "forecast_error": -2.4,
+      "resolved_at": "2026-09-15T01:22:38.361414+00:00",
+      "crps": 1.5902,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -74841,13 +74853,17 @@
           28.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 29.0,
+      "winning_bucket": "Will the highest temperature in Milan be 29°C on September 14?",
+      "pick_won": false,
+      "forecast_error": -0.7,
+      "resolved_at": "2026-09-15T01:22:38.775416+00:00",
+      "crps": 0.4947,
+      "winning_range": [
+        29.0,
+        29.0
+      ]
     },
     {
       "slug": "helsinki",
@@ -74959,13 +74975,17 @@
           19.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 18.0,
+      "winning_bucket": "Will the highest temperature in Cape Town be 18°C on September 14?",
+      "pick_won": false,
+      "forecast_error": 0.8,
+      "resolved_at": "2026-09-15T01:22:39.344186+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        18.0,
+        18.0
+      ]
     },
     {
       "slug": "jeddah",
@@ -75029,13 +75049,17 @@
           23.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in London be 25°C on September 14?",
+      "pick_won": false,
+      "forecast_error": -0.8,
+      "resolved_at": "2026-09-15T01:22:39.508410+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "nyc",
@@ -76430,6 +76454,39 @@
         "range": [
           32.0,
           32.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-09-15",
+      "logged_at": "2026-09-15T01:14:11.740550+00:00",
+      "model_peak": 22.8,
+      "empirico_peak": 21.6,
+      "peak_final": 22.6,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "24C",
+        "price": 0.065,
+        "prob": 0.169,
+        "ev": 1.605,
+        "kelly": 0.0279,
+        "volume": 3107.0,
+        "confianza": "cautela",
+        "market_id": "4529738",
+        "range": [
+          24.0,
+          24.0
         ]
       },
       "resolved": false,
