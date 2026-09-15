@@ -75406,13 +75406,17 @@
       "peak_final": 64.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 66.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 66-67°F on September 14?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.2,
+      "resolved_at": "2026-09-15T13:21:29.254342+00:00",
+      "crps": 0.8984,
+      "winning_range": [
+        66.0,
+        67.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -75426,13 +75430,17 @@
       "peak_final": 83.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 78.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 78-79°F on September 14?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 5.8,
+      "resolved_at": "2026-09-15T13:21:29.398555+00:00",
+      "crps": 4.1472,
+      "winning_range": [
+        78.0,
+        79.0
+      ]
     },
     {
       "slug": "denver",
@@ -75459,13 +75467,17 @@
           91.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 87.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 86-87°F on September 14?",
+      "pick_won": false,
+      "forecast_error": 0.9,
+      "resolved_at": "2026-09-15T13:21:29.593182+00:00",
+      "crps": 0.6263,
+      "winning_range": [
+        86.0,
+        87.0
+      ]
     },
     {
       "slug": "wellington",
@@ -75525,13 +75537,17 @@
           73.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 75.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 74-75°F on September 14?",
+      "pick_won": false,
+      "forecast_error": -3.8,
+      "resolved_at": "2026-09-15T13:21:29.704883+00:00",
+      "crps": 2.3908,
+      "winning_range": [
+        74.0,
+        75.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -76976,6 +76992,39 @@
         "range": [
           32.0,
           32.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-09-16",
+      "logged_at": "2026-09-15T13:16:43.358571+00:00",
+      "model_peak": 14.4,
+      "empirico_peak": 16.1,
+      "peak_final": 15.6,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "14C",
+        "price": 0.075,
+        "prob": 0.151,
+        "ev": 1.016,
+        "kelly": 0.0206,
+        "volume": 781.0,
+        "confianza": "cautela",
+        "market_id": "4547085",
+        "range": [
+          14.0,
+          14.0
         ]
       },
       "resolved": false,
