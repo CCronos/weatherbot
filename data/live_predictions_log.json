@@ -77088,13 +77088,17 @@
       "peak_final": 98.5,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 102.0,
+      "winning_bucket": "Will the highest temperature in Austin be between 102-103°F on September 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.5,
+      "resolved_at": "2026-09-16T14:48:02.232393+00:00",
+      "crps": 2.1602,
+      "winning_range": [
+        102.0,
+        103.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -78622,6 +78626,26 @@
           30.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-09-17",
+      "logged_at": "2026-09-16T14:44:08.947473+00:00",
+      "model_peak": 13.9,
+      "empirico_peak": 16.1,
+      "peak_final": 15.4,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
