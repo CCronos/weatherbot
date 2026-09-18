@@ -79160,13 +79160,17 @@
           30.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 31°C on September 17?",
+      "pick_won": false,
+      "forecast_error": -0.4,
+      "resolved_at": "2026-09-18T03:41:41.252020+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "busan",
@@ -79734,13 +79738,17 @@
       "peak_final": 19.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 22.0,
+      "winning_bucket": "Will the highest temperature in London be 22°C on September 17?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.4,
+      "resolved_at": "2026-09-18T03:41:42.114484+00:00",
+      "crps": 1.5902,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "paris",
@@ -79865,13 +79873,17 @@
       "peak_final": 17.3,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 17.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 17°C on September 17?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.3,
+      "resolved_at": "2026-09-18T03:41:42.326941+00:00",
+      "crps": 0.3969,
+      "winning_range": [
+        17.0,
+        17.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -79898,13 +79910,17 @@
           20.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 18.0,
+      "winning_bucket": "Will the highest temperature in Warsaw be 18°C on September 17?",
+      "pick_won": false,
+      "forecast_error": 1.7,
+      "resolved_at": "2026-09-18T03:41:42.557806+00:00",
+      "crps": 1.0333,
+      "winning_range": [
+        18.0,
+        18.0
+      ]
     },
     {
       "slug": "nyc",
@@ -80123,13 +80139,17 @@
           19.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 17.0,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 17°C on September 17?",
+      "pick_won": false,
+      "forecast_error": 1.8,
+      "resolved_at": "2026-09-18T03:41:43.365802+00:00",
+      "crps": 1.1058,
+      "winning_range": [
+        17.0,
+        17.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -80143,13 +80163,17 @@
       "peak_final": 19.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 26°C or higher on September 17?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -6.5,
+      "resolved_at": "2026-09-18T03:41:43.592745+00:00",
+      "crps": 5.5956,
+      "winning_range": [
+        26.0,
+        999.0
+      ]
     },
     {
       "slug": "austin",
@@ -81282,6 +81306,72 @@
       "peak_final": 39.6,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-09-18",
+      "logged_at": "2026-09-18T03:37:31.552955+00:00",
+      "model_peak": 22.3,
+      "empirico_peak": 22.5,
+      "peak_final": 22.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "24C",
+        "price": 0.065,
+        "prob": 0.187,
+        "ev": 1.873,
+        "kelly": 0.0325,
+        "volume": 1487.0,
+        "confianza": "cautela",
+        "market_id": "4613365",
+        "range": [
+          24.0,
+          24.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-09-18",
+      "logged_at": "2026-09-18T03:37:32.588603+00:00",
+      "model_peak": 23.6,
+      "empirico_peak": 21.9,
+      "peak_final": 23.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "22C",
+        "price": 0.15,
+        "prob": 0.195,
+        "ev": 0.3,
+        "kelly": 0.0132,
+        "volume": 3584.0,
+        "confianza": "moderado",
+        "market_id": "4613373",
+        "range": [
+          22.0,
+          22.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
