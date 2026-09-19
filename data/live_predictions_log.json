@@ -81828,13 +81828,17 @@
       "peak_final": 82.9,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 86.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 86-87°F on September 18?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.1,
+      "resolved_at": "2026-09-19T13:04:54.506669+00:00",
+      "crps": 1.872,
+      "winning_range": [
+        86.0,
+        87.0
+      ]
     },
     {
       "slug": "toronto",
@@ -81909,13 +81913,17 @@
       "peak_final": 72.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 68.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 68-69°F on September 18?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 4.8,
+      "resolved_at": "2026-09-19T13:04:54.601608+00:00",
+      "crps": 3.2307,
+      "winning_range": [
+        68.0,
+        69.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -83380,6 +83388,39 @@
       "peak_final": 31.3,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-09-20",
+      "logged_at": "2026-09-19T13:00:51.437650+00:00",
+      "model_peak": 14.4,
+      "empirico_peak": 18.1,
+      "peak_final": 16.6,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "16C",
+        "price": 0.1005,
+        "prob": 0.229,
+        "ev": 1.277,
+        "kelly": 0.0357,
+        "volume": 14127.0,
+        "confianza": "moderado",
+        "market_id": "4667783",
+        "range": [
+          16.0,
+          16.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
