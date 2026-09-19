@@ -81065,13 +81065,17 @@
       "peak_final": 17.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in London be 21°C on September 18?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.4,
+      "resolved_at": "2026-09-19T03:39:55.426802+00:00",
+      "crps": 2.5152,
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "paris",
@@ -81519,13 +81523,17 @@
           24.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 23°C on September 18?",
+      "pick_won": false,
+      "forecast_error": -0.2,
+      "resolved_at": "2026-09-19T03:39:56.192875+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -82887,6 +82895,79 @@
         "range": [
           39.0,
           999.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-09-19",
+      "logged_at": "2026-09-19T03:34:29.704268+00:00",
+      "model_peak": 26.2,
+      "empirico_peak": 24.5,
+      "peak_final": 25.7,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-09-19",
+      "logged_at": "2026-09-19T03:34:30.810787+00:00",
+      "model_peak": 23.7,
+      "empirico_peak": 20.2,
+      "peak_final": 22.3,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "istanbul",
+      "name": "Istanbul",
+      "station": "LTFM",
+      "unit": "C",
+      "fecha_mercado": "2026-09-19",
+      "logged_at": "2026-09-19T03:36:15.662007+00:00",
+      "model_peak": 24.3,
+      "empirico_peak": 21.1,
+      "peak_final": 23.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "23C",
+        "price": 0.145,
+        "prob": 0.244,
+        "ev": 0.686,
+        "kelly": 0.0291,
+        "volume": 609.0,
+        "confianza": "moderado",
+        "market_id": "4632987",
+        "range": [
+          23.0,
+          23.0
         ]
       },
       "resolved": false,
