@@ -83897,6 +83897,125 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "lucknow",
+      "name": "Lucknow",
+      "station": "VILK",
+      "unit": "C",
+      "fecha_mercado": "2026-09-20",
+      "logged_at": "2026-09-19T19:16:37.958390+00:00",
+      "model_peak": 33.2,
+      "empirico_peak": 31.8,
+      "peak_final": 32.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "35C",
+        "price": 0.075,
+        "prob": 0.107,
+        "ev": 0.423,
+        "kelly": 0.0086,
+        "volume": 1351.0,
+        "confianza": "cautela",
+        "market_id": "4667794",
+        "range": [
+          35.0,
+          35.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "karachi",
+      "name": "Karachi",
+      "station": "OPKC",
+      "unit": "C",
+      "fecha_mercado": "2026-09-20",
+      "logged_at": "2026-09-19T19:18:45.674560+00:00",
+      "model_peak": 37.5,
+      "empirico_peak": 35.1,
+      "peak_final": 36.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "38C",
+        "price": 0.095,
+        "prob": 0.178,
+        "ev": 0.875,
+        "kelly": 0.023,
+        "volume": 749.0,
+        "confianza": "cautela",
+        "market_id": "4668087",
+        "range": [
+          38.0,
+          38.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "jakarta",
+      "name": "Jakarta",
+      "station": "WIHH",
+      "unit": "C",
+      "fecha_mercado": "2026-09-20",
+      "logged_at": "2026-09-19T19:19:45.994372+00:00",
+      "model_peak": 34.0,
+      "empirico_peak": 30.2,
+      "peak_final": 32.5,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "shenzhen",
+      "name": "Shenzhen",
+      "station": "ZGSZ",
+      "unit": "C",
+      "fecha_mercado": "2026-09-20",
+      "logged_at": "2026-09-19T19:20:32.088539+00:00",
+      "model_peak": null,
+      "empirico_peak": 30.8,
+      "peak_final": 31.2,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "31C",
+        "price": 0.085,
+        "prob": 0.243,
+        "ev": 1.859,
+        "kelly": 0.0432,
+        "volume": 1710.0,
+        "confianza": "cautela",
+        "market_id": "4667963",
+        "range": [
+          31.0,
+          31.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
