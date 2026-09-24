@@ -89291,13 +89291,17 @@
           23.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in London be 23°C on September 23?",
+      "pick_won": true,
+      "forecast_error": -0.2,
+      "resolved_at": "2026-09-24T01:19:46.320761+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "paris",
@@ -89527,13 +89531,17 @@
       "peak_final": 24.1,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Milan be 24°C on September 23?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.1,
+      "resolved_at": "2026-09-24T01:19:46.868081+00:00",
+      "crps": 0.3771,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "cape-town",
@@ -90876,6 +90884,39 @@
       "peak_final": 37.9,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-09-24",
+      "logged_at": "2026-09-24T01:10:51.992330+00:00",
+      "model_peak": 22.8,
+      "empirico_peak": 17.9,
+      "peak_final": 20.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "21C",
+        "price": 0.185,
+        "prob": 0.243,
+        "ev": 0.314,
+        "kelly": 0.0178,
+        "volume": 4765.0,
+        "confianza": "moderado",
+        "market_id": "4829904",
+        "range": [
+          21.0,
+          21.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
