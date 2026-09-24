@@ -89925,13 +89925,17 @@
           63.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 66.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 66-67°F on September 23?",
+      "pick_won": false,
+      "forecast_error": -2.7,
+      "resolved_at": "2026-09-24T13:28:16.141542+00:00",
+      "crps": 1.6086,
+      "winning_range": [
+        66.0,
+        67.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -89945,13 +89949,17 @@
       "peak_final": 79.6,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 77.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 76-77°F on September 23?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.6,
+      "resolved_at": "2026-09-24T13:28:16.270079+00:00",
+      "crps": 1.5471,
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "denver",
@@ -89965,13 +89973,17 @@
       "peak_final": 79.4,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 74.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 74-75°F on September 23?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 5.4,
+      "resolved_at": "2026-09-24T13:28:16.448204+00:00",
+      "crps": 3.7738,
+      "winning_range": [
+        74.0,
+        75.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -89998,13 +90010,17 @@
           73.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 77.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 76-77°F on September 23?",
+      "pick_won": false,
+      "forecast_error": -3.5,
+      "resolved_at": "2026-09-24T13:28:16.646679+00:00",
+      "crps": 2.1602,
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -91419,6 +91435,26 @@
           30.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-09-25",
+      "logged_at": "2026-09-24T13:23:38.065940+00:00",
+      "model_peak": 14.9,
+      "empirico_peak": 12.1,
+      "peak_final": 13.9,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
