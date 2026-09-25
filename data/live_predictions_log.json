@@ -90693,13 +90693,17 @@
       "peak_final": 9.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 17.0,
+      "winning_bucket": "Will the highest temperature in Munich be 17°C on September 24?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -7.5,
+      "resolved_at": "2026-09-25T01:19:31.332619+00:00",
+      "crps": 6.5956,
+      "winning_range": [
+        17.0,
+        17.0
+      ]
     },
     {
       "slug": "ankara",
@@ -90750,13 +90754,17 @@
       "peak_final": 32.3,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Madrid be 35°C on September 24?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.7,
+      "resolved_at": "2026-09-25T01:19:31.584947+00:00",
+      "crps": 1.8565,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "amsterdam",
@@ -90783,13 +90791,17 @@
           17.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 18.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 18°C on September 24?",
+      "pick_won": false,
+      "forecast_error": -0.2,
+      "resolved_at": "2026-09-25T01:19:31.757211+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        18.0,
+        18.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -90816,13 +90828,17 @@
           13.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 14.0,
+      "winning_bucket": "Will the highest temperature in Warsaw be 14°C on September 24?",
+      "pick_won": false,
+      "forecast_error": -0.6,
+      "resolved_at": "2026-09-25T01:19:31.895654+00:00",
+      "crps": 0.4632,
+      "winning_range": [
+        14.0,
+        14.0
+      ]
     },
     {
       "slug": "tel-aviv",
@@ -90893,13 +90909,17 @@
           23.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Milan be 24°C on September 24?",
+      "pick_won": false,
+      "forecast_error": -1.1,
+      "resolved_at": "2026-09-25T01:19:32.174451+00:00",
+      "crps": 0.6645,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "helsinki",
@@ -91024,13 +91044,17 @@
           24.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Cape Town be 23°C on September 24?",
+      "pick_won": false,
+      "forecast_error": 2.2,
+      "resolved_at": "2026-09-25T01:19:32.547879+00:00",
+      "crps": 1.4205,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "jeddah",
@@ -91081,13 +91105,17 @@
           21.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in London be 21°C on September 24?",
+      "pick_won": true,
+      "forecast_error": -0.2,
+      "resolved_at": "2026-09-25T01:19:32.687641+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "nyc",
@@ -92469,6 +92497,39 @@
         "range": [
           35.0,
           35.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-09-25",
+      "logged_at": "2026-09-25T01:11:49.324568+00:00",
+      "model_peak": 24.5,
+      "empirico_peak": 18.9,
+      "peak_final": 22.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "23C",
+        "price": 0.17,
+        "prob": 0.21,
+        "ev": 0.237,
+        "kelly": 0.0121,
+        "volume": 4682.0,
+        "confianza": "moderado",
+        "market_id": "4873029",
+        "range": [
+          23.0,
+          23.0
         ]
       },
       "resolved": false,
