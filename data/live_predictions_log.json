@@ -92410,13 +92410,17 @@
       "peak_final": 31.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Tel Aviv be 30°C on September 25?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.5,
+      "resolved_at": "2026-09-26T00:41:33.741285+00:00",
+      "crps": 0.897,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "paris-le-bourget",
@@ -92549,13 +92553,17 @@
           14.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 12.0,
+      "winning_bucket": "Will the highest temperature in Moscow be 12°C on September 25?",
+      "pick_won": false,
+      "forecast_error": 1.9,
+      "resolved_at": "2026-09-26T00:41:34.285619+00:00",
+      "crps": 1.181,
+      "winning_range": [
+        12.0,
+        12.0
+      ]
     },
     {
       "slug": "cape-town",
@@ -92635,13 +92643,17 @@
           35.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Karachi be 34°C on September 25?",
+      "pick_won": false,
+      "forecast_error": -0.4,
+      "resolved_at": "2026-09-26T00:41:34.694107+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "london",
@@ -93978,6 +93990,39 @@
         "range": [
           35.0,
           35.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-09-26",
+      "logged_at": "2026-09-26T00:33:52.852403+00:00",
+      "model_peak": null,
+      "empirico_peak": 19.8,
+      "peak_final": 20.2,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "22C",
+        "price": 0.065,
+        "prob": 0.133,
+        "ev": 1.046,
+        "kelly": 0.0182,
+        "volume": 1771.0,
+        "confianza": "cautela",
+        "market_id": "4900544",
+        "range": [
+          22.0,
+          22.0
         ]
       },
       "resolved": false,
