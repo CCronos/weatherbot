@@ -96263,13 +96263,17 @@
       "peak_final": 12.2,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 15.0,
+      "winning_bucket": "Will the highest temperature in Wellington be 15°C on September 28?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.8,
+      "resolved_at": "2026-09-29T00:22:53.651465+00:00",
+      "crps": 1.9479,
+      "winning_range": [
+        15.0,
+        15.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -96307,13 +96311,17 @@
       "peak_final": 22.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Seoul (Incheon) be 23°C on September 28?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.5,
+      "resolved_at": "2026-09-29T00:22:53.787896+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "tokyo",
@@ -96340,13 +96348,17 @@
           27.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Tokyo be 26°C on September 28?",
+      "pick_won": false,
+      "forecast_error": -0.5,
+      "resolved_at": "2026-09-29T00:22:53.888028+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "taipei",
@@ -96360,13 +96372,17 @@
       "peak_final": 32.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 37.0,
+      "winning_bucket": "Will the highest temperature in Taipei be 37°C on September 28?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -4.2,
+      "resolved_at": "2026-09-29T00:22:54.033820+00:00",
+      "crps": 3.3,
+      "winning_range": [
+        37.0,
+        37.0
+      ]
     },
     {
       "slug": "shanghai",
@@ -96393,13 +96409,17 @@
           28.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Shanghai be 26°C on September 28?",
+      "pick_won": false,
+      "forecast_error": 1.2,
+      "resolved_at": "2026-09-29T00:22:54.169139+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "chengdu",
@@ -96413,13 +96433,17 @@
       "peak_final": 27.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Chengdu be 25°C on September 28?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.5,
+      "resolved_at": "2026-09-29T00:22:54.250233+00:00",
+      "crps": 1.6775,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "beijing",
@@ -96446,13 +96470,17 @@
           23.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Beijing be 25°C on September 28?",
+      "pick_won": false,
+      "forecast_error": -0.7,
+      "resolved_at": "2026-09-29T00:22:54.328045+00:00",
+      "crps": 0.4947,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "singapore",
@@ -96479,13 +96507,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Singapore be 30°C on September 28?",
+      "pick_won": false,
+      "forecast_error": 1.0,
+      "resolved_at": "2026-09-29T00:22:54.402991+00:00",
+      "crps": 0.6157,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "kuala-lumpur",
@@ -96512,13 +96544,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Kuala Lumpur be 33°C on September 28?",
+      "pick_won": false,
+      "forecast_error": -0.7,
+      "resolved_at": "2026-09-29T00:22:54.547460+00:00",
+      "crps": 0.4947,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "hong-kong",
@@ -96565,13 +96601,17 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Busan be 26°C on September 28?",
+      "pick_won": false,
+      "forecast_error": 2.0,
+      "resolved_at": "2026-09-29T00:22:54.726473+00:00",
+      "crps": 1.2586,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "manila",
@@ -96598,13 +96638,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Manila be 32°C on September 28?",
+      "pick_won": true,
+      "forecast_error": 0.1,
+      "resolved_at": "2026-09-29T00:22:54.854705+00:00",
+      "crps": 0.3771,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "jakarta",
@@ -96651,13 +96695,17 @@
           30.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Chongqing be 27°C or below on September 28?",
+      "pick_won": false,
+      "forecast_error": 4.0,
+      "resolved_at": "2026-09-29T00:22:55.043239+00:00",
+      "crps": 2.9148,
+      "winning_range": [
+        -999.0,
+        27.0
+      ]
     },
     {
       "slug": "guangzhou",
@@ -96684,13 +96732,17 @@
           35.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Guangzhou be 36°C on September 28?",
+      "pick_won": false,
+      "forecast_error": -1.3,
+      "resolved_at": "2026-09-29T00:22:55.198418+00:00",
+      "crps": 0.7736,
+      "winning_range": [
+        36.0,
+        36.0
+      ]
     },
     {
       "slug": "shenzhen",
@@ -96717,13 +96769,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Shenzhen be 32°C on September 28?",
+      "pick_won": false,
+      "forecast_error": 0.6,
+      "resolved_at": "2026-09-29T00:22:55.351010+00:00",
+      "crps": 0.4632,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "wuhan",
@@ -96737,13 +96793,17 @@
       "peak_final": 27.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Wuhan be 24°C on September 28?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 3.6,
+      "resolved_at": "2026-09-29T00:22:55.433241+00:00",
+      "crps": 2.7093,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "qingdao",
@@ -96770,13 +96830,17 @@
           26.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Qingdao be 26°C on September 28?",
+      "pick_won": true,
+      "forecast_error": 0.2,
+      "resolved_at": "2026-09-29T00:22:55.593260+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "ankara",
@@ -96790,13 +96854,17 @@
       "peak_final": 24.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 16.0,
+      "winning_bucket": "Will the highest temperature in Ankara be 16°C on September 28?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 8.5,
+      "resolved_at": "2026-09-29T00:22:55.732858+00:00",
+      "crps": 7.5956,
+      "winning_range": [
+        16.0,
+        16.0
+      ]
     },
     {
       "slug": "lucknow",
@@ -96823,13 +96891,17 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Lucknow be 32°C on September 28?",
+      "pick_won": false,
+      "forecast_error": -2.0,
+      "resolved_at": "2026-09-29T00:22:55.873431+00:00",
+      "crps": 1.2586,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "tel-aviv",
@@ -96856,13 +96928,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Tel Aviv be 30°C on September 28?",
+      "pick_won": false,
+      "forecast_error": 1.2,
+      "resolved_at": "2026-09-29T00:22:55.985532+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "helsinki",
@@ -96876,13 +96952,17 @@
       "peak_final": 12.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 16.0,
+      "winning_bucket": "Will the highest temperature in Helsinki be 16°C on September 28?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.6,
+      "resolved_at": "2026-09-29T00:22:56.124353+00:00",
+      "crps": 2.7093,
+      "winning_range": [
+        16.0,
+        16.0
+      ]
     },
     {
       "slug": "istanbul",
@@ -96898,11 +96978,15 @@
       "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
-      "winning_bucket": null,
+      "winning_bucket": "Will the highest temperature in Istanbul be 19°C on September 28?",
       "pick_won": null,
       "forecast_error": null,
       "resolved_at": null,
-      "crps": null
+      "crps": null,
+      "winning_range": [
+        19.0,
+        19.0
+      ]
     },
     {
       "slug": "moscow",
@@ -96916,13 +97000,17 @@
       "peak_final": 15.1,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 14.0,
+      "winning_bucket": "Will the highest temperature in Moscow be 14°C on September 28?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.1,
+      "resolved_at": "2026-09-29T00:22:56.405180+00:00",
+      "crps": 0.6645,
+      "winning_range": [
+        14.0,
+        14.0
+      ]
     },
     {
       "slug": "jeddah",
@@ -96936,13 +97024,17 @@
       "peak_final": 37.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Jeddah be 35°C on September 28?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.4,
+      "resolved_at": "2026-09-29T00:22:56.549727+00:00",
+      "crps": 1.5902,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "karachi",
@@ -96956,13 +97048,17 @@
       "peak_final": 33.9,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Karachi be 32°C on September 28?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.9,
+      "resolved_at": "2026-09-29T00:22:56.703483+00:00",
+      "crps": 1.181,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "london",
@@ -97022,13 +97118,17 @@
           26.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Paris be 24°C on September 28?",
+      "pick_won": false,
+      "forecast_error": 1.8,
+      "resolved_at": "2026-09-29T00:22:56.895470+00:00",
+      "crps": 1.1058,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "munich",
@@ -97042,13 +97142,17 @@
       "peak_final": 19.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Munich be 26°C on September 28?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -7.0,
+      "resolved_at": "2026-09-29T00:22:56.972145+00:00",
+      "crps": 6.0956,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "madrid",
@@ -97095,13 +97199,17 @@
           22.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 21°C on September 28?",
+      "pick_won": false,
+      "forecast_error": -0.4,
+      "resolved_at": "2026-09-29T00:22:57.156894+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -97128,13 +97236,17 @@
           20.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in Warsaw be 21°C on September 28?",
+      "pick_won": false,
+      "forecast_error": -1.6,
+      "resolved_at": "2026-09-29T00:22:57.322648+00:00",
+      "crps": 0.9637,
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "paris-le-bourget",
@@ -97168,13 +97280,17 @@
       "peak_final": 23.2,
       "sigma": 1.98,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Milan be 25°C on September 28?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.8,
+      "resolved_at": "2026-09-29T00:22:57.631992+00:00",
+      "crps": 1.074,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "cape-town",
@@ -97188,13 +97304,17 @@
       "peak_final": 21.2,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Cape Town be 23°C on September 28?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.8,
+      "resolved_at": "2026-09-29T00:22:57.761149+00:00",
+      "crps": 1.1058,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "nyc",
@@ -98127,6 +98247,384 @@
       "model_peak": 27.8,
       "empirico_peak": 22.4,
       "peak_final": 25.5,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-09-29",
+      "logged_at": "2026-09-29T00:14:53.238647+00:00",
+      "model_peak": 25.8,
+      "empirico_peak": 20.2,
+      "peak_final": 23.4,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "24C",
+        "price": 0.19,
+        "prob": 0.229,
+        "ev": 0.204,
+        "kelly": 0.012,
+        "volume": 7365.0,
+        "confianza": "moderado",
+        "market_id": "5012336",
+        "range": [
+          24.0,
+          24.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "paris",
+      "name": "Paris",
+      "station": "LFPG",
+      "unit": "C",
+      "fecha_mercado": "2026-09-29",
+      "logged_at": "2026-09-29T00:14:54.474650+00:00",
+      "model_peak": 28.1,
+      "empirico_peak": null,
+      "peak_final": 28.5,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "munich",
+      "name": "Munich",
+      "station": "EDDM",
+      "unit": "C",
+      "fecha_mercado": "2026-09-29",
+      "logged_at": "2026-09-29T00:15:16.683648+00:00",
+      "model_peak": 23.7,
+      "empirico_peak": 13.6,
+      "peak_final": 19.0,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "ankara",
+      "name": "Ankara",
+      "station": "LTAC",
+      "unit": "C",
+      "fecha_mercado": "2026-09-29",
+      "logged_at": "2026-09-29T00:15:59.996004+00:00",
+      "model_peak": null,
+      "empirico_peak": 22.1,
+      "peak_final": 22.5,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "madrid",
+      "name": "Madrid",
+      "station": "LEMD",
+      "unit": "C",
+      "fecha_mercado": "2026-09-29",
+      "logged_at": "2026-09-29T00:16:09.690149+00:00",
+      "model_peak": 26.5,
+      "empirico_peak": 20.6,
+      "peak_final": 24.0,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "amsterdam",
+      "name": "Amsterdam",
+      "station": "EHAM",
+      "unit": "C",
+      "fecha_mercado": "2026-09-29",
+      "logged_at": "2026-09-29T00:16:10.950884+00:00",
+      "model_peak": 25.0,
+      "empirico_peak": 20.1,
+      "peak_final": 22.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "24C",
+        "price": 0.125,
+        "prob": 0.195,
+        "ev": 0.56,
+        "kelly": 0.02,
+        "volume": 2129.0,
+        "confianza": "moderado",
+        "market_id": "5012610",
+        "range": [
+          24.0,
+          24.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "warsaw",
+      "name": "Warsaw",
+      "station": "EPWA",
+      "unit": "C",
+      "fecha_mercado": "2026-09-29",
+      "logged_at": "2026-09-29T00:16:12.228218+00:00",
+      "model_peak": 21.1,
+      "empirico_peak": 18.0,
+      "peak_final": 19.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "20C",
+        "price": 0.09,
+        "prob": 0.244,
+        "ev": 1.716,
+        "kelly": 0.0424,
+        "volume": 10309.0,
+        "confianza": "cautela",
+        "market_id": "5012497",
+        "range": [
+          20.0,
+          20.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "tel-aviv",
+      "name": "Tel Aviv",
+      "station": "LLBG",
+      "unit": "C",
+      "fecha_mercado": "2026-09-29",
+      "logged_at": "2026-09-29T00:18:21.719443+00:00",
+      "model_peak": null,
+      "empirico_peak": 29.0,
+      "peak_final": 29.4,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "paris-le-bourget",
+      "name": "Paris (Le Bourget)",
+      "station": "LFPB",
+      "unit": "C",
+      "fecha_mercado": "2026-09-29",
+      "logged_at": "2026-09-29T00:19:37.758852+00:00",
+      "model_peak": 28.3,
+      "empirico_peak": 23.0,
+      "peak_final": 26.1,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "milan",
+      "name": "Milan",
+      "station": "LIMC",
+      "unit": "C",
+      "fecha_mercado": "2026-09-29",
+      "logged_at": "2026-09-29T00:19:38.948554+00:00",
+      "model_peak": 25.3,
+      "empirico_peak": 22.4,
+      "peak_final": 24.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "24C",
+        "price": 0.22,
+        "prob": 0.241,
+        "ev": 0.094,
+        "kelly": 0.0067,
+        "volume": 3390.0,
+        "confianza": "escalable",
+        "market_id": "5012474",
+        "range": [
+          24.0,
+          24.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "helsinki",
+      "name": "Helsinki",
+      "station": "EFHK",
+      "unit": "C",
+      "fecha_mercado": "2026-09-29",
+      "logged_at": "2026-09-29T00:19:40.362620+00:00",
+      "model_peak": 16.4,
+      "empirico_peak": 13.8,
+      "peak_final": 15.5,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "15C",
+        "price": 0.21,
+        "prob": 0.234,
+        "ev": 0.113,
+        "kelly": 0.0075,
+        "volume": 1810.0,
+        "confianza": "escalable",
+        "market_id": "5012619",
+        "range": [
+          15.0,
+          15.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "istanbul",
+      "name": "Istanbul",
+      "station": "LTFM",
+      "unit": "C",
+      "fecha_mercado": "2026-09-29",
+      "logged_at": "2026-09-29T00:19:41.590921+00:00",
+      "model_peak": 18.4,
+      "empirico_peak": 19.3,
+      "peak_final": 19.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "20C",
+        "price": 0.13,
+        "prob": 0.223,
+        "ev": 0.718,
+        "kelly": 0.0268,
+        "volume": 1477.0,
+        "confianza": "moderado",
+        "market_id": "5012587",
+        "range": [
+          20.0,
+          20.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "moscow",
+      "name": "Moscow",
+      "station": "UUWW",
+      "unit": "C",
+      "fecha_mercado": "2026-09-29",
+      "logged_at": "2026-09-29T00:19:43.107090+00:00",
+      "model_peak": 15.5,
+      "empirico_peak": 6.5,
+      "peak_final": 11.4,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "cape-town",
+      "name": "Cape Town",
+      "station": "FACT",
+      "unit": "C",
+      "fecha_mercado": "2026-09-29",
+      "logged_at": "2026-09-29T00:20:05.363720+00:00",
+      "model_peak": null,
+      "empirico_peak": 20.9,
+      "peak_final": 21.3,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "jeddah",
+      "name": "Jeddah",
+      "station": "OEJN",
+      "unit": "C",
+      "fecha_mercado": "2026-09-29",
+      "logged_at": "2026-09-29T00:20:27.283620+00:00",
+      "model_peak": null,
+      "empirico_peak": 34.8,
+      "peak_final": 35.2,
       "sigma": 1.603,
       "mejor_bucket": null,
       "resolved": false,
