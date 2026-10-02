@@ -102007,13 +102007,17 @@
       "peak_final": 65.5,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 67.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 66-67°F on October 1?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.5,
+      "resolved_at": "2026-10-02T14:51:11.392201+00:00",
+      "crps": 1.001,
+      "winning_range": [
+        66.0,
+        67.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -102088,13 +102092,17 @@
       "peak_final": 79.5,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 76.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 76-77°F on October 1?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 3.5,
+      "resolved_at": "2026-10-02T14:51:11.472536+00:00",
+      "crps": 2.1602,
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "denver",
@@ -102121,13 +102129,17 @@
           999.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 69.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 68-69°F on October 1?",
+      "pick_won": false,
+      "forecast_error": -0.3,
+      "resolved_at": "2026-10-02T14:51:11.608902+00:00",
+      "crps": 0.7241,
+      "winning_range": [
+        68.0,
+        69.0
+      ]
     },
     {
       "slug": "toronto",
@@ -102276,13 +102288,17 @@
       "peak_final": 71.6,
       "sigma": 2.0,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 72.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 72-73°F on October 1?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.4,
+      "resolved_at": "2026-10-02T14:51:11.718138+00:00",
+      "crps": 0.4992,
+      "winning_range": [
+        72.0,
+        73.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -102309,13 +102325,17 @@
           24.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 25°C on October 1?",
+      "pick_won": false,
+      "forecast_error": -0.1,
+      "resolved_at": "2026-10-02T14:51:11.853269+00:00",
+      "crps": 0.3771,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -103767,6 +103787,39 @@
         "range": [
           30.0,
           30.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-10-03",
+      "logged_at": "2026-10-02T14:46:47.157768+00:00",
+      "model_peak": 13.4,
+      "empirico_peak": 16.1,
+      "peak_final": 15.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "14C",
+        "price": 0.065,
+        "prob": 0.195,
+        "ev": 2.0,
+        "kelly": 0.0348,
+        "volume": 7233.0,
+        "confianza": "cautela",
+        "market_id": "5170384",
+        "range": [
+          14.0,
+          14.0
         ]
       },
       "resolved": false,
