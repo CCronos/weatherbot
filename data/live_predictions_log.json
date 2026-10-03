@@ -105307,6 +105307,92 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "seoul",
+      "name": "Seoul",
+      "station": "RKSI",
+      "unit": "C",
+      "fecha_mercado": "2026-10-04",
+      "logged_at": "2026-10-03T15:07:11.195990+00:00",
+      "model_peak": null,
+      "empirico_peak": 21.3,
+      "peak_final": 21.7,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-10-04",
+      "logged_at": "2026-10-03T15:09:13.308572+00:00",
+      "model_peak": 12.9,
+      "empirico_peak": 11.2,
+      "peak_final": 12.4,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "12C",
+        "price": 0.1,
+        "prob": 0.238,
+        "ev": 1.376,
+        "kelly": 0.0382,
+        "volume": 5281.0,
+        "confianza": "moderado",
+        "market_id": "5197872",
+        "range": [
+          12.0,
+          12.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "busan",
+      "name": "Busan",
+      "station": "RKPK",
+      "unit": "C",
+      "fecha_mercado": "2026-10-04",
+      "logged_at": "2026-10-03T15:11:27.463343+00:00",
+      "model_peak": 26.1,
+      "empirico_peak": 24.0,
+      "peak_final": 25.4,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "24C",
+        "price": 0.085,
+        "prob": 0.169,
+        "ev": 0.992,
+        "kelly": 0.023,
+        "volume": 989.0,
+        "confianza": "cautela",
+        "market_id": "5198091",
+        "range": [
+          24.0,
+          24.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
