@@ -104603,13 +104603,17 @@
       "peak_final": 18.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in London be 20°C on October 3?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.2,
+      "resolved_at": "2026-10-04T02:37:11.766116+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "munich",
@@ -104636,13 +104640,17 @@
           22.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in Munich be 20°C on October 3?",
+      "pick_won": false,
+      "forecast_error": 0.7,
+      "resolved_at": "2026-10-04T02:37:11.992916+00:00",
+      "crps": 0.4947,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "ankara",
@@ -104706,13 +104714,17 @@
           23.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 22.0,
+      "winning_bucket": "Will the highest temperature in Madrid be 22°C on October 3?",
+      "pick_won": false,
+      "forecast_error": 2.0,
+      "resolved_at": "2026-10-04T02:37:12.196149+00:00",
+      "crps": 1.2586,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "amsterdam",
@@ -104739,13 +104751,17 @@
           19.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 20°C on October 3?",
+      "pick_won": false,
+      "forecast_error": -1.0,
+      "resolved_at": "2026-10-04T02:37:12.385953+00:00",
+      "crps": 0.6157,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -104827,13 +104843,17 @@
       "peak_final": 22.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Milan be 24°C on October 3?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.2,
+      "resolved_at": "2026-10-04T02:37:12.819847+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "helsinki",
@@ -104847,13 +104867,17 @@
       "peak_final": 15.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 13.0,
+      "winning_bucket": "Will the highest temperature in Helsinki be 13°C on October 3?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.5,
+      "resolved_at": "2026-10-04T02:37:13.013217+00:00",
+      "crps": 1.6775,
+      "winning_range": [
+        13.0,
+        13.0
+      ]
     },
     {
       "slug": "istanbul",
@@ -104869,11 +104893,15 @@
       "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
-      "winning_bucket": null,
+      "winning_bucket": "Will the highest temperature in Istanbul be 19°C on October 3?",
       "pick_won": null,
       "forecast_error": null,
       "resolved_at": null,
-      "crps": null
+      "crps": null,
+      "winning_range": [
+        19.0,
+        19.0
+      ]
     },
     {
       "slug": "moscow",
@@ -104924,13 +104952,17 @@
       "peak_final": 20.1,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in Cape Town be 21°C on October 3?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.9,
+      "resolved_at": "2026-10-04T02:37:13.537105+00:00",
+      "crps": 0.5711,
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "jeddah",
@@ -104944,13 +104976,17 @@
       "peak_final": 38.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Jeddah be 36°C on October 3?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.4,
+      "resolved_at": "2026-10-04T02:37:13.792861+00:00",
+      "crps": 1.5902,
+      "winning_range": [
+        36.0,
+        36.0
+      ]
     },
     {
       "slug": "nyc",
@@ -106332,6 +106368,39 @@
       "peak_final": 38.5,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-10-04",
+      "logged_at": "2026-10-04T02:28:16.292181+00:00",
+      "model_peak": 22.6,
+      "empirico_peak": 19.0,
+      "peak_final": 21.2,
+      "sigma": 1.98,
+      "mejor_bucket": {
+        "bucket": "23C",
+        "price": 0.11,
+        "prob": 0.133,
+        "ev": 0.209,
+        "kelly": 0.0065,
+        "volume": 5320.0,
+        "confianza": "moderado",
+        "market_id": "5197830",
+        "range": [
+          23.0,
+          23.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
