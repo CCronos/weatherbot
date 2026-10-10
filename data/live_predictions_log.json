@@ -114636,13 +114636,17 @@
       "peak_final": 16.2,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in Wellington be 20°C on October 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.8,
+      "resolved_at": "2026-10-10T20:37:46.352529+00:00",
+      "crps": 2.9051,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -114730,13 +114734,17 @@
       "peak_final": 19.7,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Seoul (Incheon) be 24°C on October 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -4.3,
+      "resolved_at": "2026-10-10T20:37:46.552417+00:00",
+      "crps": 3.3992,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "tokyo",
@@ -114750,13 +114758,17 @@
       "peak_final": 23.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Tokyo be 24°C on October 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.5,
+      "resolved_at": "2026-10-10T20:37:46.751781+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "taipei",
@@ -114770,13 +114782,17 @@
       "peak_final": 28.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Taipei be 30°C on October 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.2,
+      "resolved_at": "2026-10-10T20:37:47.021072+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "shanghai",
@@ -114790,13 +114806,17 @@
       "peak_final": 23.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 27.0,
+      "winning_bucket": "Will the highest temperature in Shanghai be 27°C on October 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.2,
+      "resolved_at": "2026-10-10T20:37:47.216152+00:00",
+      "crps": 2.3231,
+      "winning_range": [
+        27.0,
+        27.0
+      ]
     },
     {
       "slug": "chengdu",
@@ -114823,13 +114843,17 @@
           23.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in Chengdu be 20°C on October 10?",
+      "pick_won": false,
+      "forecast_error": 3.6,
+      "resolved_at": "2026-10-10T20:37:47.409737+00:00",
+      "crps": 2.7093,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "beijing",
@@ -114876,13 +114900,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Singapore be 33°C on October 10?",
+      "pick_won": false,
+      "forecast_error": -0.8,
+      "resolved_at": "2026-10-10T20:37:47.725489+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "kuala-lumpur",
@@ -114909,13 +114937,17 @@
           30.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Kuala Lumpur be 33°C on October 10?",
+      "pick_won": false,
+      "forecast_error": -1.9,
+      "resolved_at": "2026-10-10T20:37:47.919291+00:00",
+      "crps": 1.181,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "hong-kong",
@@ -114949,13 +114981,17 @@
       "peak_final": 26.3,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 28.0,
+      "winning_bucket": "Will the highest temperature in Busan be 28°C on October 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.7,
+      "resolved_at": "2026-10-10T20:37:48.193133+00:00",
+      "crps": 1.0333,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "manila",
@@ -114982,13 +115018,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Manila be 31°C on October 10?",
+      "pick_won": true,
+      "forecast_error": 1.2,
+      "resolved_at": "2026-10-10T20:37:48.375072+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "jakarta",
@@ -115042,13 +115082,17 @@
       "peak_final": 31.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Guangzhou be 32°C on October 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.2,
+      "resolved_at": "2026-10-10T20:37:48.760546+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "shenzhen",
@@ -115082,13 +115126,17 @@
       "peak_final": 26.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 29.0,
+      "winning_bucket": "Will the highest temperature in Wuhan be 29°C on October 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.2,
+      "resolved_at": "2026-10-10T20:37:49.065931+00:00",
+      "crps": 1.4205,
+      "winning_range": [
+        29.0,
+        29.0
+      ]
     },
     {
       "slug": "qingdao",
@@ -115102,13 +115150,17 @@
       "peak_final": 22.7,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Qingdao be 26°C on October 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.3,
+      "resolved_at": "2026-10-10T20:37:49.280025+00:00",
+      "crps": 2.4188,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "london",
@@ -115307,13 +115359,17 @@
       "peak_final": 29.7,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Lucknow be 30°C on October 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.3,
+      "resolved_at": "2026-10-10T20:37:49.985333+00:00",
+      "crps": 0.3969,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "tel-aviv",
@@ -116477,6 +116533,79 @@
       "model_peak": 27.4,
       "empirico_peak": 22.0,
       "peak_final": 25.1,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "lucknow",
+      "name": "Lucknow",
+      "station": "VILK",
+      "unit": "C",
+      "fecha_mercado": "2026-10-11",
+      "logged_at": "2026-10-10T20:33:18.743891+00:00",
+      "model_peak": null,
+      "empirico_peak": 27.9,
+      "peak_final": 28.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "30C",
+        "price": 0.135,
+        "prob": 0.142,
+        "ev": 0.052,
+        "kelly": 0.002,
+        "volume": 912.0,
+        "confianza": "moderado",
+        "market_id": "5449096",
+        "range": [
+          30.0,
+          30.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "karachi",
+      "name": "Karachi",
+      "station": "OPKC",
+      "unit": "C",
+      "fecha_mercado": "2026-10-11",
+      "logged_at": "2026-10-10T20:34:58.891516+00:00",
+      "model_peak": 35.2,
+      "empirico_peak": 31.5,
+      "peak_final": 33.7,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "jakarta",
+      "name": "Jakarta",
+      "station": "WIHH",
+      "unit": "C",
+      "fecha_mercado": "2026-10-11",
+      "logged_at": "2026-10-10T20:35:42.774990+00:00",
+      "model_peak": 36.6,
+      "empirico_peak": 31.2,
+      "peak_final": 34.3,
       "sigma": 1.603,
       "mejor_bucket": null,
       "resolved": false,
