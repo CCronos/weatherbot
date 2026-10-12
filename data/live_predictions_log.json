@@ -116836,13 +116836,17 @@
       "peak_final": 14.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 17.0,
+      "winning_bucket": "Will the highest temperature in London be 17°C on October 11?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.4,
+      "resolved_at": "2026-10-12T02:17:04.935258+00:00",
+      "crps": 1.5902,
+      "winning_range": [
+        17.0,
+        17.0
+      ]
     },
     {
       "slug": "paris",
@@ -116906,13 +116910,17 @@
           13.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 14.0,
+      "winning_bucket": "Will the highest temperature in Munich be 14°C on October 11?",
+      "pick_won": false,
+      "forecast_error": 0.8,
+      "resolved_at": "2026-10-12T02:17:05.123348+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        14.0,
+        14.0
+      ]
     },
     {
       "slug": "ankara",
@@ -116987,13 +116995,17 @@
       "peak_final": 12.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 14.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 14°C on October 11?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.2,
+      "resolved_at": "2026-10-12T02:17:05.324432+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        14.0,
+        14.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -117101,13 +117113,17 @@
           22.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in Milan be 21°C on October 11?",
+      "pick_won": false,
+      "forecast_error": -0.3,
+      "resolved_at": "2026-10-12T02:17:05.755954+00:00",
+      "crps": 0.3969,
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "helsinki",
@@ -118572,6 +118588,39 @@
       "peak_final": 34.4,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-10-12",
+      "logged_at": "2026-10-12T02:08:19.594744+00:00",
+      "model_peak": 17.8,
+      "empirico_peak": 16.4,
+      "peak_final": 17.5,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "17C",
+        "price": 0.215,
+        "prob": 0.234,
+        "ev": 0.087,
+        "kelly": 0.0059,
+        "volume": 4314.0,
+        "confianza": "escalable",
+        "market_id": "5480501",
+        "range": [
+          17.0,
+          17.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
