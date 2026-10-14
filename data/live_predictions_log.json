@@ -119965,13 +119965,17 @@
           22.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in London be 20°C on October 13?",
+      "pick_won": false,
+      "forecast_error": 1.0,
+      "resolved_at": "2026-10-14T01:48:07.811827+00:00",
+      "crps": 0.6157,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "paris",
@@ -120022,13 +120026,17 @@
       "peak_final": 9.9,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 15.0,
+      "winning_bucket": "Will the highest temperature in Munich be 15°C on October 13?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -5.1,
+      "resolved_at": "2026-10-14T01:48:07.979817+00:00",
+      "crps": 4.1962,
+      "winning_range": [
+        15.0,
+        15.0
+      ]
     },
     {
       "slug": "ankara",
@@ -120116,13 +120124,17 @@
       "peak_final": 17.7,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 20°C on October 13?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.3,
+      "resolved_at": "2026-10-14T01:48:08.193394+00:00",
+      "crps": 1.5044,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -120243,13 +120255,17 @@
           19.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in Milan be 21°C on October 13?",
+      "pick_won": false,
+      "forecast_error": -0.3,
+      "resolved_at": "2026-10-14T01:48:08.653716+00:00",
+      "crps": 0.3969,
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "helsinki",
@@ -120398,13 +120414,17 @@
       "peak_final": 37.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Jeddah be 35°C on October 13?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.5,
+      "resolved_at": "2026-10-14T01:48:09.367000+00:00",
+      "crps": 1.6775,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "nyc",
@@ -121734,6 +121754,39 @@
         "range": [
           36.0,
           36.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-10-14",
+      "logged_at": "2026-10-14T01:39:45.181269+00:00",
+      "model_peak": 19.3,
+      "empirico_peak": 15.6,
+      "peak_final": 17.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "18C",
+        "price": 0.105,
+        "prob": 0.243,
+        "ev": 1.315,
+        "kelly": 0.0386,
+        "volume": 2263.0,
+        "confianza": "moderado",
+        "market_id": "5595704",
+        "range": [
+          18.0,
+          18.0
         ]
       },
       "resolved": false,
