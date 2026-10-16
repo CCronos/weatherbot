@@ -123064,13 +123064,17 @@
       "peak_final": null,
       "sigma": null,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Paris be 24°C on October 15?",
       "pick_won": null,
       "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved_at": "2026-10-16T00:27:25.143710+00:00",
+      "crps": null,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "munich",
@@ -123097,13 +123101,17 @@
           16.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 18.0,
+      "winning_bucket": "Will the highest temperature in Munich be 18°C or higher on October 15?",
+      "pick_won": false,
+      "forecast_error": -1.8,
+      "resolved_at": "2026-10-16T00:27:25.283758+00:00",
+      "crps": 1.074,
+      "winning_range": [
+        18.0,
+        999.0
+      ]
     },
     {
       "slug": "ankara",
@@ -123413,13 +123421,17 @@
           21.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in Cape Town be 21°C on October 15?",
+      "pick_won": true,
+      "forecast_error": -0.7,
+      "resolved_at": "2026-10-16T00:27:26.226894+00:00",
+      "crps": 0.4947,
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "jeddah",
@@ -124907,6 +124919,92 @@
         "range": [
           36.0,
           36.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-10-16",
+      "logged_at": "2026-10-16T00:18:09.761729+00:00",
+      "model_peak": null,
+      "empirico_peak": 19.6,
+      "peak_final": 20.0,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "18C",
+        "price": 0.0875,
+        "prob": 0.115,
+        "ev": 0.317,
+        "kelly": 0.0076,
+        "volume": 7143.0,
+        "confianza": "cautela",
+        "market_id": "5678821",
+        "range": [
+          18.0,
+          18.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "paris",
+      "name": "Paris",
+      "station": "LFPG",
+      "unit": "C",
+      "fecha_mercado": "2026-10-16",
+      "logged_at": "2026-10-16T00:18:15.782537+00:00",
+      "model_peak": 20.7,
+      "empirico_peak": null,
+      "peak_final": 21.1,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "munich",
+      "name": "Munich",
+      "station": "EDDM",
+      "unit": "C",
+      "fecha_mercado": "2026-10-16",
+      "logged_at": "2026-10-16T00:18:38.887692+00:00",
+      "model_peak": 18.0,
+      "empirico_peak": 11.6,
+      "peak_final": 15.2,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "16C",
+        "price": 0.1045,
+        "prob": 0.217,
+        "ev": 1.077,
+        "kelly": 0.0314,
+        "volume": 1240.0,
+        "confianza": "moderado",
+        "market_id": "5678882",
+        "range": [
+          16.0,
+          16.0
         ]
       },
       "resolved": false,
