@@ -127244,13 +127244,17 @@
           14.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 15.0,
+      "winning_bucket": "Will the highest temperature in Wellington be 15°C on October 18?",
+      "pick_won": false,
+      "forecast_error": -1.0,
+      "resolved_at": "2026-10-18T20:21:13.964697+00:00",
+      "crps": 0.6157,
+      "winning_range": [
+        15.0,
+        15.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -127301,13 +127305,17 @@
           23.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Seoul (Incheon) be 23°C on October 18?",
+      "pick_won": true,
+      "forecast_error": 1.7,
+      "resolved_at": "2026-10-18T20:21:14.222415+00:00",
+      "crps": 1.0333,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "tokyo",
@@ -127334,13 +127342,17 @@
           22.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Tokyo be 24°C on October 18?",
+      "pick_won": false,
+      "forecast_error": -1.7,
+      "resolved_at": "2026-10-18T20:21:14.432752+00:00",
+      "crps": 1.0333,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "busan",
@@ -127367,13 +127379,17 @@
           27.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.0,
+      "winning_bucket": "Will the highest temperature in Busan be 25°C on October 18?",
+      "pick_won": false,
+      "forecast_error": 1.4,
+      "resolved_at": "2026-10-18T20:21:14.577235+00:00",
+      "crps": 0.8336,
+      "winning_range": [
+        25.0,
+        25.0
+      ]
     },
     {
       "slug": "taipei",
@@ -127400,13 +127416,17 @@
           33.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Taipei be 34°C on October 18?",
+      "pick_won": false,
+      "forecast_error": -2.7,
+      "resolved_at": "2026-10-18T20:21:14.778953+00:00",
+      "crps": 1.8565,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "shanghai",
@@ -127433,13 +127453,17 @@
           30.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Shanghai be 32°C on October 18?",
+      "pick_won": false,
+      "forecast_error": -1.4,
+      "resolved_at": "2026-10-18T20:21:14.975329+00:00",
+      "crps": 0.8336,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "chengdu",
@@ -127466,13 +127490,17 @@
           20.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 19.0,
+      "winning_bucket": "Will the highest temperature in Chengdu be 19°C on October 18?",
+      "pick_won": false,
+      "forecast_error": 0.8,
+      "resolved_at": "2026-10-18T20:21:15.140547+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        19.0,
+        19.0
+      ]
     },
     {
       "slug": "beijing",
@@ -127486,13 +127514,17 @@
       "peak_final": 19.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 19.0,
+      "winning_bucket": "Will the highest temperature in Beijing be 19°C on October 18?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.5,
+      "resolved_at": "2026-10-18T20:21:15.316196+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        19.0,
+        19.0
+      ]
     },
     {
       "slug": "singapore",
@@ -127519,13 +127551,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Singapore be 33°C on October 18?",
+      "pick_won": false,
+      "forecast_error": -0.6,
+      "resolved_at": "2026-10-18T20:21:15.535277+00:00",
+      "crps": 0.4632,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "kuala-lumpur",
@@ -127552,13 +127588,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Kuala Lumpur be 32°C on October 18?",
+      "pick_won": false,
+      "forecast_error": -0.5,
+      "resolved_at": "2026-10-18T20:21:15.756983+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "hong-kong",
@@ -127605,13 +127645,17 @@
       "peak_final": 32.7,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Manila be 32°C on October 18?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.7,
+      "resolved_at": "2026-10-18T20:21:15.988886+00:00",
+      "crps": 0.4947,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "jakarta",
@@ -127658,13 +127702,17 @@
           24.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 22.0,
+      "winning_bucket": "Will the highest temperature in Chongqing be 22°C on October 18?",
+      "pick_won": false,
+      "forecast_error": 2.5,
+      "resolved_at": "2026-10-18T20:21:16.217403+00:00",
+      "crps": 1.6775,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "guangzhou",
@@ -127691,13 +127739,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Guangzhou be 34°C on October 18?",
+      "pick_won": false,
+      "forecast_error": -1.5,
+      "resolved_at": "2026-10-18T20:21:16.368310+00:00",
+      "crps": 0.897,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "shenzhen",
@@ -127724,13 +127776,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Shenzhen be 32°C on October 18?",
+      "pick_won": true,
+      "forecast_error": -1.2,
+      "resolved_at": "2026-10-18T20:21:16.516477+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "wuhan",
@@ -127744,13 +127800,17 @@
       "peak_final": 23.7,
       "sigma": 1.98,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in Wuhan be 21°C on October 18?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.7,
+      "resolved_at": "2026-10-18T20:21:16.654797+00:00",
+      "crps": 1.7401,
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "qingdao",
@@ -127764,13 +127824,17 @@
       "peak_final": 25.1,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 22.0,
+      "winning_bucket": "Will the highest temperature in Qingdao be 22°C on October 18?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 3.1,
+      "resolved_at": "2026-10-18T20:21:16.885604+00:00",
+      "crps": 2.228,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "ankara",
@@ -129030,6 +129094,99 @@
       "peak_final": 21.0,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "lucknow",
+      "name": "Lucknow",
+      "station": "VILK",
+      "unit": "C",
+      "fecha_mercado": "2026-10-19",
+      "logged_at": "2026-10-18T20:16:07.677148+00:00",
+      "model_peak": null,
+      "empirico_peak": 27.8,
+      "peak_final": 28.2,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "karachi",
+      "name": "Karachi",
+      "station": "OPKC",
+      "unit": "C",
+      "fecha_mercado": "2026-10-19",
+      "logged_at": "2026-10-18T20:18:52.151841+00:00",
+      "model_peak": 37.6,
+      "empirico_peak": 34.1,
+      "peak_final": 36.2,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "busan",
+      "name": "Busan",
+      "station": "RKPK",
+      "unit": "C",
+      "fecha_mercado": "2026-10-19",
+      "logged_at": "2026-10-18T20:18:55.576961+00:00",
+      "model_peak": 24.8,
+      "empirico_peak": 28.1,
+      "peak_final": 26.9,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "qingdao",
+      "name": "Qingdao",
+      "station": "ZSQD",
+      "unit": "C",
+      "fecha_mercado": "2026-10-19",
+      "logged_at": "2026-10-18T20:20:17.699168+00:00",
+      "model_peak": 20.0,
+      "empirico_peak": 17.7,
+      "peak_final": 19.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "19C",
+        "price": 0.235,
+        "prob": 0.241,
+        "ev": 0.025,
+        "kelly": 0.0019,
+        "volume": 876.0,
+        "confianza": "escalable",
+        "market_id": "5795970",
+        "range": [
+          19.0,
+          19.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
