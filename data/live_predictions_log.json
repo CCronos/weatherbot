@@ -126937,13 +126937,17 @@
       "peak_final": 69.6,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 79.0,
+      "winning_bucket": "Will the highest temperature in Denver be between 78-79°F on October 17?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -9.4,
+      "resolved_at": "2026-10-18T13:09:50.078606+00:00",
+      "crps": 7.6821,
+      "winning_range": [
+        78.0,
+        79.0
+      ]
     },
     {
       "slug": "toronto",
@@ -127105,13 +127109,17 @@
           999.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 17.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 17°C on October 17?",
+      "pick_won": false,
+      "forecast_error": 3.0,
+      "resolved_at": "2026-10-18T13:09:50.303564+00:00",
+      "crps": 2.1338,
+      "winning_range": [
+        17.0,
+        17.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -127256,13 +127264,17 @@
       "peak_final": 69.7,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 79.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 78-79°F on October 17?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -9.3,
+      "resolved_at": "2026-10-18T13:09:50.447287+00:00",
+      "crps": 7.5823,
+      "winning_range": [
+        78.0,
+        79.0
+      ]
     },
     {
       "slug": "seoul",
@@ -128559,6 +128571,59 @@
         "range": [
           30.0,
           30.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "toronto",
+      "name": "Toronto",
+      "station": "CYYZ",
+      "unit": "C",
+      "fecha_mercado": "2026-10-18",
+      "logged_at": "2026-10-18T13:04:40.584942+00:00",
+      "model_peak": 16.9,
+      "empirico_peak": 8.2,
+      "peak_final": 13.0,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-10-19",
+      "logged_at": "2026-10-18T13:05:26.348470+00:00",
+      "model_peak": 16.4,
+      "empirico_peak": 14.2,
+      "peak_final": 15.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "16C",
+        "price": 0.075,
+        "prob": 0.241,
+        "ev": 2.21,
+        "kelly": 0.0448,
+        "volume": 546.0,
+        "confianza": "cautela",
+        "market_id": "5795654",
+        "range": [
+          16.0,
+          16.0
         ]
       },
       "resolved": false,
