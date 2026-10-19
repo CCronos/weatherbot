@@ -127964,11 +127964,15 @@
       "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
-      "winning_bucket": null,
+      "winning_bucket": "Will the highest temperature in Istanbul be 15°C on October 18?",
       "pick_won": null,
       "forecast_error": null,
       "resolved_at": null,
-      "crps": null
+      "crps": null,
+      "winning_range": [
+        15.0,
+        15.0
+      ]
     },
     {
       "slug": "moscow",
@@ -128100,13 +128104,17 @@
       "peak_final": null,
       "sigma": null,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 13.0,
+      "winning_bucket": "Will the highest temperature in Paris be 14°C on October 18?",
       "pick_won": null,
       "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved_at": "2026-10-19T01:01:05.846812+00:00",
+      "crps": null,
+      "winning_range": [
+        14.0,
+        14.0
+      ]
     },
     {
       "slug": "munich",
@@ -128133,13 +128141,17 @@
           17.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 16.0,
+      "winning_bucket": "Will the highest temperature in Munich be 16°C on October 18?",
+      "pick_won": false,
+      "forecast_error": 1.3,
+      "resolved_at": "2026-10-19T01:01:06.060266+00:00",
+      "crps": 0.7736,
+      "winning_range": [
+        16.0,
+        16.0
+      ]
     },
     {
       "slug": "madrid",
@@ -128153,13 +128165,17 @@
       "peak_final": 19.3,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 15.0,
+      "winning_bucket": "Will the highest temperature in Madrid be 15°C on October 18?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 4.3,
+      "resolved_at": "2026-10-19T01:01:06.270645+00:00",
+      "crps": 3.3992,
+      "winning_range": [
+        15.0,
+        15.0
+      ]
     },
     {
       "slug": "amsterdam",
@@ -128219,13 +128235,17 @@
           10.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 11.0,
+      "winning_bucket": "Will the highest temperature in Warsaw be 11°C on October 18?",
+      "pick_won": false,
+      "forecast_error": -0.2,
+      "resolved_at": "2026-10-19T01:01:06.540598+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        11.0,
+        11.0
+      ]
     },
     {
       "slug": "paris-le-bourget",
@@ -129615,6 +129635,39 @@
         "range": [
           36.0,
           36.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-10-19",
+      "logged_at": "2026-10-19T00:53:34.617708+00:00",
+      "model_peak": 14.6,
+      "empirico_peak": 14.4,
+      "peak_final": 14.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "15C",
+        "price": 0.17,
+        "prob": 0.244,
+        "ev": 0.438,
+        "kelly": 0.0224,
+        "volume": 6349.0,
+        "confianza": "moderado",
+        "market_id": "5795613",
+        "range": [
+          15.0,
+          15.0
         ]
       },
       "resolved": false,
