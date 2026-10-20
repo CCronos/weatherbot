@@ -124423,13 +124423,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 29°C on October 16?",
+      "pick_won": false,
+      "forecast_error": -1.6,
+      "resolved_at": "2026-10-20T03:55:04.592426+00:00",
+      "crps": 0.9637,
+      "winning_range": [
+        29.0,
+        29.0
+      ]
     },
     {
       "slug": "busan",
@@ -126047,13 +126051,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 29°C on October 17?",
+      "pick_won": false,
+      "forecast_error": -1.6,
+      "resolved_at": "2026-10-20T03:55:05.958875+00:00",
+      "crps": 0.9637,
+      "winning_range": [
+        29.0,
+        29.0
+      ]
     },
     {
       "slug": "manila",
@@ -127625,13 +127633,17 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 31°C on October 18?",
+      "pick_won": false,
+      "forecast_error": -1.2,
+      "resolved_at": "2026-10-20T03:55:07.312427+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "manila",
@@ -129108,13 +129120,17 @@
       "peak_final": 32.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 31°C on October 19?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.0,
+      "resolved_at": "2026-10-20T03:55:08.563524+00:00",
+      "crps": 0.3746,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "manila",
@@ -131221,6 +131237,59 @@
           36.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-10-20",
+      "logged_at": "2026-10-20T03:50:01.604643+00:00",
+      "model_peak": 25.3,
+      "empirico_peak": 22.5,
+      "peak_final": 24.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": ">=24C",
+        "price": 0.41,
+        "prob": 0.574,
+        "ev": 0.401,
+        "kelly": 0.0696,
+        "volume": 5911.0,
+        "confianza": "escalable",
+        "market_id": "5878040",
+        "range": [
+          24.0,
+          999.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-10-20",
+      "logged_at": "2026-10-20T03:50:02.819729+00:00",
+      "model_peak": 20.6,
+      "empirico_peak": 15.2,
+      "peak_final": 18.3,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
