@@ -130341,13 +130341,17 @@
           16.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 16.0,
+      "winning_bucket": "Will the highest temperature in Wellington be 16°C on October 20?",
+      "pick_won": true,
+      "forecast_error": 0.1,
+      "resolved_at": "2026-10-22T13:42:30.755425+00:00",
+      "crps": 0.3771,
+      "winning_range": [
+        16.0,
+        16.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -130422,13 +130426,17 @@
           21.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in Seoul (Incheon) be 20°C on October 20?",
+      "pick_won": false,
+      "forecast_error": -0.1,
+      "resolved_at": "2026-10-22T13:42:31.100736+00:00",
+      "crps": 0.3771,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "tokyo",
@@ -130455,13 +130463,17 @@
           25.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 26.9,
+      "winning_bucket": "Will the highest temperature in Tokyo be 28°C on October 20?",
+      "pick_won": false,
+      "forecast_error": -1.1,
+      "resolved_at": "2026-10-22T13:42:31.419435+00:00",
+      "crps": 0.6645,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "taipei",
@@ -130512,13 +130524,17 @@
           28.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 28.9,
+      "winning_bucket": "Will the highest temperature in Shanghai be 30°C on October 20?",
+      "pick_won": false,
+      "forecast_error": -0.6,
+      "resolved_at": "2026-10-22T13:42:31.744102+00:00",
+      "crps": 0.4632,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "chengdu",
@@ -130532,13 +130548,17 @@
       "peak_final": 24.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 27.0,
+      "winning_bucket": "Will the highest temperature in Chengdu be 27°C on October 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.0,
+      "resolved_at": "2026-10-22T13:42:32.254341+00:00",
+      "crps": 2.1338,
+      "winning_range": [
+        27.0,
+        27.0
+      ]
     },
     {
       "slug": "beijing",
@@ -130565,13 +130585,17 @@
           16.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 14.0,
+      "winning_bucket": "Will the highest temperature in Beijing be 14°C on October 20?",
+      "pick_won": false,
+      "forecast_error": 0.9,
+      "resolved_at": "2026-10-22T13:42:32.558496+00:00",
+      "crps": 0.5711,
+      "winning_range": [
+        14.0,
+        14.0
+      ]
     },
     {
       "slug": "singapore",
@@ -130598,13 +130622,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 31.9,
+      "winning_bucket": "Will the highest temperature in Singapore be 32°C on October 20?",
+      "pick_won": false,
+      "forecast_error": 0.7,
+      "resolved_at": "2026-10-22T13:42:33.055138+00:00",
+      "crps": 0.4947,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "kuala-lumpur",
@@ -130655,13 +130683,17 @@
       "peak_final": 29.1,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Lucknow be 31°C on October 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.9,
+      "resolved_at": "2026-10-22T13:42:33.368772+00:00",
+      "crps": 1.181,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "karachi",
@@ -130675,13 +130707,17 @@
       "peak_final": 35.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 38.0,
+      "winning_bucket": "Will the highest temperature in Karachi be 38°C on October 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.5,
+      "resolved_at": "2026-10-22T13:42:33.879396+00:00",
+      "crps": 1.6775,
+      "winning_range": [
+        38.0,
+        38.0
+      ]
     },
     {
       "slug": "hong-kong",
@@ -130719,13 +130755,17 @@
       "peak_final": 23.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in Busan be 20°C on October 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 3.0,
+      "resolved_at": "2026-10-22T13:42:34.215430+00:00",
+      "crps": 2.1338,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "manila",
@@ -130752,13 +130792,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 34.0,
+      "winning_bucket": "Will the highest temperature in Manila be 34°C on October 20?",
+      "pick_won": false,
+      "forecast_error": -1.4,
+      "resolved_at": "2026-10-22T13:42:34.724670+00:00",
+      "crps": 0.8336,
+      "winning_range": [
+        34.0,
+        34.0
+      ]
     },
     {
       "slug": "jakarta",
@@ -130805,13 +130849,17 @@
           21.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in Chongqing be 20°C on October 20?",
+      "pick_won": false,
+      "forecast_error": 1.6,
+      "resolved_at": "2026-10-22T13:42:35.261175+00:00",
+      "crps": 0.9637,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "guangzhou",
@@ -130825,13 +130873,17 @@
       "peak_final": 33.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Guangzhou be 35°C on October 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.4,
+      "resolved_at": "2026-10-22T13:42:35.756208+00:00",
+      "crps": 0.8336,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "shenzhen",
@@ -130858,13 +130910,17 @@
           30.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 30.9,
+      "winning_bucket": "Will the highest temperature in Shenzhen be 31°C on October 20?",
+      "pick_won": false,
+      "forecast_error": 0.8,
+      "resolved_at": "2026-10-22T13:42:36.093897+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "wuhan",
@@ -130891,13 +130947,17 @@
           19.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 17.0,
+      "winning_bucket": "Will the highest temperature in Wuhan be 17°C on October 20?",
+      "pick_won": false,
+      "forecast_error": 3.9,
+      "resolved_at": "2026-10-22T13:42:36.425285+00:00",
+      "crps": 3.0035,
+      "winning_range": [
+        17.0,
+        17.0
+      ]
     },
     {
       "slug": "qingdao",
@@ -130924,13 +130984,17 @@
           21.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in Qingdao be 20°C on October 20?",
+      "pick_won": false,
+      "forecast_error": 0.1,
+      "resolved_at": "2026-10-22T13:42:36.729253+00:00",
+      "crps": 0.3771,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "london",
@@ -130944,13 +131008,17 @@
       "peak_final": 17.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 13.9,
+      "winning_bucket": "Will the highest temperature in London be 14°C on October 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 3.5,
+      "resolved_at": "2026-10-22T13:42:37.051224+00:00",
+      "crps": 2.612,
+      "winning_range": [
+        14.0,
+        14.0
+      ]
     },
     {
       "slug": "paris",
@@ -130977,13 +131045,17 @@
           16.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 13.6,
+      "winning_bucket": "Will the highest temperature in Paris be 14°C on October 20?",
+      "pick_won": false,
+      "forecast_error": 1.3,
+      "resolved_at": "2026-10-22T13:42:37.358899+00:00",
+      "crps": 0.7736,
+      "winning_range": [
+        14.0,
+        14.0
+      ]
     },
     {
       "slug": "munich",
@@ -131010,13 +131082,17 @@
           16.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 8.8,
+      "winning_bucket": "Will the highest temperature in Munich be 9°C on October 20?",
+      "pick_won": false,
+      "forecast_error": 5.8,
+      "resolved_at": "2026-10-22T13:42:37.693680+00:00",
+      "crps": 4.8957,
+      "winning_range": [
+        9.0,
+        9.0
+      ]
     },
     {
       "slug": "ankara",
@@ -131030,13 +131106,17 @@
       "peak_final": 14.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 16.0,
+      "winning_bucket": "Will the highest temperature in Ankara be 17°C on October 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.4,
+      "resolved_at": "2026-10-22T13:42:38.193714+00:00",
+      "crps": 0.8336,
+      "winning_range": [
+        17.0,
+        17.0
+      ]
     },
     {
       "slug": "madrid",
@@ -131063,13 +131143,17 @@
           19.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 17.0,
+      "winning_bucket": "Will the highest temperature in Madrid be 17°C on October 20?",
+      "pick_won": false,
+      "forecast_error": 2.2,
+      "resolved_at": "2026-10-22T13:42:38.686096+00:00",
+      "crps": 1.4205,
+      "winning_range": [
+        17.0,
+        17.0
+      ]
     },
     {
       "slug": "amsterdam",
@@ -131096,13 +131180,17 @@
           13.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 11.9,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 12°C on October 20?",
+      "pick_won": false,
+      "forecast_error": 1.6,
+      "resolved_at": "2026-10-22T13:42:39.179650+00:00",
+      "crps": 0.9637,
+      "winning_range": [
+        12.0,
+        12.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -131116,13 +131204,17 @@
       "peak_final": 10.3,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 13.9,
+      "winning_bucket": "Will the highest temperature in Warsaw be 14°C on October 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.6,
+      "resolved_at": "2026-10-22T13:42:39.497755+00:00",
+      "crps": 2.7093,
+      "winning_range": [
+        14.0,
+        14.0
+      ]
     },
     {
       "slug": "tel-aviv",
@@ -131149,13 +131241,17 @@
           27.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Tel Aviv be 26°C on October 20?",
+      "pick_won": false,
+      "forecast_error": 0.0,
+      "resolved_at": "2026-10-22T13:42:39.817134+00:00",
+      "crps": 0.3746,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "paris-le-bourget",
@@ -131189,13 +131285,17 @@
       "peak_final": 19.1,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 16.0,
+      "winning_bucket": "Will the highest temperature in Milan be 16°C on October 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 3.1,
+      "resolved_at": "2026-10-22T13:42:40.435090+00:00",
+      "crps": 2.228,
+      "winning_range": [
+        16.0,
+        16.0
+      ]
     },
     {
       "slug": "helsinki",
@@ -131209,13 +131309,17 @@
       "peak_final": 6.5,
       "sigma": 1.98,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 10.0,
+      "winning_bucket": "Will the highest temperature in Helsinki be 10°C on October 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.5,
+      "resolved_at": "2026-10-22T13:42:40.925173+00:00",
+      "crps": 2.4442,
+      "winning_range": [
+        10.0,
+        10.0
+      ]
     },
     {
       "slug": "istanbul",
@@ -131275,13 +131379,17 @@
           9.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 10.0,
+      "winning_bucket": "Will the highest temperature in Moscow be 10°C on October 20?",
+      "pick_won": false,
+      "forecast_error": -0.8,
+      "resolved_at": "2026-10-22T13:42:41.271693+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        10.0,
+        10.0
+      ]
     },
     {
       "slug": "cape-town",
@@ -131308,13 +131416,17 @@
           17.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 18.0,
+      "winning_bucket": "Will the highest temperature in Cape Town be 18°C on October 20?",
+      "pick_won": false,
+      "forecast_error": -1.3,
+      "resolved_at": "2026-10-22T13:42:41.921771+00:00",
+      "crps": 0.7736,
+      "winning_range": [
+        18.0,
+        18.0
+      ]
     },
     {
       "slug": "jeddah",
@@ -131341,13 +131453,17 @@
           36.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 35.0,
+      "winning_bucket": "Will the highest temperature in Jeddah be 35°C on October 20?",
+      "pick_won": false,
+      "forecast_error": 0.3,
+      "resolved_at": "2026-10-22T13:42:42.829757+00:00",
+      "crps": 0.3969,
+      "winning_range": [
+        35.0,
+        35.0
+      ]
     },
     {
       "slug": "sao-paulo",
@@ -131374,13 +131490,17 @@
           999.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 22.9,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 23°C on October 20?",
+      "pick_won": false,
+      "forecast_error": 1.4,
+      "resolved_at": "2026-10-22T13:42:43.159587+00:00",
+      "crps": 0.8336,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -131394,13 +131514,17 @@
       "peak_final": 18.3,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 20.9,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 21°C on October 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.6,
+      "resolved_at": "2026-10-22T13:42:43.667646+00:00",
+      "crps": 1.7663,
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "nyc",
@@ -131682,13 +131806,17 @@
           15.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 16.9,
+      "winning_bucket": "Will the highest temperature in Toronto be 17°C on October 20?",
+      "pick_won": false,
+      "forecast_error": -0.9,
+      "resolved_at": "2026-10-22T13:42:43.994201+00:00",
+      "crps": 0.6232,
+      "winning_range": [
+        17.0,
+        17.0
+      ]
     },
     {
       "slug": "austin",
@@ -131763,13 +131891,17 @@
       "peak_final": 20.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 24°C on October 20?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.4,
+      "resolved_at": "2026-10-22T13:42:44.499250+00:00",
+      "crps": 1.5902,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -131796,13 +131928,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 28.0,
+      "winning_bucket": "Will the highest temperature in Panama City be 28°C on October 20?",
+      "pick_won": false,
+      "forecast_error": 2.2,
+      "resolved_at": "2026-10-22T13:42:44.849232+00:00",
+      "crps": 1.4205,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "wellington",
@@ -132834,13 +132970,17 @@
       "peak_final": 61.9,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 71.1,
+      "winning_bucket": "Will the highest temperature in Chicago be between 70-71°F on October 21?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -9.2,
+      "resolved_at": "2026-10-22T13:42:46.834817+00:00",
+      "crps": 7.4825,
+      "winning_range": [
+        70.0,
+        71.0
+      ]
     },
     {
       "slug": "miami",
@@ -132915,13 +133055,17 @@
       "peak_final": 59.6,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 64.1,
+      "winning_bucket": "Will the highest temperature in Seattle be between 64-65°F on October 21?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -4.5,
+      "resolved_at": "2026-10-22T13:42:47.147117+00:00",
+      "crps": 2.9688,
+      "winning_range": [
+        64.0,
+        65.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -133022,13 +133166,17 @@
           77.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 73.1,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 72-73°F on October 21?",
+      "pick_won": false,
+      "forecast_error": 2.4,
+      "resolved_at": "2026-10-22T13:42:47.640687+00:00",
+      "crps": 1.4295,
+      "winning_range": [
+        72.0,
+        73.0
+      ]
     },
     {
       "slug": "denver",
@@ -133042,13 +133190,17 @@
       "peak_final": 74.2,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 76.7,
+      "winning_bucket": "Will the highest temperature in Denver be between 76-77°F on October 21?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.5,
+      "resolved_at": "2026-10-22T13:42:48.141973+00:00",
+      "crps": 1.4874,
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "toronto",
@@ -133161,13 +133313,17 @@
       "peak_final": 73.4,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 84.8,
+      "winning_bucket": "Will the highest temperature in Austin be between 84-85°F on October 21?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -11.4,
+      "resolved_at": "2026-10-22T13:42:48.575962+00:00",
+      "crps": 9.6805,
+      "winning_range": [
+        84.0,
+        85.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -133181,13 +133337,17 @@
       "peak_final": 74.4,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 65.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 64-65°F on October 21?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 9.4,
+      "resolved_at": "2026-10-22T13:42:48.884720+00:00",
+      "crps": 7.6821,
+      "winning_range": [
+        64.0,
+        65.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -134618,6 +134778,39 @@
       "peak_final": 30.1,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-10-23",
+      "logged_at": "2026-10-22T13:37:11.249042+00:00",
+      "model_peak": null,
+      "empirico_peak": 17.2,
+      "peak_final": 17.6,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "18C",
+        "price": 0.0655,
+        "prob": 0.238,
+        "ev": 2.628,
+        "kelly": 0.046,
+        "volume": 569.0,
+        "confianza": "cautela",
+        "market_id": "6003559",
+        "range": [
+          18.0,
+          18.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
