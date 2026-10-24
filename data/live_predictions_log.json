@@ -136562,13 +136562,17 @@
       "peak_final": 30.7,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 31.9,
+      "winning_bucket": "Will the highest temperature in Panama City be 32°C on October 23?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.2,
+      "resolved_at": "2026-10-24T14:28:12.796891+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "dallas",
@@ -138009,6 +138013,39 @@
       "peak_final": 23.3,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-10-25",
+      "logged_at": "2026-10-24T14:23:04.735034+00:00",
+      "model_peak": 17.4,
+      "empirico_peak": 17.1,
+      "peak_final": 17.6,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "19C",
+        "price": 0.105,
+        "prob": 0.169,
+        "ev": 0.612,
+        "kelly": 0.018,
+        "volume": 1318.0,
+        "confianza": "moderado",
+        "market_id": "6073971",
+        "range": [
+          19.0,
+          19.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
