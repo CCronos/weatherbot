@@ -139571,6 +139571,72 @@
       "forecast_error": null,
       "resolved_at": null,
       "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-10-26",
+      "logged_at": "2026-10-25T14:56:19.277004+00:00",
+      "model_peak": 16.7,
+      "empirico_peak": 17.1,
+      "peak_final": 17.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "16C",
+        "price": 0.079,
+        "prob": 0.178,
+        "ev": 1.255,
+        "kelly": 0.0269,
+        "volume": 2196.0,
+        "confianza": "cautela",
+        "market_id": "6107127",
+        "range": [
+          16.0,
+          16.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "mexico-city",
+      "name": "Mexico City",
+      "station": "MMMX",
+      "unit": "C",
+      "fecha_mercado": "2026-10-25",
+      "logged_at": "2026-10-25T14:57:25.289495+00:00",
+      "model_peak": 24.1,
+      "empirico_peak": 19.6,
+      "peak_final": 22.2,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": ">=22C",
+        "price": 0.0735,
+        "prob": 0.55,
+        "ev": 6.478,
+        "kelly": 0.1285,
+        "volume": 891.0,
+        "confianza": "cautela",
+        "market_id": "6081479",
+        "range": [
+          22.0,
+          999.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
     }
   ]
 }
