@@ -135470,13 +135470,17 @@
       "peak_final": 29.5,
       "sigma": 1.98,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 32°C on October 23?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.5,
+      "resolved_at": "2026-10-26T03:42:51.430943+00:00",
+      "crps": 0.5128,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "busan",
@@ -136929,13 +136933,17 @@
           30.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 30.0,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 31°C on October 24?",
+      "pick_won": false,
+      "forecast_error": 1.0,
+      "resolved_at": "2026-10-26T03:42:52.214495+00:00",
+      "crps": 0.6157,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "busan",
@@ -138557,13 +138565,17 @@
           29.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 30.9,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 30°C on October 25?",
+      "pick_won": false,
+      "forecast_error": -1.2,
+      "resolved_at": "2026-10-26T03:42:52.919083+00:00",
+      "crps": 0.7171,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "busan",
@@ -139013,13 +139025,17 @@
       "peak_final": 14.5,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 13.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 14°C on October 25?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.5,
+      "resolved_at": "2026-10-26T03:42:53.077782+00:00",
+      "crps": 0.897,
+      "winning_range": [
+        14.0,
+        14.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -139297,13 +139313,17 @@
           15.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 14.0,
+      "winning_bucket": "Will the highest temperature in London be 14°C on October 25?",
+      "pick_won": false,
+      "forecast_error": 2.0,
+      "resolved_at": "2026-10-26T03:42:53.470563+00:00",
+      "crps": 1.2586,
+      "winning_range": [
+        14.0,
+        14.0
+      ]
     },
     {
       "slug": "nyc",
@@ -139496,13 +139516,17 @@
           24.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 21°C on October 25?",
+      "pick_won": false,
+      "forecast_error": 5.4,
+      "resolved_at": "2026-10-26T03:42:53.895547+00:00",
+      "crps": 4.4959,
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -139529,13 +139553,17 @@
           18.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 15.9,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 16°C on October 25?",
+      "pick_won": false,
+      "forecast_error": 2.4,
+      "resolved_at": "2026-10-26T03:42:54.062460+00:00",
+      "crps": 1.5902,
+      "winning_range": [
+        16.0,
+        16.0
+      ]
     },
     {
       "slug": "austin",
@@ -140646,6 +140674,92 @@
       "model_peak": 21.7,
       "empirico_peak": 23.1,
       "peak_final": 22.8,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-10-26",
+      "logged_at": "2026-10-26T03:35:40.446381+00:00",
+      "model_peak": 16.8,
+      "empirico_peak": 13.6,
+      "peak_final": 15.6,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "16C",
+        "price": 0.135,
+        "prob": 0.238,
+        "ev": 0.76,
+        "kelly": 0.0297,
+        "volume": 4395.0,
+        "confianza": "moderado",
+        "market_id": "6111390",
+        "range": [
+          16.0,
+          16.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-10-26",
+      "logged_at": "2026-10-26T03:38:50.579774+00:00",
+      "model_peak": 18.8,
+      "empirico_peak": 24.0,
+      "peak_final": 21.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "20C",
+        "price": 0.12,
+        "prob": 0.133,
+        "ev": 0.108,
+        "kelly": 0.0037,
+        "volume": 1679.0,
+        "confianza": "moderado",
+        "market_id": "6123765",
+        "range": [
+          20.0,
+          20.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-10-26",
+      "logged_at": "2026-10-26T03:38:51.388759+00:00",
+      "model_peak": 17.8,
+      "empirico_peak": 16.6,
+      "peak_final": 17.6,
       "sigma": 1.603,
       "mejor_bucket": null,
       "resolved": false,
