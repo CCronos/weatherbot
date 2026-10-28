@@ -141612,13 +141612,17 @@
       "peak_final": 30.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 29.9,
+      "winning_bucket": "Will the highest temperature in Hong Kong be 29°C on October 27?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.5,
+      "resolved_at": "2026-10-28T04:31:13.404362+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        29.0,
+        29.0
+      ]
     },
     {
       "slug": "busan",
@@ -142155,13 +142159,17 @@
           18.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 17.0,
+      "winning_bucket": "Will the highest temperature in London be 17°C on October 27?",
+      "pick_won": false,
+      "forecast_error": 2.2,
+      "resolved_at": "2026-10-28T04:31:14.361523+00:00",
+      "crps": 1.4205,
+      "winning_range": [
+        17.0,
+        17.0
+      ]
     },
     {
       "slug": "paris",
@@ -142367,13 +142375,17 @@
       "peak_final": 15.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 16.9,
+      "winning_bucket": "Will the highest temperature in Milan be 17°C on October 27?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.5,
+      "resolved_at": "2026-10-28T04:31:14.798931+00:00",
+      "crps": 0.897,
+      "winning_range": [
+        17.0,
+        17.0
+      ]
     },
     {
       "slug": "helsinki",
@@ -142667,13 +142679,17 @@
       "peak_final": 17.7,
       "sigma": 1.98,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 16.0,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 16°C on October 27?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.7,
+      "resolved_at": "2026-10-28T04:31:15.641038+00:00",
+      "crps": 1.0117,
+      "winning_range": [
+        16.0,
+        16.0
+      ]
     },
     {
       "slug": "toronto",
@@ -142700,13 +142716,17 @@
           11.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 9.9,
+      "winning_bucket": "Will the highest temperature in Toronto be 10°C on October 27?",
+      "pick_won": false,
+      "forecast_error": 0.8,
+      "resolved_at": "2026-10-28T04:31:15.959401+00:00",
+      "crps": 0.5307,
+      "winning_range": [
+        10.0,
+        10.0
+      ]
     },
     {
       "slug": "sao-paulo",
@@ -142733,13 +142753,17 @@
           20.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 20.9,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 21°C on October 27?",
+      "pick_won": false,
+      "forecast_error": -0.5,
+      "resolved_at": "2026-10-28T04:31:16.230381+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -142753,13 +142777,17 @@
       "peak_final": 18.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 18.9,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 19°C on October 27?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.9,
+      "resolved_at": "2026-10-28T04:31:16.522966+00:00",
+      "crps": 0.5711,
+      "winning_range": [
+        19.0,
+        19.0
+      ]
     },
     {
       "slug": "austin",
@@ -143786,6 +143814,198 @@
           38.0
         ]
       },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "nyc",
+      "name": "New York City",
+      "station": "KLGA",
+      "unit": "F",
+      "fecha_mercado": "2026-10-28",
+      "logged_at": "2026-10-28T04:23:10.339445+00:00",
+      "model_peak": 61.8,
+      "empirico_peak": 59.1,
+      "peak_final": 61.1,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "miami",
+      "name": "Miami",
+      "station": "KMIA",
+      "unit": "F",
+      "fecha_mercado": "2026-10-28",
+      "logged_at": "2026-10-28T04:23:13.195876+00:00",
+      "model_peak": 82.5,
+      "empirico_peak": 82.9,
+      "peak_final": 83.4,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "atlanta",
+      "name": "Atlanta",
+      "station": "KATL",
+      "unit": "F",
+      "fecha_mercado": "2026-10-28",
+      "logged_at": "2026-10-28T04:23:53.045389+00:00",
+      "model_peak": 73.0,
+      "empirico_peak": 68.9,
+      "peak_final": 71.7,
+      "sigma": 2.0,
+      "mejor_bucket": {
+        "bucket": "70-71F",
+        "price": 0.11,
+        "prob": 0.166,
+        "ev": 0.505,
+        "kelly": 0.0156,
+        "volume": 1987.0,
+        "confianza": "moderado",
+        "market_id": "6244731",
+        "range": [
+          70.0,
+          71.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-10-28",
+      "logged_at": "2026-10-28T04:24:51.619368+00:00",
+      "model_peak": 16.3,
+      "empirico_peak": 12.6,
+      "peak_final": 14.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "15C",
+        "price": 0.115,
+        "prob": 0.243,
+        "ev": 1.113,
+        "kelly": 0.0362,
+        "volume": 3289.0,
+        "confianza": "moderado",
+        "market_id": "6243093",
+        "range": [
+          15.0,
+          15.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "toronto",
+      "name": "Toronto",
+      "station": "CYYZ",
+      "unit": "C",
+      "fecha_mercado": "2026-10-28",
+      "logged_at": "2026-10-28T04:26:46.781966+00:00",
+      "model_peak": 16.8,
+      "empirico_peak": 13.7,
+      "peak_final": 15.6,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "17C",
+        "price": 0.07,
+        "prob": 0.169,
+        "ev": 1.419,
+        "kelly": 0.0267,
+        "volume": 1425.0,
+        "confianza": "cautela",
+        "market_id": "6250923",
+        "range": [
+          17.0,
+          17.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-10-28",
+      "logged_at": "2026-10-28T04:27:08.643250+00:00",
+      "model_peak": null,
+      "empirico_peak": 22.5,
+      "peak_final": 22.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "21C",
+        "price": 0.075,
+        "prob": 0.124,
+        "ev": 0.654,
+        "kelly": 0.0133,
+        "volume": 524.0,
+        "confianza": "cautela",
+        "market_id": "6250895",
+        "range": [
+          21.0,
+          21.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-10-28",
+      "logged_at": "2026-10-28T04:27:17.670140+00:00",
+      "model_peak": 23.0,
+      "empirico_peak": 13.8,
+      "peak_final": 18.8,
+      "sigma": 1.603,
+      "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
