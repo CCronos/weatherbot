@@ -146093,13 +146093,17 @@
           17.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 18.9,
+      "winning_bucket": "Will the highest temperature in Seoul (Incheon) be 19°C on October 30?",
+      "pick_won": false,
+      "forecast_error": -2.5,
+      "resolved_at": "2026-10-30T20:36:27.234148+00:00",
+      "crps": 1.6775,
+      "winning_range": [
+        19.0,
+        19.0
+      ]
     },
     {
       "slug": "tokyo",
@@ -146126,13 +146130,17 @@
           19.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 19.0,
+      "winning_bucket": "Will the highest temperature in Tokyo be 19°C on October 30?",
+      "pick_won": true,
+      "forecast_error": 0.5,
+      "resolved_at": "2026-10-30T20:36:27.505641+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        19.0,
+        19.0
+      ]
     },
     {
       "slug": "taipei",
@@ -146159,13 +146167,17 @@
           27.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 28.9,
+      "winning_bucket": "Will the highest temperature in Taipei be 29°C on October 30?",
+      "pick_won": false,
+      "forecast_error": -1.5,
+      "resolved_at": "2026-10-30T20:36:27.781199+00:00",
+      "crps": 0.897,
+      "winning_range": [
+        29.0,
+        29.0
+      ]
     },
     {
       "slug": "shanghai",
@@ -146192,13 +146204,17 @@
           22.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 23.9,
+      "winning_bucket": "Will the highest temperature in Shanghai be 24°C on October 30?",
+      "pick_won": false,
+      "forecast_error": -2.2,
+      "resolved_at": "2026-10-30T20:36:28.071320+00:00",
+      "crps": 1.4205,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "beijing",
@@ -146212,13 +146228,17 @@
       "peak_final": 11.8,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in Beijing be 22°C on October 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -9.2,
+      "resolved_at": "2026-10-30T20:36:28.333821+00:00",
+      "crps": 8.2956,
+      "winning_range": [
+        22.0,
+        22.0
+      ]
     },
     {
       "slug": "singapore",
@@ -146232,13 +146252,17 @@
       "peak_final": 30.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Singapore be 32°C on October 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.4,
+      "resolved_at": "2026-10-30T20:36:28.592426+00:00",
+      "crps": 0.8336,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "kuala-lumpur",
@@ -146265,13 +146289,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Kuala Lumpur be 32°C on October 30?",
+      "pick_won": true,
+      "forecast_error": -0.5,
+      "resolved_at": "2026-10-30T20:36:28.942805+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "wellington",
@@ -146298,13 +146326,17 @@
           16.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 18.0,
+      "winning_bucket": "Will the highest temperature in Wellington be 18°C on October 30?",
+      "pick_won": false,
+      "forecast_error": -2.1,
+      "resolved_at": "2026-10-30T20:36:29.172998+00:00",
+      "crps": 1.3385,
+      "winning_range": [
+        18.0,
+        18.0
+      ]
     },
     {
       "slug": "busan",
@@ -146331,13 +146363,17 @@
           22.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 21.0,
+      "winning_bucket": "Will the highest temperature in Busan be 21°C on October 30?",
+      "pick_won": false,
+      "forecast_error": -0.3,
+      "resolved_at": "2026-10-30T20:36:29.556385+00:00",
+      "crps": 0.3969,
+      "winning_range": [
+        21.0,
+        21.0
+      ]
     },
     {
       "slug": "manila",
@@ -146351,13 +146387,17 @@
       "peak_final": 32.2,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 32.0,
+      "winning_bucket": "Will the highest temperature in Manila be 32°C on October 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.2,
+      "resolved_at": "2026-10-30T20:36:29.935022+00:00",
+      "crps": 0.3846,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "chongqing",
@@ -146384,13 +146424,17 @@
           22.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 20.0,
+      "winning_bucket": "Will the highest temperature in Chongqing be 20°C on October 30?",
+      "pick_won": false,
+      "forecast_error": 0.7,
+      "resolved_at": "2026-10-30T20:36:30.331022+00:00",
+      "crps": 0.4947,
+      "winning_range": [
+        20.0,
+        20.0
+      ]
     },
     {
       "slug": "guangzhou",
@@ -146404,13 +146448,17 @@
       "peak_final": 32.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Guangzhou be 33°C on October 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.0,
+      "resolved_at": "2026-10-30T20:36:30.567334+00:00",
+      "crps": 0.6157,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "wuhan",
@@ -146437,13 +146485,17 @@
           22.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Wuhan be 23°C on October 30?",
+      "pick_won": false,
+      "forecast_error": -0.3,
+      "resolved_at": "2026-10-30T20:36:30.839587+00:00",
+      "crps": 0.3969,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "ankara",
@@ -146490,13 +146542,17 @@
       "peak_final": 20.9,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Chengdu be 23°C on October 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.1,
+      "resolved_at": "2026-10-30T20:36:31.126467+00:00",
+      "crps": 1.3385,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "lucknow",
@@ -146523,13 +146579,17 @@
           26.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Lucknow be 23°C on October 30?",
+      "pick_won": false,
+      "forecast_error": 3.9,
+      "resolved_at": "2026-10-30T20:36:31.508138+00:00",
+      "crps": 3.0035,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "istanbul",
@@ -146616,13 +146676,17 @@
       "peak_final": 32.9,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 36.0,
+      "winning_bucket": "Will the highest temperature in Karachi be 37°C on October 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.1,
+      "resolved_at": "2026-10-30T20:36:31.961058+00:00",
+      "crps": 2.228,
+      "winning_range": [
+        37.0,
+        37.0
+      ]
     },
     {
       "slug": "hong-kong",
@@ -146689,13 +146753,17 @@
           31.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 29.9,
+      "winning_bucket": "Will the highest temperature in Shenzhen be 30°C on October 30?",
+      "pick_won": false,
+      "forecast_error": 0.5,
+      "resolved_at": "2026-10-30T20:36:32.603122+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        30.0,
+        30.0
+      ]
     },
     {
       "slug": "qingdao",
@@ -146709,13 +146777,17 @@
       "peak_final": 19.3,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Qingdao be 23°C on October 30?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.7,
+      "resolved_at": "2026-10-30T20:36:33.013755+00:00",
+      "crps": 2.8071,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "london",
@@ -147548,6 +147620,430 @@
       "model_peak": 21.3,
       "empirico_peak": 16.7,
       "peak_final": 19.4,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "taipei",
+      "name": "Taipei",
+      "station": "RCSS",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:30:53.019813+00:00",
+      "model_peak": 27.4,
+      "empirico_peak": 23.4,
+      "peak_final": 25.8,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "shanghai",
+      "name": "Shanghai",
+      "station": "ZSPD",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:31:17.088043+00:00",
+      "model_peak": 22.8,
+      "empirico_peak": 15.7,
+      "peak_final": 19.6,
+      "sigma": 1.98,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "chengdu",
+      "name": "Chengdu",
+      "station": "ZUUU",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:31:43.289064+00:00",
+      "model_peak": 21.2,
+      "empirico_peak": 22.2,
+      "peak_final": 22.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "22C",
+        "price": 0.24,
+        "prob": 0.244,
+        "ev": 0.018,
+        "kelly": 0.0015,
+        "volume": 3881.0,
+        "confianza": "escalable",
+        "market_id": "6378919",
+        "range": [
+          22.0,
+          22.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "beijing",
+      "name": "Beijing",
+      "station": "ZBAA",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:31:44.830314+00:00",
+      "model_peak": 11.9,
+      "empirico_peak": 11.4,
+      "peak_final": 12.0,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "13C",
+        "price": 0.135,
+        "prob": 0.203,
+        "ev": 0.503,
+        "kelly": 0.0196,
+        "volume": 2785.0,
+        "confianza": "moderado",
+        "market_id": "6378900",
+        "range": [
+          13.0,
+          13.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "singapore",
+      "name": "Singapore",
+      "station": "WSSS",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:31:46.427531+00:00",
+      "model_peak": 32.4,
+      "empirico_peak": 29.1,
+      "peak_final": 31.1,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "kuala-lumpur",
+      "name": "Kuala Lumpur",
+      "station": "WMKK",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:31:50.103462+00:00",
+      "model_peak": 31.7,
+      "empirico_peak": 31.1,
+      "peak_final": 31.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "32C",
+        "price": 0.095,
+        "prob": 0.243,
+        "ev": 1.558,
+        "kelly": 0.0409,
+        "volume": 1349.0,
+        "confianza": "cautela",
+        "market_id": "6379003",
+        "range": [
+          32.0,
+          32.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "lucknow",
+      "name": "Lucknow",
+      "station": "VILK",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:31:58.910096+00:00",
+      "model_peak": 25.0,
+      "empirico_peak": 26.8,
+      "peak_final": 26.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "25C",
+        "price": 0.1135,
+        "prob": 0.178,
+        "ev": 0.569,
+        "kelly": 0.0182,
+        "volume": 2105.0,
+        "confianza": "moderado",
+        "market_id": "6378766",
+        "range": [
+          25.0,
+          25.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "karachi",
+      "name": "Karachi",
+      "station": "OPKC",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:33:56.483653+00:00",
+      "model_peak": 35.4,
+      "empirico_peak": 32.9,
+      "peak_final": 34.5,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "hong-kong",
+      "name": "Hong Kong",
+      "station": "VHHH",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:34:27.847891+00:00",
+      "model_peak": 29.7,
+      "empirico_peak": 28.6,
+      "peak_final": 29.5,
+      "sigma": 1.98,
+      "mejor_bucket": {
+        "bucket": "30C",
+        "price": 0.095,
+        "prob": 0.193,
+        "ev": 1.034,
+        "kelly": 0.0271,
+        "volume": 2723.0,
+        "confianza": "cautela",
+        "market_id": "6378812",
+        "range": [
+          30.0,
+          30.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "manila",
+      "name": "Manila",
+      "station": "RPLL",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:34:30.035600+00:00",
+      "model_peak": 32.8,
+      "empirico_peak": 30.1,
+      "peak_final": 31.8,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "jakarta",
+      "name": "Jakarta",
+      "station": "WIHH",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:34:31.149835+00:00",
+      "model_peak": 33.9,
+      "empirico_peak": 29.6,
+      "peak_final": 32.1,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "chongqing",
+      "name": "Chongqing",
+      "station": "ZUCK",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:34:33.004875+00:00",
+      "model_peak": 20.6,
+      "empirico_peak": 22.4,
+      "peak_final": 21.9,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "guangzhou",
+      "name": "Guangzhou",
+      "station": "ZGGG",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:34:58.514272+00:00",
+      "model_peak": 31.6,
+      "empirico_peak": 29.6,
+      "peak_final": 31.0,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "31C",
+        "price": 0.13,
+        "prob": 0.245,
+        "ev": 0.884,
+        "kelly": 0.033,
+        "volume": 2308.0,
+        "confianza": "moderado",
+        "market_id": "6379037",
+        "range": [
+          31.0,
+          31.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "shenzhen",
+      "name": "Shenzhen",
+      "station": "ZGSZ",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:35:21.097392+00:00",
+      "model_peak": 30.5,
+      "empirico_peak": 28.8,
+      "peak_final": 30.0,
+      "sigma": 1.98,
+      "mejor_bucket": {
+        "bucket": "29C",
+        "price": 0.105,
+        "prob": 0.176,
+        "ev": 0.676,
+        "kelly": 0.0198,
+        "volume": 5479.0,
+        "confianza": "moderado",
+        "market_id": "6378929",
+        "range": [
+          29.0,
+          29.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wuhan",
+      "name": "Wuhan",
+      "station": "ZHHH",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:35:22.386512+00:00",
+      "model_peak": 25.8,
+      "empirico_peak": 22.8,
+      "peak_final": 24.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "27C",
+        "price": 0.065,
+        "prob": 0.09,
+        "ev": 0.391,
+        "kelly": 0.0068,
+        "volume": 617.0,
+        "confianza": "cautela",
+        "market_id": "6378909",
+        "range": [
+          27.0,
+          27.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "qingdao",
+      "name": "Qingdao",
+      "station": "ZSQD",
+      "unit": "C",
+      "fecha_mercado": "2026-10-31",
+      "logged_at": "2026-10-30T20:35:23.958748+00:00",
+      "model_peak": 19.6,
+      "empirico_peak": 14.7,
+      "peak_final": 17.5,
       "sigma": 1.603,
       "mejor_bucket": null,
       "resolved": false,
