@@ -148731,13 +148731,17 @@
       "peak_final": 60.7,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 60.2,
+      "winning_bucket": "Will the highest temperature in New York City be between 60-61°F on October 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.5,
+      "resolved_at": "2026-11-01T08:59:59.904678+00:00",
+      "crps": 0.745,
+      "winning_range": [
+        60.0,
+        61.0
+      ]
     },
     {
       "slug": "chicago",
@@ -148751,13 +148755,17 @@
       "peak_final": 63.6,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 61.1,
+      "winning_bucket": "Will the highest temperature in Chicago be between 60-61°F on October 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.5,
+      "resolved_at": "2026-11-01T09:00:00.324229+00:00",
+      "crps": 1.4874,
+      "winning_range": [
+        60.0,
+        61.0
+      ]
     },
     {
       "slug": "miami",
@@ -148784,13 +148792,17 @@
           83.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 84.8,
+      "winning_bucket": "Will the highest temperature in Miami be between 84-85°F on October 31?",
+      "pick_won": false,
+      "forecast_error": -0.5,
+      "resolved_at": "2026-11-01T09:00:00.715179+00:00",
+      "crps": 0.745,
+      "winning_range": [
+        84.0,
+        85.0
+      ]
     },
     {
       "slug": "dallas",
@@ -148804,13 +148816,17 @@
       "peak_final": 78.3,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 76.9,
+      "winning_bucket": "Will the highest temperature in Dallas be between 76-77°F on October 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.4,
+      "resolved_at": "2026-11-01T09:00:01.131785+00:00",
+      "crps": 0.9644,
+      "winning_range": [
+        76.0,
+        77.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -148824,13 +148840,17 @@
       "peak_final": 71.5,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 71.1,
+      "winning_bucket": "Will the highest temperature in Atlanta be between 70-71°F on October 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.4,
+      "resolved_at": "2026-11-01T09:00:01.436794+00:00",
+      "crps": 0.7332,
+      "winning_range": [
+        70.0,
+        71.0
+      ]
     },
     {
       "slug": "houston",
@@ -148844,13 +148864,17 @@
       "peak_final": 82.3,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 84.8,
+      "winning_bucket": "Will the highest temperature in Houston be between 84-85°F on October 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.5,
+      "resolved_at": "2026-11-01T09:00:01.850948+00:00",
+      "crps": 1.4874,
+      "winning_range": [
+        84.0,
+        85.0
+      ]
     },
     {
       "slug": "denver",
@@ -148864,13 +148888,17 @@
       "peak_final": 67.4,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 59.4,
+      "winning_bucket": "Will the highest temperature in Denver be between 58-59°F on October 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 8.0,
+      "resolved_at": "2026-11-01T09:00:02.153641+00:00",
+      "crps": 6.2886,
+      "winning_range": [
+        58.0,
+        59.0
+      ]
     },
     {
       "slug": "toronto",
@@ -148897,13 +148925,17 @@
           16.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 14.9,
+      "winning_bucket": "Will the highest temperature in Toronto be 15°C on October 31?",
+      "pick_won": false,
+      "forecast_error": -0.5,
+      "resolved_at": "2026-11-01T09:00:02.579479+00:00",
+      "crps": 0.5128,
+      "winning_range": [
+        15.0,
+        15.0
+      ]
     },
     {
       "slug": "sao-paulo",
@@ -148930,13 +148962,17 @@
           25.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 27.9,
+      "winning_bucket": "Will the highest temperature in Sao Paulo be 28°C on October 31?",
+      "pick_won": false,
+      "forecast_error": -2.8,
+      "resolved_at": "2026-11-01T09:00:02.901800+00:00",
+      "crps": 1.9479,
+      "winning_range": [
+        28.0,
+        28.0
+      ]
     },
     {
       "slug": "buenos-aires",
@@ -148950,13 +148986,17 @@
       "peak_final": 20.9,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 25.9,
+      "winning_bucket": "Will the highest temperature in Buenos Aires be 26°C on October 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -5.0,
+      "resolved_at": "2026-11-01T09:00:03.235591+00:00",
+      "crps": 4.0964,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "austin",
@@ -148970,13 +149010,17 @@
       "peak_final": 79.7,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 79.1,
+      "winning_bucket": "Will the highest temperature in Austin be between 78-79°F on October 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.6,
+      "resolved_at": "2026-11-01T09:00:03.829988+00:00",
+      "crps": 0.7593,
+      "winning_range": [
+        78.0,
+        79.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -149003,13 +149047,17 @@
           25.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 25.9,
+      "winning_bucket": "Will the highest temperature in Mexico City be 26°C on October 31?",
+      "pick_won": false,
+      "forecast_error": 0.6,
+      "resolved_at": "2026-11-01T09:00:04.131847+00:00",
+      "crps": 0.4632,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -149036,13 +149084,17 @@
           32.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 31.9,
+      "winning_bucket": "Will the highest temperature in Panama City be 32°C on October 31?",
+      "pick_won": true,
+      "forecast_error": -0.5,
+      "resolved_at": "2026-11-01T09:00:04.555129+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        32.0,
+        32.0
+      ]
     },
     {
       "slug": "seattle",
@@ -149056,13 +149108,17 @@
       "peak_final": 50.7,
       "sigma": 2.0,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 54.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 54-55°F on October 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.3,
+      "resolved_at": "2026-11-01T09:00:04.843381+00:00",
+      "crps": 2.2542,
+      "winning_range": [
+        54.0,
+        55.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -149076,13 +149132,17 @@
       "peak_final": 71.5,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 71.2,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 70-71°F on October 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.3,
+      "resolved_at": "2026-11-01T09:00:05.159110+00:00",
+      "crps": 0.7241,
+      "winning_range": [
+        70.0,
+        71.0
+      ]
     },
     {
       "slug": "wellington",
@@ -149129,13 +149189,17 @@
       "peak_final": 63.4,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 65.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 64-65°F on October 31?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.6,
+      "resolved_at": "2026-11-01T09:00:05.388918+00:00",
+      "crps": 1.0399,
+      "winning_range": [
+        64.0,
+        65.0
+      ]
     },
     {
       "slug": "seoul",
@@ -150043,6 +150107,404 @@
       "peak_final": 15.3,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "nyc",
+      "name": "New York City",
+      "station": "KLGA",
+      "unit": "F",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:49:25.551130+00:00",
+      "model_peak": 61.2,
+      "empirico_peak": 55.9,
+      "peak_final": 59.1,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "chicago",
+      "name": "Chicago",
+      "station": "KORD",
+      "unit": "F",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:49:26.468101+00:00",
+      "model_peak": 64.9,
+      "empirico_peak": 64.8,
+      "peak_final": 65.4,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "68-69F",
+        "price": 0.06,
+        "prob": 0.078,
+        "ev": 0.301,
+        "kelly": 0.0048,
+        "volume": 1648.0,
+        "confianza": "cautela",
+        "market_id": "6410277",
+        "range": [
+          68.0,
+          69.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "miami",
+      "name": "Miami",
+      "station": "KMIA",
+      "unit": "F",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:49:27.613439+00:00",
+      "model_peak": 82.0,
+      "empirico_peak": 83.2,
+      "peak_final": 83.2,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "dallas",
+      "name": "Dallas",
+      "station": "KDAL",
+      "unit": "F",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:49:28.815997+00:00",
+      "model_peak": 77.9,
+      "empirico_peak": 75.0,
+      "peak_final": 77.0,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "76-77F",
+        "price": 0.095,
+        "prob": 0.129,
+        "ev": 0.353,
+        "kelly": 0.0093,
+        "volume": 4918.0,
+        "confianza": "cautela",
+        "market_id": "6410251",
+        "range": [
+          76.0,
+          77.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "station": "KSEA",
+      "unit": "F",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:49:29.687015+00:00",
+      "model_peak": 50.2,
+      "empirico_peak": 57.0,
+      "peak_final": 54.2,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "atlanta",
+      "name": "Atlanta",
+      "station": "KATL",
+      "unit": "F",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:49:30.840384+00:00",
+      "model_peak": 60.2,
+      "empirico_peak": 63.8,
+      "peak_final": 62.6,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "houston",
+      "name": "Houston",
+      "station": "KHOU",
+      "unit": "F",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:50:13.886947+00:00",
+      "model_peak": null,
+      "empirico_peak": 83.6,
+      "peak_final": 84.2,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "los-angeles",
+      "name": "Los Angeles",
+      "station": "KLAX",
+      "unit": "F",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:50:47.276015+00:00",
+      "model_peak": 68.0,
+      "empirico_peak": 68.8,
+      "peak_final": 69.0,
+      "sigma": 2.0,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "station": "KBKF",
+      "unit": "F",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:51:10.483324+00:00",
+      "model_peak": 67.6,
+      "empirico_peak": 76.2,
+      "peak_final": 72.5,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "toronto",
+      "name": "Toronto",
+      "station": "CYYZ",
+      "unit": "C",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:54:02.617923+00:00",
+      "model_peak": 18.2,
+      "empirico_peak": 10.8,
+      "peak_final": 14.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "16C",
+        "price": 0.08,
+        "prob": 0.195,
+        "ev": 1.437,
+        "kelly": 0.0312,
+        "volume": 3486.0,
+        "confianza": "cautela",
+        "market_id": "6418856",
+        "range": [
+          16.0,
+          16.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "sao-paulo",
+      "name": "Sao Paulo",
+      "station": "SBGR",
+      "unit": "C",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:54:24.434540+00:00",
+      "model_peak": null,
+      "empirico_peak": 24.5,
+      "peak_final": 24.9,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "buenos-aires",
+      "name": "Buenos Aires",
+      "station": "SAEZ",
+      "unit": "C",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:54:46.644542+00:00",
+      "model_peak": null,
+      "empirico_peak": 24.9,
+      "peak_final": 25.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "25C",
+        "price": 0.165,
+        "prob": 0.241,
+        "ev": 0.459,
+        "kelly": 0.0227,
+        "volume": 3536.0,
+        "confianza": "moderado",
+        "market_id": "6418843",
+        "range": [
+          25.0,
+          25.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "austin",
+      "name": "Austin",
+      "station": "KAUS",
+      "unit": "F",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:55:17.761331+00:00",
+      "model_peak": 83.0,
+      "empirico_peak": 74.4,
+      "peak_final": 79.3,
+      "sigma": 2.0,
+      "mejor_bucket": {
+        "bucket": "80-81F",
+        "price": 0.069,
+        "prob": 0.166,
+        "ev": 1.399,
+        "kelly": 0.0259,
+        "volume": 3048.0,
+        "confianza": "cautela",
+        "market_id": "6411769",
+        "range": [
+          80.0,
+          81.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "san-francisco",
+      "name": "San Francisco",
+      "station": "KSFO",
+      "unit": "F",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:55:18.875805+00:00",
+      "model_peak": 62.2,
+      "empirico_peak": 65.7,
+      "peak_final": 64.5,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "mexico-city",
+      "name": "Mexico City",
+      "station": "MMMX",
+      "unit": "C",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:55:19.455326+00:00",
+      "model_peak": 27.4,
+      "empirico_peak": 19.6,
+      "peak_final": 23.9,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "panama-city",
+      "name": "Panama City",
+      "station": "MPMG",
+      "unit": "C",
+      "fecha_mercado": "2026-11-01",
+      "logged_at": "2026-11-01T08:56:40.145516+00:00",
+      "model_peak": 31.0,
+      "empirico_peak": 30.3,
+      "peak_final": 31.0,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "32C",
+        "price": 0.15,
+        "prob": 0.203,
+        "ev": 0.352,
+        "kelly": 0.0155,
+        "volume": 1393.0,
+        "confianza": "moderado",
+        "market_id": "6418879",
+        "range": [
+          32.0,
+          32.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
