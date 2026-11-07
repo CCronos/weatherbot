@@ -158384,13 +158384,17 @@
           59.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 56.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 56-57°F on November 6?",
+      "pick_won": false,
+      "forecast_error": 0.4,
+      "resolved_at": "2026-11-07T15:36:43.375402+00:00",
+      "crps": 0.4992,
+      "winning_range": [
+        56.0,
+        57.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -158404,13 +158408,17 @@
       "peak_final": 76.5,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 83.0,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 82-83°F on November 6?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -6.5,
+      "resolved_at": "2026-11-07T15:36:43.547880+00:00",
+      "crps": 4.8164,
+      "winning_range": [
+        82.0,
+        83.0
+      ]
     },
     {
       "slug": "seoul",
@@ -158510,13 +158518,17 @@
       "peak_final": 67.3,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 69.2,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 68-69°F on November 6?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.9,
+      "resolved_at": "2026-11-07T15:36:43.723639+00:00",
+      "crps": 1.1701,
+      "winning_range": [
+        68.0,
+        69.0
+      ]
     },
     {
       "slug": "busan",
@@ -159821,6 +159833,138 @@
       "peak_final": 29.5,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "seoul",
+      "name": "Seoul",
+      "station": "RKSI",
+      "unit": "C",
+      "fecha_mercado": "2026-11-08",
+      "logged_at": "2026-11-07T15:31:01.419523+00:00",
+      "model_peak": 8.9,
+      "empirico_peak": 9.8,
+      "peak_final": 9.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "10C",
+        "price": 0.0895,
+        "prob": 0.241,
+        "ev": 1.69,
+        "kelly": 0.0415,
+        "volume": 1600.0,
+        "confianza": "cautela",
+        "market_id": "6740668",
+        "range": [
+          10.0,
+          10.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "tokyo",
+      "name": "Tokyo",
+      "station": "RJTT",
+      "unit": "C",
+      "fecha_mercado": "2026-11-08",
+      "logged_at": "2026-11-07T15:31:02.317332+00:00",
+      "model_peak": 16.0,
+      "empirico_peak": 15.4,
+      "peak_final": 16.0,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "18C",
+        "price": 0.115,
+        "prob": 0.115,
+        "ev": 0.002,
+        "kelly": 0.0001,
+        "volume": 1069.0,
+        "confianza": "moderado",
+        "market_id": "6740734",
+        "range": [
+          18.0,
+          18.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-11-08",
+      "logged_at": "2026-11-07T15:32:44.508597+00:00",
+      "model_peak": 18.9,
+      "empirico_peak": 19.1,
+      "peak_final": 19.3,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "19C",
+        "price": 0.205,
+        "prob": 0.241,
+        "ev": 0.174,
+        "kelly": 0.0113,
+        "volume": 3102.0,
+        "confianza": "escalable",
+        "market_id": "6740687",
+        "range": [
+          19.0,
+          19.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "busan",
+      "name": "Busan",
+      "station": "RKPK",
+      "unit": "C",
+      "fecha_mercado": "2026-11-08",
+      "logged_at": "2026-11-07T15:34:55.084553+00:00",
+      "model_peak": 16.2,
+      "empirico_peak": 9.7,
+      "peak_final": 13.2,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "13C",
+        "price": 0.09,
+        "prob": 0.243,
+        "ev": 1.701,
+        "kelly": 0.042,
+        "volume": 799.0,
+        "confianza": "cautela",
+        "market_id": "6740910",
+        "range": [
+          13.0,
+          13.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
