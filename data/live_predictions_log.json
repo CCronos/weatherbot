@@ -163847,13 +163847,17 @@
           9.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 11.0,
+      "winning_bucket": "Will the highest temperature in London be 11°C on November 10?",
+      "pick_won": false,
+      "forecast_error": -0.5,
+      "resolved_at": "2026-11-11T01:12:45.166926+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        11.0,
+        11.0
+      ]
     },
     {
       "slug": "paris",
@@ -163880,13 +163884,17 @@
           14.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 13.0,
+      "winning_bucket": "Will the highest temperature in Paris be 12°C on November 10?",
+      "pick_won": false,
+      "forecast_error": -0.4,
+      "resolved_at": "2026-11-11T01:12:45.479470+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        12.0,
+        12.0
+      ]
     },
     {
       "slug": "munich",
@@ -163900,13 +163908,17 @@
       "peak_final": 10.7,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 8.0,
+      "winning_bucket": "Will the highest temperature in Munich be 8°C on November 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.7,
+      "resolved_at": "2026-11-11T01:12:45.783446+00:00",
+      "crps": 1.8565,
+      "winning_range": [
+        8.0,
+        8.0
+      ]
     },
     {
       "slug": "ankara",
@@ -163933,13 +163945,17 @@
           5.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 2.0,
+      "winning_bucket": "Will the highest temperature in Ankara be 2°C on November 10?",
+      "pick_won": false,
+      "forecast_error": 3.8,
+      "resolved_at": "2026-11-11T01:12:46.037109+00:00",
+      "crps": 2.9051,
+      "winning_range": [
+        2.0,
+        2.0
+      ]
     },
     {
       "slug": "madrid",
@@ -163953,13 +163969,17 @@
       "peak_final": 19.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 18.9,
+      "winning_bucket": "Will the highest temperature in Madrid be 19°C on November 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.5,
+      "resolved_at": "2026-11-11T01:12:46.334221+00:00",
+      "crps": 0.4363,
+      "winning_range": [
+        19.0,
+        19.0
+      ]
     },
     {
       "slug": "amsterdam",
@@ -163973,13 +163993,17 @@
       "peak_final": 6.4,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 8.9,
+      "winning_bucket": "Will the highest temperature in Amsterdam be 9°C on November 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.5,
+      "resolved_at": "2026-11-11T01:12:46.710248+00:00",
+      "crps": 1.6775,
+      "winning_range": [
+        9.0,
+        9.0
+      ]
     },
     {
       "slug": "warsaw",
@@ -164006,13 +164030,17 @@
           5.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 2.9,
+      "winning_bucket": "Will the highest temperature in Warsaw be 3°C on November 10?",
+      "pick_won": false,
+      "forecast_error": 1.4,
+      "resolved_at": "2026-11-11T01:12:46.976558+00:00",
+      "crps": 0.8336,
+      "winning_range": [
+        3.0,
+        3.0
+      ]
     },
     {
       "slug": "tel-aviv",
@@ -164039,13 +164067,17 @@
           22.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 23.0,
+      "winning_bucket": "Will the highest temperature in Tel Aviv be 23°C on November 10?",
+      "pick_won": false,
+      "forecast_error": -2.8,
+      "resolved_at": "2026-11-11T01:12:47.265045+00:00",
+      "crps": 1.9479,
+      "winning_range": [
+        23.0,
+        23.0
+      ]
     },
     {
       "slug": "sao-paulo",
@@ -164119,13 +164151,17 @@
       "peak_final": 14.6,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 13.0,
+      "winning_bucket": "Will the highest temperature in Milan be 13°C on November 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.6,
+      "resolved_at": "2026-11-11T01:12:47.706167+00:00",
+      "crps": 0.9637,
+      "winning_range": [
+        13.0,
+        13.0
+      ]
     },
     {
       "slug": "helsinki",
@@ -164139,13 +164175,17 @@
       "peak_final": 7.3,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 6.0,
+      "winning_bucket": "Will the highest temperature in Helsinki be 6°C on November 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.3,
+      "resolved_at": "2026-11-11T01:12:47.960772+00:00",
+      "crps": 0.7736,
+      "winning_range": [
+        6.0,
+        6.0
+      ]
     },
     {
       "slug": "moscow",
@@ -164172,13 +164212,17 @@
           5.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 4.0,
+      "winning_bucket": "Will the highest temperature in Moscow be 4°C on November 10?",
+      "pick_won": false,
+      "forecast_error": 2.1,
+      "resolved_at": "2026-11-11T01:12:48.195238+00:00",
+      "crps": 1.2765,
+      "winning_range": [
+        4.0,
+        4.0
+      ]
     },
     {
       "slug": "cape-town",
@@ -164205,13 +164249,17 @@
           25.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 26.0,
+      "winning_bucket": "Will the highest temperature in Cape Town be 26°C on November 10?",
+      "pick_won": false,
+      "forecast_error": -2.6,
+      "resolved_at": "2026-11-11T01:12:48.433191+00:00",
+      "crps": 1.7663,
+      "winning_range": [
+        26.0,
+        26.0
+      ]
     },
     {
       "slug": "jeddah",
@@ -164225,13 +164273,17 @@
       "peak_final": 32.9,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 31.0,
+      "winning_bucket": "Will the highest temperature in Jeddah be 31°C on November 10?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.9,
+      "resolved_at": "2026-11-11T01:12:48.713777+00:00",
+      "crps": 1.181,
+      "winning_range": [
+        31.0,
+        31.0
+      ]
     },
     {
       "slug": "jakarta",
@@ -164625,11 +164677,15 @@
       "mejor_bucket": null,
       "resolved": false,
       "actual_temp": null,
-      "winning_bucket": null,
+      "winning_bucket": "Will the highest temperature in Istanbul be 13°C on November 10?",
       "pick_won": null,
       "forecast_error": null,
       "resolved_at": null,
-      "crps": null
+      "crps": null,
+      "winning_range": [
+        13.0,
+        13.0
+      ]
     },
     {
       "slug": "panama-city",
@@ -165045,6 +165101,490 @@
       "model_peak": 17.2,
       "empirico_peak": 8.0,
       "peak_final": 12.9,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "london",
+      "name": "London",
+      "station": "EGLC",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:05:12.291180+00:00",
+      "model_peak": 10.1,
+      "empirico_peak": 12.9,
+      "peak_final": 11.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "11C",
+        "price": 0.12,
+        "prob": 0.217,
+        "ev": 0.809,
+        "kelly": 0.0276,
+        "volume": 6828.0,
+        "confianza": "moderado",
+        "market_id": "6892994",
+        "range": [
+          11.0,
+          11.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "paris",
+      "name": "Paris",
+      "station": "LFPG",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:05:13.147358+00:00",
+      "model_peak": 15.4,
+      "empirico_peak": null,
+      "peak_final": 15.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "17C",
+        "price": 0.09,
+        "prob": 0.178,
+        "ev": 0.979,
+        "kelly": 0.0242,
+        "volume": 1166.0,
+        "confianza": "cautela",
+        "market_id": "6893006",
+        "range": [
+          17.0,
+          17.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "munich",
+      "name": "Munich",
+      "station": "EDDM",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:05:14.344631+00:00",
+      "model_peak": 12.0,
+      "empirico_peak": 11.0,
+      "peak_final": 11.8,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "13C",
+        "price": 0.09,
+        "prob": 0.187,
+        "ev": 1.075,
+        "kelly": 0.0266,
+        "volume": 1882.0,
+        "confianza": "cautela",
+        "market_id": "6893065",
+        "range": [
+          13.0,
+          13.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "ankara",
+      "name": "Ankara",
+      "station": "LTAC",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:05:14.864740+00:00",
+      "model_peak": 10.1,
+      "empirico_peak": 11.7,
+      "peak_final": 11.2,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "madrid",
+      "name": "Madrid",
+      "station": "LEMD",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:05:16.109039+00:00",
+      "model_peak": 15.8,
+      "empirico_peak": 17.9,
+      "peak_final": 17.2,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "17C",
+        "price": 0.13,
+        "prob": 0.243,
+        "ev": 0.87,
+        "kelly": 0.0325,
+        "volume": 2482.0,
+        "confianza": "moderado",
+        "market_id": "6893144",
+        "range": [
+          17.0,
+          17.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "amsterdam",
+      "name": "Amsterdam",
+      "station": "EHAM",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:05:17.168995+00:00",
+      "model_peak": 7.6,
+      "empirico_peak": 9.3,
+      "peak_final": 8.7,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "warsaw",
+      "name": "Warsaw",
+      "station": "EPWA",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:05:17.699606+00:00",
+      "model_peak": 4.0,
+      "empirico_peak": 4.5,
+      "peak_final": 4.6,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "5C",
+        "price": 0.115,
+        "prob": 0.238,
+        "ev": 1.066,
+        "kelly": 0.0346,
+        "volume": 581.0,
+        "confianza": "moderado",
+        "market_id": "6893154",
+        "range": [
+          5.0,
+          5.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "tokyo",
+      "name": "Tokyo",
+      "station": "RJTT",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:06:45.108914+00:00",
+      "model_peak": null,
+      "empirico_peak": 12.2,
+      "peak_final": 12.5,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "kuala-lumpur",
+      "name": "Kuala Lumpur",
+      "station": "WMKK",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:07:30.933337+00:00",
+      "model_peak": null,
+      "empirico_peak": 29.2,
+      "peak_final": 29.5,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "30C",
+        "price": 0.1235,
+        "prob": 0.234,
+        "ev": 0.892,
+        "kelly": 0.0314,
+        "volume": 1439.0,
+        "confianza": "moderado",
+        "market_id": "6893293",
+        "range": [
+          30.0,
+          30.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "tel-aviv",
+      "name": "Tel Aviv",
+      "station": "LLBG",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:08:05.092567+00:00",
+      "model_peak": 23.0,
+      "empirico_peak": 18.5,
+      "peak_final": 21.0,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "paris-le-bourget",
+      "name": "Paris (Le Bourget)",
+      "station": "LFPB",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:09:22.516500+00:00",
+      "model_peak": null,
+      "empirico_peak": 15.8,
+      "peak_final": 16.1,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "milan",
+      "name": "Milan",
+      "station": "LIMC",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:09:39.488562+00:00",
+      "model_peak": 12.6,
+      "empirico_peak": 15.3,
+      "peak_final": 14.2,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "helsinki",
+      "name": "Helsinki",
+      "station": "EFHK",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:09:48.643705+00:00",
+      "model_peak": 5.7,
+      "empirico_peak": 5.8,
+      "peak_final": 6.1,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "6C",
+        "price": 0.075,
+        "prob": 0.244,
+        "ev": 2.259,
+        "kelly": 0.0458,
+        "volume": 2191.0,
+        "confianza": "cautela",
+        "market_id": "6893283",
+        "range": [
+          6.0,
+          6.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "istanbul",
+      "name": "Istanbul",
+      "station": "LTFM",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:09:49.647268+00:00",
+      "model_peak": 17.6,
+      "empirico_peak": 16.7,
+      "peak_final": 17.4,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "16C",
+        "price": 0.06,
+        "prob": 0.169,
+        "ev": 1.821,
+        "kelly": 0.0291,
+        "volume": 1275.0,
+        "confianza": "cautela",
+        "market_id": "6893250",
+        "range": [
+          16.0,
+          16.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "moscow",
+      "name": "Moscow",
+      "station": "UUWW",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:09:50.530305+00:00",
+      "model_peak": 4.1,
+      "empirico_peak": 6.7,
+      "peak_final": 5.7,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "cape-town",
+      "name": "Cape Town",
+      "station": "FACT",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:09:51.372370+00:00",
+      "model_peak": 25.4,
+      "empirico_peak": 23.1,
+      "peak_final": 24.5,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "jeddah",
+      "name": "Jeddah",
+      "station": "OEJN",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:09:52.295856+00:00",
+      "model_peak": 30.9,
+      "empirico_peak": 31.9,
+      "peak_final": 31.7,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "jakarta",
+      "name": "Jakarta",
+      "station": "WIHH",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:10:17.622812+00:00",
+      "model_peak": 33.9,
+      "empirico_peak": 34.6,
+      "peak_final": 34.5,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "chongqing",
+      "name": "Chongqing",
+      "station": "ZUCK",
+      "unit": "C",
+      "fecha_mercado": "2026-11-11",
+      "logged_at": "2026-11-11T01:11:00.894996+00:00",
+      "model_peak": null,
+      "empirico_peak": 17.0,
+      "peak_final": 17.3,
       "sigma": 1.603,
       "mejor_bucket": null,
       "resolved": false,
