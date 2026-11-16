@@ -171947,13 +171947,17 @@
           53.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 49.9,
+      "winning_bucket": "Will the highest temperature in New York City be between 50-51°F on November 15?",
+      "pick_won": false,
+      "forecast_error": 0.2,
+      "resolved_at": "2026-11-16T15:03:05.531232+00:00",
+      "crps": 0.7175,
+      "winning_range": [
+        50.0,
+        51.0
+      ]
     },
     {
       "slug": "miami",
@@ -171967,13 +171971,17 @@
       "peak_final": 76.0,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 79.1,
+      "winning_bucket": "Will the highest temperature in Miami be between 78-79°F on November 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -3.1,
+      "resolved_at": "2026-11-16T15:03:05.847182+00:00",
+      "crps": 1.872,
+      "winning_range": [
+        78.0,
+        79.0
+      ]
     },
     {
       "slug": "atlanta",
@@ -171987,13 +171995,17 @@
       "peak_final": 54.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 55.1,
+      "winning_bucket": "Will the highest temperature in Atlanta be between 54-55°F on November 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -0.3,
+      "resolved_at": "2026-11-16T15:03:06.152444+00:00",
+      "crps": 0.7241,
+      "winning_range": [
+        54.0,
+        55.0
+      ]
     },
     {
       "slug": "london",
@@ -172044,13 +172056,17 @@
           8.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 8.0,
+      "winning_bucket": "Will the highest temperature in Toronto be 8°C on November 15?",
+      "pick_won": true,
+      "forecast_error": 0.4,
+      "resolved_at": "2026-11-16T15:03:06.477454+00:00",
+      "crps": 0.4142,
+      "winning_range": [
+        8.0,
+        8.0
+      ]
     },
     {
       "slug": "sao-paulo",
@@ -172112,13 +172128,17 @@
       "peak_final": 32.0,
       "sigma": 1.603,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 33.0,
+      "winning_bucket": "Will the highest temperature in Panama City be 33°C on November 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.0,
+      "resolved_at": "2026-11-16T15:03:06.810165+00:00",
+      "crps": 0.6157,
+      "winning_range": [
+        33.0,
+        33.0
+      ]
     },
     {
       "slug": "chicago",
@@ -172132,13 +172152,17 @@
       "peak_final": 44.6,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 52.1,
+      "winning_bucket": "Will the highest temperature in Chicago be between 52-53°F on November 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -7.5,
+      "resolved_at": "2026-11-16T15:03:07.120420+00:00",
+      "crps": 5.7941,
+      "winning_range": [
+        52.0,
+        53.0
+      ]
     },
     {
       "slug": "dallas",
@@ -172152,13 +172176,17 @@
       "peak_final": 55.0,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 52.1,
+      "winning_bucket": "Will the highest temperature in Dallas be between 52-53°F on November 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 2.9,
+      "resolved_at": "2026-11-16T15:03:07.459125+00:00",
+      "crps": 1.737,
+      "winning_range": [
+        52.0,
+        53.0
+      ]
     },
     {
       "slug": "seattle",
@@ -172172,13 +172200,17 @@
       "peak_final": 57.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 56.0,
+      "winning_bucket": "Will the highest temperature in Seattle be between 56-57°F on November 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 1.8,
+      "resolved_at": "2026-11-16T15:03:07.779752+00:00",
+      "crps": 1.1245,
+      "winning_range": [
+        56.0,
+        57.0
+      ]
     },
     {
       "slug": "houston",
@@ -172205,13 +172237,17 @@
           67.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 64.1,
+      "winning_bucket": "Will the highest temperature in Houston be between 64-65°F on November 15?",
+      "pick_won": false,
+      "forecast_error": 1.6,
+      "resolved_at": "2026-11-16T15:03:08.088503+00:00",
+      "crps": 1.0399,
+      "winning_range": [
+        64.0,
+        65.0
+      ]
     },
     {
       "slug": "los-angeles",
@@ -172225,13 +172261,17 @@
       "peak_final": 69.6,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 72.1,
+      "winning_bucket": "Will the highest temperature in Los Angeles be between 72-73°F on November 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -2.5,
+      "resolved_at": "2026-11-16T15:03:08.394567+00:00",
+      "crps": 1.4874,
+      "winning_range": [
+        72.0,
+        73.0
+      ]
     },
     {
       "slug": "denver",
@@ -172245,13 +172285,17 @@
       "peak_final": 59.4,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 59.3,
+      "winning_bucket": "Will the highest temperature in Denver be between 56-57°F on November 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 0.1,
+      "resolved_at": "2026-11-16T15:03:08.726946+00:00",
+      "crps": 0.7136,
+      "winning_range": [
+        56.0,
+        57.0
+      ]
     },
     {
       "slug": "wellington",
@@ -172298,13 +172342,17 @@
       "peak_final": 65.2,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 55.1,
+      "winning_bucket": "Will the highest temperature in Austin be 55°F or below on November 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": 10.1,
+      "resolved_at": "2026-11-16T15:03:09.068124+00:00",
+      "crps": 8.3811,
+      "winning_range": [
+        -999.0,
+        55.0
+      ]
     },
     {
       "slug": "san-francisco",
@@ -172318,13 +172366,17 @@
       "peak_final": 63.8,
       "sigma": 3.048,
       "mejor_bucket": null,
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
+      "resolved": true,
+      "actual_temp": 65.0,
+      "winning_bucket": "Will the highest temperature in San Francisco be between 64-65°F on November 15?",
       "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "forecast_error": -1.2,
+      "resolved_at": "2026-11-16T15:03:09.583636+00:00",
+      "crps": 0.8984,
+      "winning_range": [
+        64.0,
+        65.0
+      ]
     },
     {
       "slug": "mexico-city",
@@ -172351,13 +172403,17 @@
           23.0
         ]
       },
-      "resolved": false,
-      "actual_temp": null,
-      "winning_bucket": null,
-      "pick_won": null,
-      "forecast_error": null,
-      "resolved_at": null,
-      "crps": null
+      "resolved": true,
+      "actual_temp": 24.0,
+      "winning_bucket": "Will the highest temperature in Mexico City be 24°C on November 15?",
+      "pick_won": false,
+      "forecast_error": -2.5,
+      "resolved_at": "2026-11-16T15:03:09.895448+00:00",
+      "crps": 1.6775,
+      "winning_range": [
+        24.0,
+        24.0
+      ]
     },
     {
       "slug": "seoul",
@@ -173392,6 +173448,291 @@
       "peak_final": 31.1,
       "sigma": 1.603,
       "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "chicago",
+      "name": "Chicago",
+      "station": "KORD",
+      "unit": "F",
+      "fecha_mercado": "2026-11-16",
+      "logged_at": "2026-11-16T14:59:42.318950+00:00",
+      "model_peak": 51.3,
+      "empirico_peak": 53.5,
+      "peak_final": 53.0,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "dallas",
+      "name": "Dallas",
+      "station": "KDAL",
+      "unit": "F",
+      "fecha_mercado": "2026-11-16",
+      "logged_at": "2026-11-16T14:59:43.572790+00:00",
+      "model_peak": 60.2,
+      "empirico_peak": 65.2,
+      "peak_final": 63.3,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "64-65F",
+        "price": 0.11,
+        "prob": 0.121,
+        "ev": 0.097,
+        "kelly": 0.003,
+        "volume": 2600.0,
+        "confianza": "moderado",
+        "market_id": "7033426",
+        "range": [
+          64.0,
+          65.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "seattle",
+      "name": "Seattle",
+      "station": "KSEA",
+      "unit": "F",
+      "fecha_mercado": "2026-11-16",
+      "logged_at": "2026-11-16T14:59:44.130185+00:00",
+      "model_peak": 50.5,
+      "empirico_peak": 48.8,
+      "peak_final": 50.2,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "los-angeles",
+      "name": "Los Angeles",
+      "station": "KLAX",
+      "unit": "F",
+      "fecha_mercado": "2026-11-16",
+      "logged_at": "2026-11-16T14:59:53.406452+00:00",
+      "model_peak": 68.8,
+      "empirico_peak": 72.3,
+      "peak_final": 71.1,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "72-73F",
+        "price": 0.085,
+        "prob": 0.117,
+        "ev": 0.381,
+        "kelly": 0.0088,
+        "volume": 1149.0,
+        "confianza": "cautela",
+        "market_id": "7035590",
+        "range": [
+          72.0,
+          73.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "denver",
+      "name": "Denver",
+      "station": "KBKF",
+      "unit": "F",
+      "fecha_mercado": "2026-11-16",
+      "logged_at": "2026-11-16T14:59:54.037853+00:00",
+      "model_peak": 61.8,
+      "empirico_peak": 57.4,
+      "peak_final": 60.2,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "seoul",
+      "name": "Seoul",
+      "station": "RKSI",
+      "unit": "C",
+      "fecha_mercado": "2026-11-17",
+      "logged_at": "2026-11-16T15:00:21.415285+00:00",
+      "model_peak": 14.5,
+      "empirico_peak": 18.3,
+      "peak_final": 16.7,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "16C",
+        "price": 0.07,
+        "prob": 0.223,
+        "ev": 2.19,
+        "kelly": 0.0412,
+        "volume": 878.0,
+        "confianza": "cautela",
+        "market_id": "7058168",
+        "range": [
+          16.0,
+          16.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "tokyo",
+      "name": "Tokyo",
+      "station": "RJTT",
+      "unit": "C",
+      "fecha_mercado": "2026-11-17",
+      "logged_at": "2026-11-16T15:00:21.975057+00:00",
+      "model_peak": 17.2,
+      "empirico_peak": 18.7,
+      "peak_final": 18.3,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "wellington",
+      "name": "Wellington",
+      "station": "NZWN",
+      "unit": "C",
+      "fecha_mercado": "2026-11-17",
+      "logged_at": "2026-11-16T15:00:41.088819+00:00",
+      "model_peak": 18.7,
+      "empirico_peak": 15.2,
+      "peak_final": 17.2,
+      "sigma": 1.603,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "austin",
+      "name": "Austin",
+      "station": "KAUS",
+      "unit": "F",
+      "fecha_mercado": "2026-11-16",
+      "logged_at": "2026-11-16T15:00:41.667272+00:00",
+      "model_peak": 58.4,
+      "empirico_peak": 60.5,
+      "peak_final": 60.0,
+      "sigma": 3.048,
+      "mejor_bucket": {
+        "bucket": "62-63F",
+        "price": 0.0755,
+        "prob": 0.093,
+        "ev": 0.237,
+        "kelly": 0.0048,
+        "volume": 1630.0,
+        "confianza": "cautela",
+        "market_id": "7033469",
+        "range": [
+          62.0,
+          63.0
+        ]
+      },
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "san-francisco",
+      "name": "San Francisco",
+      "station": "KSFO",
+      "unit": "F",
+      "fecha_mercado": "2026-11-16",
+      "logged_at": "2026-11-16T15:00:42.193937+00:00",
+      "model_peak": 58.1,
+      "empirico_peak": 62.8,
+      "peak_final": 61.0,
+      "sigma": 3.048,
+      "mejor_bucket": null,
+      "resolved": false,
+      "actual_temp": null,
+      "winning_bucket": null,
+      "pick_won": null,
+      "forecast_error": null,
+      "resolved_at": null,
+      "crps": null
+    },
+    {
+      "slug": "mexico-city",
+      "name": "Mexico City",
+      "station": "MMMX",
+      "unit": "C",
+      "fecha_mercado": "2026-11-16",
+      "logged_at": "2026-11-16T15:00:42.687582+00:00",
+      "model_peak": 24.8,
+      "empirico_peak": 20.4,
+      "peak_final": 22.9,
+      "sigma": 1.603,
+      "mejor_bucket": {
+        "bucket": "21C",
+        "price": 0.08,
+        "prob": 0.124,
+        "ev": 0.551,
+        "kelly": 0.012,
+        "volume": 548.0,
+        "confianza": "cautela",
+        "market_id": "7035891",
+        "range": [
+          21.0,
+          21.0
+        ]
+      },
       "resolved": false,
       "actual_temp": null,
       "winning_bucket": null,
